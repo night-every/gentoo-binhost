@@ -19,113 +19,107 @@
     <br/>
     <blockquote> Fork from <a href="https://github.com/coldnew/gentoo-binhost/" target="_blank" >GitHub - coldnew/gentoo-binhost: Provide Gentoo binhosts using github infrastructure</a></blockquote>
     <br/>
-    <blockquote>This repository now provides the following CHOST (branches):<br/>
-     <a href="https://github.com/night-every/gentoo-binhost/tree/x86_64-pc-linux-gnu(desktop)/" target="_self" >x86_64-pc-linux-gnu(desktop)</a><br/>
-     <a href="https://github.com/night-every/gentoo-binhost/tree/x86_64-pc-linux-gnu(desktop/plasma)/" target="_self" >x86_64-pc-linux-gnu(desktop/plasma)</a></blockquote>
-     <br/>
 </div>
 
-## Concept
+---
 
-- Package upload is done through a small upload script executed by portage hooks.
-  
-- For each package merged via portage, the Gentoo Packages manifest file is committed to Git.
-  
-- Binary packages are not stored in the repository but are uploaded as GitHub release artifacts.
-  
+# x86_64-pc-linux-gnu
 
-To make everything work, the following nomenclature has to apply:
+Packages for amd64 architecture
 
-| Gentoo Idiom | GitHub entity |
-| --- | --- |
-| [CATEGORY/PN](https://devmanual.gentoo.org/ebuild-writing/variables/) | GitHub release |
-| [PF](https://devmanual.gentoo.org/ebuild-writing/variables/) | GitHub release asset |
-| [CHOST(PROFILE)](https://wiki.gentoo.org/wiki/CHOST) | Git branch name |
-| [CHOST(PROFILE)/CATEGORY/PN](https://devmanual.gentoo.org/ebuild-writing/variables/) | Git release tag |
+> Please install app-arch/lz4 first. All packages using lz4 compression
 
-> CHOST(PROFILE): Your branch name will be automatically generated based on the host's chost and profile (if this branch does not exist in the repo).
-> 
-> For example:
-> 
-> CHOST = x86_64-pc-linux-gnu
-> 
-> PROFILE = default/linux/amd64/17.1/desktop (stable)
-> 
-> Git branch name = x86_64-pc-linux-gnu(desktop)
+<div>
+ <p><br/><p>
+</div>
 
-![Git branch name](https://cdn.jsdelivr.net/gh/night-every/blogs-images-bed@main/blogs/images/202304241006542.png?raw=true)
+## Some configurations of the host
+
+### CFLAGS,CXXFLAGS,CPU_FLAGS_X86 and others
+
+```shell
+COMMON_FLAGS="-mtune=generic -O2 -pipe"
+CFLAGS="${COMMON_FLAGS}"
+CXXFLAGS="${COMMON_FLAGS}"
+FCFLAGS="${COMMON_FLAGS}"
+FFLAGS="${COMMON_FLAGS}"
+CPU_FLAGS_X86="mmx sse sse2 sse3 ssse3 sse4_1 sse4_2 popcnt rdrand aes mmxext pclmul sha"
+```
+
+### Use Flags
+
+```shell
+# USE
+DE="-gnome -gnome-shell -gnome-keyring"
+SYSTEM="elogind -oss -plymouth -systemd -consolekit -mdev"
+SOFTWARE="sudo icu client git openmp minizip udev blkid efi hwdb smack acpi dbus policykit udisks"
+AUDIO="alsa pulseaudio pipewire"
+NET="network networkmanager connection-sharing wifi http2 nftables wireless iwd zeroconf cups ppp"
+VIDEO="X vulkan layers glamor gallium vaapi wayland gles gles2"
+ELSE="cjk emoji"
+BINHOST="bindist"
+
+USE="${DE} ${SYSTEM} ${SOFTWARE} ${AUDIO} ${NET} ${VIDEO} ${ELSE} ${BINHOST}"
+```
+
+### Others
+
+```shell
+
+INPUT_DEVICES="libinput synaptics"
+
+ACCEPT_KEYWORDS="~amd64"
+EMERGE_DEFAULT_OPTS="--keep-going --with-bdeps=y --verbose --deep --ask \
+	--buildpkg-exclude '*/*-bin' \
+	--buildpkg-exclude 'sys-kernel/*-sources' \
+	--buildpkg-exclude 'dev-lang/rust' "
+AUTO_CLEAN="yes"
+
+# enable binhost
+FEATURES="${FEATURES} buildpkg -collision-protect protect-owned"
+ACCEPT_LICENSE="-* @BINARY-REDISTRIBUTABLE"
+PORTAGE_BINHOST_HEADER_URI="https://github.com/night-every/gentoo-binhost/releases/download/${CHOST}"
+
+BINPKG_COMPRESS="lz4"
+BINPKG_FORMAT="gpkg"
+VIDEO_CARDS="intel i965 iris"
+LLVM_TARGETS="X86"
+GRUB_PLATFORMS="efi-64"
+```
 
 ---
 
 ## Usage
 
-Setup a gentoo binhost Github and provide the following.
-
----
-
-## Dependencies
-
-This upload script requires the dependencies listed below.
-
-- **app-alternatives/sh**
-  
-- **app-misc/jq**
-  
-- **sys-apps/diffutils**
-  
-- **net-misc/curl**
-  
-- **dev-vcs/git**
-  
-- **virtual/perl-MIME-Base64**
-  
-- **sys-apps/coreutils**
-
----
-
-## Setup
-
-### /etc/portage/make.conf
-
-Add the following lines to enable gentoo-binhost.
+To enable binhost, add the following lines to your /etc/portage/make.conf file.
 
 ```shell
-FEATURES="${FEATURES} buildpkg -collision-protect protect-owned"
-# -collision-protect protect-owned : The default configuration on Gentoo systems is FEATURES="protect-owned"which works similarly to FEATURES="collision-protect" but it allows collisions between orphaned files.
-ACCEPT_LICENSE="-* @BINARY-REDISTRIBUTABLE"
-# The repo you want to use as gentoo-binhost. Example: night-every/gentoo-binhost 
-PORTAGE_BINHOST_HEADER_URI="https://github.com/<repo>/releases/download/${CHOST}"
-BINHOST="bindist"
-USE="${BINHOST}"
-## You can also write it like this
-## USE="${USE} bindist"
+# enable binhost
+# <your profile> means
+# if your profile is default/linux/amd64/17.1/desktop/plasma
+# then you should write desktop/plasma
+# Example : PORTAGE_BINHOST="https://raw.githubusercontent.com/night-every/gentoo-binhost/${CHOST}(desktop/plasma)"
+PORTAGE_BINHOST="https://raw.githubusercontent.com/night-every/gentoo-binhost/${CHOST}(<your profile>)"
+FEATURES="${FEATURES} getbinpkg"
 ```
 
-> In script, PORTAGE_BINHOST_HEADER_URI will be modified. Set it up like this first
-
-### /etc/portage/bashrc
-
-Add the following lines in /etc/portage/bashrc
+**PORTAGE_BINHOST** variable set in /etc/portage/make.conf **or** set the sync-uri variable in /etc/portage/binrepos.conf.
 
 ```shell
-# Refer https://wiki.gentoo.org/wiki//etc/portage/bashrc#Hook_functions
-function post_pkg_postinst() {
-  # grep "buildpkg" absolutely
-  grep -Fq ' buildpkg ' <<< {$PORTAGE_FEATURES}
-  if [ $? -eq 0 ]; then
-    # Change this according to your settings.
-    # Add your repository taht you want to use as gentoo-binhost, your personal GitHub access token and your email.
-    # To proceed, you must generate a GitHub access token with permissions to access the repository and create releases.
-    sh /etc/portage/github_upload.sh -r '<repo>' -t '<token>' -e '<email>'
-  fi
-}
+[binhost]
+sync-uri = https://raw.githubusercontent.com/night-every/gentoo-binhost/${CHOST}(<your profile>)
+priority = 9999
+# <your profile> means
+# if your profile is default/linux/amd64/17.1/desktop/plasma
+# then you should write desktop/plasma
+# Example : PORTAGE_BINHOST="https://raw.githubusercontent.com/night-every/gentoo-binhost/${CHOST}(desktop/plasma)"
 ```
 
-> The script will first check the [PKGDIR](https://wiki.gentoo.org/wiki/PKGDIR) for the binary package built for the ebuild being processed this time. If not it will exit immediately.
-> When it encounters software specified in -B or --buildpkg-exclude, it will simply skip.
+> Refer [Pulling_packages_from_a_binary_package_host](https://wiki.gentoo.org/wiki/Binary_package_guide#Pulling_packages_from_a_binary_package_host)
 
----
+<div>
+    <p><br/></p>
+</div>
 
-## DISCLAIMER
+Please refer to [Using_binary_packages](https://wiki.gentoo.org/wiki/Binary_package_guide#Using_binary_packages) before using.
 
-Although the source code of this software is released under the [MIT](http://opensource.org/licenses/MIT) license, it's important to note that the binary packages included in the distribution may have different licenses. Please refer to the Packages Manifest file for details on the specific licenses of each package. Additionally, please consult the [Gentoo license](https://devmanual.gentoo.org/general-concepts/licenses/index.html) and [License groups - Gentoo Wiki](https://wiki.gentoo.org/wiki/License_groups) for further information on the licensing terms and conditions that apply.
