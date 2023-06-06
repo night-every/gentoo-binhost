@@ -116,7 +116,7 @@ function post_pkg_postinst() {
     # Change this according to your settings.
     # Add your repository taht you want to use as gentoo-binhost, your personal GitHub access token and your email.
     # To proceed, you must generate a GitHub access token with permissions to access the repository and create releases.
-    sh /etc/portage/github_upload.sh -r '<repo>' -t '<token>' -e '<email>'
+    /etc/portage/github_upload.sh -r '<repo>' -t '<token>' -e '<email>'
   fi
 }
 ```
