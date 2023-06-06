@@ -114,7 +114,6 @@ function startup_mode {
             declare -g EBUILD=$(echo "$line" | jq -r '.EBUILD')
             declare -g BUILD_ID=$(echo "$line" | jq -r '.BUILD_ID')
             declare -g RELEASE_TAGS="${BRANCH}/${CATEGORY}/${PN}"
-            echo $PN $PF $CATEGORY $EBUILD $BUILD_ID $RELEASE_TAGS
             
             get_branch
             get_release
