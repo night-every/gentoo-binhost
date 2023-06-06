@@ -32,6 +32,8 @@
 - For each package merged via portage, the Gentoo Packages manifest file is committed to Git.
   
 - Binary packages are not stored in the repository but are uploaded as GitHub release artifacts.
+
+- **UPDATES (06-06-2023)**: The script will check if the network is accessible before it start, if not, it will store the information of the binary packages that need to be uploaded in the same directory as offline_mode.json (which will be created automatically). Once it has access to the network it will automatically upload the packages that have not yet been uploaded.
   
 
 To make everything work, the following nomenclature has to apply:
