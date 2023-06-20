@@ -126,6 +126,17 @@ function post_pkg_postinst() {
 > The script will first check the [PKGDIR](https://wiki.gentoo.org/wiki/PKGDIR) for the binary package built for the ebuild being processed this time. If not it will exit immediately.
 > When it encounters software specified in -B or --buildpkg-exclude, it will simply skip.
 
+### /etc/portage/github_upload.sh
+
+Put github_upload.sh under /etc/portage/
+
+And **REMEMEBER !!!!**
+
+```shell
+sudo chmod +x /etc/portage/github_upload.sh
+```
+
+
 ---
 
 ## DISCLAIMER
