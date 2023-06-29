@@ -12,9 +12,9 @@ FEATURES: assume-digests binpkg-docompress binpkg-dostrip binpkg-logs binpkg-mul
 GENTOO_MIRRORS: http://distfiles.gentoo.org
 IUSE_IMPLICIT: abi_x86_64 prefix prefix-guest prefix-stack
 KERNEL: linux
-PACKAGES: 659
+PACKAGES: 682
 PROFILE: default/linux/amd64/17.1/desktop/plasma
-TIMESTAMP: 1687998878
+TIMESTAMP: 1688055141
 URI:  https://github.com/night-every/gentoo-binhost/releases/download/x86_64-pc-linux-gnu(desktop/plasma)
 USE: X a52 aac abi_x86_64 acl acpi activities ada_target_gnat_2021 alsa amd64 apache2_modules_actions apache2_modules_alias apache2_modules_auth_basic apache2_modules_authn_alias apache2_modules_authn_anon apache2_modules_authn_core apache2_modules_authn_dbm apache2_modules_authn_default apache2_modules_authn_file apache2_modules_authz_core apache2_modules_authz_dbm apache2_modules_authz_default apache2_modules_authz_groupfile apache2_modules_authz_host apache2_modules_authz_owner apache2_modules_authz_user apache2_modules_autoindex apache2_modules_cache apache2_modules_cgi apache2_modules_cgid apache2_modules_dav apache2_modules_dav_fs apache2_modules_dav_lock apache2_modules_deflate apache2_modules_dir apache2_modules_disk_cache apache2_modules_env apache2_modules_expires apache2_modules_ext_filter apache2_modules_file_cache apache2_modules_filter apache2_modules_headers apache2_modules_include apache2_modules_info apache2_modules_log_config apache2_modules_logio apache2_modules_mem_cache apache2_modules_mime apache2_modules_mime_magic apache2_modules_negotiation apache2_modules_rewrite apache2_modules_setenvif apache2_modules_socache_shmcb apache2_modules_speling apache2_modules_status apache2_modules_unique_id apache2_modules_unixd apache2_modules_userdir apache2_modules_usertrack apache2_modules_vhost_alias bindist blkid bluetooth branding bzip2 cairo calligra_features_karbon calligra_features_sheets calligra_features_words cdda cdr cjk cli client collectd_plugins_df collectd_plugins_interface collectd_plugins_irq collectd_plugins_load collectd_plugins_memory collectd_plugins_rrdtool collectd_plugins_swap collectd_plugins_syslog connection-sharing cpu_flags_x86_aes cpu_flags_x86_mmx cpu_flags_x86_mmxext cpu_flags_x86_pclmul cpu_flags_x86_popcnt cpu_flags_x86_rdrand cpu_flags_x86_sha cpu_flags_x86_sse cpu_flags_x86_sse2 cpu_flags_x86_sse3 cpu_flags_x86_sse4_1 cpu_flags_x86_sse4_2 cpu_flags_x86_ssse3 crypt cups dbus declarative dri dts dvd dvdr efi elibc_glibc elogind emoji encode exif flac fortran gallium gdbm gif git glamor gles gles2 gpm gpsd_protocols_aivdm gpsd_protocols_ashtech gpsd_protocols_earthmate gpsd_protocols_evermore gpsd_protocols_fv18 gpsd_protocols_garmin gpsd_protocols_garmintxt gpsd_protocols_gpsclock gpsd_protocols_greis gpsd_protocols_isync gpsd_protocols_itrax gpsd_protocols_mtk3301 gpsd_protocols_navcom gpsd_protocols_nmea gpsd_protocols_ntrip gpsd_protocols_oceanserver gpsd_protocols_oldstyle gpsd_protocols_oncore gpsd_protocols_rtcm104v2 gpsd_protocols_rtcm104v3 gpsd_protocols_sirf gpsd_protocols_skytraq gpsd_protocols_superstar2 gpsd_protocols_timing gpsd_protocols_tnt gpsd_protocols_tripmate gpsd_protocols_tsip gpsd_protocols_ublox gpsd_protocols_ubx grub_platforms_efi-64 gtk gui http2 hwdb iconv icu input_devices_libinput input_devices_synaptics ipv6 iwd jpeg kde kernel_linux kwallet l10n_en l10n_en-US l10n_zh l10n_zh-CN layers lcd_devices_bayrad lcd_devices_cfontz lcd_devices_cfontz633 lcd_devices_glk lcd_devices_hd44780 lcd_devices_lb216 lcd_devices_lcdm001 lcd_devices_mtxorb lcd_devices_ncurses lcd_devices_text lcms libnotify libreoffice_extensions_presenter-console libreoffice_extensions_presenter-minimizer libtirpc llvm_targets_X86 lua_single_target_lua5-1 lua_targets_lua5-1 mad minizip mng mp3 mp4 mpeg multilib ncurses network networkmanager nftables nls nptl office_implementation_libreoffice ogg opengl openmp pam pango pcre pdf php_targets_php8-1 pipewire plasma png policykit postgres_targets_postgres12 postgres_targets_postgres13 ppds ppp pulseaudio python_single_target_python3_11 python_targets_python3_11 qml qt5 readline ruby_targets_ruby31 screencast sdl seccomp semantic-desktop smack sound spell split-usr ssl startup-notification sudo svg test-rust tiff truetype udev udisks unicode upower usb vaapi video_cards_i965 video_cards_intel video_cards_iris vorbis vulkan wayland widgets wifi wireless wxwidgets x264 xattr xcb xft xml xtables_addons_account xtables_addons_chaos xtables_addons_condition xtables_addons_delude xtables_addons_dhcpmac xtables_addons_fuzzy xtables_addons_geoip xtables_addons_iface xtables_addons_ipmark xtables_addons_ipp2p xtables_addons_ipset xtables_addons_ipv4options xtables_addons_length2 xtables_addons_logmark xtables_addons_lscan xtables_addons_pknock xtables_addons_proto xtables_addons_psd xtables_addons_quota2 xtables_addons_rawnat xtables_addons_steal xtables_addons_sysrq xtables_addons_tarpit xtables_addons_tee xv xvid zlib
 USE_EXPAND: ABI_MIPS ABI_S390 ABI_X86 ADA_TARGET ALSA_CARDS AMDGPU_TARGETS APACHE2_MODULES APACHE2_MPMS CALLIGRA_FEATURES CAMERAS COLLECTD_PLUGINS CPU_FLAGS_ARM CPU_FLAGS_PPC CPU_FLAGS_X86 CURL_SSL ELIBC FFTOOLS GPSD_PROTOCOLS GRUB_PLATFORMS INPUT_DEVICES KERNEL L10N LCD_DEVICES LIBREOFFICE_EXTENSIONS LLVM_TARGETS LUA_SINGLE_TARGET LUA_TARGETS MONKEYD_PLUGINS NGINX_MODULES_HTTP NGINX_MODULES_MAIL NGINX_MODULES_STREAM OFFICE_IMPLEMENTATION OPENMPI_FABRICS OPENMPI_OFED_FEATURES OPENMPI_RM PHP_TARGETS POSTGRES_TARGETS PYTHON_SINGLE_TARGET PYTHON_TARGETS QEMU_SOFTMMU_TARGETS QEMU_USER_TARGETS ROS_MESSAGES RUBY_TARGETS SANE_BACKENDS UWSGI_PLUGINS VIDEO_CARDS VOICEMAIL_STORAGE XTABLES_ADDONS
@@ -876,6 +876,36 @@ SHA1: 67212174e6ba8994daaebf27b5c4fd84d61b081e
 SIZE: 163840
 USE: abi_x86_64 amd64 elibc_glibc kernel_linux
 MTIME: 1687253858
+REPO: gentoo
+
+BUILD_ID: 3
+BUILD_TIME: 1688054801
+CPV: app-misc/neofetch-7.1.0-r1
+DEFINED_PHASES: install postinst prepare
+EAPI: 7
+KEYWORDS: amd64 arm arm64 ~hppa ~ia64 ~loong ~mips ~ppc ~ppc64 ~riscv ~sparc x86
+LICENSE: MIT-with-advertising
+MD5: 1f29ca0370ea8a109ace12134bb84fd1
+PATH: app-misc/neofetch/neofetch-7.1.0-r1-3.gpkg.tar
+SHA1: 7adfb9a74ed1608993d6a0d4fc7953bdf0455a35
+SIZE: 163840
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux
+MTIME: 1688054803
+REPO: gentoo
+
+BUILD_ID: 4
+BUILD_TIME: 1688055139
+CPV: app-misc/neofetch-7.1.0-r1
+DEFINED_PHASES: install postinst prepare
+EAPI: 7
+KEYWORDS: amd64 arm arm64 ~hppa ~ia64 ~loong ~mips ~ppc ~ppc64 ~riscv ~sparc x86
+LICENSE: MIT-with-advertising
+MD5: 2af62669c230c7c8ec452622b17d3262
+PATH: app-misc/neofetch/neofetch-7.1.0-r1-4.gpkg.tar
+SHA1: 2687ce015a74dda75667552cf3b1f3c261d61562
+SIZE: 163840
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux
+MTIME: 1688055141
 REPO: gentoo
 
 BDEPEND: >=dev-util/meson-0.62.2 >=dev-util/ninja-1.8.2 dev-util/meson-format-array
@@ -5509,6 +5539,52 @@ USE: abi_x86_64 amd64 elibc_glibc kernel_linux
 MTIME: 1687957389
 REPO: gentoo
 
+BDEPEND: sys-devel/gettext >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.106.0:5
+BUILD_ID: 1
+BUILD_TIME: 1688050090
+CPV: kde-apps/kaccounts-integration-23.04.2
+DEFINED_PHASES: compile configure install nofetch postinst postrm preinst prepare setup test unpack
+DEPEND: dev-libs/qcoro5 >=dev-qt/qtdbus-5.15.9:5 >=dev-qt/qtdeclarative-5.15.9:5 >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=kde-frameworks/kconfigwidgets-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kdbusaddons-5.106.0:5 >=kde-frameworks/kdeclarative-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kio-5.106.0:5 >=kde-frameworks/kwallet-5.106.0:5 >=kde-frameworks/kwidgetsaddons-5.106.0:5 net-libs/accounts-qt >=net-libs/libaccounts-glib-1.21:0/0= net-libs/signond >=kde-frameworks/kcmutils-5.106.0:5 kde-plasma/kde-cli-tools:5 dev-qt/qtcore:5
+EAPI: 8
+IDEPEND: dev-util/desktop-file-utils x11-misc/shared-mime-info
+IUSE: debug test
+KEYWORDS: ~amd64 ~arm ~arm64 ~loong ~ppc64 ~riscv ~x86
+LICENSE: LGPL-2.1
+MD5: d22cae063334940276395b0915412f65
+PATH: kde-apps/kaccounts-integration/kaccounts-integration-23.04.2-1.gpkg.tar
+PROVIDES: x86_64: kaccounts_kio_webdav_plugin.so kcm_kaccounts.so kded_accounts.so libkaccounts.so.2 libkaccountsdeclarativeplugin.so
+RDEPEND: dev-libs/qcoro5 >=dev-qt/qtdbus-5.15.9:5 >=dev-qt/qtdeclarative-5.15.9:5 >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=kde-frameworks/kconfigwidgets-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kdbusaddons-5.106.0:5 >=kde-frameworks/kdeclarative-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kio-5.106.0:5 >=kde-frameworks/kwallet-5.106.0:5 >=kde-frameworks/kwidgetsaddons-5.106.0:5 net-libs/accounts-qt >=net-libs/libaccounts-glib-1.21:0/0= net-libs/signond dev-util/intltool || ( kde-frameworks/breeze-icons:* kde-frameworks/oxygen-icons:* ) >=kde-frameworks/kf-env-4 dev-qt/qtcore:5
+REQUIRES: x86_64: libKF5ConfigCore.so.5 libKF5CoreAddons.so.5 libKF5DBusAddons.so.5 libKF5I18n.so.5 libKF5KIOCore.so.5 libKF5QuickAddons.so.5 libKF5Wallet.so.5 libQt5Core.so.5 libQt5Gui.so.5 libQt5Qml.so.5 libQt5Widgets.so.5 libaccounts-qt5.so.1 libc.so.6 libsignon-qt5.so.1 libstdc++.so.6
+RESTRICT: test test
+SHA1: e569d9d9e92e9a34ec4c119b7d1a5edd0a48085e
+SIZE: 266240
+SLOT: 5
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux
+MTIME: 1688050092
+REPO: gentoo
+
+BDEPEND: >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.106.0:5
+BUILD_ID: 1
+BUILD_TIME: 1688052093
+CPV: kde-apps/khelpcenter-23.04.2
+DEFINED_PHASES: compile configure install nofetch postinst postrm preinst prepare setup test unpack
+DEPEND: dev-libs/grantlee:5 dev-libs/libxml2 dev-libs/xapian:0/30= >=dev-qt/qtdbus-5.15.9:5 >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=dev-qt/qtxml-5.15.9:5 >=kde-frameworks/karchive-5.106.0:5 >=kde-frameworks/kbookmarks-5.106.0:5 >=kde-frameworks/kcodecs-5.106.0:5 >=kde-frameworks/kcompletion-5.106.0:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kconfigwidgets-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kdbusaddons-5.106.0:5 >=kde-frameworks/kdoctools-5.106.0:5 >=kde-frameworks/khtml-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kio-5.106.0:5 >=kde-frameworks/kparts-5.106.0:5 >=kde-frameworks/kservice-5.106.0:5 >=kde-frameworks/kwidgetsaddons-5.106.0:5 >=kde-frameworks/kwindowsystem-5.106.0:5 >=kde-frameworks/kxmlgui-5.106.0:5 dev-qt/qtcore:5
+EAPI: 8
+IDEPEND: dev-util/desktop-file-utils x11-misc/shared-mime-info
+IUSE: debug
+KEYWORDS: ~amd64 ~arm ~arm64 ~loong ~ppc64 ~riscv ~x86
+LICENSE: GPL-2
+MD5: 9244a95152c260fb71f40d0fcddfc130
+PATH: kde-apps/khelpcenter/khelpcenter-23.04.2-1.gpkg.tar
+RDEPEND: dev-libs/grantlee:5 dev-libs/libxml2 dev-libs/xapian:0/30= >=dev-qt/qtdbus-5.15.9:5 >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=dev-qt/qtxml-5.15.9:5 >=kde-frameworks/karchive-5.106.0:5 >=kde-frameworks/kbookmarks-5.106.0:5 >=kde-frameworks/kcodecs-5.106.0:5 >=kde-frameworks/kcompletion-5.106.0:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kconfigwidgets-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kdbusaddons-5.106.0:5 >=kde-frameworks/kdoctools-5.106.0:5 >=kde-frameworks/khtml-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kio-5.106.0:5 >=kde-frameworks/kparts-5.106.0:5 >=kde-frameworks/kservice-5.106.0:5 >=kde-frameworks/kwidgetsaddons-5.106.0:5 >=kde-frameworks/kwindowsystem-5.106.0:5 >=kde-frameworks/kxmlgui-5.106.0:5 >=kde-plasma/kde-cli-tools-5.16.5:5 || ( kde-frameworks/breeze-icons:* kde-frameworks/oxygen-icons:* ) >=kde-frameworks/kf-env-4 dev-qt/qtcore:5
+REQUIRES: x86_64: libGrantlee_Templates.so.5 libKF5Archive.so.5 libKF5Bookmarks.so.5 libKF5Codecs.so.5 libKF5Completion.so.5 libKF5ConfigCore.so.5 libKF5ConfigGui.so.5 libKF5ConfigWidgets.so.5 libKF5CoreAddons.so.5 libKF5DBusAddons.so.5 libKF5DocTools.so.5 libKF5I18n.so.5 libKF5KHtml.so.5 libKF5KIOCore.so.5 libKF5KIOGui.so.5 libKF5Parts.so.5 libKF5Service.so.5 libKF5WidgetsAddons.so.5 libKF5WindowSystem.so.5 libKF5XmlGui.so.5 libQt5Core.so.5 libQt5DBus.so.5 libQt5Gui.so.5 libQt5Widgets.so.5 libQt5Xml.so.5 libc.so.6 libgcc_s.so.1 libstdc++.so.6 libxapian.so.30 libxml2.so.2
+SHA1: b4ee5025f8dcd33b7458e928eaa6f962fca26fd5
+SIZE: 6389760
+SLOT: 5
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux
+MTIME: 1688052101
+REPO: gentoo
+
 BDEPEND: dev-util/gperf >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 >=kde-frameworks/kdoctools-5.106.0:5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.106.0:5
 BUILD_ID: 1
 BUILD_TIME: 1687994715
@@ -6987,6 +7063,29 @@ REPO: gentoo
 
 BDEPEND: >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.107:5
 BUILD_ID: 1
+BUILD_TIME: 1688050906
+CPV: kde-frameworks/purpose-5.107.0
+DEFINED_PHASES: compile configure install nofetch postinst postrm preinst prepare setup test unpack
+DEPEND: >=dev-qt/qtdeclarative-5.15.9:5 >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtnetwork-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 =kde-frameworks/kcoreaddons-5.107*:5 =kde-frameworks/ki18n-5.107*:5 =kde-frameworks/kio-5.107*:5 =kde-frameworks/kirigami-5.107*:5 =kde-frameworks/knotifications-5.107*:5 =kde-frameworks/prison-5.107*:5 >=kde-apps/kaccounts-integration-19.04.3:5 net-libs/accounts-qt dev-qt/qtcore:5
+EAPI: 8
+IUSE: bluetooth +kaccounts debug test
+KEYWORDS: ~amd64 ~arm ~arm64 ~loong ~ppc64 ~riscv ~x86
+LICENSE: LGPL-2.1+
+MD5: 0528ad52424225f1a92f05b272452da3
+PATH: kde-frameworks/purpose/purpose-5.107.0-1.gpkg.tar
+PROVIDES: x86_64: barcodeplugin.so bluetoothplugin.so emailplugin.so imgurplugin.so kdeconnectplugin.so kdeconnectsmsplugin.so ktpsendfileplugin.so libKF5Purpose.so.5 libKF5PurposeWidgets.so.5 libPhabricatorHelpers.so.5 libReviewboardHelpers.so.5 libphabricatorquickplugin.so libpurposequickplugin.so librbpurposequickplugin.so nextcloudplugin.so pastebinplugin.so phabricatorplugin.so reviewboardplugin.so saveasplugin.so sharefileitemaction.so telegramplugin.so twitterplugin.so youtubeplugin.so
+RDEPEND: >=dev-qt/qtdeclarative-5.15.9:5 >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtnetwork-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 =kde-frameworks/kcoreaddons-5.107*:5 =kde-frameworks/ki18n-5.107*:5 =kde-frameworks/kio-5.107*:5 =kde-frameworks/kirigami-5.107*:5 =kde-frameworks/knotifications-5.107*:5 =kde-frameworks/prison-5.107*:5 >=kde-apps/kaccounts-integration-19.04.3:5 net-libs/accounts-qt >=dev-qt/qtquickcontrols-5.15.9:5 >=dev-qt/qtquickcontrols2-5.15.9:5 >=kde-frameworks/kdeclarative-5.107:5 =kde-frameworks/bluez-qt-5.107*:5 net-libs/accounts-qml >=kde-frameworks/kf-env-4 dev-qt/qtcore:5
+REQUIRES: x86_64: libKF5ConfigCore.so.5 libKF5CoreAddons.so.5 libKF5I18n.so.5 libKF5KIOCore.so.5 libKF5KIOGui.so.5 libKF5KIOWidgets.so.5 libKF5Notifications.so.5 libKF5Service.so.5 libQt5Core.so.5 libQt5DBus.so.5 libQt5Gui.so.5 libQt5Network.so.5 libQt5Qml.so.5 libQt5Widgets.so.5 libaccounts-qt5.so.1 libc.so.6 libkaccounts.so.2 libstdc++.so.6
+RESTRICT: test test
+SHA1: 985f0281876b9bf81a963663d7e8abd1a7640860
+SIZE: 665600
+SLOT: 5/5.107
+USE: abi_x86_64 amd64 bluetooth elibc_glibc kaccounts kernel_linux
+MTIME: 1688050910
+REPO: gentoo
+
+BDEPEND: >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.107:5
+BUILD_ID: 1
 BUILD_TIME: 1687978707
 CPV: kde-frameworks/qqc2-desktop-style-5.107.0
 DEFINED_PHASES: compile configure install nofetch postinst postrm preinst prepare setup test unpack
@@ -7123,6 +7222,29 @@ USE: abi_x86_64 amd64 elibc_glibc kernel_linux
 MTIME: 1687989352
 REPO: gentoo
 
+BDEPEND: >=kde-frameworks/kcmutils-5.106.0:5 >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 >=kde-frameworks/kdoctools-5.106.0:5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.106.0:5
+BUILD_ID: 1
+BUILD_TIME: 1688051501
+CPV: kde-plasma/bluedevil-5.27.6
+DEFINED_PHASES: compile configure install nofetch postinst postrm preinst prepare setup test unpack
+DEPEND: >=dev-qt/qtdbus-5.15.9:5 >=dev-qt/qtdeclarative-5.15.9:5 >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=kde-frameworks/bluez-qt-5.106.0:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kconfigwidgets-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kdeclarative-5.106.0:5 >=kde-frameworks/kdbusaddons-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kio-5.106.0:5 >=kde-frameworks/knotifications-5.106.0:5 >=kde-frameworks/kwidgetsaddons-5.106.0:5 >=kde-frameworks/kwindowsystem-5.106.0:5[X] >=kde-frameworks/plasma-5.106.0:5 dev-qt/qtcore:5
+EAPI: 8
+IDEPEND: dev-util/desktop-file-utils x11-misc/shared-mime-info
+IUSE: debug +handbook
+KEYWORDS: ~amd64 ~arm ~arm64 ~loong ~ppc64 ~riscv ~x86
+LICENSE: GPL-2
+MD5: eea8639e2ae03dc07064c737244570f1
+PATH: kde-plasma/bluedevil/bluedevil-5.27.6-1.gpkg.tar
+PROVIDES: x86_64: bluedevil.so kcm_bluetooth.so kio_bluetooth.so kio_obexftp.so libbluetoothplugin.so
+RDEPEND: >=dev-qt/qtdbus-5.15.9:5 >=dev-qt/qtdeclarative-5.15.9:5 >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=kde-frameworks/bluez-qt-5.106.0:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kconfigwidgets-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kdeclarative-5.106.0:5 >=kde-frameworks/kdbusaddons-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kio-5.106.0:5 >=kde-frameworks/knotifications-5.106.0:5 >=kde-frameworks/kwidgetsaddons-5.106.0:5 >=kde-frameworks/kwindowsystem-5.106.0:5[X] >=kde-frameworks/plasma-5.106.0:5 >=dev-qt/qtquickcontrols2-5.15.9:5 >=kde-frameworks/kirigami-5.106.0:5 >=kde-plasma/kde-cli-tools-5.27.6:5 || ( kde-frameworks/breeze-icons:* kde-frameworks/oxygen-icons:* ) >=kde-frameworks/kf-env-4 dev-qt/qtcore:5
+REQUIRES: x86_64: libKF5BluezQt.so.6 libKF5ConfigCore.so.5 libKF5ConfigGui.so.5 libKF5CoreAddons.so.5 libKF5DBusAddons.so.5 libKF5I18n.so.5 libKF5KIOCore.so.5 libKF5KIOFileWidgets.so.5 libKF5KIOGui.so.5 libKF5Notifications.so.5 libKF5QuickAddons.so.5 libKF5Service.so.5 libKF5WidgetsAddons.so.5 libKF5WindowSystem.so.5 libQt5Core.so.5 libQt5DBus.so.5 libQt5Gui.so.5 libQt5Qml.so.5 libQt5Widgets.so.5 libc.so.6 libstdc++.so.6
+SHA1: 6ca77ea1a923e198aba3cebdce30df974ba8cf2b
+SIZE: 880640
+SLOT: 5
+USE: abi_x86_64 amd64 elibc_glibc handbook kernel_linux
+MTIME: 1688051504
+REPO: gentoo
+
 BDEPEND: >=kde-frameworks/kcmutils-5.106.0:5 >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.106.0:5
 BUILD_ID: 1
 BUILD_TIME: 1687992506
@@ -7166,6 +7288,30 @@ SIZE: 399360
 SLOT: 5
 USE: abi_x86_64 amd64 elibc_glibc kernel_linux
 MTIME: 1687992703
+REPO: gentoo
+
+BDEPEND: >=kde-frameworks/kcmutils-5.106.0:5 >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.106.0:5
+BUILD_ID: 1
+BUILD_TIME: 1688051800
+CPV: kde-plasma/discover-5.27.6
+DEFINED_PHASES: compile configure install nofetch postinst postrm preinst prepare setup test unpack
+DEPEND: >=dev-libs/appstream-0.15.3:0/4= >=dev-qt/qtconcurrent-5.15.9:5 >=dev-qt/qtdbus-5.15.9:5 >=dev-qt/qtdeclarative-5.15.9:5 >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtnetwork-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=kde-frameworks/attica-5.106.0:5 >=kde-frameworks/kcmutils-5.106.0:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kconfigwidgets-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kcrash-5.106.0:5 >=kde-frameworks/kdbusaddons-5.106.0:5 >=kde-frameworks/kdeclarative-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kidletime-5.106.0:5 >=kde-frameworks/kio-5.106.0:5 >=kde-frameworks/kirigami-5.106.0:5 >=kde-frameworks/knewstuff-5.106.0:5 >=kde-frameworks/knotifications-5.106.0:5 >=kde-frameworks/kwidgetsaddons-5.106.0:5 >=kde-frameworks/kxmlgui-5.106.0:5 >=kde-frameworks/purpose-5.106.0:5 >=sys-apps/fwupd-1.5.0 dev-qt/qtcore:5
+EAPI: 8
+IDEPEND: dev-util/desktop-file-utils x11-misc/shared-mime-info
+IUSE: +firmware flatpak snap telemetry webengine debug test
+KEYWORDS: ~amd64 ~arm ~arm64 ~loong ~ppc64 ~riscv ~x86
+LICENSE: GPL-2
+MD5: fb2ef3df1f460cc7793e7fd4e5fc97be
+PATH: kde-plasma/discover/discover-5.27.6-1.gpkg.tar
+PROVIDES: x86_64: fwupd-backend.so kns-backend.so libDiscoverCommon.so libDiscoverNotifiers.so
+RDEPEND: >=dev-libs/appstream-0.15.3:0/4= >=dev-qt/qtconcurrent-5.15.9:5 >=dev-qt/qtdbus-5.15.9:5 >=dev-qt/qtdeclarative-5.15.9:5 >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtnetwork-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=kde-frameworks/attica-5.106.0:5 >=kde-frameworks/kcmutils-5.106.0:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kconfigwidgets-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kcrash-5.106.0:5 >=kde-frameworks/kdbusaddons-5.106.0:5 >=kde-frameworks/kdeclarative-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kidletime-5.106.0:5 >=kde-frameworks/kio-5.106.0:5 >=kde-frameworks/kirigami-5.106.0:5 >=kde-frameworks/knewstuff-5.106.0:5 >=kde-frameworks/knotifications-5.106.0:5 >=kde-frameworks/kwidgetsaddons-5.106.0:5 >=kde-frameworks/kxmlgui-5.106.0:5 >=kde-frameworks/purpose-5.106.0:5 >=sys-apps/fwupd-1.5.0 >=dev-qt/qtquickcontrols2-5.15.9:5 || ( kde-frameworks/breeze-icons:* kde-frameworks/oxygen-icons:* ) >=kde-frameworks/kf-env-4 dev-qt/qtcore:5
+REQUIRES: x86_64: libAppStreamQt.so.2 libKF5Attica.so.5 libKF5ConfigCore.so.5 libKF5ConfigGui.so.5 libKF5CoreAddons.so.5 libKF5Crash.so.5 libKF5DBusAddons.so.5 libKF5I18n.so.5 libKF5IdleTime.so.5 libKF5JobWidgets.so.5 libKF5KIOCore.so.5 libKF5KIOGui.so.5 libKF5NewStuffCore.so.5 libKF5Notifications.so.5 libKF5Service.so.5 libKF5WidgetsAddons.so.5 libKF5WindowSystem.so.5 libQt5Core.so.5 libQt5DBus.so.5 libQt5Gui.so.5 libQt5Network.so.5 libQt5Qml.so.5 libQt5Quick.so.5 libQt5Widgets.so.5 libc.so.6 libfwupd.so.2 libgio-2.0.so.0 libglib-2.0.so.0 libgobject-2.0.so.0 libm.so.6 libstdc++.so.6
+RESTRICT: test
+SHA1: 5ab2b480a309a14ede6aa19e81e1af121b002ea2
+SIZE: 2119680
+SLOT: 5
+USE: abi_x86_64 amd64 elibc_glibc firmware kernel_linux
+MTIME: 1688051803
 REPO: gentoo
 
 BDEPEND: >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.106.0:5 virtual/pkgconfig
@@ -7237,6 +7383,29 @@ USE: X abi_x86_64 amd64 elibc_glibc handbook kernel_linux
 MTIME: 1687998878
 REPO: gentoo
 
+BDEPEND: dev-lang/sassc >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.106.0:5
+BUILD_ID: 1
+BUILD_TIME: 1688051953
+CPV: kde-plasma/kde-gtk-config-5.27.6
+DEFINED_PHASES: compile configure install nofetch postinst postrm preinst prepare setup test unpack
+DEPEND: dev-cpp/glibmm:2 dev-libs/glib:2 >=dev-qt/qtdbus-5.15.9:5 >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtsvg-5.15.9:5 gnome-base/gsettings-desktop-schemas >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kconfigwidgets-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kdbusaddons-5.106.0:5 >=kde-frameworks/kguiaddons-5.106.0:5 >=kde-plasma/kdecoration-5.27.6:5 x11-libs/gtk+:3 dev-qt/qtcore:5
+EAPI: 8
+IDEPEND: dev-util/desktop-file-utils x11-misc/shared-mime-info
+IUSE: debug
+KEYWORDS: ~amd64 ~arm ~arm64 ~loong ~ppc64 ~riscv ~x86
+LICENSE: GPL-3
+MD5: 84be070725b1c5a9fb64e76b1074d688
+PATH: kde-plasma/kde-gtk-config/kde-gtk-config-5.27.6-1.gpkg.tar
+PROVIDES: x86_64: gtkconfig.so libcolorreload-gtk-module.so libwindow-decorations-gtk-module.so
+RDEPEND: dev-cpp/glibmm:2 dev-libs/glib:2 >=dev-qt/qtdbus-5.15.9:5 >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtsvg-5.15.9:5 gnome-base/gsettings-desktop-schemas >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kconfigwidgets-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kdbusaddons-5.106.0:5 >=kde-frameworks/kguiaddons-5.106.0:5 >=kde-plasma/kdecoration-5.27.6:5 x11-libs/gtk+:3 >=kde-plasma/kde-cli-tools-5.27.6:5 x11-misc/xsettingsd || ( kde-frameworks/breeze-icons:* kde-frameworks/oxygen-icons:* ) >=kde-frameworks/kf-env-4 dev-qt/qtcore:5
+REQUIRES: x86_64: libKF5ConfigCore.so.5 libKF5ConfigWidgets.so.5 libKF5CoreAddons.so.5 libKF5DBusAddons.so.5 libKF5GuiAddons.so.5 libKF5WindowSystem.so.5 libQt5Core.so.5 libQt5DBus.so.5 libQt5Gui.so.5 libQt5Svg.so.5 libc.so.6 libgdk-3.so.0 libgio-2.0.so.0 libglib-2.0.so.0 libgobject-2.0.so.0 libgtk-3.so.0 libkdecorations2.so.5 libkdecorations2private.so.10 libstdc++.so.6
+SHA1: a55cd457e1182a3fd89fb552e377d0daf8c82d89
+SIZE: 174080
+SLOT: 5
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux
+MTIME: 1688051955
+REPO: gentoo
+
 BDEPEND: >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.106.0:5
 BUILD_ID: 1
 BUILD_TIME: 1687972468
@@ -7286,6 +7455,75 @@ REPO: gentoo
 
 BDEPEND: >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 >=kde-frameworks/kdoctools-5.106.0:5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.106.0:5
 BUILD_ID: 1
+BUILD_TIME: 1688051151
+CPV: kde-plasma/khotkeys-5.27.6
+DEFINED_PHASES: compile configure install nofetch postinst postrm preinst prepare setup test unpack
+DEPEND: >=dev-qt/qtdbus-5.15.9:5 >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=dev-qt/qtx11extras-5.15.9:5 >=kde-frameworks/kcompletion-5.106.0:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kconfigwidgets-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kdbusaddons-5.106.0:5 >=kde-frameworks/kdelibs4support-5.106.0:5[X] >=kde-frameworks/kglobalaccel-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kio-5.106.0:5 >=kde-frameworks/kservice-5.106.0:5 >=kde-frameworks/ktextwidgets-5.106.0:5 >=kde-frameworks/kwidgetsaddons-5.106.0:5 >=kde-frameworks/kwindowsystem-5.106.0:5 >=kde-frameworks/kxmlgui-5.106.0:5 >=kde-plasma/libkworkspace-5.27.6:5 x11-libs/libX11 x11-libs/libXtst x11-base/xorg-proto x11-libs/libxcb x11-libs/libXtst dev-qt/qtcore:5
+EAPI: 8
+IDEPEND: dev-util/desktop-file-utils x11-misc/shared-mime-info
+IUSE: debug +handbook
+KEYWORDS: ~amd64 ~arm ~arm64 ~loong ~ppc64 ~riscv ~x86
+LICENSE: GPL-2
+MD5: 6f5bbcccc9df5a2a9c1599f712b691d8
+PATH: kde-plasma/khotkeys/khotkeys-5.27.6-1.gpkg.tar
+PROVIDES: x86_64: kcm_hotkeys.so khotkeys.so libkhotkeysprivate.so.5
+RDEPEND: >=dev-qt/qtdbus-5.15.9:5 >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=dev-qt/qtx11extras-5.15.9:5 >=kde-frameworks/kcompletion-5.106.0:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kconfigwidgets-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kdbusaddons-5.106.0:5 >=kde-frameworks/kdelibs4support-5.106.0:5[X] >=kde-frameworks/kglobalaccel-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kio-5.106.0:5 >=kde-frameworks/kservice-5.106.0:5 >=kde-frameworks/ktextwidgets-5.106.0:5 >=kde-frameworks/kwidgetsaddons-5.106.0:5 >=kde-frameworks/kwindowsystem-5.106.0:5 >=kde-frameworks/kxmlgui-5.106.0:5 >=kde-plasma/libkworkspace-5.27.6:5 x11-libs/libX11 x11-libs/libXtst >=kde-frameworks/kded-5.106.0:5 >=kde-plasma/kde-cli-tools-5.27.6:5 || ( kde-frameworks/breeze-icons:* kde-frameworks/oxygen-icons:* ) >=kde-frameworks/kf-env-4 dev-qt/qtcore:5
+REQUIRES: x86_64: libKF5Completion.so.5 libKF5ConfigCore.so.5 libKF5ConfigWidgets.so.5 libKF5CoreAddons.so.5 libKF5DBusAddons.so.5 libKF5GlobalAccel.so.5 libKF5I18n.so.5 libKF5JobWidgets.so.5 libKF5KDELibs4Support.so.5 libKF5KIOGui.so.5 libKF5KIOWidgets.so.5 libKF5Service.so.5 libKF5TextWidgets.so.5 libKF5WidgetsAddons.so.5 libKF5WindowSystem.so.5 libKF5XmlGui.so.5 libQt5Core.so.5 libQt5DBus.so.5 libQt5Gui.so.5 libQt5Widgets.so.5 libQt5X11Extras.so.5 libX11.so.6 libXtst.so.6 libc.so.6 libkworkspace5.so.5 libm.so.6 libstdc++.so.6
+SHA1: 74f9e92e83e5c95a1f28a2aba1f2f40304a2892d
+SIZE: 2764800
+SLOT: 5
+USE: abi_x86_64 amd64 elibc_glibc handbook kernel_linux
+MTIME: 1688051156
+REPO: gentoo
+
+BDEPEND: >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 >=kde-frameworks/kdoctools-5.106.0:5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.106.0:5
+BUILD_ID: 2
+BUILD_TIME: 1688054299
+CPV: kde-plasma/khotkeys-5.27.6
+DEFINED_PHASES: compile configure install nofetch postinst postrm preinst prepare setup test unpack
+DEPEND: >=dev-qt/qtdbus-5.15.9:5 >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=dev-qt/qtx11extras-5.15.9:5 >=kde-frameworks/kcompletion-5.106.0:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kconfigwidgets-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kdbusaddons-5.106.0:5 >=kde-frameworks/kdelibs4support-5.106.0:5[X] >=kde-frameworks/kglobalaccel-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kio-5.106.0:5 >=kde-frameworks/kservice-5.106.0:5 >=kde-frameworks/ktextwidgets-5.106.0:5 >=kde-frameworks/kwidgetsaddons-5.106.0:5 >=kde-frameworks/kwindowsystem-5.106.0:5 >=kde-frameworks/kxmlgui-5.106.0:5 >=kde-plasma/libkworkspace-5.27.6:5 x11-libs/libX11 x11-libs/libXtst x11-base/xorg-proto x11-libs/libxcb x11-libs/libXtst dev-qt/qtcore:5
+EAPI: 8
+IDEPEND: dev-util/desktop-file-utils x11-misc/shared-mime-info
+IUSE: debug +handbook
+KEYWORDS: ~amd64 ~arm ~arm64 ~loong ~ppc64 ~riscv ~x86
+LICENSE: GPL-2
+MD5: 673c53e753d2d6ab1292d892b25aa321
+PATH: kde-plasma/khotkeys/khotkeys-5.27.6-2.gpkg.tar
+PROVIDES: x86_64: kcm_hotkeys.so khotkeys.so libkhotkeysprivate.so.5
+RDEPEND: >=dev-qt/qtdbus-5.15.9:5 >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=dev-qt/qtx11extras-5.15.9:5 >=kde-frameworks/kcompletion-5.106.0:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kconfigwidgets-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kdbusaddons-5.106.0:5 >=kde-frameworks/kdelibs4support-5.106.0:5[X] >=kde-frameworks/kglobalaccel-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kio-5.106.0:5 >=kde-frameworks/kservice-5.106.0:5 >=kde-frameworks/ktextwidgets-5.106.0:5 >=kde-frameworks/kwidgetsaddons-5.106.0:5 >=kde-frameworks/kwindowsystem-5.106.0:5 >=kde-frameworks/kxmlgui-5.106.0:5 >=kde-plasma/libkworkspace-5.27.6:5 x11-libs/libX11 x11-libs/libXtst >=kde-frameworks/kded-5.106.0:5 >=kde-plasma/kde-cli-tools-5.27.6:5 || ( kde-frameworks/breeze-icons:* kde-frameworks/oxygen-icons:* ) >=kde-frameworks/kf-env-4 dev-qt/qtcore:5
+REQUIRES: x86_64: libKF5Completion.so.5 libKF5ConfigCore.so.5 libKF5ConfigWidgets.so.5 libKF5CoreAddons.so.5 libKF5DBusAddons.so.5 libKF5GlobalAccel.so.5 libKF5I18n.so.5 libKF5JobWidgets.so.5 libKF5KDELibs4Support.so.5 libKF5KIOGui.so.5 libKF5KIOWidgets.so.5 libKF5Service.so.5 libKF5TextWidgets.so.5 libKF5WidgetsAddons.so.5 libKF5WindowSystem.so.5 libKF5XmlGui.so.5 libQt5Core.so.5 libQt5DBus.so.5 libQt5Gui.so.5 libQt5Widgets.so.5 libQt5X11Extras.so.5 libX11.so.6 libXtst.so.6 libc.so.6 libkworkspace5.so.5 libm.so.6 libstdc++.so.6
+SHA1: 8e4b4f9218bb04beaf20412a87e85962d93894cd
+SIZE: 2764800
+SLOT: 5
+USE: abi_x86_64 amd64 elibc_glibc handbook kernel_linux
+MTIME: 1688054304
+REPO: gentoo
+
+BDEPEND: >=kde-frameworks/kcmutils-5.106.0:5 >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 >=kde-frameworks/kdoctools-5.106.0:5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.106.0:5
+BUILD_ID: 1
+BUILD_TIME: 1688050737
+CPV: kde-plasma/kinfocenter-5.27.6
+DEFINED_PHASES: compile configure install nofetch postinst postrm preinst prepare setup test unpack
+DEPEND: >=dev-qt/qtdbus-5.15.9:5 >=dev-qt/qtdeclarative-5.15.9:5 >=dev-qt/qtgui-5.15.9:5[-gles2-only] >=dev-qt/qtwidgets-5.15.9:5 >=kde-frameworks/kcmutils-5.106.0:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kconfigwidgets-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kdeclarative-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kio-5.106.0:5 >=kde-frameworks/kpackage-5.106.0:5 >=kde-frameworks/kservice-5.106.0:5 >=kde-frameworks/kwidgetsaddons-5.106.0:5 >=kde-frameworks/solid-5.106.0:5 virtual/libusb:1 dev-qt/qtcore:5
+EAPI: 8
+IDEPEND: dev-util/desktop-file-utils x11-misc/shared-mime-info
+IUSE: gles2-only usb debug +handbook
+KEYWORDS: ~amd64 ~arm ~arm64 ~loong ~ppc64 ~riscv ~x86
+LICENSE: GPL-2
+MD5: 332ff26272bbf560fc1ed6a405453e92
+PATH: kde-plasma/kinfocenter/kinfocenter-5.27.6-1.gpkg.tar
+PROVIDES: x86_64: kcm_about-distro.so kcm_cpu.so kcm_devinfo.so kcm_egl.so kcm_energyinfo.so kcm_firmware_security.so kcm_glx.so kcm_interrupts.so kcm_kwinsupportinfo.so kcm_nic.so kcm_opencl.so kcm_pci.so kcm_samba.so kcm_usb.so kcm_vulkan.so kcm_wayland.so kcm_xserver.so libKInfoCenterInternal.so
+RDEPEND: >=dev-qt/qtdbus-5.15.9:5 >=dev-qt/qtdeclarative-5.15.9:5 >=dev-qt/qtgui-5.15.9:5[-gles2-only] >=dev-qt/qtwidgets-5.15.9:5 >=kde-frameworks/kcmutils-5.106.0:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kconfigwidgets-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kdeclarative-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kio-5.106.0:5 >=kde-frameworks/kpackage-5.106.0:5 >=kde-frameworks/kservice-5.106.0:5 >=kde-frameworks/kwidgetsaddons-5.106.0:5 >=kde-frameworks/solid-5.106.0:5 virtual/libusb:1 dev-qt/qdbus:* >=dev-qt/qtquickcontrols2-5.15.9:5 >=kde-frameworks/kirigami-5.106.0:5 >=kde-plasma/kde-cli-tools-5.27.6:5 >=kde-plasma/systemsettings-5.27.6:5 || ( kde-frameworks/breeze-icons:* kde-frameworks/oxygen-icons:* ) >=kde-frameworks/kf-env-4 dev-qt/qtcore:5
+REQUIRES: x86_64: libKF5AuthCore.so.5 libKF5ConfigCore.so.5 libKF5ConfigWidgets.so.5 libKF5CoreAddons.so.5 libKF5I18n.so.5 libKF5KIOCore.so.5 libKF5KIOGui.so.5 libKF5KIOWidgets.so.5 libKF5Package.so.5 libKF5QuickAddons.so.5 libKF5Service.so.5 libKF5Solid.so.5 libKF5WidgetsAddons.so.5 libQt5Core.so.5 libQt5DBus.so.5 libQt5Gui.so.5 libQt5Qml.so.5 libQt5Widgets.so.5 libc.so.6 libstdc++.so.6 libusb-1.0.so.0
+SHA1: dfad16074dd87beb1514fc68dee47dec41232c0b
+SIZE: 1792000
+SLOT: 5
+USE: abi_x86_64 amd64 elibc_glibc handbook kernel_linux usb
+MTIME: 1688050742
+REPO: gentoo
+
+BDEPEND: >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 >=kde-frameworks/kdoctools-5.106.0:5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.106.0:5
+BUILD_ID: 1
 BUILD_TIME: 1687989042
 CPV: kde-plasma/kmenuedit-5.27.6
 DEFINED_PHASES: compile configure install nofetch postinst postrm preinst prepare setup test unpack
@@ -7328,6 +7566,30 @@ SIZE: 184320
 SLOT: 5
 USE: abi_x86_64 amd64 elibc_glibc kernel_linux
 MTIME: 1687986531
+REPO: gentoo
+
+BDEPEND: >=kde-frameworks/kcmutils-5.106.0:5 >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.106.0:5
+BUILD_ID: 1
+BUILD_TIME: 1688051284
+CPV: kde-plasma/kscreen-5.27.6
+DEFINED_PHASES: compile configure install nofetch postinst postrm preinst prepare setup test unpack
+DEPEND: >=dev-qt/qtdbus-5.15.9:5 >=dev-qt/qtdeclarative-5.15.9:5[widgets] >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtsensors-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=kde-frameworks/kcmutils-5.106.0:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kconfigwidgets-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kdeclarative-5.106.0:5 >=kde-frameworks/kdbusaddons-5.106.0:5 >=kde-frameworks/kglobalaccel-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kiconthemes-5.106.0:5 >=kde-frameworks/kwidgetsaddons-5.106.0:5 >=kde-frameworks/kxmlgui-5.106.0:5 >=kde-frameworks/plasma-5.106.0:5 >=kde-plasma/layer-shell-qt-5.27.6:5 >=kde-plasma/libkscreen-5.27.6:5 x11-libs/libX11 dev-qt/qtcore:5
+EAPI: 8
+IDEPEND: dev-util/desktop-file-utils x11-misc/shared-mime-info
+IUSE: debug test
+KEYWORDS: ~amd64 ~arm ~arm64 ~loong ~ppc64 ~riscv ~x86
+LICENSE: GPL-2
+MD5: 9bd4be616088f3211dfc59104dea0698
+PATH: kde-plasma/kscreen/kscreen-5.27.6-1.gpkg.tar
+PROVIDES: x86_64: kcm_kscreen.so kscreen.so plasma_applet_kscreen.so
+RDEPEND: >=dev-qt/qtdbus-5.15.9:5 >=dev-qt/qtdeclarative-5.15.9:5[widgets] >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtsensors-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=kde-frameworks/kcmutils-5.106.0:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kconfigwidgets-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kdeclarative-5.106.0:5 >=kde-frameworks/kdbusaddons-5.106.0:5 >=kde-frameworks/kglobalaccel-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kiconthemes-5.106.0:5 >=kde-frameworks/kwidgetsaddons-5.106.0:5 >=kde-frameworks/kxmlgui-5.106.0:5 >=kde-frameworks/plasma-5.106.0:5 >=kde-plasma/layer-shell-qt-5.27.6:5 >=kde-plasma/libkscreen-5.27.6:5 x11-libs/libX11 >=dev-qt/qtgraphicaleffects-5.15.9:5 >=kde-plasma/kde-cli-tools-5.27.6:5 || ( kde-frameworks/breeze-icons:* kde-frameworks/oxygen-icons:* ) >=kde-frameworks/kf-env-4 dev-qt/qtcore:5
+REQUIRES: x86_64: libKF5ConfigCore.so.5 libKF5ConfigGui.so.5 libKF5CoreAddons.so.5 libKF5DBusAddons.so.5 libKF5GlobalAccel.so.5 libKF5I18n.so.5 libKF5Plasma.so.5 libKF5QuickAddons.so.5 libKF5Screen.so.8 libKF5ScreenDpms.so.8 libKF5WindowSystem.so.5 libKF5XmlGui.so.5 libLayerShellQtInterface.so.5 libQt5Core.so.5 libQt5DBus.so.5 libQt5Gui.so.5 libQt5Qml.so.5 libQt5Quick.so.5 libQt5Sensors.so.5 libQt5Widgets.so.5 libQt5X11Extras.so.5 libX11.so.6 libXi.so.6 libc.so.6 libm.so.6 libstdc++.so.6 libxcb.so.1
+RESTRICT: test test
+SHA1: 9b09fb420b35eb87533e872c527dc163774a25ae
+SIZE: 573440
+SLOT: 5
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux
+MTIME: 1688051287
 REPO: gentoo
 
 BDEPEND: dev-util/wayland-scanner >=kde-frameworks/kcmutils-5.106.0:5 >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.106.0:5
@@ -7592,6 +7854,30 @@ REPO: gentoo
 
 BDEPEND: >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.106.0:5
 BUILD_ID: 1
+BUILD_TIME: 1688050431
+CPV: kde-plasma/oxygen-5.27.6
+DEFINED_PHASES: compile configure install nofetch postinst postrm preinst prepare setup test unpack
+DEPEND: >=dev-qt/qtdbus-5.15.9:5 >=dev-qt/qtdeclarative-5.15.9:5 >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=dev-qt/qtx11extras-5.15.9:5 >=kde-frameworks/frameworkintegration-5.106.0:5 >=kde-frameworks/kcmutils-5.106.0:5 >=kde-frameworks/kcompletion-5.106.0:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kconfigwidgets-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kguiaddons-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kwidgetsaddons-5.106.0:5 >=kde-frameworks/kwindowsystem-5.106.0:5 >=kde-plasma/kdecoration-5.27.6:5 x11-libs/libxcb >=kde-frameworks/kservice-5.106.0:5 dev-qt/qtcore:5
+EAPI: 8
+IDEPEND: dev-util/desktop-file-utils x11-misc/shared-mime-info
+IUSE: debug
+KEYWORDS: ~amd64 ~arm ~arm64 ~loong ~ppc64 ~riscv ~x86
+LICENSE: GPL-2
+MD5: a20b38b936d4b18c777e6afd1974a3dc
+PATH: kde-plasma/oxygen/oxygen-5.27.6-1.gpkg.tar
+PDEPEND: >=kde-plasma/kde-cli-tools-5.27.6:5
+PROVIDES: x86_64: kstyle_oxygen_config.so liboxygenstyle5.so.5 liboxygenstyleconfig5.so.5 oxygen.so oxygendecoration.so
+RDEPEND: >=dev-qt/qtdbus-5.15.9:5 >=dev-qt/qtdeclarative-5.15.9:5 >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=dev-qt/qtx11extras-5.15.9:5 >=kde-frameworks/frameworkintegration-5.106.0:5 >=kde-frameworks/kcmutils-5.106.0:5 >=kde-frameworks/kcompletion-5.106.0:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kconfigwidgets-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kguiaddons-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kwidgetsaddons-5.106.0:5 >=kde-frameworks/kwindowsystem-5.106.0:5 >=kde-plasma/kdecoration-5.27.6:5 x11-libs/libxcb || ( kde-frameworks/breeze-icons:* kde-frameworks/oxygen-icons:* ) >=kde-frameworks/kf-env-4 dev-qt/qtcore:5
+REQUIRES: x86_64: libKF5Completion.so.5 libKF5ConfigCore.so.5 libKF5ConfigGui.so.5 libKF5ConfigWidgets.so.5 libKF5CoreAddons.so.5 libKF5GuiAddons.so.5 libKF5I18n.so.5 libKF5KCMUtils.so.5 libKF5Style.so.5 libKF5WidgetsAddons.so.5 libKF5WindowSystem.so.5 libQt5Core.so.5 libQt5DBus.so.5 libQt5Gui.so.5 libQt5Quick.so.5 libQt5Widgets.so.5 libQt5X11Extras.so.5 libc.so.6 libkdecorations2.so.5 libm.so.6 libstdc++.so.6 libxcb.so.1
+SHA1: a15acac5d6b411c0209929ee6fd7420d0f5a7208
+SIZE: 5027840
+SLOT: 5
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux
+MTIME: 1688050435
+REPO: gentoo
+
+BDEPEND: >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.106.0:5
+BUILD_ID: 1
 BUILD_TIME: 1687965162
 CPV: kde-plasma/oxygen-sounds-5.27.6
 DEFINED_PHASES: compile configure install nofetch postinst postrm preinst prepare setup test unpack
@@ -7609,6 +7895,52 @@ SIZE: 2017280
 SLOT: 5
 USE: abi_x86_64 amd64 elibc_glibc kernel_linux
 MTIME: 1687965164
+REPO: gentoo
+
+BDEPEND: >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.106.0:5
+BUILD_ID: 1
+BUILD_TIME: 1688051582
+CPV: kde-plasma/plasma-browser-integration-5.27.6
+DEFINED_PHASES: compile configure install nofetch postinst postrm preinst prepare setup test unpack
+DEPEND: >=dev-qt/qtdbus-5.15.9:5 >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=kde-frameworks/kactivities-5.106.0:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kcrash-5.106.0:5 >=kde-frameworks/kdbusaddons-5.106.0:5 >=kde-frameworks/kfilemetadata-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kio-5.106.0:5 >=kde-frameworks/kjobwidgets-5.106.0:5 >=kde-frameworks/knotifications-5.106.0:5 >=kde-frameworks/krunner-5.106.0:5 >=kde-frameworks/purpose-5.106.0:5 >=kde-plasma/plasma-workspace-5.27.6:5 dev-qt/qtcore:5
+EAPI: 8
+IDEPEND: dev-util/desktop-file-utils x11-misc/shared-mime-info
+IUSE: debug
+KEYWORDS: ~amd64 ~arm ~arm64 ~loong ~ppc64 ~riscv ~x86
+LICENSE: GPL-3+
+MD5: b3f1b90ceeba0088f4f83e205d219626
+PATH: kde-plasma/plasma-browser-integration/plasma-browser-integration-5.27.6-1.gpkg.tar
+PROVIDES: x86_64: browserintegrationreminder.so
+RDEPEND: >=dev-qt/qtdbus-5.15.9:5 >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=kde-frameworks/kactivities-5.106.0:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kcrash-5.106.0:5 >=kde-frameworks/kdbusaddons-5.106.0:5 >=kde-frameworks/kfilemetadata-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kio-5.106.0:5 >=kde-frameworks/kjobwidgets-5.106.0:5 >=kde-frameworks/knotifications-5.106.0:5 >=kde-frameworks/krunner-5.106.0:5 >=kde-frameworks/purpose-5.106.0:5 >=kde-plasma/plasma-workspace-5.27.6:5 || ( kde-frameworks/breeze-icons:* kde-frameworks/oxygen-icons:* ) >=kde-frameworks/kf-env-4 dev-qt/qtcore:5
+REQUIRES: x86_64: libKF5Activities.so.5 libKF5ConfigCore.so.5 libKF5CoreAddons.so.5 libKF5Crash.so.5 libKF5DBusAddons.so.5 libKF5FileMetaData.so.3 libKF5I18n.so.5 libKF5JobWidgets.so.5 libKF5KIOCore.so.5 libKF5KIOGui.so.5 libKF5Notifications.so.5 libKF5Purpose.so.5 libKF5PurposeWidgets.so.5 libKF5Service.so.5 libQt5Core.so.5 libQt5DBus.so.5 libQt5Gui.so.5 libQt5Widgets.so.5 libc.so.6 libstdc++.so.6 libtaskmanager.so.6
+SHA1: 1cfcb22eb64bbeeaabc9698b91c6fdecc532e977
+SIZE: 266240
+SLOT: 5
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux
+MTIME: 1688051585
+REPO: gentoo
+
+BDEPEND: >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 >=kde-frameworks/kdoctools-5.106.0:5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.106.0:5
+BUILD_ID: 1
+BUILD_TIME: 1688052179
+CPV: kde-plasma/plasma-disks-5.27.6
+DEFINED_PHASES: compile configure install nofetch postinst postrm preinst prepare setup test unpack
+DEPEND: >=dev-qt/qtdbus-5.15.9:5 >=dev-qt/qtdeclarative-5.15.9:5 >=dev-qt/qtgui-5.15.9:5 >=kde-frameworks/kauth-5.106.0:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kconfigwidgets-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kdbusaddons-5.106.0:5 >=kde-frameworks/kdeclarative-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kio-5.106.0:5 >=kde-frameworks/kjobwidgets-5.106.0:5 >=kde-frameworks/knotifications-5.106.0:5 >=kde-frameworks/kservice-5.106.0:5 >=kde-frameworks/solid-5.106.0:5 sys-apps/smartmontools dev-qt/qtcore:5
+EAPI: 8
+IDEPEND: dev-util/desktop-file-utils x11-misc/shared-mime-info
+IUSE: debug +handbook
+KEYWORDS: ~amd64 ~arm ~arm64 ~loong ~ppc64 ~riscv ~x86
+LICENSE: || ( GPL-3 GPL-2 )
+MD5: d9e29b853d172c8d9f6bb0d1de061c0f
+PATH: kde-plasma/plasma-disks/plasma-disks-5.27.6-1.gpkg.tar
+PROVIDES: x86_64: smart.so
+RDEPEND: >=dev-qt/qtdbus-5.15.9:5 >=dev-qt/qtdeclarative-5.15.9:5 >=dev-qt/qtgui-5.15.9:5 >=kde-frameworks/kauth-5.106.0:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kconfigwidgets-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kdbusaddons-5.106.0:5 >=kde-frameworks/kdeclarative-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kio-5.106.0:5 >=kde-frameworks/kjobwidgets-5.106.0:5 >=kde-frameworks/knotifications-5.106.0:5 >=kde-frameworks/kservice-5.106.0:5 >=kde-frameworks/solid-5.106.0:5 sys-apps/smartmontools kde-plasma/kinfocenter:5 || ( kde-frameworks/breeze-icons:* kde-frameworks/oxygen-icons:* ) >=kde-frameworks/kf-env-4 dev-qt/qtcore:5
+REQUIRES: x86_64: libKF5AuthCore.so.5 libKF5ConfigCore.so.5 libKF5CoreAddons.so.5 libKF5DBusAddons.so.5 libKF5I18n.so.5 libKF5KIOGui.so.5 libKF5Notifications.so.5 libKF5QuickAddons.so.5 libKF5Service.so.5 libKF5Solid.so.5 libQt5Core.so.5 libQt5DBus.so.5 libQt5Qml.so.5 libc.so.6 libstdc++.so.6
+SHA1: 658bdc7a586c9ade9225c9fa6415c4b850991f6d
+SIZE: 307200
+SLOT: 5
+USE: abi_x86_64 amd64 elibc_glibc handbook kernel_linux
+MTIME: 1688052182
 REPO: gentoo
 
 BDEPEND: >=dev-qt/qtwaylandscanner-5.15.9:5 >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.106.0:5
@@ -7658,6 +7990,53 @@ USE: abi_x86_64 amd64 elibc_glibc handbook kernel_linux
 MTIME: 1687992215
 REPO: gentoo
 
+BDEPEND: >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.106.0:5
+BUILD_ID: 1
+BUILD_TIME: 1688051328
+CPV: kde-plasma/plasma-welcome-5.27.6
+DEFINED_PHASES: compile configure install nofetch postinst postrm preinst prepare setup test unpack
+DEPEND: >=dev-qt/qtdeclarative-5.15.9:5[widgets] >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtnetwork-5.15.9:5 >=dev-qt/qtquickcontrols2-5.15.9:5 >=dev-qt/qtsvg-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kconfigwidgets-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kdbusaddons-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kio-5.106.0:5 >=kde-frameworks/kirigami-5.106.0:5 >=kde-frameworks/knewstuff-5.106.0:5 >=kde-frameworks/knotifications-5.106.0:5 >=kde-frameworks/kservice-5.106.0:5 >=kde-frameworks/kwindowsystem-5.106.0:5 kde-apps/kaccounts-integration:5 dev-qt/qtcore:5
+EAPI: 8
+IDEPEND: dev-util/desktop-file-utils x11-misc/shared-mime-info
+IUSE: discover +kaccounts telemetry debug
+KEYWORDS: ~amd64 ~arm ~arm64 ~loong ~ppc64 ~riscv ~x86
+LICENSE: GPL-2+
+MD5: ee3956e511b137638363209b124c52ab
+PATH: kde-plasma/plasma-welcome/plasma-welcome-5.27.6-1.gpkg.tar
+RDEPEND: >=dev-qt/qtdeclarative-5.15.9:5[widgets] >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtnetwork-5.15.9:5 >=dev-qt/qtquickcontrols2-5.15.9:5 >=dev-qt/qtsvg-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kconfigwidgets-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kdbusaddons-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kio-5.106.0:5 >=kde-frameworks/kirigami-5.106.0:5 >=kde-frameworks/knewstuff-5.106.0:5 >=kde-frameworks/knotifications-5.106.0:5 >=kde-frameworks/kservice-5.106.0:5 >=kde-frameworks/kwindowsystem-5.106.0:5 kde-apps/kaccounts-integration:5 || ( kde-frameworks/breeze-icons:* kde-frameworks/oxygen-icons:* ) >=kde-frameworks/kf-env-4 dev-qt/qtcore:5
+REQUIRES: x86_64: libKF5ConfigCore.so.5 libKF5ConfigGui.so.5 libKF5CoreAddons.so.5 libKF5DBusAddons.so.5 libKF5I18n.so.5 libKF5KIOGui.so.5 libKF5Notifications.so.5 libKF5QuickAddons.so.5 libKF5Service.so.5 libKF5WindowSystem.so.5 libQt5Core.so.5 libQt5Gui.so.5 libQt5Network.so.5 libQt5Qml.so.5 libQt5Quick.so.5 libQt5Widgets.so.5 libc.so.6 libstdc++.so.6
+SHA1: b0c359c33299bcc51a398fcd442fedef53557933
+SIZE: 993280
+SLOT: 5
+USE: abi_x86_64 amd64 elibc_glibc kaccounts kernel_linux
+MTIME: 1688051331
+REPO: gentoo
+
+BDEPEND: >=dev-qt/qtwaylandscanner-5.15.9:5 >=dev-util/wayland-scanner-1.19.0 >=kde-frameworks/kcmutils-5.106.0:5 virtual/pkgconfig >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 >=kde-frameworks/kdoctools-5.106.0:5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.106.0:5
+BUILD_ID: 1
+BUILD_TIME: 1688049970
+CPV: kde-plasma/plasma-workspace-5.27.6-r1
+DEFINED_PHASES: compile configure install nofetch postinst postrm preinst prepare setup test unpack
+DEPEND: dev-libs/icu:0/73.1= >=dev-libs/wayland-1.15 >=dev-qt/qtdbus-5.15.9:5 >=dev-qt/qtdeclarative-5.15.9:5[widgets] >=dev-qt/qtgui-5.15.9:5/5.15.10=[jpeg,libinput] >=dev-qt/qtnetwork-5.15.9:5 >=dev-qt/qtsql-5.15.9:5 >=dev-qt/qtsvg-5.15.9:5 >=dev-qt/qtwayland-5.15.9:5/5.15.10= >=dev-qt/qtwidgets-5.15.9:5 >=dev-qt/qtx11extras-5.15.9:5 >=dev-qt/qtxml-5.15.9:5 >=kde-frameworks/kactivities-5.106.0:5 >=kde-frameworks/kactivities-stats-5.106.0:5 >=kde-frameworks/karchive-5.106.0:5 >=kde-frameworks/kauth-5.106.0:5 >=kde-frameworks/kbookmarks-5.106.0:5 >=kde-frameworks/kcompletion-5.106.0:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kconfigwidgets-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kcrash-5.106.0:5 >=kde-frameworks/kdbusaddons-5.106.0:5 >=kde-frameworks/kdeclarative-5.106.0:5 >=kde-frameworks/kded-5.106.0:5 >=kde-frameworks/kglobalaccel-5.106.0:5 >=kde-frameworks/kguiaddons-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kiconthemes-5.106.0:5 >=kde-frameworks/kidletime-5.106.0:5 >=kde-frameworks/kinit-5.106.0:5 >=kde-frameworks/kio-5.106.0:5 >=kde-frameworks/kitemmodels-5.106.0:5 >=kde-frameworks/kitemviews-5.106.0:5 >=kde-frameworks/kjobwidgets-5.106.0:5 >=kde-frameworks/knewstuff-5.106.0:5 >=kde-frameworks/knotifications-5.106.0:5 >=kde-frameworks/knotifyconfig-5.106.0:5 >=kde-frameworks/kpackage-5.106.0:5 >=kde-frameworks/kpeople-5.106.0:5 >=kde-frameworks/krunner-5.106.0:5 >=kde-frameworks/kservice-5.106.0:5 >=kde-frameworks/ktexteditor-5.106.0:5 >=kde-frameworks/ktextwidgets-5.106.0:5 >=kde-frameworks/kunitconversion-5.106.0:5 >=kde-frameworks/kwallet-5.106.0:5 >=kde-frameworks/kwayland-5.106.0:5 >=kde-frameworks/kwidgetsaddons-5.106.0:5 >=kde-frameworks/kwindowsystem-5.106.0:5[X] >=kde-frameworks/kxmlgui-5.106.0:5 >=kde-frameworks/plasma-5.106.0:5 >=kde-frameworks/prison-5.106.0:5[qml] >=kde-frameworks/solid-5.106.0:5 >=kde-plasma/breeze-5.27.6:5 >=kde-plasma/kscreenlocker-5.27.6:5 >=kde-plasma/kwin-5.27.6:5 >=kde-plasma/layer-shell-qt-5.27.6:5 >=kde-plasma/libkscreen-5.27.6:5 >=kde-plasma/libksysguard-5.27.6:5 >=kde-plasma/libkworkspace-5.27.6:5 >=media-libs/phonon-4.11.0 sci-libs/libqalculate:0/22= sys-libs/zlib x11-libs/libICE x11-libs/libSM x11-libs/libX11 x11-libs/libXau x11-libs/libxcb x11-libs/libXcursor x11-libs/libXfixes x11-libs/libXrender x11-libs/libXtst x11-libs/xcb-util >=kde-frameworks/kholidays-5.106.0:5 >=dev-qt/qtprintsupport-5.15.9:5 media-libs/fontconfig x11-libs/libXft x11-libs/xcb-util-image sys-auth/polkit-qt virtual/libcrypt:0/2= >=dev-qt/qtgui-5.15.9:5/5.15.10=[egl] >=kde-plasma/kpipewire-5.27.6:5 media-libs/libglvnd >=media-video/pipewire-0.3:0/0.4= x11-libs/libdrm >=kde-frameworks/baloo-5.106.0:5 kde-apps/libkexiv2:5 >=dev-libs/plasma-wayland-protocols-1.6.0 >=dev-libs/wayland-protocols-1.31 >=dev-qt/qtconcurrent-5.15.9:5 x11-base/xorg-proto x11-libs/libXrender dev-qt/qtcore:5
+EAPI: 8
+IDEPEND: dev-util/desktop-file-utils x11-misc/shared-mime-info
+IUSE: appstream +calendar +fontconfig geolocation gps +policykit screencast +semantic-desktop telemetry +wallpaper-metadata debug +handbook test
+KEYWORDS: ~amd64 ~arm ~arm64 ~loong ~ppc64 ~riscv ~x86
+LICENSE: GPL-2
+MD5: ccbb4163eb2d501a55629df83756d007
+PATH: kde-plasma/plasma-workspace/plasma-workspace-5.27.6-r1-1.gpkg.tar
+PDEPEND: >=kde-plasma/kde-cli-tools-5.27.6:5
+PROVIDES: x86_64: applications.so appmenu.so calculator.so colorcorrectlocationupdater.so desktop.so desktopnotifier.so fontthumbnail.so freespacenotifier.so helprunner.so holidaysevents.so ion_bbcukmet.so ion_dwd.so ion_envcan.so ion_noaa.so ion_wettercom.so kcm_autostart.so kcm_colors.so kcm_cursortheme.so kcm_desktoptheme.so kcm_fontinst.so kcm_fonts.so kcm_icons.so kcm_krunner_kill.so kcm_lookandfeel.so kcm_nightcolor.so kcm_notifications.so kcm_regionandlang.so kcm_style.so kcm_users.so kde.so kfontviewpart.so kio_fonts.so krunner_bookmarksrunner.so krunner_kill.so krunner_placesrunner.so krunner_powerdevil.so krunner_recentdocuments.so krunner_services.so krunner_sessions.so krunner_shell.so krunner_webshortcuts.so krunner_windowedwidgets.so ksysguard.so ktimezoned.so libappmenuplugin.so libcalendarplugin.so libcolorcorrect.so.5 libcolorcorrectplugin.so libcontainmentlayoutmanagerplugin.so libdigitalclockplugin.so libholidayeventshelperplugin.so libkeyboardlayoutplugin.so libkfontinst.so.5 libkfontinstui.so.5 libkickerplugin.so libkrdb.so liblookandfeelqmlplugin.so libmediacontrollerplugin.so libnotificationmanager.so.1 libnotificationmanagerplugin.so libplasma_wallpaper_imageplugin.so libplasmashellprivateplugin.so libsessionsprivateplugin.so libtaskmanager.so.6 libtaskmanagerplugin.so libtrianglemousefilterplugin.so libweather_ion.so.7 locations.so org.kde.plasma.appmenu.so org.kde.plasma.calendar.so org.kde.plasma.icon.so org.kde.plasma.notifications.so org.kde.plasma.panelspacer.so org.kde.plasma.private.systemtray.so org.kde.plasma.systemmonitor.so org.kde.plasma.systemtray.so plasma_accentcolor_service.so plasma_containmentactions_applauncher.so plasma_containmentactions_contextmenu.so plasma_containmentactions_paste.so plasma_containmentactions_switchactivity.so plasma_containmentactions_switchdesktop.so plasma_containmentactions_switchwindow.so plasma_engine_activities.so plasma_engine_applicationjobs.so plasma_engine_apps.so plasma_engine_clipboard.so plasma_engine_devicenotifications.so plasma_engine_dict.so plasma_engine_executable.so plasma_engine_favicons.so plasma_engine_filebrowser.so plasma_engine_hotplug.so plasma_engine_keystate.so plasma_engine_mouse.so plasma_engine_mpris2.so plasma_engine_notifications.so plasma_engine_packagekit.so plasma_engine_places.so plasma_engine_powermanagement.so plasma_engine_soliddevice.so plasma_engine_statusnotifieritem.so plasma_engine_systemmonitor.so plasma_engine_time.so plasma_engine_weather.so plasma_layouttemplate.so plasma_lookandfeel.so plasma_shell.so plasma_wallpaper.so soliduiserver.so statusnotifierwatcher.so wallpaper_images.so
+RDEPEND: dev-libs/icu:0/73.1= >=dev-libs/wayland-1.15 >=dev-qt/qtdbus-5.15.9:5 >=dev-qt/qtdeclarative-5.15.9:5[widgets] >=dev-qt/qtgui-5.15.9:5/5.15.10=[jpeg,libinput] >=dev-qt/qtnetwork-5.15.9:5 >=dev-qt/qtsql-5.15.9:5 >=dev-qt/qtsvg-5.15.9:5 >=dev-qt/qtwayland-5.15.9:5/5.15.10= >=dev-qt/qtwidgets-5.15.9:5 >=dev-qt/qtx11extras-5.15.9:5 >=dev-qt/qtxml-5.15.9:5 >=kde-frameworks/kactivities-5.106.0:5 >=kde-frameworks/kactivities-stats-5.106.0:5 >=kde-frameworks/karchive-5.106.0:5 >=kde-frameworks/kauth-5.106.0:5 >=kde-frameworks/kbookmarks-5.106.0:5 >=kde-frameworks/kcompletion-5.106.0:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kconfigwidgets-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kcrash-5.106.0:5 >=kde-frameworks/kdbusaddons-5.106.0:5 >=kde-frameworks/kdeclarative-5.106.0:5 >=kde-frameworks/kded-5.106.0:5 >=kde-frameworks/kglobalaccel-5.106.0:5 >=kde-frameworks/kguiaddons-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kiconthemes-5.106.0:5 >=kde-frameworks/kidletime-5.106.0:5 >=kde-frameworks/kinit-5.106.0:5 >=kde-frameworks/kio-5.106.0:5 >=kde-frameworks/kitemmodels-5.106.0:5 >=kde-frameworks/kitemviews-5.106.0:5 >=kde-frameworks/kjobwidgets-5.106.0:5 >=kde-frameworks/knewstuff-5.106.0:5 >=kde-frameworks/knotifications-5.106.0:5 >=kde-frameworks/knotifyconfig-5.106.0:5 >=kde-frameworks/kpackage-5.106.0:5 >=kde-frameworks/kpeople-5.106.0:5 >=kde-frameworks/krunner-5.106.0:5 >=kde-frameworks/kservice-5.106.0:5 >=kde-frameworks/ktexteditor-5.106.0:5 >=kde-frameworks/ktextwidgets-5.106.0:5 >=kde-frameworks/kunitconversion-5.106.0:5 >=kde-frameworks/kwallet-5.106.0:5 >=kde-frameworks/kwayland-5.106.0:5 >=kde-frameworks/kwidgetsaddons-5.106.0:5 >=kde-frameworks/kwindowsystem-5.106.0:5[X] >=kde-frameworks/kxmlgui-5.106.0:5 >=kde-frameworks/plasma-5.106.0:5 >=kde-frameworks/prison-5.106.0:5[qml] >=kde-frameworks/solid-5.106.0:5 >=kde-plasma/breeze-5.27.6:5 >=kde-plasma/kscreenlocker-5.27.6:5 >=kde-plasma/kwin-5.27.6:5 >=kde-plasma/layer-shell-qt-5.27.6:5 >=kde-plasma/libkscreen-5.27.6:5 >=kde-plasma/libksysguard-5.27.6:5 >=kde-plasma/libkworkspace-5.27.6:5 >=media-libs/phonon-4.11.0 sci-libs/libqalculate:0/22= sys-libs/zlib x11-libs/libICE x11-libs/libSM x11-libs/libX11 x11-libs/libXau x11-libs/libxcb x11-libs/libXcursor x11-libs/libXfixes x11-libs/libXrender x11-libs/libXtst x11-libs/xcb-util >=kde-frameworks/kholidays-5.106.0:5 >=dev-qt/qtprintsupport-5.15.9:5 media-libs/fontconfig x11-libs/libXft x11-libs/xcb-util-image sys-auth/polkit-qt virtual/libcrypt:0/2= >=dev-qt/qtgui-5.15.9:5/5.15.10=[egl] >=kde-plasma/kpipewire-5.27.6:5 media-libs/libglvnd >=media-video/pipewire-0.3:0/0.4= x11-libs/libdrm >=kde-frameworks/baloo-5.106.0:5 kde-apps/libkexiv2:5 !<kde-plasma/breeze-5.22.90:5 !<kde-plasma/plasma-desktop-5.27.0:5 app-text/iso-codes >=dev-qt/qdbus-5.15.9:* >=dev-qt/qtgraphicaleffects-5.15.9:5 >=dev-qt/qtpaths-5.15.9:5 >=dev-qt/qtquickcontrols-5.15.9:5[widgets] >=dev-qt/qtquickcontrols2-5.15.9:5 kde-apps/kio-extras:5 >=kde-frameworks/kirigami-5.106.0:5 >=kde-frameworks/kquickcharts-5.106.0:5 >=kde-plasma/milou-5.27.6:5 >=kde-plasma/plasma-integration-5.27.6:5 sys-apps/dbus x11-apps/xmessage x11-apps/xprop x11-apps/xrdb x11-apps/xsetroot sys-apps/accountsservice || ( kde-frameworks/breeze-icons:* kde-frameworks/oxygen-icons:* ) >=kde-frameworks/kf-env-4 dev-qt/qtcore:5
+REQUIRES: x86_64: libICE.so.6 libKF5Activities.so.5 libKF5ActivitiesStats.so.1 libKF5Archive.so.5 libKF5AuthCore.so.5 libKF5Baloo.so.5 libKF5Bookmarks.so.5 libKF5CalendarEvents.so.5 libKF5Completion.so.5 libKF5ConfigCore.so.5 libKF5ConfigGui.so.5 libKF5ConfigWidgets.so.5 libKF5CoreAddons.so.5 libKF5Crash.so.5 libKF5DBusAddons.so.5 libKF5Declarative.so.5 libKF5GlobalAccel.so.5 libKF5GuiAddons.so.5 libKF5Holidays.so.5 libKF5I18n.so.5 libKF5IconThemes.so.5 libKF5IdleTime.so.5 libKF5ItemModels.so.5 libKF5JobWidgets.so.5 libKF5KCMUtils.so.5 libKF5KExiv2.so.15.0.0 libKF5KIOCore.so.5 libKF5KIOFileWidgets.so.5 libKF5KIOGui.so.5 libKF5KIOWidgets.so.5 libKF5NewStuff.so.5 libKF5NewStuffCore.so.5 libKF5NewStuffWidgets.so.5 libKF5Notifications.so.5 libKF5NotifyConfig.so.5 libKF5Package.so.5 libKF5Parts.so.5 libKF5People.so.5 libKF5PeopleWidgets.so.5 libKF5Plasma.so.5 libKF5PlasmaQuick.so.5 libKF5Prison.so.5 libKF5QuickAddons.so.5 libKF5Runner.so.5 libKF5Screen.so.8 libKF5Service.so.5 libKF5Solid.so.5 libKF5TextEditor.so.5 libKF5TextWidgets.so.5 libKF5Wallet.so.5 libKF5WaylandClient.so.5 libKF5WidgetsAddons.so.5 libKF5WindowSystem.so.5 libKF5XmlGui.so.5 libKPipeWire.so.5 libKScreenLocker.so.5 libKSysGuardSensorFaces.so.1 libLayerShellQtInterface.so.5 libQt5Core.so.5 libQt5DBus.so.5 libQt5Gui.so.5 libQt5Network.so.5 libQt5PrintSupport.so.5 libQt5Qml.so.5 libQt5Quick.so.5 libQt5Sql.so.5 libQt5Svg.so.5 libQt5WaylandClient.so.5 libQt5Widgets.so.5 libQt5X11Extras.so.5 libQt5Xml.so.5 libSM.so.6 libX11.so.6 libXcursor.so.1 libXfixes.so.3 libXft.so.2 libXrender.so.1 libc.so.6 libcrypt.so.2 libfontconfig.so.1 libfreetype.so.6 libgcc_s.so.1 libicui18n.so.73 libicuuc.so.73 libksgrd.so.9 libkworkspace5.so.5 libm.so.6 libphonon4qt5.so.4 libpolkit-qt5-core-1.so.1 libprocesscore.so.9 libprocessui.so.9 libqalculate.so.22 libstdc++.so.6 libwayland-client.so.0 libxcb-image.so.0 libxcb-randr.so.0 libxcb.so.1 libz.so.1
+RESTRICT: test test
+SHA1: d4695ed47fb0a220289bdc5c51f0620edc341aba
+SIZE: 31795200
+SLOT: 5
+USE: abi_x86_64 amd64 calendar elibc_glibc fontconfig handbook kernel_linux policykit screencast semantic-desktop wallpaper-metadata
+MTIME: 1688049995
+REPO: gentoo
+
 BDEPEND: dev-qt/qtcore:5 kde-frameworks/extra-cmake-modules:5 >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5
 BUILD_ID: 1
 BUILD_TIME: 1687963915
@@ -7695,6 +8074,52 @@ SIZE: 143360
 SLOT: 5
 USE: abi_x86_64 amd64 elibc_glibc kernel_linux
 MTIME: 1687621857
+REPO: gentoo
+
+BDEPEND: >=kde-frameworks/kcmutils-5.106.0:5 >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.106.0:5
+BUILD_ID: 1
+BUILD_TIME: 1688051856
+CPV: kde-plasma/sddm-kcm-5.27.6
+DEFINED_PHASES: compile configure install nofetch postinst postrm preinst prepare setup test unpack
+DEPEND: >=dev-qt/qtdeclarative-5.15.9:5[widgets] >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=kde-frameworks/karchive-5.106.0:5 >=kde-frameworks/kauth-5.106.0:5 >=kde-frameworks/kcmutils-5.106.0:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kconfigwidgets-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kdeclarative-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kio-5.106.0:5 >=kde-frameworks/knewstuff-5.106.0:5 >=kde-frameworks/kwidgetsaddons-5.106.0:5 dev-qt/qtcore:5
+EAPI: 8
+IDEPEND: dev-util/desktop-file-utils x11-misc/shared-mime-info
+IUSE: debug
+KEYWORDS: ~amd64 ~arm ~arm64 ~loong ~ppc64 ~riscv ~x86
+LICENSE: GPL-2+
+MD5: 987f386d78a7212df4124f251fcce226
+PATH: kde-plasma/sddm-kcm/sddm-kcm-5.27.6-1.gpkg.tar
+PROVIDES: x86_64: kcm_sddm.so
+RDEPEND: >=dev-qt/qtdeclarative-5.15.9:5[widgets] >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=kde-frameworks/karchive-5.106.0:5 >=kde-frameworks/kauth-5.106.0:5 >=kde-frameworks/kcmutils-5.106.0:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kconfigwidgets-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kdeclarative-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kio-5.106.0:5 >=kde-frameworks/knewstuff-5.106.0:5 >=kde-frameworks/kwidgetsaddons-5.106.0:5 >=dev-qt/qtquickcontrols2-5.15.9:5 >=kde-frameworks/kirigami-5.106.0:5 >=kde-frameworks/kitemmodels-5.106.0:5[qml] >=kde-plasma/kde-cli-tools-5.27.6:5 x11-misc/sddm || ( kde-frameworks/breeze-icons:* kde-frameworks/oxygen-icons:* ) >=kde-frameworks/kf-env-4 dev-qt/qtcore:5
+REQUIRES: x86_64: libKF5Archive.so.5 libKF5AuthCore.so.5 libKF5ConfigCore.so.5 libKF5ConfigGui.so.5 libKF5CoreAddons.so.5 libKF5I18n.so.5 libKF5KCMUtils.so.5 libKF5KIOGui.so.5 libKF5QuickAddons.so.5 libKF5Service.so.5 libKF5WidgetsAddons.so.5 libQt5Core.so.5 libQt5Gui.so.5 libQt5Qml.so.5 libQt5Widgets.so.5 libc.so.6 libstdc++.so.6
+SHA1: 1b2e8491c993208019ca653b2ec9e76ef6764d14
+SIZE: 235520
+SLOT: 5
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux
+MTIME: 1688051858
+REPO: gentoo
+
+BDEPEND: >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 >=kde-frameworks/kdoctools-5.106.0:5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.106.0:5
+BUILD_ID: 1
+BUILD_TIME: 1688050528
+CPV: kde-plasma/systemsettings-5.27.6
+DEFINED_PHASES: compile configure install nofetch postinst postrm preinst prepare setup test unpack
+DEPEND: >=dev-qt/qtdbus-5.15.9:5 >=dev-qt/qtdeclarative-5.15.9:5[widgets] >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=kde-frameworks/kactivities-5.106.0:5 >=kde-frameworks/kauth-5.106.0:5 >=kde-frameworks/kcmutils-5.106.0:5 >=kde-frameworks/kcompletion-5.106.0:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kconfigwidgets-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kcrash-5.106.0:5 >=kde-frameworks/kdbusaddons-5.106.0:5 >=kde-frameworks/kguiaddons-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kiconthemes-5.106.0:5 >=kde-frameworks/kio-5.106.0:5 >=kde-frameworks/kirigami-5.106.0:5 >=kde-frameworks/kitemmodels-5.106.0:5 >=kde-frameworks/kitemviews-5.106.0:5 >=kde-frameworks/knotifications-5.106.0:5 >=kde-frameworks/kpackage-5.106.0:5 >=kde-frameworks/krunner-5.106.0:5 >=kde-frameworks/kservice-5.106.0:5 >=kde-frameworks/kwidgetsaddons-5.106.0:5 >=kde-frameworks/kwindowsystem-5.106.0:5 >=kde-frameworks/kxmlgui-5.106.0:5 >=kde-plasma/libkworkspace-5.27.6:5 dev-qt/qtcore:5
+EAPI: 8
+IDEPEND: dev-util/desktop-file-utils x11-misc/shared-mime-info
+IUSE: debug +handbook
+KEYWORDS: ~amd64 ~arm ~arm64 ~loong ~ppc64 ~riscv ~x86
+LICENSE: GPL-2
+MD5: aeaa1ae5fff6866d2934b9ef32663d4e
+PATH: kde-plasma/systemsettings/systemsettings-5.27.6-1.gpkg.tar
+PROVIDES: x86_64: icon_mode.so krunner_systemsettings.so libsystemsettingsview.so.3 systemsettings_sidebar_mode.so
+RDEPEND: >=dev-qt/qtdbus-5.15.9:5 >=dev-qt/qtdeclarative-5.15.9:5[widgets] >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=kde-frameworks/kactivities-5.106.0:5 >=kde-frameworks/kauth-5.106.0:5 >=kde-frameworks/kcmutils-5.106.0:5 >=kde-frameworks/kcompletion-5.106.0:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kconfigwidgets-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kcrash-5.106.0:5 >=kde-frameworks/kdbusaddons-5.106.0:5 >=kde-frameworks/kguiaddons-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kiconthemes-5.106.0:5 >=kde-frameworks/kio-5.106.0:5 >=kde-frameworks/kirigami-5.106.0:5 >=kde-frameworks/kitemmodels-5.106.0:5 >=kde-frameworks/kitemviews-5.106.0:5 >=kde-frameworks/knotifications-5.106.0:5 >=kde-frameworks/kpackage-5.106.0:5 >=kde-frameworks/krunner-5.106.0:5 >=kde-frameworks/kservice-5.106.0:5 >=kde-frameworks/kwidgetsaddons-5.106.0:5 >=kde-frameworks/kwindowsystem-5.106.0:5 >=kde-frameworks/kxmlgui-5.106.0:5 >=kde-plasma/libkworkspace-5.27.6:5 >=dev-qt/qtquickcontrols2-5.15.9:5 || ( kde-frameworks/breeze-icons:* kde-frameworks/oxygen-icons:* ) >=kde-frameworks/kf-env-4 dev-qt/qtcore:5
+REQUIRES: x86_64: libKF5Activities.so.5 libKF5Auth.so.5 libKF5AuthCore.so.5 libKF5Completion.so.5 libKF5ConfigCore.so.5 libKF5ConfigGui.so.5 libKF5ConfigWidgets.so.5 libKF5CoreAddons.so.5 libKF5Crash.so.5 libKF5DBusAddons.so.5 libKF5I18n.so.5 libKF5IconThemes.so.5 libKF5ItemModels.so.5 libKF5ItemViews.so.5 libKF5KCMUtils.so.5 libKF5KIOCore.so.5 libKF5KIOGui.so.5 libKF5KIOWidgets.so.5 libKF5Kirigami2.so.5 libKF5Notifications.so.5 libKF5Package.so.5 libKF5Runner.so.5 libKF5Service.so.5 libKF5WidgetsAddons.so.5 libKF5WindowSystem.so.5 libKF5XmlGui.so.5 libQt5Core.so.5 libQt5Gui.so.5 libQt5Qml.so.5 libQt5Quick.so.5 libQt5QuickWidgets.so.5 libQt5Widgets.so.5 libc.so.6 libkworkspace5.so.5 libm.so.6 libstdc++.so.6
+SHA1: b91d7abef9ecac08f075d0ad986a3fbc016e64c2
+SIZE: 645120
+SLOT: 5
+USE: abi_x86_64 amd64 elibc_glibc handbook kernel_linux
+MTIME: 1688050531
 REPO: gentoo
 
 BDEPEND: >=dev-qt/qtwaylandscanner-5.15.9:5 virtual/pkgconfig >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.106.0:5
@@ -8921,6 +9346,28 @@ USE: abi_x86_64 amd64 elibc_glibc kernel_linux pulseaudio vlc
 MTIME: 1687992872
 REPO: gentoo
 
+BDEPEND: dev-qt/linguist-tools:5 virtual/pkgconfig >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.82.0:5
+BUILD_ID: 1
+BUILD_TIME: 1688053251
+CPV: media-libs/phonon-vlc-0.11.3-r1
+DEFINED_PHASES: compile configure install nofetch postinst postrm preinst prepare setup test unpack
+DEPEND: dev-qt/qtgui:5 dev-qt/qtwidgets:5 >=media-libs/phonon-4.11.0 media-video/vlc:0/5-9=[dbus,ogg,vorbis(+)] dev-qt/qtcore:5
+EAPI: 8
+IDEPEND: dev-util/desktop-file-utils x11-misc/shared-mime-info
+IUSE: debug
+KEYWORDS: amd64 ~arm arm64 ~loong ~ppc ~ppc64 ~riscv x86
+LICENSE: LGPL-2.1+ || ( LGPL-2.1 LGPL-3 )
+MD5: 071e21755e4718c112c521da02827794
+PATH: media-libs/phonon-vlc/phonon-vlc-0.11.3-r1-1.gpkg.tar
+PROVIDES: x86_64: phonon_vlc.so
+RDEPEND: dev-qt/qtgui:5 dev-qt/qtwidgets:5 >=media-libs/phonon-4.11.0 media-video/vlc:0/5-9=[dbus,ogg,vorbis(+)] || ( kde-frameworks/breeze-icons:* kde-frameworks/oxygen-icons:* ) >=kde-frameworks/kf-env-4 dev-qt/qtcore:5
+REQUIRES: x86_64: libQt5Core.so.5 libQt5Gui.so.5 libQt5Widgets.so.5 libc.so.6 libphonon4qt5.so.4 libstdc++.so.6 libvlc.so.5 libvlccore.so.9
+SHA1: 62a1c8dcf32d028b58c28a0be2ca39e1aed6ca45
+SIZE: 215040
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux
+MTIME: 1688053254
+REPO: gentoo
+
 BDEPEND: virtual/pkgconfig
 BUILD_ID: 1
 BUILD_TIME: 1687957307
@@ -9193,6 +9640,30 @@ SIZE: 5601280
 SLOT: 0/0.4
 USE: X abi_x86_64 amd64 bluetooth dbus elibc_glibc kernel_linux readline sound-server ssl
 MTIME: 1687984143
+REPO: gentoo
+
+BDEPEND: >=sys-devel/gettext-0.19.8 virtual/pkgconfig dev-lang/yasm sys-devel/gnuconfig >=app-portage/elt-patches-20170815 >=sys-devel/automake-1.16.5:1.16 >=sys-devel/autoconf-2.71-r5 >=sys-devel/libtool-2.4.7
+BUILD_ID: 1
+BUILD_TIME: 1688053175
+CPV: media-video/vlc-3.0.18-r3
+DEFINED_PHASES: configure install postinst postrm preinst prepare setup test
+DEPEND: media-libs/libvorbis net-dns/libidn:0/12= sys-libs/zlib virtual/libintl virtual/opengl media-libs/a52dec media-libs/alsa-lib sys-apps/dbus media-libs/libdca >=media-libs/libdvbpsi-1.2.0:0/10= >=media-libs/libdvdnav-6.1.1:0/0= >=media-libs/libdvdread-6.1.2:0/8= >=media-video/ffmpeg-3.1.3:0/56.58.58=[postproc,vaapi] media-libs/flac:0/10-12= media-libs/libogg dev-libs/libgcrypt:0/20= dev-libs/libgpg-error dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtsvg:5 dev-qt/qtwidgets:5 dev-qt/qtx11extras:5 x11-libs/libX11 media-libs/libjpeg-turbo:0 dev-libs/glib:2 x11-libs/gdk-pixbuf:2 x11-libs/gtk+:3 x11-libs/libnotify media-libs/libsamplerate media-libs/libmad media-sound/mpg123 media-libs/libmpeg2 sys-libs/ncurses:0/6=[unicode(+)] media-libs/libogg media-libs/libpng:0/16= media-libs/libpulse net-libs/gnutls:0/30.30= gnome-base/librsvg:2 x11-libs/cairo media-libs/freetype:2 virtual/ttf-fonts media-fonts/dejavu virtual/udev <media-video/ffmpeg-5 media-libs/libva:0/2=[drm(+),wayland,X] >=dev-libs/wayland-1.15 dev-libs/wayland-protocols x11-libs/libX11 x11-libs/libxcb x11-libs/xcb-util x11-libs/xcb-util-keysyms >=media-libs/x264-0.0.20190214:0/164= dev-libs/libxml2:2 x11-base/xorg-proto
+EAPI: 8
+IDEPEND: dev-util/desktop-file-utils x11-misc/shared-mime-info
+IUSE: a52 alsa aom archive aribsub bidi bluray cddb chromaprint chromecast dav1d dbus dc1394 debug directx dts +dvbpsi dvd +encode faad fdk +ffmpeg flac fluidsynth fontconfig +gcrypt gme keyring gstreamer +gui ieee1394 jack jpeg kate libass libcaca libnotify +libsamplerate libtar libtiger linsys lirc live lua macosx-notifications mad matroska modplug mp3 mpeg mtp musepack ncurses nfs ogg omxil optimisememory opus png projectm pulseaudio rdp run-as-root samba sdl-image sftp shout sid skins soxr speex srt ssl svg taglib theora tremor truetype twolame udev upnp vaapi v4l vdpau vnc vpx wayland +X x264 x265 xml zeroconf zvbi cpu_flags_arm_neon cpu_flags_ppc_altivec cpu_flags_x86_mmx cpu_flags_x86_sse +lua_single_target_lua5-1 test
+KEYWORDS: amd64 ~arm ~arm64 ~loong ~ppc ppc64 ~riscv -sparc ~x86
+LICENSE: LGPL-2.1 GPL-2
+MD5: 19ae06c92b2cb9140279ee08dc017c2c
+PATH: media-video/vlc/vlc-3.0.18-r3-1.gpkg.tar
+PROVIDES: x86_64: liba52_plugin.so libaccess_alsa_plugin.so libaccess_concat_plugin.so libaccess_imem_plugin.so libaccess_mms_plugin.so libaccess_output_dummy_plugin.so libaccess_output_file_plugin.so libaccess_output_http_plugin.so libaccess_output_livehttp_plugin.so libaccess_output_rist_plugin.so libaccess_output_udp_plugin.so libadaptive_plugin.so libaddonsfsstorage_plugin.so libaddonsvorepository_plugin.so libadf_plugin.so libadjust_plugin.so libadpcm_plugin.so libadummy_plugin.so libaes3_plugin.so libafile_plugin.so libaiff_plugin.so libalphamask_plugin.so libalsa_plugin.so libamem_plugin.so libanaglyph_plugin.so libantiflicker_plugin.so libaraw_plugin.so libasf_plugin.so libattachment_plugin.so libau_plugin.so libaudio_format_plugin.so libaudiobargraph_a_plugin.so libaudiobargraph_v_plugin.so libaudioscrobbler_plugin.so libavcodec_plugin.so libavformat_plugin.so libavi_plugin.so libavio_plugin.so libball_plugin.so libblend_plugin.so libblendbench_plugin.so libbluescreen_plugin.so libcache_block_plugin.so libcache_read_plugin.so libcaf_plugin.so libcanvas_plugin.so libcc_plugin.so libcdda_plugin.so libcdg_plugin.so libchain_plugin.so libchorus_flanger_plugin.so libclone_plugin.so libcolorthres_plugin.so libcompressor_plugin.so libconsole_logger_plugin.so libcroppadd_plugin.so libcvdsub_plugin.so libdbus_plugin.so libdbus_screensaver_plugin.so libdca_plugin.so libddummy_plugin.so libdecomp_plugin.so libdeinterlace_plugin.so libdemux_cdg_plugin.so libdemux_stl_plugin.so libdemuxdump_plugin.so libdiracsys_plugin.so libdirectory_demux_plugin.so libdolby_surround_decoder_plugin.so libdtv_plugin.so libdummy_plugin.so libdvb_plugin.so libdvbsub_plugin.so libdvdnav_plugin.so libdvdread_plugin.so libdynamicoverlay_plugin.so libedgedetection_plugin.so libedummy_plugin.so libegl_wl_plugin.so libegl_x11_plugin.so libequalizer_plugin.so liberase_plugin.so libes_plugin.so libexport_plugin.so libextract_plugin.so libfb_plugin.so libfile_keystore_plugin.so libfile_logger_plugin.so libfilesystem_plugin.so libfingerprinter_plugin.so libflac_plugin.so libflacsys_plugin.so libflaschen_plugin.so libfloat_mixer_plugin.so libfolder_plugin.so libfps_plugin.so libfreetype_plugin.so libfreeze_plugin.so libftp_plugin.so libg711_plugin.so libgain_plugin.so libgaussianblur_plugin.so libgestures_plugin.so libgl_plugin.so libglconv_vaapi_drm_plugin.so libglconv_vaapi_wl_plugin.so libglconv_vaapi_x11_plugin.so libglspectrum_plugin.so libglx_plugin.so libgnutls_plugin.so libgradfun_plugin.so libgradient_plugin.so libgrain_plugin.so libgrey_yuv_plugin.so libh26x_plugin.so libhds_plugin.so libheadphone_channel_mixer_plugin.so libhotkeys_plugin.so libhqdn3d_plugin.so libhttp_plugin.so libhttps_plugin.so libi420_10_p010_plugin.so libi420_nv12_plugin.so libi420_rgb_mmx_plugin.so libi420_rgb_plugin.so libi420_rgb_sse2_plugin.so libi420_yuy2_mmx_plugin.so libi420_yuy2_plugin.so libi420_yuy2_sse2_plugin.so libi422_i420_plugin.so libi422_yuy2_mmx_plugin.so libi422_yuy2_plugin.so libi422_yuy2_sse2_plugin.so libidummy_plugin.so libimage_plugin.so libimem_plugin.so libinflate_plugin.so libinteger_mixer_plugin.so libinvert_plugin.so libjpeg_plugin.so libkaraoke_plugin.so libkwallet_plugin.so liblibmpeg2_plugin.so liblogger_plugin.so liblogo_plugin.so liblpcm_plugin.so libmad_plugin.so libmagnify_plugin.so libmarq_plugin.so libmediadirs_plugin.so libmemory_keystore_plugin.so libmirror_plugin.so libmjpeg_plugin.so libmono_plugin.so libmosaic_plugin.so libmotion_plugin.so libmotionblur_plugin.so libmotiondetect_plugin.so libmp4_plugin.so libmpg123_plugin.so libmpgv_plugin.so libmux_asf_plugin.so libmux_avi_plugin.so libmux_dummy_plugin.so libmux_mp4_plugin.so libmux_mpjpeg_plugin.so libmux_ogg_plugin.so libmux_ps_plugin.so libmux_ts_plugin.so libmux_wav_plugin.so libncurses_plugin.so libnetsync_plugin.so libnormvol_plugin.so libnoseek_plugin.so libnotify_plugin.so libnsc_plugin.so libnsv_plugin.so libnuv_plugin.so libogg_plugin.so liboggspots_plugin.so liboldmovie_plugin.so liboldrc_plugin.so libpacketizer_a52_plugin.so libpacketizer_av1_plugin.so libpacketizer_avparser_plugin.so libpacketizer_copy_plugin.so libpacketizer_dirac_plugin.so libpacketizer_dts_plugin.so libpacketizer_flac_plugin.so libpacketizer_h264_plugin.so libpacketizer_hevc_plugin.so libpacketizer_mlp_plugin.so libpacketizer_mpeg4audio_plugin.so libpacketizer_mpeg4video_plugin.so libpacketizer_mpegaudio_plugin.so libpacketizer_mpegvideo_plugin.so libpacketizer_vc1_plugin.so libpanoramix_plugin.so libparam_eq_plugin.so libplaylist_plugin.so libpng_plugin.so libpodcast_plugin.so libposterize_plugin.so libpostproc_plugin.so libprefetch_plugin.so libps_plugin.so libpsychedelic_plugin.so libpulse_plugin.so libpulselist_plugin.so libpulsesrc_plugin.so libpuzzle_plugin.so libpva_plugin.so libqt_plugin.so librawaud_plugin.so librawdv_plugin.so librawvid_plugin.so librawvideo_plugin.so libreal_plugin.so librecord_plugin.so libremap_plugin.so libremoteosd_plugin.so libripple_plugin.so librist_plugin.so librotate_plugin.so librss_plugin.so librtp_plugin.so librtpvideo_plugin.so librv32_plugin.so libsamplerate_plugin.so libsap_plugin.so libsatip_plugin.so libscale_plugin.so libscaletempo_pitch_plugin.so libscaletempo_plugin.so libscene_plugin.so libscte18_plugin.so libscte27_plugin.so libsdp_plugin.so libsepia_plugin.so libsharpen_plugin.so libshm_plugin.so libsimple_channel_mixer_plugin.so libskiptags_plugin.so libsmf_plugin.so libspatializer_plugin.so libspdif_plugin.so libspudec_plugin.so libstats_plugin.so libstereo_widen_plugin.so libstl_plugin.so libstream_out_autodel_plugin.so libstream_out_bridge_plugin.so libstream_out_cycle_plugin.so libstream_out_delay_plugin.so libstream_out_description_plugin.so libstream_out_display_plugin.so libstream_out_dummy_plugin.so libstream_out_duplicate_plugin.so libstream_out_es_plugin.so libstream_out_gather_plugin.so libstream_out_mosaic_bridge_plugin.so libstream_out_record_plugin.so libstream_out_rtp_plugin.so libstream_out_setid_plugin.so libstream_out_smem_plugin.so libstream_out_standard_plugin.so libstream_out_stats_plugin.so libstream_out_transcode_plugin.so libsubsdec_plugin.so libsubsdelay_plugin.so libsubstx3g_plugin.so libsubsusf_plugin.so libsubtitle_plugin.so libsvcdsub_plugin.so libsvg_plugin.so libsvgdec_plugin.so libswscale_plugin.so libsyslog_plugin.so libt140_plugin.so libtcp_plugin.so libtdummy_plugin.so libtelx_plugin.so libtextst_plugin.so libtimecode_plugin.so libtospdif_plugin.so libtransform_plugin.so libtrivial_channel_mixer_plugin.so libts_plugin.so libtta_plugin.so libttml_plugin.so libty_plugin.so libudev_plugin.so libudp_plugin.so libugly_resampler_plugin.so libuleaddvaudio_plugin.so libvaapi_drm_plugin.so libvaapi_filters_plugin.so libvaapi_plugin.so libvc1_plugin.so libvcd_plugin.so libvdr_plugin.so libvdummy_plugin.so libvhs_plugin.so libvisual_plugin.so libvlc.so.5 libvlc_pulse.so.0 libvlc_xcb_events.so.0 libvlccore.so.9 libvmem_plugin.so libvobsub_plugin.so libvoc_plugin.so libvod_rtsp_plugin.so libvorbis_plugin.so libwall_plugin.so libwav_plugin.so libwave_plugin.so libwebvtt_plugin.so libwl_shell_plugin.so libwl_shm_plugin.so libx26410b_plugin.so libx264_plugin.so libxa_plugin.so libxcb_apps_plugin.so libxcb_hotkeys_plugin.so libxcb_screen_plugin.so libxcb_window_plugin.so libxcb_x11_plugin.so libxcb_xv_plugin.so libxdg_screensaver_plugin.so libxdg_shell_plugin.so libxml_plugin.so libxwd_plugin.so libyuv_plugin.so libyuvp_plugin.so libyuy2_i420_plugin.so libyuy2_i422_plugin.so
+RDEPEND: media-libs/libvorbis net-dns/libidn:0/12= sys-libs/zlib virtual/libintl virtual/opengl media-libs/a52dec media-libs/alsa-lib sys-apps/dbus media-libs/libdca >=media-libs/libdvbpsi-1.2.0:0/10= >=media-libs/libdvdnav-6.1.1:0/0= >=media-libs/libdvdread-6.1.2:0/8= >=media-video/ffmpeg-3.1.3:0/56.58.58=[postproc,vaapi] media-libs/flac:0/10-12= media-libs/libogg dev-libs/libgcrypt:0/20= dev-libs/libgpg-error dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtsvg:5 dev-qt/qtwidgets:5 dev-qt/qtx11extras:5 x11-libs/libX11 media-libs/libjpeg-turbo:0 dev-libs/glib:2 x11-libs/gdk-pixbuf:2 x11-libs/gtk+:3 x11-libs/libnotify media-libs/libsamplerate media-libs/libmad media-sound/mpg123 media-libs/libmpeg2 sys-libs/ncurses:0/6=[unicode(+)] media-libs/libogg media-libs/libpng:0/16= media-libs/libpulse net-libs/gnutls:0/30.30= gnome-base/librsvg:2 x11-libs/cairo media-libs/freetype:2 virtual/ttf-fonts media-fonts/dejavu virtual/udev <media-video/ffmpeg-5 media-libs/libva:0/2=[drm(+),wayland,X] >=dev-libs/wayland-1.15 dev-libs/wayland-protocols x11-libs/libX11 x11-libs/libxcb x11-libs/xcb-util x11-libs/xcb-util-keysyms >=media-libs/x264-0.0.20190214:0/164= dev-libs/libxml2:2
+REQUIRES: x86_64: ld-linux-x86-64.so.2 libEGL.so.1 libFLAC.so.12 libGL.so.1 libQt5Core.so.5 libQt5Gui.so.5 libQt5Svg.so.5 libQt5Widgets.so.5 libQt5X11Extras.so.5 libX11.so.6 liba52.so.0 libasound.so.2 libavcodec.so.58 libavformat.so.58 libavutil.so.56 libc.so.6 libcairo.so.2 libdbus-1.so.3 libdca.so.0 libdvbpsi.so.10 libdvdnav.so.4 libdvdread.so.8 libfreetype.so.6 libgcc_s.so.1 libgcrypt.so.20 libgdk_pixbuf-2.0.so.0 libglib-2.0.so.0 libgnutls.so.30 libgobject-2.0.so.0 libgpg-error.so.0 libgtk-3.so.0 libidn.so.12 libjpeg.so.62 libm.so.6 libmad.so.0 libmpeg2.so.0 libmpg123.so.0 libncursesw.so.6 libnotify.so.4 libogg.so.0 libpng16.so.16 libpostproc.so.55 libpulse.so.0 librsvg-2.so.2 libsamplerate.so.0 libstdc++.so.6 libswscale.so.5 libtinfow.so.6 libudev.so.1 libva-drm.so.2 libva-wayland.so.2 libva-x11.so.2 libva.so.2 libvorbis.so.0 libvorbisenc.so.2 libwayland-client.so.0 libwayland-egl.so.1 libx264.so.164 libxcb-composite.so.0 libxcb-keysyms.so.1 libxcb-randr.so.0 libxcb-shm.so.0 libxcb-xv.so.0 libxcb.so.1 libxml2.so.2 libz.so.1
+RESTRICT: test
+SHA1: dfbab21dd61314c450ebfb0ba176e4d919a8c02e
+SIZE: 27832320
+SLOT: 0/5-9
+USE: X a52 abi_x86_64 alsa amd64 cpu_flags_x86_mmx cpu_flags_x86_sse dbus dts dvbpsi dvd elibc_glibc encode ffmpeg flac gcrypt gui jpeg kernel_linux libnotify libsamplerate lua_single_target_lua5-1 mad mp3 mpeg ncurses ogg png pulseaudio ssl svg truetype udev vaapi wayland x264 xml
+MTIME: 1688053187
 REPO: gentoo
 
 BDEPEND: dev-libs/glib dev-util/gdbus-codegen dev-util/glib-utils sys-devel/gettext >=dev-util/meson-0.62.2 >=dev-util/ninja-1.8.2 dev-util/meson-format-array virtual/pkgconfig
@@ -11681,6 +12152,22 @@ MTIME: 1687980525
 REPO: gentoo
 
 BUILD_ID: 1
+BUILD_TIME: 1688052196
+CPV: virtual/notification-daemon-0
+DEFINED_PHASES: -
+EAPI: 7
+IUSE: gnome kde
+KEYWORDS: ~alpha amd64 arm arm64 ~ia64 ~loong ~mips ppc ppc64 ~riscv sparc x86 ~amd64-linux ~x86-linux ~ppc-macos
+MD5: 2862b2b8f5117ffad817e8ce0a00a569
+PATH: virtual/notification-daemon/notification-daemon-0-1.gpkg.tar
+RDEPEND: kde-plasma/plasma-workspace
+SHA1: a9520a22ffa9390926535e7ba31ab0ac13d2d4b0
+SIZE: 20480
+USE: abi_x86_64 amd64 elibc_glibc kde kernel_linux
+MTIME: 1688052198
+REPO: gentoo
+
+BUILD_ID: 1
 BUILD_TIME: 1687606970
 CPV: virtual/opengl-7.0-r2
 DEFINED_PHASES: -
@@ -12967,6 +13454,30 @@ SHA1: 9a8459c628bdf3a570746c92e2bd3f97c225862c
 SIZE: 61440
 USE: abi_x86_64 amd64 elibc_glibc kernel_linux
 MTIME: 1687347913
+REPO: gentoo
+
+BDEPEND: >=dev-libs/gobject-introspection-common-1.32 dev-util/glib-utils virtual/pkgconfig app-text/docbook-xsl-ns-stylesheets dev-libs/libxslt app-arch/xz-utils >=dev-util/meson-0.62.2 >=dev-util/ninja-1.8.2 dev-util/meson-format-array
+BUILD_ID: 1
+BUILD_TIME: 1688052226
+CPV: x11-libs/libnotify-0.8.2
+DEFINED_PHASES: compile configure install postinst postrm prepare test
+DEPEND: >=dev-libs/glib-2.38:2[abi_x86_64(-)] x11-libs/gdk-pixbuf:2[abi_x86_64(-)] >=dev-libs/gobject-introspection-1.54:0/0=
+EAPI: 8
+IDEPEND: app-eselect/eselect-notify-send
+IUSE: gtk-doc +introspection test abi_x86_32 abi_x86_64 abi_x86_x32 abi_mips_n32 abi_mips_n64 abi_mips_o32 abi_s390_32 abi_s390_64
+KEYWORDS: ~alpha amd64 arm arm64 ~ia64 ~loong ~mips ppc ppc64 ~riscv sparc x86 ~amd64-linux ~x86-linux ~ppc-macos
+LICENSE: LGPL-2.1+
+MD5: b659cf74e730d8a7688d1c0cb523f900
+PATH: x11-libs/libnotify/libnotify-0.8.2-1.gpkg.tar
+PDEPEND: virtual/notification-daemon
+PROVIDES: x86_64: libnotify.so.4
+RDEPEND: >=dev-libs/glib-2.38:2[abi_x86_64(-)] x11-libs/gdk-pixbuf:2[abi_x86_64(-)] >=dev-libs/gobject-introspection-1.54:0/0=
+REQUIRES: x86_64: libc.so.6 libgdk_pixbuf-2.0.so.0 libgio-2.0.so.0 libglib-2.0.so.0 libgobject-2.0.so.0
+RESTRICT: test
+SHA1: b839c88d2b5b552a2f4a89a0865119245a2793ac
+SIZE: 102400
+USE: abi_x86_64 amd64 elibc_glibc introspection kernel_linux
+MTIME: 1688052228
 REPO: gentoo
 
 BDEPEND: sys-devel/gnuconfig >=app-portage/elt-patches-20170815 >=sys-devel/automake-1.16.5:1.16 >=sys-devel/autoconf-2.71-r5 >=sys-devel/libtool-2.4.7 virtual/pkgconfig >=dev-util/meson-0.62.2 >=dev-util/ninja-1.8.2 dev-util/meson-format-array
