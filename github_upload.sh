@@ -534,16 +534,15 @@ function update_packages_file {
 
 
 
-ping -c3 8.8.8.8 2&>1 >/dev/null
-_network_status_code=$?
-if [ "$_network_status_code" == "2" ]
-then 
-    echo Offline
-    offline_mode
-else 
+ping -c3 8.8.8.8 >/dev/null
+if [ $? -eq "0" ]
+then
     startup_mode
     get_branch
     get_release
     upload_assets
     update_packages_file
+else
+    echo "No network, get into offline mode and wait for network before uploading"
+    offline_mode
 fi
