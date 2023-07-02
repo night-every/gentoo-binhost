@@ -12,9 +12,9 @@ FEATURES: assume-digests binpkg-docompress binpkg-dostrip binpkg-logs binpkg-mul
 GENTOO_MIRRORS: http://distfiles.gentoo.org
 IUSE_IMPLICIT: abi_x86_64 prefix prefix-guest prefix-stack
 KERNEL: linux
-PACKAGES: 885
+PACKAGES: 978
 PROFILE: default/linux/amd64/17.1/desktop/plasma
-TIMESTAMP: 1688234042
+TIMESTAMP: 1688332171
 URI:  https://github.com/night-every/gentoo-binhost/releases/download/x86_64-pc-linux-gnu(desktop/plasma)
 USE: X a52 aac abi_x86_64 acl acpi activities ada_target_gnat_2021 alsa amd64 apache2_modules_actions apache2_modules_alias apache2_modules_auth_basic apache2_modules_authn_alias apache2_modules_authn_anon apache2_modules_authn_core apache2_modules_authn_dbm apache2_modules_authn_default apache2_modules_authn_file apache2_modules_authz_core apache2_modules_authz_dbm apache2_modules_authz_default apache2_modules_authz_groupfile apache2_modules_authz_host apache2_modules_authz_owner apache2_modules_authz_user apache2_modules_autoindex apache2_modules_cache apache2_modules_cgi apache2_modules_cgid apache2_modules_dav apache2_modules_dav_fs apache2_modules_dav_lock apache2_modules_deflate apache2_modules_dir apache2_modules_disk_cache apache2_modules_env apache2_modules_expires apache2_modules_ext_filter apache2_modules_file_cache apache2_modules_filter apache2_modules_headers apache2_modules_include apache2_modules_info apache2_modules_log_config apache2_modules_logio apache2_modules_mem_cache apache2_modules_mime apache2_modules_mime_magic apache2_modules_negotiation apache2_modules_rewrite apache2_modules_setenvif apache2_modules_socache_shmcb apache2_modules_speling apache2_modules_status apache2_modules_unique_id apache2_modules_unixd apache2_modules_userdir apache2_modules_usertrack apache2_modules_vhost_alias bindist blkid bluetooth branding bzip2 cairo calligra_features_karbon calligra_features_sheets calligra_features_words cdda cdr cjk cli client collectd_plugins_df collectd_plugins_interface collectd_plugins_irq collectd_plugins_load collectd_plugins_memory collectd_plugins_rrdtool collectd_plugins_swap collectd_plugins_syslog connection-sharing cpu_flags_x86_aes cpu_flags_x86_mmx cpu_flags_x86_mmxext cpu_flags_x86_pclmul cpu_flags_x86_popcnt cpu_flags_x86_rdrand cpu_flags_x86_sha cpu_flags_x86_sse cpu_flags_x86_sse2 cpu_flags_x86_sse3 cpu_flags_x86_sse4_1 cpu_flags_x86_sse4_2 cpu_flags_x86_ssse3 crypt cups dbus declarative dri dts dvd dvdr efi elibc_glibc elogind emoji encode exif flac fortran gallium gdbm gif git glamor gles gles2 gpm gpsd_protocols_aivdm gpsd_protocols_ashtech gpsd_protocols_earthmate gpsd_protocols_evermore gpsd_protocols_fv18 gpsd_protocols_garmin gpsd_protocols_garmintxt gpsd_protocols_gpsclock gpsd_protocols_greis gpsd_protocols_isync gpsd_protocols_itrax gpsd_protocols_mtk3301 gpsd_protocols_navcom gpsd_protocols_nmea gpsd_protocols_ntrip gpsd_protocols_oceanserver gpsd_protocols_oldstyle gpsd_protocols_oncore gpsd_protocols_rtcm104v2 gpsd_protocols_rtcm104v3 gpsd_protocols_sirf gpsd_protocols_skytraq gpsd_protocols_superstar2 gpsd_protocols_timing gpsd_protocols_tnt gpsd_protocols_tripmate gpsd_protocols_tsip gpsd_protocols_ublox gpsd_protocols_ubx grub_platforms_efi-64 gtk gui http2 hwdb iconv icu input_devices_libinput input_devices_synaptics ipv6 iwd jpeg kde kernel_linux kwallet l10n_en l10n_en-US l10n_zh l10n_zh-CN layers lcd_devices_bayrad lcd_devices_cfontz lcd_devices_cfontz633 lcd_devices_glk lcd_devices_hd44780 lcd_devices_lb216 lcd_devices_lcdm001 lcd_devices_mtxorb lcd_devices_ncurses lcd_devices_text lcms libnotify libreoffice_extensions_presenter-console libreoffice_extensions_presenter-minimizer libtirpc llvm_targets_X86 lua_single_target_lua5-1 lua_targets_lua5-1 mad minizip mng mp3 mp4 mpeg multilib ncurses network networkmanager nftables nls nptl office_implementation_libreoffice ogg opengl openmp pam pango pcre pdf php_targets_php8-1 pipewire plasma png policykit postgres_targets_postgres12 postgres_targets_postgres13 ppds ppp pulseaudio python_single_target_python3_11 python_targets_python3_11 qml qt5 readline ruby_targets_ruby31 screencast sdl seccomp semantic-desktop smack sound spell split-usr ssl startup-notification sudo svg test-rust tiff truetype udev udisks unicode upower usb vaapi video_cards_i965 video_cards_intel video_cards_iris vorbis vulkan wayland widgets wifi wireless wxwidgets x264 xattr xcb xft xml xtables_addons_account xtables_addons_chaos xtables_addons_condition xtables_addons_delude xtables_addons_dhcpmac xtables_addons_fuzzy xtables_addons_geoip xtables_addons_iface xtables_addons_ipmark xtables_addons_ipp2p xtables_addons_ipset xtables_addons_ipv4options xtables_addons_length2 xtables_addons_logmark xtables_addons_lscan xtables_addons_pknock xtables_addons_proto xtables_addons_psd xtables_addons_quota2 xtables_addons_rawnat xtables_addons_steal xtables_addons_sysrq xtables_addons_tarpit xtables_addons_tee xv xvid zlib
 USE_EXPAND: ABI_MIPS ABI_S390 ABI_X86 ADA_TARGET ALSA_CARDS AMDGPU_TARGETS APACHE2_MODULES APACHE2_MPMS CALLIGRA_FEATURES CAMERAS COLLECTD_PLUGINS CPU_FLAGS_ARM CPU_FLAGS_PPC CPU_FLAGS_X86 CURL_SSL ELIBC FFTOOLS GPSD_PROTOCOLS GRUB_PLATFORMS INPUT_DEVICES KERNEL L10N LCD_DEVICES LIBREOFFICE_EXTENSIONS LLVM_TARGETS LUA_SINGLE_TARGET LUA_TARGETS MONKEYD_PLUGINS NGINX_MODULES_HTTP NGINX_MODULES_MAIL NGINX_MODULES_STREAM OFFICE_IMPLEMENTATION OPENMPI_FABRICS OPENMPI_OFED_FEATURES OPENMPI_RM PHP_TARGETS POSTGRES_TARGETS PYTHON_SINGLE_TARGET PYTHON_TARGETS QEMU_SOFTMMU_TARGETS QEMU_USER_TARGETS ROS_MESSAGES RUBY_TARGETS SANE_BACKENDS UWSGI_PLUGINS VIDEO_CARDS VOICEMAIL_STORAGE XTABLES_ADDONS
@@ -441,6 +441,28 @@ USE: abi_x86_64 amd64 elibc_glibc kernel_linux nls pam secure-path sendmail ssl
 MTIME: 1688216659
 REPO: gentoo
 
+BDEPEND: virtual/pkgconfig virtual/pkgconfig
+BUILD_ID: 1
+BUILD_TIME: 1688242408
+CPV: app-admin/system-config-printer-1.5.18-r1
+DEFINED_PHASES: compile configure install postinst postrm preinst setup
+DEPEND: >=dev-lang/python-3.11.3:3.11[xml(+)] dev-libs/glib:2 net-print/cups[dbus] virtual/libusb:1 >=virtual/udev-172 x11-libs/gtk+:3[introspection] x11-libs/libnotify[introspection] x11-libs/pango[introspection] app-text/docbook-xml-dtd:4.1.2 >=app-text/xmlto-0.0.22 dev-perl/XML-Parser dev-util/desktop-file-utils >=sys-devel/gettext-0.20 virtual/pkgconfig
+EAPI: 8
+IDEPEND: dev-util/desktop-file-utils x11-misc/shared-mime-info
+IUSE: keyring policykit python_single_target_python3_10 python_single_target_python3_11
+KEYWORDS: ~alpha amd64 ~arm arm64 ~ia64 ~loong ppc ppc64 ~riscv ~sparc x86
+LICENSE: GPL-2+
+MD5: f42b5f875d7772830dcd41b1108bc09b
+PATH: app-admin/system-config-printer/system-config-printer-1.5.18-r1-1.gpkg.tar
+RDEPEND: >=dev-lang/python-3.11.3:3.11[xml(+)] dev-libs/glib:2 net-print/cups[dbus] virtual/libusb:1 >=virtual/udev-172 x11-libs/gtk+:3[introspection] x11-libs/libnotify[introspection] x11-libs/pango[introspection] dev-python/dbus-python[python_targets_python3_11(-)] dev-python/pycairo[python_targets_python3_11(-)] dev-python/pycups[python_targets_python3_11(-)] dev-python/pygobject:3[python_targets_python3_11(-)] dev-python/requests[python_targets_python3_11(-)] dev-python/urllib3[python_targets_python3_11(-)] net-print/cups-pk-helper
+REQUIRES: x86_64: libc.so.6 libcups.so.2 libglib-2.0.so.0 libudev.so.1 libusb-1.0.so.0
+RESTRICT: test
+SHA1: 5f8f6098d8a41fc138da9c743fba6765332de3c1
+SIZE: 2826240
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux policykit python_single_target_python3_11
+MTIME: 1688242417
+REPO: gentoo
+
 BUILD_ID: 1
 BUILD_TIME: 1687351196
 CPV: app-alternatives/cpio-0
@@ -658,6 +680,65 @@ USE: abi_x86_64 amd64 bzip2 elibc_glibc kernel_linux natspec unicode
 MTIME: 1687347690
 REPO: gentoo
 
+BDEPEND: virtual/pkgconfig sys-devel/gnuconfig >=app-portage/elt-patches-20170815 >=sys-devel/automake-1.16.5:1.16 >=sys-devel/autoconf-2.71-r5 >=sys-devel/libtool-2.4.7
+BUILD_ID: 1
+BUILD_TIME: 1688326270
+CPV: app-cdr/cdrdao-1.2.5
+DEFINED_PHASES: configure prepare
+DEPEND: app-cdr/cdrtools >=media-sound/lame-3.99 media-libs/libao media-libs/libmad media-libs/libao media-libs/libvorbis
+EAPI: 8
+IUSE: encode mad vorbis
+KEYWORDS: ~alpha amd64 ~arm arm64 ~ia64 ~loong ppc ppc64 ~riscv sparc x86
+LICENSE: GPL-2+
+MD5: 8f3aa6f304f2a3c1c11715d5fd926726
+PATH: app-cdr/cdrdao/cdrdao-1.2.5-1.gpkg.tar
+RDEPEND: app-cdr/cdrtools >=media-sound/lame-3.99 media-libs/libao media-libs/libmad media-libs/libao media-libs/libvorbis !app-cdr/cue2toc
+REQUIRES: x86_64: libao.so.4 libc.so.6 libgcc_s.so.1 libmad.so.0 libmp3lame.so.0 libstdc++.so.6 libvorbisfile.so.3
+SHA1: df01ffec670374375bf2366db5cd7ec06368b29e
+SIZE: 942080
+USE: abi_x86_64 amd64 elibc_glibc encode kernel_linux mad vorbis
+MTIME: 1688326273
+REPO: gentoo
+
+BDEPEND: >=sys-devel/gettext-0.18.1.1 x11-misc/makedepend sys-libs/libcap sys-devel/gnuconfig
+BUILD_ID: 1
+BUILD_TIME: 1688237853
+CPV: app-cdr/cdrtools-3.02_alpha09-r4
+DEFINED_PHASES: compile configure install postinst prepare
+DEPEND: virtual/acl virtual/libintl
+EAPI: 7
+IUSE: acl caps nls unicode selinux +filecaps
+KEYWORDS: ~alpha ~amd64 ~arm ~arm64 ~hppa ~ia64 ~loong ~mips ~ppc ~ppc64 ~riscv ~s390 ~sparc ~x86 ~amd64-linux ~x86-linux ~ppc-macos
+LICENSE: GPL-2 LGPL-2.1 CDDL-Schily
+MD5: d710698db093806b0fc8d511e9b85b89
+PATH: app-cdr/cdrtools/cdrtools-3.02_alpha09-r4-1.gpkg.tar
+PROVIDES: x86_64: libcdrdeflt.so.1.0 libdeflt.so.1.0 libedc_ecc.so.1.0 libedc_ecc_dec.so.1.0 libfile.so.1.0 libfind.so.1.0 libhfs.so.1.0 libmdigest.so.1.0 libparanoia.so.1.0 librscg.so.1.0 libscg.so.1.0 libscgcmd.so.1.0 libschily.so.1.0 libsiconv.so.1.0
+RDEPEND: virtual/acl virtual/libintl sys-libs/libcap
+REQUIRES: x86_64: libacl.so.1 libc.so.6
+SHA1: 14c7d73e30e4073fe7180bf783f3e144e5405977
+SIZE: 1832960
+USE: abi_x86_64 acl amd64 elibc_glibc filecaps kernel_linux nls unicode
+MTIME: 1688237865
+REPO: gentoo
+
+BUILD_ID: 1
+BUILD_TIME: 1688238731
+CPV: app-cdr/dvd+rw-tools-7.1-r4
+DEFINED_PHASES: compile install postinst prepare
+DEPEND: app-cdr/cdrtools sys-devel/m4
+EAPI: 7
+KEYWORDS: ~alpha amd64 arm arm64 ~hppa ~ia64 ~loong ppc ppc64 ~riscv sparc x86 ~amd64-linux ~x86-linux
+LICENSE: GPL-2
+MD5: 4ba759d3754891cbb861b35b1b801042
+PATH: app-cdr/dvd+rw-tools/dvd+rw-tools-7.1-r4-1.gpkg.tar
+RDEPEND: app-cdr/cdrtools
+REQUIRES: x86_64: libc.so.6 libstdc++.so.6
+SHA1: 208c06ce23a29d1462b43fdd45656b8110734b3b
+SIZE: 215040
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux
+MTIME: 1688238738
+REPO: gentoo
+
 BUILD_ID: 1
 BUILD_TIME: 1687956902
 CPV: app-crypt/argon2-20190702-r1
@@ -744,6 +825,28 @@ SIZE: 1536000
 SLOT: 1/11.6.15.2
 USE: abi_x86_64 amd64 cxx elibc_glibc kernel_linux python_targets_python3_11 qt5
 MTIME: 1687554260
+REPO: gentoo
+
+BDEPEND: >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.106.0:5
+BUILD_ID: 1
+BUILD_TIME: 1688237983
+CPV: app-crypt/keysmith-23.04.2
+DEFINED_PHASES: compile configure install nofetch postinst postrm preinst prepare setup test unpack
+DEPEND: dev-libs/libsodium:0/23= >=dev-qt/qtdeclarative-5.15.9:5 >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtquickcontrols2-5.15.9:5 >=dev-qt/qtsvg-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=kde-frameworks/kdbusaddons-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kirigami-5.106.0:5 >=kde-frameworks/kwindowsystem-5.106.0:5 >=dev-qt/qtconcurrent-5.15.9:5 dev-qt/qtcore:5
+EAPI: 8
+IDEPEND: dev-util/desktop-file-utils x11-misc/shared-mime-info
+IUSE: debug test
+KEYWORDS: ~amd64 ~arm64 ~loong ~ppc64 ~x86
+LICENSE: GPL-3+
+MD5: 66418f5538ea42d2a26451f4b44f1485
+PATH: app-crypt/keysmith/keysmith-23.04.2-1.gpkg.tar
+RDEPEND: dev-libs/libsodium:0/23= >=dev-qt/qtdeclarative-5.15.9:5 >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtquickcontrols2-5.15.9:5 >=dev-qt/qtsvg-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=kde-frameworks/kdbusaddons-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kirigami-5.106.0:5 >=kde-frameworks/kwindowsystem-5.106.0:5 || ( kde-frameworks/breeze-icons:* kde-frameworks/oxygen-icons:* ) >=kde-frameworks/kf-env-4 dev-qt/qtcore:5
+REQUIRES: x86_64: libKF5DBusAddons.so.5 libKF5I18n.so.5 libKF5WindowSystem.so.5 libQt5Core.so.5 libQt5Gui.so.5 libQt5Qml.so.5 libQt5QuickControls2.so.5 libQt5Widgets.so.5 libc.so.6 libsodium.so.23 libstdc++.so.6
+RESTRICT: test
+SHA1: 173243fb6449ceb8e2b45bd6d7fa21bd3bf0d852
+SIZE: 337920
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux
+MTIME: 1688237989
 REPO: gentoo
 
 BDEPEND: sys-devel/gnuconfig >=app-portage/elt-patches-20170815 >=sys-devel/automake-1.16.5:1.16 >=sys-devel/autoconf-2.71-r5 >=sys-devel/libtool-2.4.7
@@ -933,6 +1036,27 @@ USE: abi_x86_64 amd64 elibc_glibc kernel_linux l10n_en l10n_en-US
 MTIME: 1687957767
 REPO: gentoo
 
+BDEPEND: >=dev-qt/linguist-tools-5.15.9:5 virtual/pkgconfig >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 >=kde-frameworks/kdoctools-5.106.0:5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.106.0:5
+BUILD_ID: 1
+BUILD_TIME: 1688325541
+CPV: app-editors/ghostwriter-23.04.2
+DEFINED_PHASES: compile configure install nofetch postinst postrm preinst prepare setup test unpack
+DEPEND: app-text/hunspell:0/1.7= >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtsvg-5.15.9:5 >=dev-qt/qtwebchannel-5.15.9:5 >=dev-qt/qtwebengine-5.15.9:5[widgets] >=dev-qt/qtwidgets-5.15.9:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kwidgetsaddons-5.106.0:5 >=kde-frameworks/kxmlgui-5.106.0:5 >=kde-frameworks/sonnet-5.106.0:5 virtual/opengl >=dev-qt/qtconcurrent-5.15.9:5 dev-qt/qtcore:5
+EAPI: 8
+IDEPEND: dev-util/desktop-file-utils x11-misc/shared-mime-info
+IUSE: debug +handbook
+KEYWORDS: ~amd64 ~arm64 ~ppc64 ~x86
+LICENSE: GPL-3+
+MD5: 0b93dd0b8357ec8a4bcc3b5ad99a911f
+PATH: app-editors/ghostwriter/ghostwriter-23.04.2-1.gpkg.tar
+RDEPEND: app-text/hunspell:0/1.7= >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtsvg-5.15.9:5 >=dev-qt/qtwebchannel-5.15.9:5 >=dev-qt/qtwebengine-5.15.9:5[widgets] >=dev-qt/qtwidgets-5.15.9:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kwidgetsaddons-5.106.0:5 >=kde-frameworks/kxmlgui-5.106.0:5 >=kde-frameworks/sonnet-5.106.0:5 virtual/opengl || ( kde-frameworks/breeze-icons:* kde-frameworks/oxygen-icons:* ) >=kde-frameworks/kf-env-4 dev-qt/qtcore:5
+REQUIRES: x86_64: libKF5ConfigWidgets.so.5 libKF5CoreAddons.so.5 libKF5SonnetCore.so.5 libKF5SonnetUi.so.5 libKF5WidgetsAddons.so.5 libKF5XmlGui.so.5 libQt5Core.so.5 libQt5Gui.so.5 libQt5WebChannel.so.5 libQt5WebEngineWidgets.so.5 libQt5Widgets.so.5 libc.so.6 libm.so.6 libstdc++.so.6
+SHA1: 6d783a21dbbf2b83c88bcf39658b423a381ad135
+SIZE: 7628800
+USE: abi_x86_64 amd64 elibc_glibc handbook kernel_linux
+MTIME: 1688325544
+REPO: gentoo
+
 BUILD_ID: 1
 BUILD_TIME: 1688219850
 CPV: app-eselect/eselect-cdparanoia-0.1-r1
@@ -1080,6 +1204,29 @@ SHA1: e72c14d3aaed5fda1b27373c703c019770f67c89
 SIZE: 399360
 USE: abi_x86_64 amd64 elibc_glibc kernel_linux
 MTIME: 1687549654
+REPO: gentoo
+
+BDEPEND: || ( >=dev-lang/python-3.11.3:3.11[xml(+)] >=dev-lang/python-3.10.11:3.10[xml(+)] ) dev-util/gdbus-codegen dev-util/glib-utils >=sys-devel/gettext-0.19.8 virtual/pkgconfig >=dev-util/meson-0.62.2 >=dev-util/ninja-1.8.2 dev-util/meson-format-array virtual/pkgconfig
+BUILD_ID: 1
+BUILD_TIME: 1688242489
+CPV: app-misc/geoclue-2.7.0
+DEFINED_PHASES: compile configure install postinst postrm preinst prepare setup test
+DEPEND: >=dev-libs/glib-2.44:2 >=dev-libs/json-glib-0.14.0 >=net-libs/libsoup-3.0.0:3.0 >=dev-libs/gobject-introspection-1.54:0/0= x11-libs/libnotify
+EAPI: 8
+IDEPEND: dev-util/desktop-file-utils x11-misc/shared-mime-info
+IUSE: +introspection gtk-doc modemmanager vala zeroconf
+KEYWORDS: ~alpha amd64 arm arm64 ~ia64 ~loong ~mips ppc ppc64 ~riscv ~sparc x86
+LICENSE: LGPL-2.1+ GPL-2+
+MD5: 98e94363eab76420dbb6658a917c1b48
+PATH: app-misc/geoclue/geoclue-2.7.0-1.gpkg.tar
+PROVIDES: x86_64: libgeoclue-2.so.0
+RDEPEND: >=dev-libs/glib-2.44:2 >=dev-libs/json-glib-0.14.0 >=net-libs/libsoup-3.0.0:3.0 >=dev-libs/gobject-introspection-1.54:0/0= x11-libs/libnotify acct-user/geoclue sys-apps/dbus
+REQUIRES: x86_64: libc.so.6 libgio-2.0.so.0 libglib-2.0.so.0 libgobject-2.0.so.0 libjson-glib-1.0.so.0 libm.so.6 libnotify.so.4 libsoup-3.0.so.0
+SHA1: 78834fa916c300728589e51e5d2c3f003b29731c
+SIZE: 389120
+SLOT: 2.0
+USE: abi_x86_64 amd64 elibc_glibc introspection kernel_linux
+MTIME: 1688242496
 REPO: gentoo
 
 BDEPEND: sys-devel/gnuconfig >=app-portage/elt-patches-20170815 >=sys-devel/automake-1.16.5:1.16 >=sys-devel/autoconf-2.71-r5 >=sys-devel/libtool-2.4.7
@@ -1490,6 +1637,28 @@ SIZE: 61440
 SLOT: 0/2
 USE: abi_x86_64 amd64 elibc_glibc kernel_linux
 MTIME: 1687336813
+REPO: gentoo
+
+BDEPEND: virtual/pkgconfig
+BUILD_ID: 1
+BUILD_TIME: 1688234841
+CPV: app-text/libspectre-0.2.11
+DEFINED_PHASES: compile configure install
+DEPEND: >=app-text/ghostscript-gpl-9.53.0:0/10.01=
+EAPI: 8
+IUSE: debug doc
+KEYWORDS: ~alpha amd64 arm arm64 ~hppa ~ia64 ~loong ~mips ppc ppc64 ~riscv sparc x86 ~amd64-linux ~x86-linux ~x64-solaris
+LICENSE: GPL-2
+MD5: f909c131372ea22378f9d72c37545068
+PATH: app-text/libspectre/libspectre-0.2.11-1.gpkg.tar
+PROVIDES: x86_64: libspectre.so.1
+RDEPEND: >=app-text/ghostscript-gpl-9.53.0:0/10.01=
+REQUIRES: x86_64: libc.so.6 libgs.so.10
+RESTRICT: test
+SHA1: 4e58894ab65e4a1aacc693c9324e1686caaa0778
+SIZE: 81920
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux
+MTIME: 1688234844
 REPO: gentoo
 
 BDEPEND: x11-base/xorg-proto virtual/pkgconfig
@@ -2270,6 +2439,50 @@ USE: abi_x86_64 amd64 asm elibc_glibc kernel_linux
 MTIME: 1687958267
 REPO: gentoo
 
+BDEPEND: sys-devel/gnuconfig >=app-portage/elt-patches-20170815 >=sys-devel/automake-1.16.5:1.16 >=sys-devel/autoconf-2.71-r5 >=sys-devel/libtool-2.4.7 virtual/pkgconfig
+BUILD_ID: 1
+BUILD_TIME: 1688236197
+CPV: dev-libs/cyrus-sasl-2.1.28-r4
+DEFINED_PHASES: compile configure install postinst prepare test
+DEPEND: net-mail/mailbase virtual/libcrypt:0/2= >=sys-libs/gdbm-1.10-r1:0/6=[abi_x86_64(-)] >=sys-libs/pam-0-r1[abi_x86_64(-)] >=dev-libs/openssl-1.0.1h-r2:0/3=[abi_x86_64(-)]
+EAPI: 8
+IUSE: authdaemond berkdb gdbm kerberos ldapdb openldap mysql pam postgres sample selinux sqlite srp ssl static-libs urandom abi_x86_32 abi_x86_64 abi_x86_x32 abi_mips_n32 abi_mips_n64 abi_mips_o32 abi_s390_32 abi_s390_64
+KEYWORDS: ~alpha amd64 arm arm64 hppa ~ia64 ~loong ~mips ~ppc ppc64 ~riscv ~s390 sparc x86 ~amd64-linux ~x86-linux ~arm64-macos ~ppc-macos ~x64-macos ~x64-solaris
+LICENSE: BSD-with-attribution
+MD5: ddfec8f518cbb2195640bd6a87501cdd
+PATH: dev-libs/cyrus-sasl/cyrus-sasl-2.1.28-r4-1.gpkg.tar
+PROVIDES: x86_64: libanonymous.so.3 libcrammd5.so.3 libdigestmd5.so.3 liblogin.so.3 libntlm.so.3 libotp.so.3 libplain.so.3 libsasl2.so.3 libsasldb.so.3 libscram.so.3
+RDEPEND: net-mail/mailbase virtual/libcrypt:0/2= >=sys-libs/gdbm-1.10-r1:0/6=[abi_x86_64(-)] >=sys-libs/pam-0-r1[abi_x86_64(-)] >=dev-libs/openssl-1.0.1h-r2:0/3=[abi_x86_64(-)] virtual/tmpfiles
+REQUIRES: x86_64: libc.so.6 libcrypt.so.2 libcrypto.so.3 libgdbm.so.6 libpam.so.0
+SHA1: 179af56bebc8689f41484e8053f848603f5ad381
+SIZE: 573440
+SLOT: 2
+USE: abi_x86_64 amd64 elibc_glibc gdbm kernel_linux pam ssl
+MTIME: 1688236203
+REPO: gentoo
+
+BDEPEND: >=dev-libs/expat-2.1.0-r3 >=dev-libs/glib-2.40:2 >=sys-apps/dbus-1.8 >=dev-util/glib-utils-2.40 >=dev-util/gtk-doc-am-1.14 virtual/pkgconfig sys-devel/gnuconfig >=app-portage/elt-patches-20170815 >=sys-devel/automake-1.16.5:1.16 >=sys-devel/autoconf-2.71-r5 >=sys-devel/libtool-2.4.7
+BUILD_ID: 1
+BUILD_TIME: 1688236372
+CPV: dev-libs/dbus-glib-0.112
+DEFINED_PHASES: compile configure install prepare test
+DEPEND: >=dev-libs/expat-2.1.0-r3[abi_x86_64(-)] >=dev-libs/glib-2.40:2[abi_x86_64(-)] >=sys-apps/dbus-1.8[abi_x86_64(-)]
+EAPI: 7
+IUSE: debug static-libs test abi_x86_32 abi_x86_64 abi_x86_x32 abi_mips_n32 abi_mips_n64 abi_mips_o32 abi_s390_32 abi_s390_64
+KEYWORDS: ~alpha amd64 arm arm64 hppa ~ia64 ~loong ~mips ppc ppc64 ~riscv ~s390 sparc x86 ~amd64-linux ~x86-linux ~ppc-macos
+LICENSE: || ( GPL-2 AFL-2.1 )
+MD5: d385c5d867ad5ab2f9ce8d542ab40294
+PATH: dev-libs/dbus-glib/dbus-glib-0.112-1.gpkg.tar
+PROVIDES: x86_64: libdbus-glib-1.so.2
+RDEPEND: >=dev-libs/expat-2.1.0-r3[abi_x86_64(-)] >=dev-libs/glib-2.40:2[abi_x86_64(-)] >=sys-apps/dbus-1.8[abi_x86_64(-)]
+REQUIRES: x86_64: libc.so.6 libdbus-1.so.3 libexpat.so.1 libgio-2.0.so.0 libglib-2.0.so.0 libgobject-2.0.so.0
+RESTRICT: test
+SHA1: 021c74dfa8b3737502af96416c35d2f1791ca469
+SIZE: 307200
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux
+MTIME: 1688236377
+REPO: gentoo
+
 BDEPEND: >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5
 BUILD_ID: 1
 BUILD_TIME: 1687344640
@@ -2350,6 +2563,28 @@ SHA1: 9671da569f6b3602a27be963602acdfe6cfb57b5
 SIZE: 143360
 USE: abi_x86_64 amd64 elibc_glibc kernel_linux
 MTIME: 1687344809
+REPO: gentoo
+
+BDEPEND: sys-devel/gnuconfig >=app-portage/elt-patches-20170815 >=sys-devel/automake-1.16.5:1.16 >=sys-devel/autoconf-2.71-r5 >=sys-devel/libtool-2.4.7
+BUILD_ID: 1
+BUILD_TIME: 1688236258
+CPV: dev-libs/geoip-1.6.12-r1
+DEFINED_PHASES: configure install postinst prepare
+DEPEND: net-misc/wget
+EAPI: 7
+IUSE: static-libs
+KEYWORDS: ~alpha amd64 arm arm64 ~hppa ~ia64 ~loong ~mips ppc ppc64 ~riscv ~s390 sparc x86 ~amd64-linux ~x86-linux
+LICENSE: LGPL-2.1 GPL-2 MaxMind2
+MD5: 2bddd47718b41002e035486e7ced0745
+PATH: dev-libs/geoip/geoip-1.6.12-r1-1.gpkg.tar
+PROVIDES: x86_64: libGeoIP.so.1
+RDEPEND: net-misc/wget
+REQUIRES: x86_64: libc.so.6
+RESTRICT: test
+SHA1: 9f72940b7d6108954f9a872c62208b2112a22e95
+SIZE: 194560
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux
+MTIME: 1688236263
 REPO: gentoo
 
 BDEPEND: app-text/docbook-xsl-stylesheets dev-libs/libxslt >=sys-devel/gettext-0.19.8 || ( >=dev-lang/python-3.12.0_beta1:3.12[xml(+)] >=dev-lang/python-3.11.3:3.11[xml(+)] >=dev-lang/python-3.10.11:3.10[xml(+)] ) virtual/pkgconfig app-arch/xz-utils >=dev-util/meson-0.62.2 >=dev-util/ninja-1.8.2 dev-util/meson-format-array
@@ -2561,6 +2796,52 @@ SIZE: 194560
 SLOT: 0/25
 USE: abi_x86_64 amd64 elibc_glibc kernel_linux
 MTIME: 1687254091
+REPO: gentoo
+
+BDEPEND: >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.82.0:5
+BUILD_ID: 1
+BUILD_TIME: 1688235601
+CPV: dev-libs/kpeoplevcard-0.1-r1
+DEFINED_PHASES: compile configure install nofetch postinst postrm preinst prepare setup test unpack
+DEPEND: >=dev-qt/qtgui-5.15.2:5 >=dev-qt/qtwidgets-5.15.2:5 >=kde-frameworks/kcontacts-5.82.0:5 >=kde-frameworks/kcoreaddons-5.82.0:5 >=kde-frameworks/ki18n-5.82.0:5 >=kde-frameworks/kpeople-5.82.0:5 dev-qt/qtcore:5
+EAPI: 8
+IDEPEND: dev-util/desktop-file-utils x11-misc/shared-mime-info
+IUSE: debug
+KEYWORDS: amd64 arm64 ~ppc64 x86
+LICENSE: LGPL-2.1+
+MD5: c3bf76bba39e5b9a96c3f207decce0e4
+PATH: dev-libs/kpeoplevcard/kpeoplevcard-0.1-r1-1.gpkg.tar
+PROVIDES: x86_64: KPeopleVCard.so
+RDEPEND: >=dev-qt/qtgui-5.15.2:5 >=dev-qt/qtwidgets-5.15.2:5 >=kde-frameworks/kcontacts-5.82.0:5 >=kde-frameworks/kcoreaddons-5.82.0:5 >=kde-frameworks/ki18n-5.82.0:5 >=kde-frameworks/kpeople-5.82.0:5 || ( kde-frameworks/breeze-icons:* kde-frameworks/oxygen-icons:* ) >=kde-frameworks/kf-env-4 dev-qt/qtcore:5
+REQUIRES: x86_64: libKF5Contacts.so.5 libKF5CoreAddons.so.5 libKF5I18n.so.5 libKF5PeopleBackend.so.5 libQt5Core.so.5 libQt5Gui.so.5 libc.so.6 libstdc++.so.6
+SHA1: 5a242c46bcdd9aadeb91ad3e8ae2d6eaff456773
+SIZE: 61440
+SLOT: 5
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux
+MTIME: 1688235605
+REPO: gentoo
+
+BDEPEND: >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.99.0:5
+BUILD_ID: 1
+BUILD_TIME: 1688242801
+CPV: dev-libs/kweathercore-0.7
+DEFINED_PHASES: compile configure install nofetch postinst postrm preinst prepare setup test unpack
+DEPEND: >=dev-qt/qtnetwork-5.15.5:5 >=dev-qt/qtpositioning-5.15.5:5 >=kde-frameworks/kholidays-5.99.0:5 >=kde-frameworks/ki18n-5.99.0:5 dev-qt/qtcore:5
+EAPI: 8
+IUSE: debug doc test
+KEYWORDS: ~amd64 ~arm64 ~loong ~ppc64 ~x86
+LICENSE: LGPL-2+
+MD5: 42501463d1398d77967adf29dc7a4255
+PATH: dev-libs/kweathercore/kweathercore-0.7-1.gpkg.tar
+PROVIDES: x86_64: libKF5KWeatherCore.so.5
+RDEPEND: >=dev-qt/qtnetwork-5.15.5:5 >=dev-qt/qtpositioning-5.15.5:5 >=kde-frameworks/kholidays-5.99.0:5 >=kde-frameworks/ki18n-5.99.0:5 >=kde-frameworks/kf-env-4 dev-qt/qtcore:5
+REQUIRES: x86_64: libKF5Holidays.so.5 libKF5I18n.so.5 libQt5Core.so.5 libQt5Network.so.5 libQt5Positioning.so.5 libc.so.6 libstdc++.so.6
+RESTRICT: test
+SHA1: 222c9e597b8437df398c1e616c0329fcb8843172
+SIZE: 184320
+SLOT: 5
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux
+MTIME: 1688242809
 REPO: gentoo
 
 BDEPEND: >=app-portage/elt-patches-20170815
@@ -3111,6 +3392,26 @@ USE: abi_x86_64 amd64 elibc_glibc kernel_linux
 MTIME: 1688107445
 REPO: gentoo
 
+BDEPEND: sys-devel/gnuconfig >=app-portage/elt-patches-20170815 >=sys-devel/automake-1.16.5:1.16 >=sys-devel/autoconf-2.71-r5 >=sys-devel/libtool-2.4.7
+BUILD_ID: 1
+BUILD_TIME: 1688236106
+CPV: dev-libs/libsodium-1.0.18_p20220618
+DEFINED_PHASES: compile configure install prepare test unpack
+EAPI: 8
+IUSE: +asm minimal static-libs +urandom cpu_flags_x86_aes cpu_flags_x86_sse4_1 verify-sig abi_x86_32 abi_x86_64 abi_x86_x32 abi_mips_n32 abi_mips_n64 abi_mips_o32 abi_s390_32 abi_s390_64
+KEYWORDS: ~alpha amd64 arm arm64 hppa ~ia64 ~loong ~m68k ~mips ppc ppc64 ~riscv ~s390 sparc x86
+LICENSE: ISC
+MD5: 5baebbfaf15ff7b45895f61a9cc4108a
+PATH: dev-libs/libsodium/libsodium-1.0.18_p20220618-1.gpkg.tar
+PROVIDES: x86_64: libsodium.so.23
+REQUIRES: x86_64: ld-linux-x86-64.so.2 libc.so.6
+SHA1: 8dbb77e949a2cf8b2e5f4a2d1dec2d03cf7c5466
+SIZE: 307200
+SLOT: 0/23
+USE: abi_x86_64 amd64 asm cpu_flags_x86_aes cpu_flags_x86_sse4_1 elibc_glibc kernel_linux urandom
+MTIME: 1688236111
+REPO: gentoo
+
 BDEPEND: >=app-portage/elt-patches-20170815
 BUILD_ID: 1
 BUILD_TIME: 1687338386
@@ -3510,6 +3811,29 @@ USE: abi_x86_64 amd64 elibc_glibc kernel_linux
 MTIME: 1687608781
 REPO: gentoo
 
+BDEPEND: sys-devel/gnuconfig >=app-portage/elt-patches-20170815 >=sys-devel/automake-1.16.5:1.16 >=sys-devel/autoconf-2.71-r5 >=sys-devel/libtool-2.4.7
+BUILD_ID: 1
+BUILD_TIME: 1688237182
+CPV: dev-libs/protobuf-21.9
+DEFINED_PHASES: compile configure install postinst postrm prepare test
+DEPEND: sys-libs/zlib[abi_x86_64(-)]
+EAPI: 8
+IUSE: emacs examples static-libs test zlib abi_x86_32 abi_x86_64 abi_x86_x32 abi_mips_n32 abi_mips_n64 abi_mips_o32 abi_s390_32 abi_s390_64
+KEYWORDS: ~alpha amd64 arm arm64 hppa ~ia64 ~loong ~mips ppc ppc64 ~riscv ~s390 sparc x86 ~amd64-linux ~x86-linux ~x64-macos
+LICENSE: BSD
+MD5: c1828c6c2e2b5be8430b62192049af8e
+PATH: dev-libs/protobuf/protobuf-21.9-1.gpkg.tar
+PROVIDES: x86_64: libprotobuf-lite.so.32 libprotobuf.so.32 libprotoc.so.32
+RDEPEND: sys-libs/zlib[abi_x86_64(-)]
+REQUIRES: x86_64: ld-linux-x86-64.so.2 libc.so.6 libgcc_s.so.1 libstdc++.so.6 libz.so.1
+RESTRICT: test
+SHA1: c08ca22dd2e7a4ef3bffaa1bca3f20b0ea6d96b9
+SIZE: 4444160
+SLOT: 0/32
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux zlib
+MTIME: 1688237188
+REPO: gentoo
+
 BDEPEND: >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5
 BUILD_ID: 1
 BUILD_TIME: 1687969317
@@ -3530,6 +3854,28 @@ SHA1: ce0020a986897007be8fb040dc1ab59988e7e06d
 SIZE: 225280
 USE: abi_x86_64 amd64 dbus elibc_glibc kernel_linux network qml
 MTIME: 1687969319
+REPO: gentoo
+
+BDEPEND: dev-qt/linguist-tools:5 >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5
+BUILD_ID: 1
+BUILD_TIME: 1688234429
+CPV: dev-libs/qtkeychain-0.14.1-r1
+DEFINED_PHASES: compile configure install prepare setup test
+DEPEND: dev-qt/qtcore:5 dev-qt/qtdbus:5
+EAPI: 8
+IUSE: keyring +qt5 qt6
+KEYWORDS: amd64 arm64 ~loong ~ppc64 ~riscv x86
+LICENSE: BSD-2
+MD5: 081dda78766294df78fcf35a7a8e9cda
+PATH: dev-libs/qtkeychain/qtkeychain-0.14.1-r1-1.gpkg.tar
+PROVIDES: x86_64: libqt5keychain.so.1
+RDEPEND: dev-qt/qtcore:5 dev-qt/qtdbus:5
+REQUIRES: x86_64: libQt5Core.so.5 libQt5DBus.so.5 libc.so.6 libgcc_s.so.1 libstdc++.so.6
+SHA1: fbfb5311b1aec0421e0e52c2957bd812ba7a4365
+SIZE: 133120
+SLOT: 0/1
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux qt5
+MTIME: 1688234432
 REPO: gentoo
 
 BDEPEND: virtual/pkgconfig
@@ -4640,6 +4986,28 @@ USE: abi_x86_64 amd64 elibc_glibc kernel_linux python_targets_python3_11
 MTIME: 1687354990
 REPO: gentoo
 
+BDEPEND: virtual/pkgconfig sys-devel/gnuconfig >=app-portage/elt-patches-20170815 >=sys-devel/automake-1.16.5:1.16 >=sys-devel/autoconf-2.71-r5 >=sys-devel/libtool-2.4.7
+BUILD_ID: 1
+BUILD_TIME: 1688236010
+CPV: dev-python/dbus-python-1.3.2
+DEFINED_PHASES: compile configure install prepare test
+DEPEND: >=dev-lang/python-3.11.3:3.11[threads(+)] >=sys-apps/dbus-1.8:0/0= >=dev-libs/glib-2.40
+EAPI: 7
+IUSE: doc examples test python_targets_python3_10 python_targets_python3_11 python_targets_python3_12
+KEYWORDS: ~alpha amd64 arm arm64 hppa ~ia64 ~loong ~mips ppc ppc64 ~riscv ~s390 sparc x86
+LICENSE: MIT
+MD5: a92d6c8e4386855bf3ef57b617342638
+PATH: dev-python/dbus-python/dbus-python-1.3.2-1.gpkg.tar
+PROVIDES: x86_64: _dbus_bindings.so _dbus_glib_bindings.so
+RDEPEND: >=dev-lang/python-3.11.3:3.11[threads(+)] >=sys-apps/dbus-1.8:0/0= >=dev-libs/glib-2.40
+REQUIRES: x86_64: libc.so.6 libdbus-1.so.3 libglib-2.0.so.0
+RESTRICT: test
+SHA1: 6cdbd77281a0702295afa362af128ea20ab62e43
+SIZE: 286720
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux python_targets_python3_11
+MTIME: 1688236014
+REPO: gentoo
+
 BDEPEND: dev-python/pygments[python_targets_python3_11(-)] >=dev-lang/python-3.11.3:3.11 >=dev-python/gpep517-13[python_targets_python3_11(-)] >=dev-python/setuptools-67.7.2[python_targets_python3_11(-)] >=dev-python/wheel-0.40.0[python_targets_python3_11(-)]
 BUILD_ID: 1
 BUILD_TIME: 1687355513
@@ -4833,6 +5201,47 @@ SHA1: 790f0f91c4a5b6795868c9869116f7d7cec8dfd7
 SIZE: 71680
 USE: abi_x86_64 amd64 elibc_glibc kernel_linux python_targets_python3_11
 MTIME: 1687513387
+REPO: gentoo
+
+BDEPEND: >=dev-python/cython-0.29.34[python_targets_python3_11(-)] >=dev-lang/python-3.11.3:3.11 >=dev-python/gpep517-13[python_targets_python3_11(-)]
+BUILD_ID: 1
+BUILD_TIME: 1688238581
+CPV: dev-python/meson-python-0.13.2
+DEFINED_PHASES: compile configure install prepare test
+EAPI: 8
+IUSE: test python_targets_pypy3 python_targets_python3_10 python_targets_python3_11 python_targets_python3_12
+KEYWORDS: ~amd64 ~arm ~arm64 ~hppa ~ia64 ~loong ~ppc ~ppc64 ~riscv ~s390 ~sparc ~x86
+LICENSE: MIT
+MD5: b485ed2179257ab7c896eb73fcf3855d
+PATH: dev-python/meson-python/meson-python-0.13.2-1.gpkg.tar
+RDEPEND: >=dev-python/pyproject-metadata-0.7.1[python_targets_python3_11(-)] >=dev-util/meson-0.63.0[python_targets_python3_11(-)] dev-util/patchelf >=dev-lang/python-3.11.3:3.11
+RESTRICT: test
+SHA1: 19809d3b9c51124c5c19aca7cc301926560b7e34
+SIZE: 194560
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux python_targets_python3_11
+MTIME: 1688238588
+REPO: gentoo
+
+BDEPEND: >=dev-util/meson-1.1.0 <dev-python/cython-3[python_targets_python3_11(-)] >=dev-python/cython-0.29.30[python_targets_python3_11(-)] >=dev-lang/python-3.11.3:3.11[threads(+)] >=dev-python/gpep517-13[python_targets_python3_11(-)] >=dev-python/meson-python-0.13.1[python_targets_python3_11(-)]
+BUILD_ID: 1
+BUILD_TIME: 1688239078
+CPV: dev-python/numpy-1.25.0-r2
+DEFINED_PHASES: compile configure install prepare setup test
+DEPEND: >=dev-lang/python-3.11.3:3.11[threads(+)]
+EAPI: 8
+IUSE: lapack test python_targets_pypy3 python_targets_python3_10 python_targets_python3_11 python_targets_python3_12 debug
+KEYWORDS: ~amd64 ~arm ~arm64 ~ia64 ~ppc64 ~s390 ~sparc ~x86
+LICENSE: BSD
+MD5: c69f43215b1e0d9860f3b273e826c369
+PATH: dev-python/numpy/numpy-1.25.0-r2-1.gpkg.tar
+PROVIDES: x86_64: _bounded_integers.cpython-311-x86_64-linux-gnu.so _common.cpython-311-x86_64-linux-gnu.so _generator.cpython-311-x86_64-linux-gnu.so _mt19937.cpython-311-x86_64-linux-gnu.so _multiarray_tests.cpython-311-x86_64-linux-gnu.so _multiarray_umath.cpython-311-x86_64-linux-gnu.so _operand_flag_tests.cpython-311-x86_64-linux-gnu.so _pcg64.cpython-311-x86_64-linux-gnu.so _philox.cpython-311-x86_64-linux-gnu.so _pocketfft_internal.cpython-311-x86_64-linux-gnu.so _rational_tests.cpython-311-x86_64-linux-gnu.so _sfc64.cpython-311-x86_64-linux-gnu.so _simd.cpython-311-x86_64-linux-gnu.so _struct_ufunc_tests.cpython-311-x86_64-linux-gnu.so _umath_linalg.cpython-311-x86_64-linux-gnu.so _umath_tests.cpython-311-x86_64-linux-gnu.so bit_generator.cpython-311-x86_64-linux-gnu.so lapack_lite.cpython-311-x86_64-linux-gnu.so mtrand.cpython-311-x86_64-linux-gnu.so
+RDEPEND: >=dev-lang/python-3.11.3:3.11[threads(+)]
+REQUIRES: x86_64: libc.so.6 libgcc_s.so.1 libm.so.6
+RESTRICT: test
+SHA1: 090755794f08e0128936d32abd8a429e1abdc341
+SIZE: 22005760
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux python_targets_python3_11
+MTIME: 1688239091
 REPO: gentoo
 
 BDEPEND: >=dev-lang/python-3.11.3:3.11 >=dev-python/gpep517-13[python_targets_python3_11(-)] >=dev-python/flit-core-3.8.0[python_targets_python3_11(-)]
@@ -5262,6 +5671,29 @@ REPO: gentoo
 
 BDEPEND: dev-lang/perl virtual/pkgconfig
 BUILD_ID: 1
+BUILD_TIME: 1688234382
+CPV: dev-qt/qtbluetooth-5.15.10
+DEFINED_PHASES: compile configure install postinst postrm prepare test
+DEPEND: =dev-qt/qtconcurrent-5.15.10* =dev-qt/qtcore-5.15.10*:5/5.15.10= =dev-qt/qtdbus-5.15.10* =dev-qt/qtnetwork-5.15.10* >=net-wireless/bluez-5:0/3= =dev-qt/qtdeclarative-5.15.10*
+EAPI: 8
+IUSE: qml debug test
+KEYWORDS: ~amd64 ~arm ~arm64 ~loong ~ppc64 ~riscv ~x86
+LICENSE: || ( GPL-2 GPL-3 LGPL-3 ) FDL-1.3
+MD5: 92f36f82ddc1a0d082313d0fc91c72a4
+PATH: dev-qt/qtbluetooth/qtbluetooth-5.15.10-1.gpkg.tar
+PROVIDES: x86_64: libQt5Bluetooth.so.5 libdeclarative_bluetooth.so
+RDEPEND: =dev-qt/qtconcurrent-5.15.10* =dev-qt/qtcore-5.15.10*:5/5.15.10= =dev-qt/qtdbus-5.15.10* =dev-qt/qtnetwork-5.15.10* >=net-wireless/bluez-5:0/3= =dev-qt/qtdeclarative-5.15.10*
+REQUIRES: x86_64: libQt5Core.so.5 libQt5DBus.so.5 libQt5Network.so.5 libQt5Qml.so.5 libbluetooth.so.3 libc.so.6 libstdc++.so.6
+RESTRICT: test
+SHA1: eb24321e334afc5adaba51eb7c95ee091db8f34d
+SIZE: 798720
+SLOT: 5/5.15
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux qml
+MTIME: 1688234386
+REPO: gentoo
+
+BDEPEND: dev-lang/perl virtual/pkgconfig
+BUILD_ID: 1
 BUILD_TIME: 1688233945
 CPV: dev-qt/qtcharts-5.15.10
 DEFINED_PHASES: compile configure install postinst postrm prepare test
@@ -5447,6 +5879,29 @@ REPO: gentoo
 
 BDEPEND: dev-lang/perl virtual/pkgconfig
 BUILD_ID: 1
+BUILD_TIME: 1688238652
+CPV: dev-qt/qtimageformats-5.15.10
+DEFINED_PHASES: compile configure install postinst postrm prepare test
+DEPEND: =dev-qt/qtcore-5.15.10* =dev-qt/qtgui-5.15.10* media-libs/libwebp:0/7= media-libs/tiff:0/6= media-libs/libmng:0/2=
+EAPI: 8
+IUSE: mng debug test
+KEYWORDS: ~amd64 ~arm ~arm64 ~hppa ~ppc64 ~riscv ~sparc ~x86
+LICENSE: || ( GPL-2 GPL-3 LGPL-3 ) FDL-1.3
+MD5: 6bc9fa7a1a9763b1415237eafcd49d46
+PATH: dev-qt/qtimageformats/qtimageformats-5.15.10-1.gpkg.tar
+PROVIDES: x86_64: libqicns.so libqmng.so libqtga.so libqtiff.so libqwbmp.so libqwebp.so
+RDEPEND: =dev-qt/qtcore-5.15.10* =dev-qt/qtgui-5.15.10* media-libs/libwebp:0/7= media-libs/tiff:0/6= media-libs/libmng:0/2=
+REQUIRES: x86_64: libQt5Core.so.5 libQt5Gui.so.5 libc.so.6 libm.so.6 libmng.so.2 libstdc++.so.6 libtiff.so.6 libwebp.so.7 libwebpdemux.so.2 libwebpmux.so.3
+RESTRICT: test
+SHA1: f68c220a999d3e1447530cfd05ba72b9f54bb36a
+SIZE: 122880
+SLOT: 5
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux mng
+MTIME: 1688238660
+REPO: gentoo
+
+BDEPEND: dev-lang/perl virtual/pkgconfig
+BUILD_ID: 1
 BUILD_TIME: 1687985089
 CPV: dev-qt/qtmultimedia-5.15.10
 DEFINED_PHASES: compile configure install postinst postrm prepare test
@@ -5580,6 +6035,30 @@ SIZE: 51200
 SLOT: 5
 USE: abi_x86_64 amd64 elibc_glibc kernel_linux
 MTIME: 1687964156
+REPO: gentoo
+
+BDEPEND: dev-lang/perl virtual/pkgconfig
+BUILD_ID: 1
+BUILD_TIME: 1688242706
+CPV: dev-qt/qtpositioning-5.15.10
+DEFINED_PHASES: compile configure install postinst postrm prepare setup test
+DEPEND: =dev-qt/qtcore-5.15.10* =dev-qt/qtdbus-5.15.10* =dev-qt/qtdeclarative-5.15.10*
+EAPI: 8
+IUSE: geoclue +qml debug test
+KEYWORDS: ~amd64 ~arm ~arm64 ~hppa ~loong ~ppc ~ppc64 ~riscv ~sparc ~x86
+LICENSE: || ( GPL-2 GPL-3 LGPL-3 ) FDL-1.3
+MD5: 048660934f9a73fadaa1bdd353ae4118
+PATH: dev-qt/qtpositioning/qtpositioning-5.15.10-1.gpkg.tar
+PDEPEND: app-misc/geoclue:2.0
+PROVIDES: x86_64: libQt5Positioning.so.5 libQt5PositioningQuick.so.5 libdeclarative_positioning.so libqtposition_geoclue2.so libqtposition_positionpoll.so
+RDEPEND: =dev-qt/qtcore-5.15.10* =dev-qt/qtdbus-5.15.10* =dev-qt/qtdeclarative-5.15.10*
+REQUIRES: x86_64: libQt5Core.so.5 libQt5DBus.so.5 libQt5Network.so.5 libQt5Qml.so.5 libQt5Quick.so.5 libc.so.6 libgcc_s.so.1 libm.so.6 libstdc++.so.6
+RESTRICT: test
+SHA1: 231c5372d0197308e2b2305a969e194ce5455388
+SIZE: 583680
+SLOT: 5/5.15
+USE: abi_x86_64 amd64 elibc_glibc geoclue kernel_linux qml
+MTIME: 1688242715
 REPO: gentoo
 
 BDEPEND: dev-lang/perl virtual/pkgconfig
@@ -5992,6 +6471,29 @@ USE: abi_x86_64 amd64 elibc_glibc kernel_linux qml
 MTIME: 1688233323
 REPO: gentoo
 
+BDEPEND: || ( >=dev-lang/python-3.11.3:3.11[xml(+)] >=dev-lang/python-3.10.11:3.10[xml(+)] ) dev-util/gperf dev-util/ninja dev-util/re2c net-libs/nodejs[ssl] sys-devel/bison sys-devel/flex dev-lang/perl virtual/pkgconfig
+BUILD_ID: 1
+BUILD_TIME: 1688322212
+CPV: dev-qt/qtwebengine-5.15.10_p20230505
+DEFINED_PHASES: compile configure install postinst postrm preinst prepare pretend setup test unpack
+DEPEND: app-arch/snappy:0/1.1= dev-libs/glib:2 dev-libs/nspr dev-libs/nss dev-libs/expat dev-libs/libevent:0/2.1-7= dev-libs/libxml2[icu] dev-libs/libxslt dev-libs/re2:0/10= =dev-qt/qtcore-5.15.10* =dev-qt/qtdeclarative-5.15.10* =dev-qt/qtgui-5.15.10* =dev-qt/qtnetwork-5.15.10* =dev-qt/qtprintsupport-5.15.10* =dev-qt/qtwebchannel-5.15.10*[qml] media-libs/fontconfig media-libs/freetype media-libs/harfbuzz:0/6.0.0= media-libs/lcms:2 media-libs/libjpeg-turbo:0/0.2= media-libs/libpng:0/16= >=media-libs/libvpx-1.5:0/8=[svc(+)] media-libs/libwebp:0/7= media-libs/opus sys-apps/dbus sys-apps/pciutils sys-libs/zlib[minizip] virtual/libudev x11-libs/libdrm x11-libs/libX11 x11-libs/libXcomposite x11-libs/libXcursor x11-libs/libXdamage x11-libs/libXext x11-libs/libXfixes x11-libs/libXi x11-libs/libxkbfile x11-libs/libXrandr x11-libs/libXrender x11-libs/libXScrnSaver x11-libs/libXtst media-libs/alsa-lib media-libs/libpulse media-video/pipewire:0/0.4= >=dev-libs/icu-69.1:0/73.1= =dev-qt/qtdeclarative-5.15.10*[widgets] =dev-qt/qtwidgets-5.15.10* media-libs/libglvnd
+EAPI: 8
+IUSE: alsa bindist designer geolocation +jumbo-build kerberos pulseaudio screencast +system-icu widgets debug test
+KEYWORDS: ~amd64 ~arm ~arm64 ~ppc64 ~x86
+LICENSE: || ( GPL-2 GPL-3 LGPL-3 ) FDL-1.3
+MD5: 13a31f1554da9858d7f25e7921e9ab50
+PATH: dev-qt/qtwebengine/qtwebengine-5.15.10_p20230505-1.gpkg.tar
+PROVIDES: x86_64: libQt5WebEngine.so.5 libQt5WebEngineCore.so.5 libQt5WebEngineWidgets.so.5 libqtwebengineplugin.so
+RDEPEND: app-arch/snappy:0/1.1= dev-libs/glib:2 dev-libs/nspr dev-libs/nss dev-libs/expat dev-libs/libevent:0/2.1-7= dev-libs/libxml2[icu] dev-libs/libxslt dev-libs/re2:0/10= =dev-qt/qtcore-5.15.10* =dev-qt/qtdeclarative-5.15.10* =dev-qt/qtgui-5.15.10* =dev-qt/qtnetwork-5.15.10* =dev-qt/qtprintsupport-5.15.10* =dev-qt/qtwebchannel-5.15.10*[qml] media-libs/fontconfig media-libs/freetype media-libs/harfbuzz:0/6.0.0= media-libs/lcms:2 media-libs/libjpeg-turbo:0/0.2= media-libs/libpng:0/16= >=media-libs/libvpx-1.5:0/8=[svc(+)] media-libs/libwebp:0/7= media-libs/opus sys-apps/dbus sys-apps/pciutils sys-libs/zlib[minizip] virtual/libudev x11-libs/libdrm x11-libs/libX11 x11-libs/libXcomposite x11-libs/libXcursor x11-libs/libXdamage x11-libs/libXext x11-libs/libXfixes x11-libs/libXi x11-libs/libxkbfile x11-libs/libXrandr x11-libs/libXrender x11-libs/libXScrnSaver x11-libs/libXtst media-libs/alsa-lib media-libs/libpulse media-video/pipewire:0/0.4= >=dev-libs/icu-69.1:0/73.1= =dev-qt/qtdeclarative-5.15.10*[widgets] =dev-qt/qtwidgets-5.15.10*
+REQUIRES: x86_64: ld-linux-x86-64.so.2 libQt5Core.so.5 libQt5Gui.so.5 libQt5Network.so.5 libQt5PrintSupport.so.5 libQt5Qml.so.5 libQt5Quick.so.5 libQt5QuickWidgets.so.5 libQt5WebChannel.so.5 libQt5Widgets.so.5 libX11-xcb.so.1 libX11.so.6 libXcomposite.so.1 libXdamage.so.1 libXext.so.6 libXfixes.so.3 libXrandr.so.2 libXtst.so.6 libasound.so.2 libc.so.6 libdbus-1.so.3 libevent-2.1.so.7 libexpat.so.1 libfontconfig.so.1 libfreetype.so.6 libgcc_s.so.1 libgio-2.0.so.0 libglib-2.0.so.0 libgobject-2.0.so.0 libharfbuzz-subset.so.0 libharfbuzz.so.0 libicui18n.so.73 libicuuc.so.73 libjpeg.so.62 liblcms2.so.2 libm.so.6 libminizip.so.1 libnspr4.so libnss3.so libnssutil3.so libopus.so.0 libpng16.so.16 libre2.so.10 libsnappy.so.1 libstdc++.so.6 libvpx.so.8 libwebp.so.7 libwebpdemux.so.2 libwebpmux.so.3 libxcb.so.1 libxml2.so.2 libxslt.so.1 libz.so.1
+RESTRICT: test
+SHA1: 474da718770c691439eae86d45be39037a4e4f0f
+SIZE: 90214400
+SLOT: 5/5.15
+USE: abi_x86_64 alsa amd64 bindist elibc_glibc jumbo-build kernel_linux pulseaudio screencast system-icu widgets
+MTIME: 1688322226
+REPO: gentoo
+
 BDEPEND: dev-lang/perl virtual/pkgconfig
 BUILD_ID: 1
 BUILD_TIME: 1688234039
@@ -6319,6 +6821,23 @@ USE: abi_x86_64 amd64 elibc_glibc kernel_linux python_targets_python3_11
 MTIME: 1688216114
 REPO: gentoo
 
+BDEPEND: sys-devel/gnuconfig >=app-portage/elt-patches-20170815 >=sys-devel/automake-1.16.5:1.16 >=sys-devel/autoconf-2.71-r5 >=sys-devel/libtool-2.4.7
+BUILD_ID: 1
+BUILD_TIME: 1688237241
+CPV: dev-util/patchelf-0.18.0
+DEFINED_PHASES: prepare
+EAPI: 8
+KEYWORDS: amd64 arm arm64 ~hppa ~ia64 ~loong ppc ppc64 ~riscv ~s390 ~sparc x86 ~amd64-linux ~riscv-linux ~x86-linux
+LICENSE: GPL-3
+MD5: 535822e61aa94f32d4e37bb3bfca713c
+PATH: dev-util/patchelf/patchelf-0.18.0-1.gpkg.tar
+REQUIRES: x86_64: libc.so.6 libgcc_s.so.1 libstdc++.so.6
+SHA1: 319af145296f93daede36c644982b969b1ee17b9
+SIZE: 184320
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux
+MTIME: 1688237246
+REPO: gentoo
+
 BDEPEND: >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5
 BUILD_ID: 1
 BUILD_TIME: 1687344675
@@ -6556,6 +7075,100 @@ USE: abi_x86_64 amd64 elibc_glibc kernel_linux
 MTIME: 1687957389
 REPO: gentoo
 
+BDEPEND: sys-devel/gettext >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 >=kde-frameworks/kdoctools-5.106.0:5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.106.0:5
+BUILD_ID: 1
+BUILD_TIME: 1688331324
+CPV: kde-apps/ark-23.04.2
+DEFINED_PHASES: compile configure install nofetch postinst postrm preinst prepare setup test unpack
+DEPEND: >=app-arch/libarchive-3.5.3:0/13=[bzip2,lzma] >=dev-qt/qtdbus-5.15.9:5 >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=kde-frameworks/kcompletion-5.106.0:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kconfigwidgets-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kcrash-5.106.0:5 >=kde-frameworks/kdbusaddons-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kiconthemes-5.106.0:5 >=kde-frameworks/kio-5.106.0:5 >=kde-frameworks/kitemmodels-5.106.0:5 >=kde-frameworks/kjobwidgets-5.106.0:5 >=kde-frameworks/kparts-5.106.0:5 >=kde-frameworks/kpty-5.106.0:5 >=kde-frameworks/kservice-5.106.0:5 >=kde-frameworks/kwidgetsaddons-5.106.0:5 >=kde-frameworks/kxmlgui-5.106.0:5 sys-libs/zlib >=dev-qt/qtconcurrent-5.15.9:5 dev-qt/qtcore:5
+EAPI: 8
+IDEPEND: dev-util/desktop-file-utils x11-misc/shared-mime-info
+IUSE: zip debug +handbook test
+KEYWORDS: ~amd64 ~arm64 ~loong ~ppc64 ~riscv ~x86
+LICENSE: GPL-2
+MD5: 21c8b80c4708ab2644498beb61a4fa96
+PATH: kde-apps/ark/ark-23.04.2-1.gpkg.tar
+PROVIDES: x86_64: arkpart.so compressfileitemaction.so extractfileitemaction.so extracthere.so kerfuffle_cli7z.so kerfuffle_cliarj.so kerfuffle_clirar.so kerfuffle_cliunarchiver.so kerfuffle_clizip.so kerfuffle_libarchive.so kerfuffle_libarchive_readonly.so libkerfuffle.so.23
+RDEPEND: >=app-arch/libarchive-3.5.3:0/13=[bzip2,lzma] >=dev-qt/qtdbus-5.15.9:5 >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=kde-frameworks/kcompletion-5.106.0:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kconfigwidgets-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kcrash-5.106.0:5 >=kde-frameworks/kdbusaddons-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kiconthemes-5.106.0:5 >=kde-frameworks/kio-5.106.0:5 >=kde-frameworks/kitemmodels-5.106.0:5 >=kde-frameworks/kjobwidgets-5.106.0:5 >=kde-frameworks/kparts-5.106.0:5 >=kde-frameworks/kpty-5.106.0:5 >=kde-frameworks/kservice-5.106.0:5 >=kde-frameworks/kwidgetsaddons-5.106.0:5 >=kde-frameworks/kxmlgui-5.106.0:5 sys-libs/zlib || ( kde-frameworks/breeze-icons:* kde-frameworks/oxygen-icons:* ) >=kde-frameworks/kf-env-4 dev-qt/qtcore:5
+REQUIRES: x86_64: libKF5Completion.so.5 libKF5ConfigCore.so.5 libKF5ConfigGui.so.5 libKF5ConfigWidgets.so.5 libKF5CoreAddons.so.5 libKF5Crash.so.5 libKF5DBusAddons.so.5 libKF5I18n.so.5 libKF5JobWidgets.so.5 libKF5KIOCore.so.5 libKF5KIOFileWidgets.so.5 libKF5KIOGui.so.5 libKF5KIOWidgets.so.5 libKF5Parts.so.5 libKF5Pty.so.5 libKF5Service.so.5 libKF5WidgetsAddons.so.5 libKF5XmlGui.so.5 libQt5Core.so.5 libQt5DBus.so.5 libQt5Gui.so.5 libQt5Widgets.so.5 libarchive.so.13 libc.so.6 libgcc_s.so.1 libstdc++.so.6
+RESTRICT: test
+SHA1: 52d27c108a4257f70d1f0b7674f1bee9fe3461f6
+SIZE: 2621440
+SLOT: 5
+USE: abi_x86_64 amd64 elibc_glibc handbook kernel_linux
+MTIME: 1688331328
+REPO: gentoo
+
+BDEPEND: >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.106.0:5
+BUILD_ID: 1
+BUILD_TIME: 1688331586
+CPV: kde-apps/baloo-widgets-23.04.2
+DEFINED_PHASES: compile configure install nofetch postinst postrm preinst prepare setup test unpack
+DEPEND: >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=kde-frameworks/baloo-5.106.0:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kfilemetadata-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kio-5.106.0:5 >=kde-frameworks/kwidgetsaddons-5.106.0:5 dev-qt/qtcore:5
+EAPI: 8
+IDEPEND: dev-util/desktop-file-utils x11-misc/shared-mime-info
+IUSE: debug test
+KEYWORDS: ~amd64 ~arm64 ~loong ~ppc64 ~riscv ~x86
+LICENSE: LGPL-2+ LGPL-2.1+ || ( LGPL-2.1 LGPL-3 )
+MD5: 2625b418c18436de6b0c551418d7baba
+PATH: kde-apps/baloo-widgets/baloo-widgets-23.04.2-1.gpkg.tar
+PROVIDES: x86_64: baloofilepropertiesplugin.so libKF5BalooWidgets.so.5 tagsfileitemaction.so
+RDEPEND: >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=kde-frameworks/baloo-5.106.0:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kfilemetadata-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kio-5.106.0:5 >=kde-frameworks/kwidgetsaddons-5.106.0:5 || ( kde-frameworks/breeze-icons:* kde-frameworks/oxygen-icons:* ) >=kde-frameworks/kf-env-4 dev-qt/qtcore:5
+REQUIRES: x86_64: libKF5Baloo.so.5 libKF5ConfigCore.so.5 libKF5ConfigGui.so.5 libKF5CoreAddons.so.5 libKF5FileMetaData.so.3 libKF5I18n.so.5 libKF5KIOCore.so.5 libKF5KIOGui.so.5 libKF5KIOWidgets.so.5 libKF5Service.so.5 libKF5WidgetsAddons.so.5 libQt5Core.so.5 libQt5Gui.so.5 libQt5Widgets.so.5 libc.so.6 libstdc++.so.6
+RESTRICT: test test
+SHA1: 6c81a1efa3878134374b0014a443ce3928f8d565
+SIZE: 256000
+SLOT: 5
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux
+MTIME: 1688331588
+REPO: gentoo
+
+BDEPEND: virtual/pkgconfig >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.106.0:5
+BUILD_ID: 1
+BUILD_TIME: 1688327830
+CPV: kde-apps/ffmpegthumbs-23.04.2
+DEFINED_PHASES: compile configure install nofetch postinst postrm preinst prepare setup test unpack
+DEPEND: >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kio-5.106.0:5 media-video/ffmpeg:0/56.58.58= dev-qt/qtcore:5
+EAPI: 8
+IDEPEND: dev-util/desktop-file-utils x11-misc/shared-mime-info
+IUSE: debug
+KEYWORDS: ~amd64 ~arm64 ~loong ~ppc64 ~riscv ~x86
+LICENSE: GPL-2+
+MD5: de2788e0c514a4507561a98dd345e47a
+PATH: kde-apps/ffmpegthumbs/ffmpegthumbs-23.04.2-1.gpkg.tar
+PROVIDES: x86_64: ffmpegthumbs.so
+RDEPEND: >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kio-5.106.0:5 media-video/ffmpeg:0/56.58.58= || ( kde-frameworks/breeze-icons:* kde-frameworks/oxygen-icons:* ) >=kde-frameworks/kf-env-4 dev-qt/qtcore:5
+REQUIRES: x86_64: libKF5ConfigCore.so.5 libKF5ConfigGui.so.5 libKF5KIOWidgets.so.5 libQt5Core.so.5 libQt5Gui.so.5 libavcodec.so.58 libavfilter.so.7 libavformat.so.58 libavutil.so.56 libc.so.6 libm.so.6 libstdc++.so.6 libswscale.so.5
+SHA1: f46adb3dc79f512fbabc77dabfdf853d6c17ba41
+SIZE: 81920
+SLOT: 5
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux
+MTIME: 1688327832
+REPO: gentoo
+
+BDEPEND: >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 >=kde-frameworks/kdoctools-5.106.0:5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.106.0:5
+BUILD_ID: 1
+BUILD_TIME: 1688327951
+CPV: kde-apps/filelight-23.04.2
+DEFINED_PHASES: compile configure install nofetch postinst postrm preinst prepare setup test unpack
+DEPEND: >=dev-qt/qtdeclarative-5.15.9:5 >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtquickcontrols2-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=kde-frameworks/kcompletion-5.106.0:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kconfigwidgets-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kio-5.106.0:5 >=kde-frameworks/kservice-5.106.0:5 >=kde-frameworks/kwidgetsaddons-5.106.0:5 >=kde-frameworks/kxmlgui-5.106.0:5 dev-qt/qtcore:5
+EAPI: 8
+IDEPEND: dev-util/desktop-file-utils x11-misc/shared-mime-info
+IUSE: debug +handbook test
+KEYWORDS: ~amd64 ~arm64 ~loong ~ppc64 ~riscv ~x86
+LICENSE: GPL-2
+MD5: 5827404017026b262a8f5e05da883fd2
+PATH: kde-apps/filelight/filelight-23.04.2-1.gpkg.tar
+RDEPEND: >=dev-qt/qtdeclarative-5.15.9:5 >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtquickcontrols2-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=kde-frameworks/kcompletion-5.106.0:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kconfigwidgets-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kio-5.106.0:5 >=kde-frameworks/kservice-5.106.0:5 >=kde-frameworks/kwidgetsaddons-5.106.0:5 >=kde-frameworks/kxmlgui-5.106.0:5 >=kde-frameworks/kirigami-5.106.0:5 >=kde-frameworks/kquickcharts-5.106.0:5 >=kde-frameworks/qqc2-desktop-style-5.106.0:5 || ( kde-frameworks/breeze-icons:* kde-frameworks/oxygen-icons:* ) >=kde-frameworks/kf-env-4 dev-qt/qtcore:5
+REQUIRES: x86_64: ld-linux-x86-64.so.2 libKF5ConfigCore.so.5 libKF5CoreAddons.so.5 libKF5I18n.so.5 libKF5KIOCore.so.5 libKF5KIOGui.so.5 libKF5KIOWidgets.so.5 libKF5WidgetsAddons.so.5 libKF5XmlGui.so.5 libQt5Core.so.5 libQt5Gui.so.5 libQt5Qml.so.5 libQt5Quick.so.5 libQt5QuickControls2.so.5 libQt5Widgets.so.5 libc.so.6 libstdc++.so.6
+RESTRICT: test
+SHA1: 9b0cb4a13519f53c3e5e1814969618fc2b0259a4
+SIZE: 972800
+SLOT: 5
+USE: abi_x86_64 amd64 elibc_glibc handbook kernel_linux
+MTIME: 1688327954
+REPO: gentoo
+
 BDEPEND: sys-devel/gettext >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.106.0:5
 BUILD_ID: 1
 BUILD_TIME: 1688050090
@@ -6604,6 +7217,160 @@ USE: abi_x86_64 amd64 elibc_glibc kernel_linux
 MTIME: 1688140864
 REPO: gentoo
 
+BDEPEND: >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 >=kde-frameworks/kdoctools-5.106.0:5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.106.0:5
+BUILD_ID: 1
+BUILD_TIME: 1688328013
+CPV: kde-apps/kbackup-23.04.2
+DEFINED_PHASES: compile configure install nofetch postinst postrm preinst prepare setup test unpack
+DEPEND: >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=kde-frameworks/karchive-5.106.0:5 >=kde-frameworks/kcompletion-5.106.0:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kconfigwidgets-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kguiaddons-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kiconthemes-5.106.0:5 >=kde-frameworks/kio-5.106.0:5 >=kde-frameworks/knotifications-5.106.0:5 >=kde-frameworks/kservice-5.106.0:5 >=kde-frameworks/kwidgetsaddons-5.106.0:5 >=kde-frameworks/kxmlgui-5.106.0:5 dev-qt/qtcore:5
+EAPI: 8
+IDEPEND: dev-util/desktop-file-utils x11-misc/shared-mime-info
+IUSE: debug +handbook
+KEYWORDS: ~amd64 ~arm64 ~loong ~ppc64 ~riscv ~x86
+LICENSE: GPL-2
+MD5: c9e1e9045f62e2ea6a9d2b115666aeff
+PATH: kde-apps/kbackup/kbackup-23.04.2-1.gpkg.tar
+RDEPEND: >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=kde-frameworks/karchive-5.106.0:5 >=kde-frameworks/kcompletion-5.106.0:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kconfigwidgets-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kguiaddons-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kiconthemes-5.106.0:5 >=kde-frameworks/kio-5.106.0:5 >=kde-frameworks/knotifications-5.106.0:5 >=kde-frameworks/kservice-5.106.0:5 >=kde-frameworks/kwidgetsaddons-5.106.0:5 >=kde-frameworks/kxmlgui-5.106.0:5 || ( kde-frameworks/breeze-icons:* kde-frameworks/oxygen-icons:* ) >=kde-frameworks/kf-env-4 dev-qt/qtcore:5
+REQUIRES: x86_64: libKF5Archive.so.5 libKF5Completion.so.5 libKF5ConfigCore.so.5 libKF5ConfigWidgets.so.5 libKF5CoreAddons.so.5 libKF5GuiAddons.so.5 libKF5I18n.so.5 libKF5IconThemes.so.5 libKF5KIOCore.so.5 libKF5KIOGui.so.5 libKF5KIOWidgets.so.5 libKF5Notifications.so.5 libKF5Service.so.5 libKF5WidgetsAddons.so.5 libKF5XmlGui.so.5 libQt5Core.so.5 libQt5Gui.so.5 libQt5Widgets.so.5 libarchive.so.13 libc.so.6 libstdc++.so.6
+SHA1: c60adec0353a7688808cb477dbe65f6e8a466421
+SIZE: 727040
+SLOT: 5
+USE: abi_x86_64 amd64 elibc_glibc handbook kernel_linux
+MTIME: 1688328016
+REPO: gentoo
+
+BDEPEND: sys-devel/gettext >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 >=kde-frameworks/kdoctools-5.106.0:5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.106.0:5
+BUILD_ID: 1
+BUILD_TIME: 1688325306
+CPV: kde-apps/kcalc-23.04.2
+DEFINED_PHASES: compile configure install nofetch postinst postrm preinst prepare setup test unpack
+DEPEND: dev-libs/gmp:0/10.4= dev-libs/mpfr:0/6= >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=dev-qt/qtxml-5.15.9:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kconfigwidgets-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kcrash-5.106.0:5 >=kde-frameworks/kguiaddons-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/knotifications-5.106.0:5 >=kde-frameworks/kwidgetsaddons-5.106.0:5 >=kde-frameworks/kxmlgui-5.106.0:5 dev-qt/qtcore:5
+EAPI: 8
+IDEPEND: dev-util/desktop-file-utils x11-misc/shared-mime-info
+IUSE: debug +handbook test
+KEYWORDS: ~amd64 ~arm64 ~loong ~ppc64 ~riscv ~x86
+LICENSE: GPL-2
+MD5: 9042af4ac66db2d5fba6762000badb48
+PATH: kde-apps/kcalc/kcalc-23.04.2-1.gpkg.tar
+RDEPEND: dev-libs/gmp:0/10.4= dev-libs/mpfr:0/6= >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=dev-qt/qtxml-5.15.9:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kconfigwidgets-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kcrash-5.106.0:5 >=kde-frameworks/kguiaddons-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/knotifications-5.106.0:5 >=kde-frameworks/kwidgetsaddons-5.106.0:5 >=kde-frameworks/kxmlgui-5.106.0:5 || ( kde-frameworks/breeze-icons:* kde-frameworks/oxygen-icons:* ) >=kde-frameworks/kf-env-4 dev-qt/qtcore:5
+REQUIRES: x86_64: libKF5ConfigCore.so.5 libKF5ConfigGui.so.5 libKF5ConfigWidgets.so.5 libKF5CoreAddons.so.5 libKF5Crash.so.5 libKF5GuiAddons.so.5 libKF5I18n.so.5 libKF5Notifications.so.5 libKF5WidgetsAddons.so.5 libKF5XmlGui.so.5 libQt5Core.so.5 libQt5Gui.so.5 libQt5Widgets.so.5 libQt5Xml.so.5 libc.so.6 libgmp.so.10 libm.so.6 libmpfr.so.6 libstdc++.so.6
+RESTRICT: test
+SHA1: a0a3d81be7aabdd4d8c74b032aae1d6ecdab1bc1
+SIZE: 1208320
+SLOT: 5
+USE: abi_x86_64 amd64 elibc_glibc handbook kernel_linux
+MTIME: 1688325309
+REPO: gentoo
+
+BDEPEND: >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 >=kde-frameworks/kdoctools-5.106.0:5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.106.0:5
+BUILD_ID: 1
+BUILD_TIME: 1688238038
+CPV: kde-apps/kcharselect-23.04.2
+DEFINED_PHASES: compile configure install nofetch postinst postrm preinst prepare setup test unpack
+DEPEND: >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=kde-frameworks/kbookmarks-5.106.0:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kconfigwidgets-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kcrash-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kwidgetsaddons-5.106.0:5 >=kde-frameworks/kxmlgui-5.106.0:5 dev-qt/qtcore:5
+EAPI: 8
+IDEPEND: dev-util/desktop-file-utils x11-misc/shared-mime-info
+IUSE: debug +handbook
+KEYWORDS: ~amd64 ~arm64 ~loong ~ppc64 ~riscv ~x86
+LICENSE: GPL-2
+MD5: 101c681d06c3abeeeb87dba79a3d6986
+PATH: kde-apps/kcharselect/kcharselect-23.04.2-1.gpkg.tar
+RDEPEND: >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=kde-frameworks/kbookmarks-5.106.0:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kconfigwidgets-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kcrash-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kwidgetsaddons-5.106.0:5 >=kde-frameworks/kxmlgui-5.106.0:5 || ( kde-frameworks/breeze-icons:* kde-frameworks/oxygen-icons:* ) >=kde-frameworks/kf-env-4 dev-qt/qtcore:5
+REQUIRES: x86_64: libKF5Bookmarks.so.5 libKF5ConfigCore.so.5 libKF5ConfigGui.so.5 libKF5ConfigWidgets.so.5 libKF5CoreAddons.so.5 libKF5Crash.so.5 libKF5I18n.so.5 libKF5WidgetsAddons.so.5 libKF5XmlGui.so.5 libQt5Core.so.5 libQt5Gui.so.5 libQt5Widgets.so.5 libc.so.6 libstdc++.so.6
+SHA1: e0616665f837514ab19baf5bae002cc60e753133
+SIZE: 604160
+SLOT: 5
+USE: abi_x86_64 amd64 elibc_glibc handbook kernel_linux
+MTIME: 1688238045
+REPO: gentoo
+
+BDEPEND: >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.106.0:5
+BUILD_ID: 1
+BUILD_TIME: 1688237282
+CPV: kde-apps/kcolorchooser-23.04.2
+DEFINED_PHASES: compile configure install nofetch postinst postrm preinst prepare setup test unpack
+DEPEND: >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kxmlgui-5.106.0:5 dev-qt/qtcore:5
+EAPI: 8
+IDEPEND: dev-util/desktop-file-utils x11-misc/shared-mime-info
+IUSE: debug
+KEYWORDS: ~amd64 ~arm64 ~ppc64 ~riscv ~x86
+LICENSE: MIT
+MD5: 89858591456765f1c35b81044002d6e1
+PATH: kde-apps/kcolorchooser/kcolorchooser-23.04.2-1.gpkg.tar
+RDEPEND: >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kxmlgui-5.106.0:5 || ( kde-frameworks/breeze-icons:* kde-frameworks/oxygen-icons:* ) >=kde-frameworks/kf-env-4 dev-qt/qtcore:5
+REQUIRES: x86_64: libKF5CoreAddons.so.5 libKF5I18n.so.5 libKF5XmlGui.so.5 libQt5Core.so.5 libQt5Gui.so.5 libQt5Widgets.so.5 libc.so.6 libstdc++.so.6
+SHA1: c3aedfee97f43b9ff64be5b42dd3b92f1014e990
+SIZE: 81920
+SLOT: 5
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux
+MTIME: 1688237288
+REPO: gentoo
+
+BDEPEND: >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 >=kde-frameworks/kdoctools-5.106.0:5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.106.0:5
+BUILD_ID: 1
+BUILD_TIME: 1688330362
+CPV: kde-apps/kcron-23.04.2
+DEFINED_PHASES: compile configure install nofetch postinst postrm preinst prepare setup test unpack
+DEPEND: >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtprintsupport-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=kde-frameworks/kauth-5.106.0:5 >=kde-frameworks/kconfigwidgets-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kio-5.106.0:5 >=kde-frameworks/kwidgetsaddons-5.106.0:5 dev-qt/qtcore:5
+EAPI: 8
+IDEPEND: dev-util/desktop-file-utils x11-misc/shared-mime-info
+IUSE: debug +handbook
+KEYWORDS: ~amd64 ~arm64 ~ppc64 ~riscv ~x86
+LICENSE: GPL-2
+MD5: efade78f2c4052004fe740166dae57c6
+PATH: kde-apps/kcron/kcron-23.04.2-1.gpkg.tar
+PROVIDES: x86_64: kcm_cron.so
+RDEPEND: >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtprintsupport-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=kde-frameworks/kauth-5.106.0:5 >=kde-frameworks/kconfigwidgets-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kio-5.106.0:5 >=kde-frameworks/kwidgetsaddons-5.106.0:5 virtual/cron || ( kde-frameworks/breeze-icons:* kde-frameworks/oxygen-icons:* ) >=kde-frameworks/kf-env-4 dev-qt/qtcore:5
+REQUIRES: x86_64: libKF5AuthCore.so.5 libKF5ConfigWidgets.so.5 libKF5CoreAddons.so.5 libKF5I18n.so.5 libKF5KIOWidgets.so.5 libKF5WidgetsAddons.so.5 libQt5Core.so.5 libQt5Gui.so.5 libQt5PrintSupport.so.5 libQt5Widgets.so.5 libc.so.6 libstdc++.so.6
+SHA1: ae2591379f615d02c7481e3754bdb5bd6a78f568
+SIZE: 1341440
+SLOT: 5
+USE: abi_x86_64 amd64 elibc_glibc handbook kernel_linux
+MTIME: 1688330367
+REPO: gentoo
+
+BUILD_ID: 1
+BUILD_TIME: 1688331050
+CPV: kde-apps/kdeadmin-meta-23.04.2
+DEFINED_PHASES: -
+EAPI: 8
+IUSE: +cron
+KEYWORDS: ~amd64 ~arm64 ~ppc64 ~riscv ~x86
+LICENSE: metapackage
+MD5: d9c4dd9b9c7a25b5ca75fb48d1467ffe
+PATH: kde-apps/kdeadmin-meta/kdeadmin-meta-23.04.2-1.gpkg.tar
+RDEPEND: >=kde-apps/ksystemlog-23.04.2:5 >=kde-apps/kcron-23.04.2:5
+SHA1: 942329411d4126a8e597bf13302aefeca7a51aa7
+SIZE: 20480
+SLOT: 5
+USE: abi_x86_64 amd64 cron elibc_glibc kernel_linux
+MTIME: 1688331051
+REPO: gentoo
+
+BDEPEND: >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.106.0:5
+BUILD_ID: 1
+BUILD_TIME: 1688235941
+CPV: kde-apps/kdebugsettings-23.04.2
+DEFINED_PHASES: compile configure install nofetch postinst postrm preinst prepare setup test unpack
+DEPEND: >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=kde-frameworks/kcompletion-5.106.0:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kdbusaddons-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kitemviews-5.106.0:5 >=kde-frameworks/kwidgetsaddons-5.106.0:5 >=kde-frameworks/kxmlgui-5.106.0:5 dev-qt/qtcore:5
+EAPI: 8
+IDEPEND: dev-util/desktop-file-utils x11-misc/shared-mime-info
+IUSE: debug test
+KEYWORDS: ~amd64 ~arm64 ~loong ~ppc64 ~riscv ~x86
+LICENSE: GPL-2
+MD5: 3022e32242851f2de7bc92b6e5a1c875
+PATH: kde-apps/kdebugsettings/kdebugsettings-23.04.2-1.gpkg.tar
+PROVIDES: x86_64: libkdebugsettings.so.5
+RDEPEND: >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=kde-frameworks/kcompletion-5.106.0:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kdbusaddons-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kitemviews-5.106.0:5 >=kde-frameworks/kwidgetsaddons-5.106.0:5 >=kde-frameworks/kxmlgui-5.106.0:5 || ( kde-frameworks/breeze-icons:* kde-frameworks/oxygen-icons:* ) >=kde-frameworks/kf-env-4 dev-qt/qtcore:5
+REQUIRES: x86_64: libKF5Completion.so.5 libKF5ConfigCore.so.5 libKF5ConfigGui.so.5 libKF5CoreAddons.so.5 libKF5DBusAddons.so.5 libKF5I18n.so.5 libKF5ItemViews.so.5 libKF5WidgetsAddons.so.5 libKF5XmlGui.so.5 libQt5Core.so.5 libQt5Gui.so.5 libQt5Widgets.so.5 libc.so.6 libstdc++.so.6
+RESTRICT: test test
+SHA1: 1e2140b84ffe287bc111a71cb30612285b107b62
+SIZE: 276480
+SLOT: 5
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux
+MTIME: 1688235945
+REPO: gentoo
+
 BDEPEND: >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.106.0:5
 BUILD_ID: 1
 BUILD_TIME: 1688232883
@@ -6625,6 +7392,50 @@ SIZE: 61440
 SLOT: 5
 USE: abi_x86_64 amd64 elibc_glibc kernel_linux
 MTIME: 1688232886
+REPO: gentoo
+
+BDEPEND: >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.106.0:5
+BUILD_ID: 1
+BUILD_TIME: 1688330419
+CPV: kde-apps/kdialog-23.04.2
+DEFINED_PHASES: compile configure install nofetch postinst postrm preinst prepare setup test unpack
+DEPEND: >=dev-qt/qtdbus-5.15.9:5 >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kdbusaddons-5.106.0:5 >=kde-frameworks/kguiaddons-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kiconthemes-5.106.0:5 >=kde-frameworks/kio-5.106.0:5 >=kde-frameworks/knotifications-5.106.0:5 >=kde-frameworks/ktextwidgets-5.106.0:5 >=kde-frameworks/kwidgetsaddons-5.106.0:5 >=kde-frameworks/kwindowsystem-5.106.0:5 x11-libs/libX11 dev-qt/qtcore:5
+EAPI: 8
+IDEPEND: dev-util/desktop-file-utils x11-misc/shared-mime-info
+IUSE: X debug
+KEYWORDS: ~amd64 ~arm64 ~loong ~ppc64 ~riscv ~x86
+LICENSE: GPL-2
+MD5: d5e40d43703d4cc2d727808ce959837f
+PATH: kde-apps/kdialog/kdialog-23.04.2-1.gpkg.tar
+RDEPEND: >=dev-qt/qtdbus-5.15.9:5 >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kdbusaddons-5.106.0:5 >=kde-frameworks/kguiaddons-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kiconthemes-5.106.0:5 >=kde-frameworks/kio-5.106.0:5 >=kde-frameworks/knotifications-5.106.0:5 >=kde-frameworks/ktextwidgets-5.106.0:5 >=kde-frameworks/kwidgetsaddons-5.106.0:5 >=kde-frameworks/kwindowsystem-5.106.0:5 x11-libs/libX11 || ( kde-frameworks/breeze-icons:* kde-frameworks/oxygen-icons:* ) >=kde-frameworks/kf-env-4 dev-qt/qtcore:5
+REQUIRES: x86_64: libKF5ConfigCore.so.5 libKF5CoreAddons.so.5 libKF5DBusAddons.so.5 libKF5GuiAddons.so.5 libKF5I18n.so.5 libKF5IconThemes.so.5 libKF5KIOCore.so.5 libKF5Notifications.so.5 libKF5TextWidgets.so.5 libKF5WidgetsAddons.so.5 libKF5WindowSystem.so.5 libQt5Core.so.5 libQt5DBus.so.5 libQt5Gui.so.5 libQt5Widgets.so.5 libX11.so.6 libc.so.6 libstdc++.so.6
+SHA1: 28f9b4cee11ff8122cfca373bee4325d1bba6120
+SIZE: 307200
+SLOT: 5
+USE: X abi_x86_64 amd64 elibc_glibc kernel_linux
+MTIME: 1688330422
+REPO: gentoo
+
+BDEPEND: >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 >=kde-frameworks/kdoctools-5.106.0:5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.106.0:5
+BUILD_ID: 1
+BUILD_TIME: 1688330482
+CPV: kde-apps/kfind-23.04.2
+DEFINED_PHASES: compile configure install nofetch postinst postrm preinst prepare setup test unpack
+DEPEND: >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=kde-frameworks/karchive-5.106.0:5 >=kde-frameworks/kcompletion-5.106.0:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kconfigwidgets-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kfilemetadata-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kio-5.106.0:5 >=kde-frameworks/kjobwidgets-5.106.0:5 >=kde-frameworks/kservice-5.106.0:5 >=kde-frameworks/kwidgetsaddons-5.106.0:5 >=kde-frameworks/kxmlgui-5.106.0:5 >=dev-qt/qtconcurrent-5.15.9:5 dev-qt/qtcore:5
+EAPI: 8
+IDEPEND: dev-util/desktop-file-utils x11-misc/shared-mime-info
+IUSE: debug +handbook
+KEYWORDS: ~amd64 ~arm64 ~loong ~ppc64 ~riscv ~x86
+LICENSE: GPL-2
+MD5: 051224b54b87a5b988a1cca063938666
+PATH: kde-apps/kfind/kfind-23.04.2-1.gpkg.tar
+RDEPEND: >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=kde-frameworks/karchive-5.106.0:5 >=kde-frameworks/kcompletion-5.106.0:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kconfigwidgets-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kfilemetadata-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kio-5.106.0:5 >=kde-frameworks/kjobwidgets-5.106.0:5 >=kde-frameworks/kservice-5.106.0:5 >=kde-frameworks/kwidgetsaddons-5.106.0:5 >=kde-frameworks/kxmlgui-5.106.0:5 || ( kde-frameworks/breeze-icons:* kde-frameworks/oxygen-icons:* ) >=kde-frameworks/kf-env-4 dev-qt/qtcore:5
+REQUIRES: x86_64: libKF5Archive.so.5 libKF5Completion.so.5 libKF5ConfigCore.so.5 libKF5ConfigWidgets.so.5 libKF5CoreAddons.so.5 libKF5FileMetaData.so.3 libKF5I18n.so.5 libKF5KIOCore.so.5 libKF5KIOGui.so.5 libKF5KIOWidgets.so.5 libKF5WidgetsAddons.so.5 libKF5XmlGui.so.5 libQt5Core.so.5 libQt5Gui.so.5 libQt5Widgets.so.5 libc.so.6 libstdc++.so.6
+SHA1: aba539fd5c005669056a406816a569c56e17adbd
+SIZE: 808960
+SLOT: 5
+USE: abi_x86_64 amd64 elibc_glibc handbook kernel_linux
+MTIME: 1688330486
 REPO: gentoo
 
 BDEPEND: >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.106.0:5
@@ -6671,6 +7482,29 @@ USE: abi_x86_64 amd64 elibc_glibc kernel_linux
 MTIME: 1688142433
 REPO: gentoo
 
+BDEPEND: >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 >=kde-frameworks/kdoctools-5.106.0:5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.106.0:5
+BUILD_ID: 1
+BUILD_TIME: 1688331500
+CPV: kde-apps/kimagemapeditor-23.04.2
+DEFINED_PHASES: compile configure install nofetch postinst postrm preinst prepare setup test unpack
+DEPEND: >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtwebengine-5.15.9:5[widgets] >=dev-qt/qtwidgets-5.15.9:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kconfigwidgets-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kcrash-5.106.0:5 >=kde-frameworks/kdbusaddons-5.106.0:5 >=kde-frameworks/kguiaddons-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kparts-5.106.0:5 >=kde-frameworks/kwidgetsaddons-5.106.0:5 >=kde-frameworks/kxmlgui-5.106.0:5 dev-qt/qtcore:5
+EAPI: 8
+IDEPEND: dev-util/desktop-file-utils x11-misc/shared-mime-info
+IUSE: debug +handbook
+KEYWORDS: ~amd64 ~arm64 ~ppc64 ~x86
+LICENSE: GPL-2
+MD5: 7f152a433290566d12e65ca9e77783cb
+PATH: kde-apps/kimagemapeditor/kimagemapeditor-23.04.2-1.gpkg.tar
+PROVIDES: x86_64: kimagemapeditorpart.so
+RDEPEND: >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtwebengine-5.15.9:5[widgets] >=dev-qt/qtwidgets-5.15.9:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kconfigwidgets-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kcrash-5.106.0:5 >=kde-frameworks/kdbusaddons-5.106.0:5 >=kde-frameworks/kguiaddons-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kparts-5.106.0:5 >=kde-frameworks/kwidgetsaddons-5.106.0:5 >=kde-frameworks/kxmlgui-5.106.0:5 || ( kde-frameworks/breeze-icons:* kde-frameworks/oxygen-icons:* ) >=kde-frameworks/kf-env-4 dev-qt/qtcore:5
+REQUIRES: x86_64: libKF5ConfigCore.so.5 libKF5ConfigGui.so.5 libKF5ConfigWidgets.so.5 libKF5CoreAddons.so.5 libKF5I18n.so.5 libKF5KIOCore.so.5 libKF5Parts.so.5 libKF5WidgetsAddons.so.5 libKF5XmlGui.so.5 libQt5Core.so.5 libQt5Gui.so.5 libQt5WebEngineWidgets.so.5 libQt5Widgets.so.5 libc.so.6 libstdc++.so.6
+SHA1: 2c3c4bed3c5f4129d6aca7fe3a15c77e7eb522ec
+SIZE: 1505280
+SLOT: 5
+USE: abi_x86_64 amd64 elibc_glibc handbook kernel_linux
+MTIME: 1688331504
+REPO: gentoo
+
 BDEPEND: dev-util/gperf >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 >=kde-frameworks/kdoctools-5.106.0:5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.106.0:5
 BUILD_ID: 1
 BUILD_TIME: 1687994715
@@ -6693,6 +7527,212 @@ SIZE: 1873920
 SLOT: 5
 USE: X abi_x86_64 activities amd64 elibc_glibc handbook kernel_linux man phonon sftp
 MTIME: 1687994722
+REPO: gentoo
+
+BDEPEND: >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 >=kde-frameworks/kdoctools-5.106.0:5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.106.0:5
+BUILD_ID: 1
+BUILD_TIME: 1688329579
+CPV: kde-apps/kolourpaint-23.04.2
+DEFINED_PHASES: compile configure install nofetch postinst postrm preinst prepare setup test unpack
+DEPEND: >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtprintsupport-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kconfigwidgets-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kguiaddons-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kio-5.106.0:5 >=kde-frameworks/kjobwidgets-5.106.0:5 >=kde-frameworks/kservice-5.106.0:5 >=kde-frameworks/ktextwidgets-5.106.0:5 >=kde-frameworks/kwidgetsaddons-5.106.0:5 >=kde-frameworks/kxmlgui-5.106.0:5 dev-qt/qtcore:5
+EAPI: 8
+IDEPEND: dev-util/desktop-file-utils x11-misc/shared-mime-info
+IUSE: scanner debug +handbook
+KEYWORDS: ~amd64 ~arm64 ~ppc64 ~riscv ~x86
+LICENSE: BSD-2 LGPL-2 LGPL-2+ || ( LGPL-2.1 LGPL-3 ) GPL-2 FDL-1.2
+MD5: f47d94f4de26824a2fef37af6990fa23
+PATH: kde-apps/kolourpaint/kolourpaint-23.04.2-1.gpkg.tar
+PROVIDES: x86_64: libkolourpaint_lgpl.so.5
+RDEPEND: >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtprintsupport-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kconfigwidgets-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kguiaddons-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kio-5.106.0:5 >=kde-frameworks/kjobwidgets-5.106.0:5 >=kde-frameworks/kservice-5.106.0:5 >=kde-frameworks/ktextwidgets-5.106.0:5 >=kde-frameworks/kwidgetsaddons-5.106.0:5 >=kde-frameworks/kxmlgui-5.106.0:5 || ( kde-frameworks/breeze-icons:* kde-frameworks/oxygen-icons:* ) >=kde-frameworks/kf-env-4 dev-qt/qtcore:5
+REQUIRES: x86_64: libKF5ConfigCore.so.5 libKF5ConfigGui.so.5 libKF5ConfigWidgets.so.5 libKF5CoreAddons.so.5 libKF5GuiAddons.so.5 libKF5I18n.so.5 libKF5JobWidgets.so.5 libKF5KIOCore.so.5 libKF5KIOFileWidgets.so.5 libKF5KIOGui.so.5 libKF5TextWidgets.so.5 libKF5WidgetsAddons.so.5 libKF5XmlGui.so.5 libQt5Core.so.5 libQt5Gui.so.5 libQt5PrintSupport.so.5 libQt5Widgets.so.5 libc.so.6 libm.so.6 libstdc++.so.6
+SHA1: 35ba98fc843d8c6bd4596d0c7c70f361c6eddac2
+SIZE: 7178240
+SLOT: 5
+USE: abi_x86_64 amd64 elibc_glibc handbook kernel_linux
+MTIME: 1688329586
+REPO: gentoo
+
+BDEPEND: >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 >=kde-frameworks/kdoctools-5.106.0:5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.106.0:5
+BUILD_ID: 1
+BUILD_TIME: 1688331028
+CPV: kde-apps/konsole-23.04.2
+DEFINED_PHASES: compile configure install nofetch postinst postrm preinst prepare setup test unpack
+DEPEND: dev-libs/icu:0/73.1= >=dev-qt/qtdbus-5.15.9:5 >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtmultimedia-5.15.9:5 >=dev-qt/qtnetwork-5.15.9:5 >=dev-qt/qtprintsupport-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=dev-qt/qtxml-5.15.9:5 >=kde-frameworks/kbookmarks-5.106.0:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kconfigwidgets-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kcrash-5.106.0:5 >=kde-frameworks/kdbusaddons-5.106.0:5 >=kde-frameworks/kguiaddons-5.106.0:5 >=kde-frameworks/kjobwidgets-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kiconthemes-5.106.0:5 >=kde-frameworks/kio-5.106.0:5 >=kde-frameworks/knewstuff-5.106.0:5 >=kde-frameworks/knotifications-5.106.0:5 >=kde-frameworks/knotifyconfig-5.106.0:5 >=kde-frameworks/kparts-5.106.0:5 >=kde-frameworks/kpty-5.106.0:5 >=kde-frameworks/kservice-5.106.0:5 >=kde-frameworks/ktextwidgets-5.106.0:5 >=kde-frameworks/kwidgetsaddons-5.106.0:5 >=kde-frameworks/kwindowsystem-5.106.0:5 >=kde-frameworks/kxmlgui-5.106.0:5 x11-libs/libX11 dev-qt/qtcore:5
+EAPI: 8
+IDEPEND: dev-util/desktop-file-utils x11-misc/shared-mime-info
+IUSE: X debug +handbook test
+KEYWORDS: ~amd64 ~arm64 ~loong ~ppc64 ~riscv ~x86
+LICENSE: GPL-2
+MD5: f8fc38c04f600a71b4fcdd80c17452ed
+PATH: kde-apps/konsole/konsole-23.04.2-1.gpkg.tar
+PROVIDES: x86_64: konsole_quickcommandsplugin.so konsole_sshmanagerplugin.so konsolepart.so libkonsoleapp.so.1 libkonsoleprivate.so.1
+RDEPEND: dev-libs/icu:0/73.1= >=dev-qt/qtdbus-5.15.9:5 >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtmultimedia-5.15.9:5 >=dev-qt/qtnetwork-5.15.9:5 >=dev-qt/qtprintsupport-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=dev-qt/qtxml-5.15.9:5 >=kde-frameworks/kbookmarks-5.106.0:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kconfigwidgets-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kcrash-5.106.0:5 >=kde-frameworks/kdbusaddons-5.106.0:5 >=kde-frameworks/kguiaddons-5.106.0:5 >=kde-frameworks/kjobwidgets-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kiconthemes-5.106.0:5 >=kde-frameworks/kio-5.106.0:5 >=kde-frameworks/knewstuff-5.106.0:5 >=kde-frameworks/knotifications-5.106.0:5 >=kde-frameworks/knotifyconfig-5.106.0:5 >=kde-frameworks/kparts-5.106.0:5 >=kde-frameworks/kpty-5.106.0:5 >=kde-frameworks/kservice-5.106.0:5 >=kde-frameworks/ktextwidgets-5.106.0:5 >=kde-frameworks/kwidgetsaddons-5.106.0:5 >=kde-frameworks/kwindowsystem-5.106.0:5 >=kde-frameworks/kxmlgui-5.106.0:5 x11-libs/libX11 || ( kde-frameworks/breeze-icons:* kde-frameworks/oxygen-icons:* ) >=kde-frameworks/kf-env-4 dev-qt/qtcore:5
+REQUIRES: x86_64: libKF5Bookmarks.so.5 libKF5ConfigCore.so.5 libKF5ConfigGui.so.5 libKF5ConfigWidgets.so.5 libKF5CoreAddons.so.5 libKF5Crash.so.5 libKF5DBusAddons.so.5 libKF5GlobalAccel.so.5 libKF5GuiAddons.so.5 libKF5I18n.so.5 libKF5IconThemes.so.5 libKF5JobWidgets.so.5 libKF5KIOCore.so.5 libKF5KIOGui.so.5 libKF5KIOWidgets.so.5 libKF5NewStuffCore.so.5 libKF5NewStuffWidgets.so.5 libKF5Notifications.so.5 libKF5NotifyConfig.so.5 libKF5Parts.so.5 libKF5Pty.so.5 libKF5Service.so.5 libKF5TextWidgets.so.5 libKF5WidgetsAddons.so.5 libKF5WindowSystem.so.5 libKF5XmlGui.so.5 libQt5Core.so.5 libQt5DBus.so.5 libQt5Gui.so.5 libQt5Multimedia.so.5 libQt5Network.so.5 libQt5PrintSupport.so.5 libQt5Widgets.so.5 libQt5Xml.so.5 libc.so.6 libicuuc.so.73 libm.so.6 libstdc++.so.6
+RESTRICT: test
+SHA1: 0ff061d963a68d86949b3e22a5e468d09e12c0b0
+SIZE: 4341760
+SLOT: 5
+USE: X abi_x86_64 amd64 elibc_glibc handbook kernel_linux
+MTIME: 1688331032
+REPO: gentoo
+
+BDEPEND: >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.106.0:5
+BUILD_ID: 1
+BUILD_TIME: 1688327786
+CPV: kde-apps/kpimtextedit-23.04.2
+DEFINED_PHASES: compile configure install nofetch postinst postrm preinst prepare setup test unpack
+DEPEND: >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=kde-frameworks/kcodecs-5.106.0:5 >=kde-frameworks/kcompletion-5.106.0:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kconfigwidgets-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kiconthemes-5.106.0:5 >=kde-frameworks/kio-5.106.0:5 >=kde-frameworks/kwidgetsaddons-5.106.0:5 >=kde-frameworks/kxmlgui-5.106.0:5 >=kde-frameworks/sonnet-5.106.0:5 >=kde-frameworks/syntax-highlighting-5.106.0:5 dev-qt/qtcore:5
+EAPI: 8
+IDEPEND: dev-util/desktop-file-utils x11-misc/shared-mime-info
+IUSE: speech debug designer doc test
+KEYWORDS: ~amd64 ~arm64 ~ppc64 ~riscv ~x86
+LICENSE: LGPL-2.1+
+MD5: d4ac6bfd39dd0d6649c5d0e428ceb4c2
+PATH: kde-apps/kpimtextedit/kpimtextedit-23.04.2-1.gpkg.tar
+PROVIDES: x86_64: libKPim5TextEdit.so.5
+RDEPEND: >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=kde-frameworks/kcodecs-5.106.0:5 >=kde-frameworks/kcompletion-5.106.0:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kconfigwidgets-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kiconthemes-5.106.0:5 >=kde-frameworks/kio-5.106.0:5 >=kde-frameworks/kwidgetsaddons-5.106.0:5 >=kde-frameworks/kxmlgui-5.106.0:5 >=kde-frameworks/sonnet-5.106.0:5 >=kde-frameworks/syntax-highlighting-5.106.0:5 || ( kde-frameworks/breeze-icons:* kde-frameworks/oxygen-icons:* ) >=kde-frameworks/kf-env-4 dev-qt/qtcore:5
+REQUIRES: x86_64: libKF5Codecs.so.5 libKF5ConfigCore.so.5 libKF5ConfigGui.so.5 libKF5ConfigWidgets.so.5 libKF5CoreAddons.so.5 libKF5I18n.so.5 libKF5KIOWidgets.so.5 libKF5SonnetCore.so.5 libKF5SonnetUi.so.5 libKF5SyntaxHighlighting.so.5 libKF5WidgetsAddons.so.5 libKF5XmlGui.so.5 libQt5Core.so.5 libQt5Gui.so.5 libQt5Widgets.so.5 libc.so.6 libstdc++.so.6
+RESTRICT: test test
+SHA1: 8540945eb153c0330e5f170237d04fe13ebea3a1
+SIZE: 747520
+SLOT: 5
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux
+MTIME: 1688327789
+REPO: gentoo
+
+BDEPEND: >=dev-qt/qtwaylandscanner-5.15.9:5 >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 >=kde-frameworks/kdoctools-5.106.0:5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.106.0:5
+BUILD_ID: 1
+BUILD_TIME: 1688326716
+CPV: kde-apps/krfb-23.04.2
+DEFINED_PHASES: compile configure install nofetch postinst postrm preinst prepare setup test unpack
+DEPEND: >=dev-qt/qtdbus-5.15.9:5 >=dev-qt/qtnetwork-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=dev-qt/qtx11extras-5.15.9:5 >=kde-frameworks/kcompletion-5.106.0:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kconfigwidgets-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kcrash-5.106.0:5 >=kde-frameworks/kdbusaddons-5.106.0:5 >=kde-frameworks/kdnssd-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/knotifications-5.106.0:5 >=kde-frameworks/kwallet-5.106.0:5 >=kde-frameworks/kwidgetsaddons-5.106.0:5 >=kde-frameworks/kwindowsystem-5.106.0:5 >=kde-frameworks/kxmlgui-5.106.0:5 >=net-libs/libvncserver-0.9.9 x11-libs/libX11 x11-libs/libxcb x11-libs/libXtst x11-libs/xcb-util-image dev-libs/wayland || ( >=dev-qt/qtgui-5.15.9:5[libinput] >=dev-qt/qtgui-5.15.9:5[X] ) >=dev-qt/qtwayland-5.15.9:5 >=kde-frameworks/kwayland-5.106.0:5 kde-plasma/kpipewire:5 media-libs/libepoxy media-libs/mesa[gbm(+)] >=media-video/pipewire-0.3:0/0.4= >=dev-libs/plasma-wayland-protocols-1.5.0 media-libs/libglvnd dev-qt/qtcore:5
+EAPI: 8
+IDEPEND: dev-util/desktop-file-utils x11-misc/shared-mime-info
+IUSE: wayland debug +handbook
+KEYWORDS: ~amd64 ~arm64 ~ppc64 ~riscv ~x86
+LICENSE: GPL-2
+MD5: 28916d132d0045581c6f21b8b9cdff08
+PATH: kde-apps/krfb/krfb-23.04.2-1.gpkg.tar
+PROVIDES: x86_64: libkrfbprivate.so.5.0 pw.so qt.so x11.so xcb.so xdp.so
+RDEPEND: >=dev-qt/qtdbus-5.15.9:5 >=dev-qt/qtnetwork-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=dev-qt/qtx11extras-5.15.9:5 >=kde-frameworks/kcompletion-5.106.0:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kconfigwidgets-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kcrash-5.106.0:5 >=kde-frameworks/kdbusaddons-5.106.0:5 >=kde-frameworks/kdnssd-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/knotifications-5.106.0:5 >=kde-frameworks/kwallet-5.106.0:5 >=kde-frameworks/kwidgetsaddons-5.106.0:5 >=kde-frameworks/kwindowsystem-5.106.0:5 >=kde-frameworks/kxmlgui-5.106.0:5 >=net-libs/libvncserver-0.9.9 x11-libs/libX11 x11-libs/libxcb x11-libs/libXtst x11-libs/xcb-util-image dev-libs/wayland || ( >=dev-qt/qtgui-5.15.9:5[libinput] >=dev-qt/qtgui-5.15.9:5[X] ) >=dev-qt/qtwayland-5.15.9:5 >=kde-frameworks/kwayland-5.106.0:5 kde-plasma/kpipewire:5 media-libs/libepoxy media-libs/mesa[gbm(+)] >=media-video/pipewire-0.3:0/0.4= sys-apps/xdg-desktop-portal[screencast] || ( kde-frameworks/breeze-icons:* kde-frameworks/oxygen-icons:* ) >=kde-frameworks/kf-env-4 dev-qt/qtcore:5
+REQUIRES: x86_64: libKF5ConfigCore.so.5 libKF5ConfigGui.so.5 libKF5ConfigWidgets.so.5 libKF5CoreAddons.so.5 libKF5DBusAddons.so.5 libKF5DNSSD.so.5 libKF5I18n.so.5 libKF5Notifications.so.5 libKF5Wallet.so.5 libKF5WaylandClient.so.5 libKF5WidgetsAddons.so.5 libKF5WindowSystem.so.5 libKF5XmlGui.so.5 libKPipeWire.so.5 libKPipeWireDmaBuf.so.5 libQt5Core.so.5 libQt5DBus.so.5 libQt5Gui.so.5 libQt5Network.so.5 libQt5Widgets.so.5 libQt5X11Extras.so.5 libX11.so.6 libXtst.so.6 libc.so.6 libstdc++.so.6 libvncserver.so.1 libwayland-client.so.0 libxcb-damage.so.0 libxcb-image.so.0 libxcb-shm.so.0 libxcb.so.1
+SHA1: 6034f1b73145734d49ffcf4809625cfdf5f7ab85
+SIZE: 1802240
+SLOT: 5
+USE: abi_x86_64 amd64 elibc_glibc handbook kernel_linux wayland
+MTIME: 1688326720
+REPO: gentoo
+
+BDEPEND: >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 >=kde-frameworks/kdoctools-5.106.0:5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.106.0:5
+BUILD_ID: 1
+BUILD_TIME: 1688326538
+CPV: kde-apps/kruler-23.04.2
+DEFINED_PHASES: compile configure install nofetch postinst postrm preinst prepare setup test unpack
+DEPEND: >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kconfigwidgets-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/knotifications-5.106.0:5 >=kde-frameworks/kwidgetsaddons-5.106.0:5 >=kde-frameworks/kwindowsystem-5.106.0:5 >=kde-frameworks/kxmlgui-5.106.0:5 >=dev-qt/qtx11extras-5.15.9:5 x11-libs/libxcb dev-qt/qtcore:5
+EAPI: 8
+IDEPEND: dev-util/desktop-file-utils x11-misc/shared-mime-info
+IUSE: X debug +handbook
+KEYWORDS: ~amd64 ~arm64 ~ppc64 ~riscv ~x86
+LICENSE: GPL-2+ FDL-1.2
+MD5: 21f800d509f93354941200da6a5c558e
+PATH: kde-apps/kruler/kruler-23.04.2-1.gpkg.tar
+RDEPEND: >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kconfigwidgets-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/knotifications-5.106.0:5 >=kde-frameworks/kwidgetsaddons-5.106.0:5 >=kde-frameworks/kwindowsystem-5.106.0:5 >=kde-frameworks/kxmlgui-5.106.0:5 >=dev-qt/qtx11extras-5.15.9:5 x11-libs/libxcb || ( kde-frameworks/breeze-icons:* kde-frameworks/oxygen-icons:* ) >=kde-frameworks/kf-env-4 dev-qt/qtcore:5
+REQUIRES: x86_64: libKF5ConfigCore.so.5 libKF5ConfigGui.so.5 libKF5ConfigWidgets.so.5 libKF5CoreAddons.so.5 libKF5I18n.so.5 libKF5Notifications.so.5 libKF5WidgetsAddons.so.5 libKF5WindowSystem.so.5 libKF5XmlGui.so.5 libQt5Core.so.5 libQt5Gui.so.5 libQt5Widgets.so.5 libQt5X11Extras.so.5 libc.so.6 libstdc++.so.6
+SHA1: 1fa32561340c19588c57806f17b485a7cb7b8f62
+SIZE: 389120
+SLOT: 5
+USE: X abi_x86_64 amd64 elibc_glibc handbook kernel_linux
+MTIME: 1688326542
+REPO: gentoo
+
+BDEPEND: >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 >=kde-frameworks/kdoctools-5.106.0:5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.106.0:5
+BUILD_ID: 1
+BUILD_TIME: 1688330257
+CPV: kde-apps/ksystemlog-23.04.2
+DEFINED_PHASES: compile configure install nofetch postinst postrm preinst prepare setup test unpack
+DEPEND: >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtprintsupport-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=kde-frameworks/karchive-5.106.0:5 >=kde-frameworks/kcompletion-5.106.0:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kconfigwidgets-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kio-5.106.0:5 >=kde-frameworks/kitemviews-5.106.0:5 >=kde-frameworks/kservice-5.106.0:5 >=kde-frameworks/ktextwidgets-5.106.0:5 >=kde-frameworks/kwidgetsaddons-5.106.0:5 >=kde-frameworks/kxmlgui-5.106.0:5 dev-qt/qtcore:5
+EAPI: 8
+IDEPEND: dev-util/desktop-file-utils x11-misc/shared-mime-info
+IUSE: audit kdesu systemd debug +handbook test
+KEYWORDS: ~amd64 ~arm64 ~ppc64 ~riscv ~x86
+LICENSE: GPL-2
+MD5: c1657fda4174efc07ef4385a153c0791
+PATH: kde-apps/ksystemlog/ksystemlog-23.04.2-1.gpkg.tar
+RDEPEND: >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtprintsupport-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=kde-frameworks/karchive-5.106.0:5 >=kde-frameworks/kcompletion-5.106.0:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kconfigwidgets-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kio-5.106.0:5 >=kde-frameworks/kitemviews-5.106.0:5 >=kde-frameworks/kservice-5.106.0:5 >=kde-frameworks/ktextwidgets-5.106.0:5 >=kde-frameworks/kwidgetsaddons-5.106.0:5 >=kde-frameworks/kxmlgui-5.106.0:5 || ( kde-frameworks/breeze-icons:* kde-frameworks/oxygen-icons:* ) >=kde-frameworks/kf-env-4 dev-qt/qtcore:5
+REQUIRES: x86_64: libKF5Archive.so.5 libKF5Completion.so.5 libKF5ConfigCore.so.5 libKF5ConfigGui.so.5 libKF5ConfigWidgets.so.5 libKF5CoreAddons.so.5 libKF5I18n.so.5 libKF5ItemViews.so.5 libKF5KIOCore.so.5 libKF5KIOWidgets.so.5 libKF5TextWidgets.so.5 libKF5WidgetsAddons.so.5 libKF5XmlGui.so.5 libQt5Core.so.5 libQt5Gui.so.5 libQt5PrintSupport.so.5 libQt5Widgets.so.5 libc.so.6 libstdc++.so.6
+RESTRICT: test
+SHA1: 71918f1f60ce162fcab15b3c5b599f7551f2961b
+SIZE: 3307520
+SLOT: 5
+USE: abi_x86_64 amd64 elibc_glibc handbook kernel_linux
+MTIME: 1688330260
+REPO: gentoo
+
+BDEPEND: >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 >=kde-frameworks/kdoctools-5.106.0:5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.106.0:5
+BUILD_ID: 1
+BUILD_TIME: 1688331373
+CPV: kde-apps/kteatime-23.04.2
+DEFINED_PHASES: compile configure install nofetch postinst postrm preinst prepare setup test unpack
+DEPEND: >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kconfigwidgets-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kcrash-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kiconthemes-5.106.0:5 >=kde-frameworks/knotifications-5.106.0:5 >=kde-frameworks/knotifyconfig-5.106.0:5 >=kde-frameworks/ktextwidgets-5.106.0:5 >=kde-frameworks/kxmlgui-5.106.0:5 dev-qt/qtcore:5
+EAPI: 8
+IDEPEND: dev-util/desktop-file-utils x11-misc/shared-mime-info
+IUSE: debug +handbook
+KEYWORDS: ~amd64 ~arm64 ~loong ~ppc64 ~riscv ~x86
+LICENSE: GPL-2
+MD5: 18152ba082819660b1a314711ee7c499
+PATH: kde-apps/kteatime/kteatime-23.04.2-1.gpkg.tar
+RDEPEND: >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kconfigwidgets-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kcrash-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kiconthemes-5.106.0:5 >=kde-frameworks/knotifications-5.106.0:5 >=kde-frameworks/knotifyconfig-5.106.0:5 >=kde-frameworks/ktextwidgets-5.106.0:5 >=kde-frameworks/kxmlgui-5.106.0:5 || ( kde-frameworks/breeze-icons:* kde-frameworks/oxygen-icons:* ) >=kde-frameworks/kf-env-4 dev-qt/qtcore:5
+REQUIRES: x86_64: libKF5ConfigCore.so.5 libKF5ConfigWidgets.so.5 libKF5CoreAddons.so.5 libKF5Crash.so.5 libKF5I18n.so.5 libKF5IconThemes.so.5 libKF5Notifications.so.5 libKF5NotifyConfig.so.5 libKF5TextWidgets.so.5 libKF5XmlGui.so.5 libQt5Core.so.5 libQt5Gui.so.5 libQt5Widgets.so.5 libc.so.6 libstdc++.so.6
+SHA1: 948ed72ecdcfc9ce7cd692355d7aca45d1ef6879
+SIZE: 481280
+SLOT: 5
+USE: abi_x86_64 amd64 elibc_glibc handbook kernel_linux
+MTIME: 1688331376
+REPO: gentoo
+
+BDEPEND: >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 >=kde-frameworks/kdoctools-5.106.0:5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.106.0:5
+BUILD_ID: 1
+BUILD_TIME: 1688328059
+CPV: kde-apps/ktimer-23.04.2
+DEFINED_PHASES: compile configure install nofetch postinst postrm preinst prepare setup test unpack
+DEPEND: >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kconfigwidgets-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kdbusaddons-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kio-5.106.0:5 >=kde-frameworks/knotifications-5.106.0:5 >=kde-frameworks/kwidgetsaddons-5.106.0:5 dev-qt/qtcore:5
+EAPI: 8
+IDEPEND: dev-util/desktop-file-utils x11-misc/shared-mime-info
+IUSE: debug +handbook
+KEYWORDS: ~amd64 ~arm64 ~loong ~ppc64 ~riscv ~x86
+LICENSE: GPL-2
+MD5: d3b85d97cf95596b2890df4b66a6ca6c
+PATH: kde-apps/ktimer/ktimer-23.04.2-1.gpkg.tar
+RDEPEND: >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kconfigwidgets-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kdbusaddons-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kio-5.106.0:5 >=kde-frameworks/knotifications-5.106.0:5 >=kde-frameworks/kwidgetsaddons-5.106.0:5 || ( kde-frameworks/breeze-icons:* kde-frameworks/oxygen-icons:* ) >=kde-frameworks/kf-env-4 dev-qt/qtcore:5
+REQUIRES: x86_64: libKF5ConfigCore.so.5 libKF5ConfigWidgets.so.5 libKF5CoreAddons.so.5 libKF5DBusAddons.so.5 libKF5I18n.so.5 libKF5KIOWidgets.so.5 libKF5Notifications.so.5 libKF5WidgetsAddons.so.5 libQt5Core.so.5 libQt5Gui.so.5 libQt5Widgets.so.5 libc.so.6 libstdc++.so.6
+SHA1: 81aaa45bacbf830d81f293295f3765a06950c39a
+SIZE: 645120
+SLOT: 5
+USE: abi_x86_64 amd64 elibc_glibc handbook kernel_linux
+MTIME: 1688328062
+REPO: gentoo
+
+BDEPEND: sys-devel/gettext || ( gnome-base/librsvg virtual/imagemagick-tools[png,svg] ) >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 >=kde-frameworks/kdoctools-5.106.0:5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.106.0:5
+BUILD_ID: 1
+BUILD_TIME: 1688329033
+CPV: kde-apps/kwave-23.04.2
+DEFINED_PHASES: compile configure install nofetch postinst postrm preinst prepare setup test unpack
+DEPEND: >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=kde-frameworks/kcompletion-5.106.0:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kconfigwidgets-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kcrash-5.106.0:5 >=kde-frameworks/kdbusaddons-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kiconthemes-5.106.0:5 >=kde-frameworks/kio-5.106.0:5 >=kde-frameworks/ktextwidgets-5.106.0:5 >=kde-frameworks/kwidgetsaddons-5.106.0:5 >=kde-frameworks/kxmlgui-5.106.0:5 media-libs/audiofile:0/1= >=sci-libs/fftw-3:3.0/3= media-libs/libsamplerate media-libs/alsa-lib media-libs/flac:0/10-12=[cxx] media-libs/id3lib media-libs/libmad || ( media-sound/lame media-sound/toolame media-sound/twolame ) >=dev-qt/qtmultimedia-5.15.9:5 media-libs/libpulse media-libs/libogg media-libs/libvorbis >=dev-qt/qtconcurrent-5.15.9:5 dev-qt/qtcore:5
+EAPI: 8
+IDEPEND: dev-util/desktop-file-utils x11-misc/shared-mime-info
+IUSE: alsa flac mp3 opus oss pulseaudio +qtmedia vorbis debug +handbook
+KEYWORDS: ~amd64 ~arm64 ~ppc64 ~riscv ~x86
+LICENSE: CC-BY-SA-3.0 CC0-1.0 GPL-2+ LGPL-2+ FDL-1.2
+MD5: b9cfdef38e0a790dce8d87186e0b4f35
+PATH: kde-apps/kwave/kwave-23.04.2-1.gpkg.tar
+PROVIDES: x86_64: kwaveplugin_about.so kwaveplugin_amplifyfree.so kwaveplugin_band_pass.so kwaveplugin_codec_ascii.so kwaveplugin_codec_audiofile.so kwaveplugin_codec_flac.so kwaveplugin_codec_mp3.so kwaveplugin_codec_ogg.so kwaveplugin_codec_wav.so kwaveplugin_debug.so kwaveplugin_export_k3b.so kwaveplugin_fileinfo.so kwaveplugin_goto.so kwaveplugin_insert_at.so kwaveplugin_lowpass.so kwaveplugin_newsignal.so kwaveplugin_noise.so kwaveplugin_normalize.so kwaveplugin_notch_filter.so kwaveplugin_pitch_shift.so kwaveplugin_playback.so kwaveplugin_record.so kwaveplugin_reverse.so kwaveplugin_samplerate.so kwaveplugin_saveblocks.so kwaveplugin_selectrange.so kwaveplugin_sonagram.so kwaveplugin_stringenter.so kwaveplugin_volume.so kwaveplugin_zero.so libkwave.so.23 libkwavegui.so.23
+RDEPEND: >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=kde-frameworks/kcompletion-5.106.0:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kconfigwidgets-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kcrash-5.106.0:5 >=kde-frameworks/kdbusaddons-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kiconthemes-5.106.0:5 >=kde-frameworks/kio-5.106.0:5 >=kde-frameworks/ktextwidgets-5.106.0:5 >=kde-frameworks/kwidgetsaddons-5.106.0:5 >=kde-frameworks/kxmlgui-5.106.0:5 media-libs/audiofile:0/1= >=sci-libs/fftw-3:3.0/3= media-libs/libsamplerate media-libs/alsa-lib media-libs/flac:0/10-12=[cxx] media-libs/id3lib media-libs/libmad || ( media-sound/lame media-sound/toolame media-sound/twolame ) >=dev-qt/qtmultimedia-5.15.9:5 media-libs/libpulse media-libs/libogg media-libs/libvorbis || ( kde-frameworks/breeze-icons:* kde-frameworks/oxygen-icons:* ) >=kde-frameworks/kf-env-4 dev-qt/qtcore:5
+REQUIRES: x86_64: libFLAC++.so.10 libFLAC.so.12 libKF5Archive.so.5 libKF5Completion.so.5 libKF5ConfigCore.so.5 libKF5ConfigWidgets.so.5 libKF5CoreAddons.so.5 libKF5Crash.so.5 libKF5DBusAddons.so.5 libKF5I18n.so.5 libKF5IconThemes.so.5 libKF5KIOFileWidgets.so.5 libKF5TextWidgets.so.5 libKF5WidgetsAddons.so.5 libKF5XmlGui.so.5 libQt5Core.so.5 libQt5Gui.so.5 libQt5Multimedia.so.5 libQt5Widgets.so.5 libQt5Xml.so.5 libasound.so.2 libaudiofile.so.1 libc.so.6 libfftw3.so.3 libgcc_s.so.1 libid3-3.8.so.3 libm.so.6 libmad.so.0 libogg.so.0 libpulse.so.0 libsamplerate.so.0 libstdc++.so.6 libvorbis.so.0 libvorbisenc.so.2
+SHA1: 7cacd20e20284e9971a57963118bc6c933f5e3cd
+SIZE: 10024960
+SLOT: 5
+USE: abi_x86_64 alsa amd64 elibc_glibc flac handbook kernel_linux mp3 pulseaudio qtmedia vorbis
+MTIME: 1688329042
 REPO: gentoo
 
 BDEPEND: >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.82.0:5
@@ -6739,6 +7779,76 @@ SIZE: 296960
 SLOT: 5
 USE: abi_x86_64 amd64 elibc_glibc kernel_linux xmp
 MTIME: 1687975002
+REPO: gentoo
+
+BDEPEND: >=dev-qt/linguist-tools-5.15.9:5 >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.106.0:5
+BUILD_ID: 1
+BUILD_TIME: 1688327161
+CPV: kde-apps/libkgapi-23.04.2
+DEFINED_PHASES: compile configure install nofetch postinst postrm preinst prepare setup test unpack
+DEPEND: dev-libs/cyrus-sasl:2 >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtnetwork-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=dev-qt/qtxml-5.15.9:5 >=kde-frameworks/kcalendarcore-5.106.0:5 >=kde-frameworks/kcontacts-5.106.0:5 >=kde-frameworks/kwallet-5.106.0:5 dev-qt/qtcore:5
+EAPI: 8
+IDEPEND: dev-util/desktop-file-utils x11-misc/shared-mime-info
+IUSE: debug test
+KEYWORDS: ~amd64 ~arm64 ~ppc64 ~riscv ~x86
+LICENSE: LGPL-2.1+
+MD5: 3698b196dcd173aaa205d5723b9654c1
+PATH: kde-apps/libkgapi/libkgapi-23.04.2-1.gpkg.tar
+PROVIDES: x86_64: libKPim5GAPIBlogger.so.5 libKPim5GAPICalendar.so.5 libKPim5GAPICore.so.5 libKPim5GAPIDrive.so.5 libKPim5GAPILatitude.so.5 libKPim5GAPIMaps.so.5 libKPim5GAPIPeople.so.5 libKPim5GAPITasks.so.5 libkdexoauth2.so.3
+RDEPEND: dev-libs/cyrus-sasl:2 >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtnetwork-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=dev-qt/qtxml-5.15.9:5 >=kde-frameworks/kcalendarcore-5.106.0:5 >=kde-frameworks/kcontacts-5.106.0:5 >=kde-frameworks/kwallet-5.106.0:5 || ( kde-frameworks/breeze-icons:* kde-frameworks/oxygen-icons:* ) >=kde-frameworks/kf-env-4 dev-qt/qtcore:5
+REQUIRES: x86_64: libKF5CalendarCore.so.5 libKF5Contacts.so.5 libKF5Wallet.so.5 libQt5Core.so.5 libQt5Gui.so.5 libQt5Network.so.5 libc.so.6 libstdc++.so.6
+RESTRICT: test
+SHA1: 835ec2570d10c99d152b485be7bc5e4202666fb2
+SIZE: 1228800
+SLOT: 5
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux
+MTIME: 1688327164
+REPO: gentoo
+
+BDEPEND: >=dev-qt/qtwaylandscanner-5.15.9:5 dev-util/wayland-scanner >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 >=kde-frameworks/kdoctools-5.106.0:5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.106.0:5
+BUILD_ID: 1
+BUILD_TIME: 1688329776
+CPV: kde-apps/spectacle-23.04.2
+DEFINED_PHASES: compile configure install nofetch postinst postrm preinst prepare setup test unpack
+DEPEND: dev-libs/wayland >=dev-qt/qtconcurrent-5.15.9:5 >=dev-qt/qtdbus-5.15.9:5 >=dev-qt/qtdeclarative-5.15.9:5 >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtquickcontrols2-5.15.9:5 >=dev-qt/qtprintsupport-5.15.9:5 >=dev-qt/qtwayland-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=dev-qt/qtx11extras-5.15.9:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kconfigwidgets-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kdbusaddons-5.106.0:5 >=kde-frameworks/kglobalaccel-5.106.0:5 >=kde-frameworks/kguiaddons-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kio-5.106.0:5 >=kde-frameworks/kirigami-5.106.0:5 >=kde-frameworks/knotifications-5.106.0:5 >=kde-frameworks/kservice-5.106.0:5 >=kde-frameworks/kwidgetsaddons-5.106.0:5 >=kde-frameworks/kwindowsystem-5.106.0:5[X] >=kde-frameworks/kxmlgui-5.106.0:5 kde-plasma/kpipewire:5 x11-libs/libxcb x11-libs/xcb-util x11-libs/xcb-util-cursor x11-libs/xcb-util-image >=dev-libs/plasma-wayland-protocols-1.9 dev-qt/qtcore:5
+EAPI: 8
+IDEPEND: dev-util/desktop-file-utils x11-misc/shared-mime-info
+IUSE: share debug +handbook test
+KEYWORDS: ~amd64 ~arm64 ~loong ~ppc64 ~riscv ~x86
+LICENSE: LGPL-2+ FDL-1.3
+MD5: bebdb27e0ca1bea4cff62539a4380a36
+PATH: kde-apps/spectacle/spectacle-23.04.2-1.gpkg.tar
+RDEPEND: dev-libs/wayland >=dev-qt/qtconcurrent-5.15.9:5 >=dev-qt/qtdbus-5.15.9:5 >=dev-qt/qtdeclarative-5.15.9:5 >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtquickcontrols2-5.15.9:5 >=dev-qt/qtprintsupport-5.15.9:5 >=dev-qt/qtwayland-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=dev-qt/qtx11extras-5.15.9:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kconfigwidgets-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kdbusaddons-5.106.0:5 >=kde-frameworks/kglobalaccel-5.106.0:5 >=kde-frameworks/kguiaddons-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kio-5.106.0:5 >=kde-frameworks/kirigami-5.106.0:5 >=kde-frameworks/knotifications-5.106.0:5 >=kde-frameworks/kservice-5.106.0:5 >=kde-frameworks/kwidgetsaddons-5.106.0:5 >=kde-frameworks/kwindowsystem-5.106.0:5[X] >=kde-frameworks/kxmlgui-5.106.0:5 kde-plasma/kpipewire:5 x11-libs/libxcb x11-libs/xcb-util x11-libs/xcb-util-cursor x11-libs/xcb-util-image >=dev-qt/qdbus-5.15.9:* >=dev-qt/qtmultimedia-5.15.9:5[qml] >=dev-qt/qtsvg-5.15.9:5 || ( kde-frameworks/breeze-icons:* kde-frameworks/oxygen-icons:* ) >=kde-frameworks/kf-env-4 dev-qt/qtcore:5
+REQUIRES: x86_64: libKF5ConfigCore.so.5 libKF5ConfigGui.so.5 libKF5ConfigWidgets.so.5 libKF5CoreAddons.so.5 libKF5DBusAddons.so.5 libKF5GlobalAccel.so.5 libKF5GuiAddons.so.5 libKF5I18n.so.5 libKF5KIOCore.so.5 libKF5KIOGui.so.5 libKF5KIOWidgets.so.5 libKF5Kirigami2.so.5 libKF5Notifications.so.5 libKF5Service.so.5 libKF5WidgetsAddons.so.5 libKF5WindowSystem.so.5 libKF5XmlGui.so.5 libKPipeWireRecord.so.5 libQt5Core.so.5 libQt5DBus.so.5 libQt5Gui.so.5 libQt5PrintSupport.so.5 libQt5Qml.so.5 libQt5Quick.so.5 libQt5WaylandClient.so.5 libQt5Widgets.so.5 libQt5X11Extras.so.5 libc.so.6 libm.so.6 libstdc++.so.6 libwayland-client.so.0 libxcb-cursor.so.0 libxcb-image.so.0 libxcb-util.so.1 libxcb-xfixes.so.0 libxcb.so.1
+RESTRICT: test
+SHA1: 70213508ff8cc51ea2a39d26ece69ac787627d1d
+SIZE: 2068480
+SLOT: 5
+USE: abi_x86_64 amd64 elibc_glibc handbook kernel_linux
+MTIME: 1688329780
+REPO: gentoo
+
+BDEPEND: >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.106.0:5
+BUILD_ID: 1
+BUILD_TIME: 1688327865
+CPV: kde-apps/thumbnailers-23.04.2
+DEFINED_PHASES: compile configure install nofetch postinst postrm preinst prepare setup test unpack
+DEPEND: >=dev-qt/qtgui-5.15.9:5 >=kde-frameworks/karchive-5.106.0:5 >=kde-frameworks/kio-5.106.0:5 dev-qt/qtcore:5
+EAPI: 8
+IDEPEND: dev-util/desktop-file-utils x11-misc/shared-mime-info
+IUSE: mobi raw debug
+KEYWORDS: ~amd64 ~arm64 ~loong ~ppc64 ~riscv ~x86
+LICENSE: GPL-2+
+MD5: 4653ee64711fde69c9342131127fadc8
+PATH: kde-apps/thumbnailers/thumbnailers-23.04.2-1.gpkg.tar
+PROVIDES: x86_64: blenderthumbnail.so gsthumbnail.so mobithumbnail.so
+RDEPEND: >=dev-qt/qtgui-5.15.9:5 >=kde-frameworks/karchive-5.106.0:5 >=kde-frameworks/kio-5.106.0:5 || ( kde-frameworks/breeze-icons:* kde-frameworks/oxygen-icons:* ) >=kde-frameworks/kf-env-4 dev-qt/qtcore:5
+REQUIRES: x86_64: libKF5Archive.so.5 libKF5CoreAddons.so.5 libKF5KIOGui.so.5 libQt5Core.so.5 libQt5Gui.so.5 libc.so.6 libqmobipocket.so.2 libstdc++.so.6
+SHA1: 238397e031f680f67fb334c0d22a666ea7e4ab39
+SIZE: 112640
+SLOT: 5
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux
+MTIME: 1688327867
 REPO: gentoo
 
 BDEPEND: >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.107:5
@@ -7100,6 +8210,29 @@ USE: abi_x86_64 amd64 elibc_glibc kernel_linux
 MTIME: 1687972561
 REPO: gentoo
 
+BDEPEND: sys-devel/bison >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.107:5
+BUILD_ID: 1
+BUILD_TIME: 1688242354
+CPV: kde-frameworks/kcalendarcore-5.107.0
+DEFINED_PHASES: compile configure install nofetch postinst postrm preinst prepare setup test unpack
+DEPEND: >=dev-libs/libical-3.0.5:0/3= >=dev-qt/qtgui-5.15.9:5 dev-qt/qtcore:5
+EAPI: 8
+IUSE: debug doc test
+KEYWORDS: ~amd64 ~arm64 ~loong ~ppc64 ~riscv ~x86
+LICENSE: GPL-2+
+MD5: 989742fd883c12dfb7f3d425b7142562
+PATH: kde-frameworks/kcalendarcore/kcalendarcore-5.107.0-1.gpkg.tar
+PROVIDES: x86_64: libKF5CalendarCore.so.5
+RDEPEND: >=dev-libs/libical-3.0.5:0/3= >=dev-qt/qtgui-5.15.9:5 >=kde-frameworks/kf-env-4 dev-qt/qtcore:5
+REQUIRES: x86_64: libQt5Core.so.5 libQt5Gui.so.5 libc.so.6 libical.so.3 libicalss.so.3 libicalvcal.so.3 libstdc++.so.6
+RESTRICT: test test
+SHA1: dbf58f64bd7ed529b87ddd77f5257486b1b89cf9
+SIZE: 727040
+SLOT: 5/5.107
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux
+MTIME: 1688242361
+REPO: gentoo
+
 BDEPEND: >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.107:5
 BUILD_ID: 1
 BUILD_TIME: 1687989452
@@ -7236,6 +8369,29 @@ SIZE: 788480
 SLOT: 5/5.107
 USE: abi_x86_64 amd64 elibc_glibc kernel_linux man
 MTIME: 1687621725
+REPO: gentoo
+
+BDEPEND: >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.107:5
+BUILD_ID: 1
+BUILD_TIME: 1688235083
+CPV: kde-frameworks/kcontacts-5.107.0
+DEFINED_PHASES: compile configure install nofetch postinst postrm preinst prepare setup test unpack
+DEPEND: >=dev-qt/qtgui-5.15.9:5 =kde-frameworks/kcodecs-5.107*:5 =kde-frameworks/kconfig-5.107*:5 =kde-frameworks/kcoreaddons-5.107*:5 =kde-frameworks/ki18n-5.107*:5 dev-qt/qtcore:5
+EAPI: 8
+IUSE: debug doc test
+KEYWORDS: ~amd64 ~arm64 ~loong ~ppc64 ~riscv ~x86
+LICENSE: GPL-2+
+MD5: 67755f97d561ce814f91374790d9f27d
+PATH: kde-frameworks/kcontacts/kcontacts-5.107.0-1.gpkg.tar
+PROVIDES: x86_64: libKF5Contacts.so.5
+RDEPEND: >=dev-qt/qtgui-5.15.9:5 =kde-frameworks/kcodecs-5.107*:5 =kde-frameworks/kconfig-5.107*:5 =kde-frameworks/kcoreaddons-5.107*:5 =kde-frameworks/ki18n-5.107*:5 >=kde-frameworks/kf-env-4 dev-qt/qtcore:5
+REQUIRES: x86_64: libKF5Codecs.so.5 libKF5ConfigCore.so.5 libKF5CoreAddons.so.5 libKF5I18n.so.5 libKF5I18nLocaleData.so.5 libQt5Core.so.5 libQt5Gui.so.5 libc.so.6 libstdc++.so.6
+RESTRICT: test
+SHA1: e7707000b6248a285336fa9b3c511a9bd2006aa4
+SIZE: 542720
+SLOT: 5/5.107
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux
+MTIME: 1688235087
 REPO: gentoo
 
 BDEPEND: >=dev-qt/linguist-tools-5.15.9:5 >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.107:5
@@ -9082,6 +10238,29 @@ SIZE: 153600
 SLOT: 5
 USE: abi_x86_64 amd64 elibc_glibc kernel_linux
 MTIME: 1688120407
+REPO: gentoo
+
+BDEPEND: >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.106.0:5
+BUILD_ID: 1
+BUILD_TIME: 1688331419
+CPV: kde-misc/markdownpart-23.04.2
+DEFINED_PHASES: compile configure install nofetch postinst postrm preinst prepare setup test unpack
+DEPEND: >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=kde-frameworks/kconfigwidgets-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kio-5.106.0:5 >=kde-frameworks/kparts-5.106.0:5 >=kde-frameworks/kxmlgui-5.106.0:5 dev-qt/qtcore:5
+EAPI: 8
+IDEPEND: dev-util/desktop-file-utils x11-misc/shared-mime-info
+IUSE: debug
+KEYWORDS: ~amd64 ~arm64 ~loong ~ppc64 ~x86
+LICENSE: LGPL-2.1+
+MD5: c44bbbe15248259207bf0d3cd523ed8f
+PATH: kde-misc/markdownpart/markdownpart-23.04.2-1.gpkg.tar
+PROVIDES: x86_64: markdownpart.so
+RDEPEND: >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=kde-frameworks/kconfigwidgets-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kio-5.106.0:5 >=kde-frameworks/kparts-5.106.0:5 >=kde-frameworks/kxmlgui-5.106.0:5 || ( kde-frameworks/breeze-icons:* kde-frameworks/oxygen-icons:* ) >=kde-frameworks/kf-env-4 dev-qt/qtcore:5
+REQUIRES: x86_64: libKF5ConfigWidgets.so.5 libKF5CoreAddons.so.5 libKF5I18n.so.5 libKF5KIOCore.so.5 libKF5Parts.so.5 libKF5XmlGui.so.5 libQt5Core.so.5 libQt5Gui.so.5 libQt5Widgets.so.5 libc.so.6 libstdc++.so.6
+SHA1: 32b99e57faeebe2bda3e299bdcdc822aecdc672a
+SIZE: 102400
+SLOT: 5
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux
+MTIME: 1688331421
 REPO: gentoo
 
 BDEPEND: >=kde-frameworks/kcmutils-5.106.0:5 >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 >=kde-frameworks/kdoctools-5.106.0:5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.106.0:5
@@ -11233,6 +12412,28 @@ USE: abi_x86_64 amd64 elibc_glibc kernel_linux
 MTIME: 1688107352
 REPO: gentoo
 
+BDEPEND: virtual/pkgconfig sys-devel/gnuconfig >=app-portage/elt-patches-20170815 >=sys-devel/automake-1.16.5:1.16 >=sys-devel/autoconf-2.71-r5 >=sys-devel/libtool-2.4.7 app-arch/xz-utils
+BUILD_ID: 1
+BUILD_TIME: 1688236514
+CPV: media-libs/audiofile-0.3.6-r5
+DEFINED_PHASES: compile configure install prepare test
+DEPEND: >=media-libs/flac-1.2.1:0/10-12=[abi_x86_64(-)]
+EAPI: 8
+IUSE: flac abi_x86_32 abi_x86_64 abi_x86_x32 abi_mips_n32 abi_mips_n64 abi_mips_o32 abi_s390_32 abi_s390_64
+KEYWORDS: ~alpha amd64 arm arm64 ~hppa ~ia64 ~loong ~m68k ~mips ppc ppc64 ~riscv sparc x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos
+LICENSE: GPL-2 LGPL-2.1
+MD5: 6fd530dfa42c1d3066fa5d4d5393b787
+PATH: media-libs/audiofile/audiofile-0.3.6-r5-1.gpkg.tar
+PROVIDES: x86_64: libaudiofile.so.1
+RDEPEND: >=media-libs/flac-1.2.1:0/10-12=[abi_x86_64(-)]
+REQUIRES: x86_64: libFLAC.so.12 libc.so.6 libm.so.6 libstdc++.so.6
+SHA1: c93b71ef9491ba8b1ca738f1e195dde56b954544
+SIZE: 245760
+SLOT: 0/1
+USE: abi_x86_64 amd64 elibc_glibc flac kernel_linux
+MTIME: 1688236520
+REPO: gentoo
+
 BDEPEND: >=dev-lang/nasm-2.15.05 >=dev-util/meson-0.62.2 >=dev-util/ninja-1.8.2 dev-util/meson-format-array
 BUILD_ID: 1
 BUILD_TIME: 1687960852
@@ -11408,6 +12609,48 @@ USE: X abi_x86_64 adobe-cff amd64 bzip2 cleartype-hinting elibc_glibc kernel_lin
 MTIME: 1687939007
 REPO: gentoo
 
+BDEPEND: sys-devel/gnuconfig >=app-portage/elt-patches-20170815 >=sys-devel/automake-1.16.5:1.16 >=sys-devel/autoconf-2.71-r5 >=sys-devel/libtool-2.4.7
+BUILD_ID: 1
+BUILD_TIME: 1688236737
+CPV: media-libs/gavl-1.4.0-r2
+DEFINED_PHASES: compile configure install prepare test
+EAPI: 7
+IUSE: doc abi_x86_32 abi_x86_64 abi_x86_x32 abi_mips_n32 abi_mips_n64 abi_mips_o32 abi_s390_32 abi_s390_64
+KEYWORDS: amd64 ~arm arm64 ~hppa ~loong ppc ~ppc64 ~riscv x86
+LICENSE: GPL-3
+MD5: 2c3867ce667c72bd03bb735f123c356b
+PATH: media-libs/gavl/gavl-1.4.0-r2-1.gpkg.tar
+PROVIDES: x86_64: libgavl.so.1
+REQUIRES: x86_64: libc.so.6 libm.so.6
+SHA1: acdab63951c664ccc2259d8c0dbd6bd77556be22
+SIZE: 3696640
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux
+MTIME: 1688236742
+REPO: gentoo
+
+BDEPEND: virtual/pkgconfig sys-devel/gnuconfig >=app-portage/elt-patches-20170815 >=sys-devel/automake-1.16.5:1.16 >=sys-devel/autoconf-2.71-r5 >=sys-devel/libtool-2.4.7
+BUILD_ID: 1
+BUILD_TIME: 1688237356
+CPV: media-libs/gd-2.3.3-r3
+DEFINED_PHASES: compile configure install prepare test
+DEPEND: >=media-libs/fontconfig-2.10.92[abi_x86_64(-)] media-libs/libjpeg-turbo[abi_x86_64(-)] >=media-libs/libpng-1.6.10:0/16=[abi_x86_64(-)] media-libs/tiff:0/6=[abi_x86_64(-)] >=media-libs/freetype-2.5.0.1[abi_x86_64(-)] >=sys-libs/zlib-1.2.8-r1[abi_x86_64(-)]
+EAPI: 7
+IUSE: avif cpu_flags_x86_sse fontconfig +jpeg heif +png static-libs test tiff truetype webp xpm zlib abi_x86_32 abi_x86_64 abi_x86_x32 abi_mips_n32 abi_mips_n64 abi_mips_o32 abi_s390_32 abi_s390_64
+KEYWORDS: ~alpha amd64 arm arm64 hppa ~ia64 ~loong ~m68k ~mips ppc ppc64 ~riscv ~s390 sparc x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x64-solaris
+LICENSE: gd IJG HPND BSD
+MD5: 47cbee47c2486943b1e87ba15a72b37b
+PATH: media-libs/gd/gd-2.3.3-r3-1.gpkg.tar
+PROVIDES: x86_64: libgd.so.3
+RDEPEND: >=media-libs/fontconfig-2.10.92[abi_x86_64(-)] media-libs/libjpeg-turbo[abi_x86_64(-)] >=media-libs/libpng-1.6.10:0/16=[abi_x86_64(-)] media-libs/tiff:0/6=[abi_x86_64(-)] >=media-libs/freetype-2.5.0.1[abi_x86_64(-)] >=sys-libs/zlib-1.2.8-r1[abi_x86_64(-)]
+REQUIRES: x86_64: libc.so.6 libfontconfig.so.1 libfreetype.so.6 libjpeg.so.62 libm.so.6 libpng16.so.16 libtiff.so.6
+RESTRICT: test
+SHA1: 30df90580c4fdf5ef070a4a086ab0c9db0f0caf9
+SIZE: 307200
+SLOT: 2/3
+USE: abi_x86_64 amd64 cpu_flags_x86_sse elibc_glibc fontconfig jpeg kernel_linux png tiff truetype zlib
+MTIME: 1688237362
+REPO: gentoo
+
 BUILD_ID: 1
 BUILD_TIME: 1687337702
 CPV: media-libs/giflib-5.2.1-r1
@@ -11473,6 +12716,28 @@ REPO: gentoo
 
 BDEPEND: sys-devel/gnuconfig >=app-portage/elt-patches-20170815 >=sys-devel/automake-1.16.5:1.16 >=sys-devel/autoconf-2.71-r5 >=sys-devel/libtool-2.4.7
 BUILD_ID: 1
+BUILD_TIME: 1688236617
+CPV: media-libs/id3lib-3.8.3-r10
+DEFINED_PHASES: compile configure install prepare
+DEPEND: sys-libs/zlib:0/1=
+EAPI: 8
+IUSE: doc static-libs
+KEYWORDS: ~alpha amd64 arm arm64 ~hppa ~ia64 ~mips ppc ppc64 ~riscv sparc x86 ~amd64-linux ~x86-linux
+LICENSE: LGPL-2.1
+MD5: cc48d41b9f120215d92d3ae954e81352
+PATH: media-libs/id3lib/id3lib-3.8.3-r10-1.gpkg.tar
+PROVIDES: x86_64: libid3-3.8.so.3
+RDEPEND: sys-libs/zlib:0/1=
+REQUIRES: x86_64: libc.so.6 libgcc_s.so.1 libstdc++.so.6 libz.so.1
+RESTRICT: test
+SHA1: e86aa503289dc837cbe110bb357357d287a16d06
+SIZE: 296960
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux
+MTIME: 1688236622
+REPO: gentoo
+
+BDEPEND: sys-devel/gnuconfig >=app-portage/elt-patches-20170815 >=sys-devel/automake-1.16.5:1.16 >=sys-devel/autoconf-2.71-r5 >=sys-devel/libtool-2.4.7
+BUILD_ID: 1
 BUILD_TIME: 1687346478
 CPV: media-libs/jbig2dec-0.19
 DEFINED_PHASES: configure install prepare setup
@@ -11516,6 +12781,51 @@ USE: abi_x86_64 amd64 elibc_glibc kernel_linux
 MTIME: 1688233029
 REPO: gentoo
 
+BDEPEND: dev-qt/linguist-tools:5 >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5
+BUILD_ID: 1
+BUILD_TIME: 1688234757
+CPV: media-libs/kimageannotator-0.6.1
+DEFINED_PHASES: compile configure install prepare test
+DEPEND: dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtsvg:5 dev-qt/qtwidgets:5[png] >=media-libs/kcolorpicker-0.2.0 x11-libs/libX11 x11-base/xorg-proto
+EAPI: 8
+IUSE: test test
+KEYWORDS: ~amd64 ~arm64 ~loong ~ppc64 ~riscv ~x86
+LICENSE: LGPL-3+
+MD5: 9f13c43f0f0da5911b795809008ae975
+PATH: media-libs/kimageannotator/kimageannotator-0.6.1-1.gpkg.tar
+PROVIDES: x86_64: libkImageAnnotator.so.0
+RDEPEND: dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtsvg:5 dev-qt/qtwidgets:5[png] >=media-libs/kcolorpicker-0.2.0 x11-libs/libX11
+REQUIRES: x86_64: libQt5Core.so.5 libQt5Gui.so.5 libQt5Svg.so.5 libQt5Widgets.so.5 libX11.so.6 libc.so.6 libgcc_s.so.1 libkColorPicker.so.0 libm.so.6 libstdc++.so.6
+RESTRICT: test
+SHA1: 7a04b10f28df65647568f370ae71d9e09b842dd5
+SIZE: 706560
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux
+MTIME: 1688234761
+REPO: gentoo
+
+BDEPEND: >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.82.0:5
+BUILD_ID: 1
+BUILD_TIME: 1688234804
+CPV: media-libs/kquickimageeditor-0.2.0
+DEFINED_PHASES: compile configure install nofetch postinst postrm preinst prepare setup test unpack
+DEPEND: >=dev-qt/qtdeclarative-5.15.2:5 >=dev-qt/qtgui-5.15.2:5 dev-qt/qtcore:5
+EAPI: 8
+IDEPEND: dev-util/desktop-file-utils x11-misc/shared-mime-info
+IUSE: debug
+KEYWORDS: ~amd64 ~arm64 ~ppc64 ~x86
+LICENSE: LGPL-2.1+
+MD5: 57ba86ae27456c15b2206f4f148dbdbc
+PATH: media-libs/kquickimageeditor/kquickimageeditor-0.2.0-1.gpkg.tar
+PROVIDES: x86_64: libkquickimageeditorplugin.so
+RDEPEND: >=dev-qt/qtdeclarative-5.15.2:5 >=dev-qt/qtgui-5.15.2:5 >=dev-qt/qtgraphicaleffects-5.15.2:5 >=kde-frameworks/kirigami-5.82.0:5 || ( kde-frameworks/breeze-icons:* kde-frameworks/oxygen-icons:* ) >=kde-frameworks/kf-env-4 dev-qt/qtcore:5
+REQUIRES: x86_64: libQt5Core.so.5 libQt5Gui.so.5 libQt5Qml.so.5 libQt5Quick.so.5 libc.so.6 libstdc++.so.6
+SHA1: d2b9cd5cbf0bfaaa825bbe126536fffaf95198f2
+SIZE: 92160
+SLOT: 5
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux
+MTIME: 1688234808
+REPO: gentoo
+
 BDEPEND: >=dev-util/meson-0.62.2 >=dev-util/ninja-1.8.2 dev-util/meson-format-array
 BUILD_ID: 1
 BUILD_TIME: 1687349537
@@ -11536,6 +12846,27 @@ SIZE: 450560
 SLOT: 2
 USE: abi_x86_64 amd64 elibc_glibc jpeg kernel_linux tiff
 MTIME: 1687349539
+REPO: gentoo
+
+BDEPEND: virtual/pkgconfig sys-devel/gnuconfig >=app-portage/elt-patches-20170815 >=sys-devel/automake-1.16.5:1.16 >=sys-devel/autoconf-2.71-r5 >=sys-devel/libtool-2.4.7
+BUILD_ID: 1
+BUILD_TIME: 1688323237
+CPV: media-libs/libao-1.2.2-r3
+DEFINED_PHASES: compile configure install prepare test
+DEPEND: >=media-libs/alsa-lib-1.0.27.2[abi_x86_64(-)] media-libs/libpulse[abi_x86_64(-)]
+EAPI: 8
+IUSE: alsa nas mmap pulseaudio sndio abi_x86_32 abi_x86_64 abi_x86_x32 abi_mips_n32 abi_mips_n64 abi_mips_o32 abi_s390_32 abi_s390_64
+KEYWORDS: ~alpha amd64 arm arm64 ~hppa ~ia64 ~loong ~mips ppc ppc64 ~riscv sparc x86 ~amd64-linux ~ppc-macos ~x64-macos
+LICENSE: GPL-2
+MD5: 5f99358d668737bec0e433a00037366b
+PATH: media-libs/libao/libao-1.2.2-r3-1.gpkg.tar
+PROVIDES: x86_64: libalsa.so libao.so.4 libpulse.so
+RDEPEND: >=media-libs/alsa-lib-1.0.27.2[abi_x86_64(-)] media-libs/libpulse[abi_x86_64(-)]
+REQUIRES: x86_64: libasound.so.2 libc.so.6 libpulse-simple.so.0 libpulse.so.0
+SHA1: 44efb3083ed8cab7e4f685039455d5f3fb353697
+SIZE: 112640
+USE: abi_x86_64 alsa amd64 elibc_glibc kernel_linux pulseaudio
+MTIME: 1688323239
 REPO: gentoo
 
 BDEPEND: virtual/pkgconfig dev-lang/nasm
@@ -11883,6 +13214,28 @@ USE: X abi_x86_64 amd64 elibc_glibc kernel_linux
 MTIME: 1687513488
 REPO: gentoo
 
+BDEPEND: dev-util/gtk-doc-am sys-devel/flex >=sys-devel/gettext-0.19.1 virtual/pkgconfig sys-devel/gnuconfig >=app-portage/elt-patches-20170815 >=sys-devel/automake-1.16.5:1.16 >=sys-devel/autoconf-2.71-r5 >=sys-devel/libtool-2.4.7 virtual/pkgconfig
+BUILD_ID: 1
+BUILD_TIME: 1688242217
+CPV: media-libs/libgphoto2-2.5.30
+DEFINED_PHASES: compile configure install postinst postrm prepare pretend test
+DEPEND: acct-group/plugdev >=dev-libs/libxml2-2.9.1-r4:2[abi_x86_64(-)] net-misc/curl[abi_x86_64(-)] dev-libs/libltdl:0[abi_x86_64(-)] >=virtual/libusb-1-r1:1[abi_x86_64(-)] >=media-libs/gd-2.0.35-r4:2/3=[abi_x86_64(-)] >=media-libs/gd-2.0.35-r4:2/3=[abi_x86_64(-)] >=media-libs/libexif-0.6.21-r1[abi_x86_64(-)] >=virtual/jpeg-0-r2:0[abi_x86_64(-)]
+EAPI: 8
+IUSE: doc examples exif gd jpeg nls serial +cameras_adc65 +cameras_agfa_cl20 +cameras_aox +cameras_ax203 +cameras_barbie +cameras_canon +cameras_casio_qv +cameras_clicksmart310 +cameras_digigr8 +cameras_digita +cameras_dimagev +cameras_dimera3500 +cameras_directory +cameras_enigma13 +cameras_fuji +cameras_gsmart300 +cameras_hp215 +cameras_iclick +cameras_jamcam +cameras_jd11 +cameras_jl2005a +cameras_jl2005c +cameras_kodak_dc120 +cameras_kodak_dc210 +cameras_kodak_dc240 +cameras_kodak_dc3200 +cameras_kodak_ez200 +cameras_konica +cameras_konica_qm150 +cameras_largan +cameras_lg_gsm +cameras_mars +cameras_mustek +cameras_panasonic_coolshot +cameras_panasonic_l859 +cameras_panasonic_dc1000 +cameras_panasonic_dc1580 +cameras_pccam300 +cameras_pccam600 +cameras_pentax +cameras_polaroid_pdc320 +cameras_polaroid_pdc640 +cameras_polaroid_pdc700 +cameras_ptp2 +cameras_ricoh +cameras_ricoh_g3 +cameras_samsung +cameras_sierra +cameras_sipix_blink2 +cameras_sipix_web2 +cameras_smal +cameras_sonix +cameras_sony_dscf1 +cameras_sony_dscf55 +cameras_soundvision +cameras_spca50x +cameras_sq905 +cameras_st2205 +cameras_stv0674 +cameras_stv0680 +cameras_sx330z +cameras_toshiba_pdrm11 +cameras_topfield +cameras_tp6801 abi_x86_32 abi_x86_64 abi_x86_x32 abi_mips_n32 abi_mips_n64 abi_mips_o32 abi_s390_32 abi_s390_64
+KEYWORDS: ~alpha amd64 arm arm64 ~hppa ~ia64 ~loong ppc ppc64 ~riscv ~s390 sparc x86 ~amd64-linux ~x86-linux
+LICENSE: GPL-2
+MD5: 962833e0cca7586b49e10f266dea1115
+PATH: media-libs/libgphoto2/libgphoto2-2.5.30-1.gpkg.tar
+PROVIDES: x86_64: ax203.so canon.so digigr8.so dimagev.so directory.so disk.so docupen.so jl2005a.so jl2005c.so kodak_dc240.so libgphoto2.so.6 libgphoto2_port.so.12 lumix.so mars.so pentax.so ptp2.so ptpip.so ricoh_g3.so sierra.so sonix.so sq905.so st2205.so topfield.so tp6801.so usb1.so usbdiskdirect.so usbscsi.so
+RDEPEND: acct-group/plugdev >=dev-libs/libxml2-2.9.1-r4:2[abi_x86_64(-)] net-misc/curl[abi_x86_64(-)] dev-libs/libltdl:0[abi_x86_64(-)] >=virtual/libusb-1-r1:1[abi_x86_64(-)] >=media-libs/gd-2.0.35-r4:2/3=[abi_x86_64(-)] >=media-libs/gd-2.0.35-r4:2/3=[abi_x86_64(-)] >=media-libs/libexif-0.6.21-r1[abi_x86_64(-)] >=virtual/jpeg-0-r2:0[abi_x86_64(-)]
+REQUIRES: x86_64: libc.so.6 libcurl.so.4 libexif.so.12 libgd.so.3 libjpeg.so.62 libltdl.so.7 libm.so.6 libusb-1.0.so.0 libxml2.so.2
+SHA1: 028ef021a23f7872a8ce173247b8d18e1f7f5f9d
+SIZE: 3153920
+SLOT: 0/6
+USE: abi_x86_64 amd64 cameras_adc65 cameras_agfa_cl20 cameras_aox cameras_ax203 cameras_barbie cameras_canon cameras_casio_qv cameras_clicksmart310 cameras_digigr8 cameras_digita cameras_dimagev cameras_dimera3500 cameras_directory cameras_enigma13 cameras_fuji cameras_gsmart300 cameras_hp215 cameras_iclick cameras_jamcam cameras_jd11 cameras_jl2005a cameras_jl2005c cameras_kodak_dc120 cameras_kodak_dc210 cameras_kodak_dc240 cameras_kodak_dc3200 cameras_kodak_ez200 cameras_konica cameras_konica_qm150 cameras_largan cameras_lg_gsm cameras_mars cameras_mustek cameras_panasonic_coolshot cameras_panasonic_dc1000 cameras_panasonic_dc1580 cameras_panasonic_l859 cameras_pccam300 cameras_pccam600 cameras_pentax cameras_polaroid_pdc320 cameras_polaroid_pdc640 cameras_polaroid_pdc700 cameras_ptp2 cameras_ricoh cameras_ricoh_g3 cameras_samsung cameras_sierra cameras_sipix_blink2 cameras_sipix_web2 cameras_smal cameras_sonix cameras_sony_dscf1 cameras_sony_dscf55 cameras_soundvision cameras_spca50x cameras_sq905 cameras_st2205 cameras_stv0674 cameras_stv0680 cameras_sx330z cameras_topfield cameras_toshiba_pdrm11 cameras_tp6801 elibc_glibc exif jpeg kernel_linux nls
+MTIME: 1688242226
+REPO: gentoo
+
 BDEPEND: || ( dev-lang/nasm dev-lang/yasm ) >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5
 BUILD_ID: 1
 BUILD_TIME: 1687349373
@@ -11960,6 +13313,50 @@ SHA1: e9488a5a0aa62539df8851f63f87929a0c9828c2
 SIZE: 153600
 USE: abi_x86_64 amd64 elibc_glibc kernel_linux
 MTIME: 1688112333
+REPO: gentoo
+
+BDEPEND: virtual/pkgconfig sys-devel/gnuconfig >=app-portage/elt-patches-20170815 >=sys-devel/automake-1.16.5:1.16 >=sys-devel/autoconf-2.71-r5 >=sys-devel/libtool-2.4.7
+BUILD_ID: 1
+BUILD_TIME: 1688238539
+CPV: media-libs/libmediainfo-23.04
+DEFINED_PHASES: compile configure install prepare
+DEPEND: dev-libs/tinyxml2:0/9= >=media-libs/libzen-0.4.41 sys-libs/zlib
+EAPI: 8
+IUSE: curl doc mms
+KEYWORDS: amd64 ~arm arm64 ~loong ~ppc ~ppc64 ~riscv x86
+LICENSE: BSD-2
+MD5: 826c2da25de36d578c8123bfefe93091
+PATH: media-libs/libmediainfo/libmediainfo-23.04-1.gpkg.tar
+PROVIDES: x86_64: libmediainfo.so.0
+RDEPEND: dev-libs/tinyxml2:0/9= >=media-libs/libzen-0.4.41 sys-libs/zlib
+REQUIRES: x86_64: libc.so.6 libgcc_s.so.1 libm.so.6 libstdc++.so.6 libtinyxml2.so.9 libz.so.1 libzen.so.0
+RESTRICT: test
+SHA1: 352d64585ca23aede9aaa56a32229cb0ce4ca55c
+SIZE: 5181440
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux
+MTIME: 1688238546
+REPO: gentoo
+
+BDEPEND: sys-devel/gnuconfig >=app-portage/elt-patches-20170815 >=sys-devel/automake-1.16.5:1.16 >=sys-devel/autoconf-2.71-r5 >=sys-devel/libtool-2.4.7
+BUILD_ID: 1
+BUILD_TIME: 1688237422
+CPV: media-libs/libmng-2.0.3-r1
+DEFINED_PHASES: compile configure install prepare test
+DEPEND: >=sys-libs/zlib-1.2.8-r1[abi_x86_64(-)] >=virtual/jpeg-0-r2:0[abi_x86_64(-)] >=media-libs/lcms-2.5:2[abi_x86_64(-)]
+EAPI: 7
+IUSE: lcms abi_x86_32 abi_x86_64 abi_x86_x32 abi_mips_n32 abi_mips_n64 abi_mips_o32 abi_s390_32 abi_s390_64
+KEYWORDS: ~alpha amd64 arm arm64 ~hppa ~ia64 ~loong ~mips ppc ppc64 ~riscv sparc x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x64-solaris
+LICENSE: libmng
+MD5: 891ac34d896ba88999b6d59156dd583c
+PATH: media-libs/libmng/libmng-2.0.3-r1-1.gpkg.tar
+PROVIDES: x86_64: libmng.so.2
+RDEPEND: >=sys-libs/zlib-1.2.8-r1[abi_x86_64(-)] >=virtual/jpeg-0-r2:0[abi_x86_64(-)] >=media-libs/lcms-2.5:2[abi_x86_64(-)]
+REQUIRES: x86_64: libc.so.6 libjpeg.so.62 liblcms2.so.2 libm.so.6 libz.so.1
+SHA1: aa432e618728e13614352348502145770f4feac5
+SIZE: 378880
+SLOT: 0/2
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux lcms
+MTIME: 1688237428
 REPO: gentoo
 
 BDEPEND: sys-devel/gnuconfig >=app-portage/elt-patches-20170815 >=sys-devel/automake-1.16.5:1.16 >=sys-devel/autoconf-2.71-r5 >=sys-devel/libtool-2.4.7
@@ -12349,6 +13746,47 @@ USE: abi_x86_64 amd64 elibc_glibc highbitdepth kernel_linux threads
 MTIME: 1688220458
 REPO: gentoo
 
+BDEPEND: sys-devel/gnuconfig >=app-portage/elt-patches-20170815 >=sys-devel/automake-1.16.5:1.16 >=sys-devel/autoconf-2.71-r5 >=sys-devel/libtool-2.4.7
+BUILD_ID: 1
+BUILD_TIME: 1688235701
+CPV: media-libs/libwebp-1.3.1
+DEFINED_PHASES: compile configure install prepare test
+DEPEND: media-libs/giflib:0/7= media-libs/libjpeg-turbo:0/0.2= media-libs/freeglut virtual/opengl media-libs/libpng:0/16= media-libs/tiff:0/6=
+EAPI: 8
+IUSE: cpu_flags_arm_neon cpu_flags_x86_sse2 cpu_flags_x86_sse4_1 gif +jpeg opengl +png static-libs swap-16bit-csp tiff abi_x86_32 abi_x86_64 abi_x86_x32 abi_mips_n32 abi_mips_n64 abi_mips_o32 abi_s390_32 abi_s390_64
+KEYWORDS: ~alpha ~amd64 ~arm ~arm64 ~hppa ~ia64 ~loong ~m68k ~mips ~ppc ~ppc64 ~riscv ~s390 ~sparc ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x64-solaris
+LICENSE: BSD
+MD5: 4c6c51d4d22b381e62d6c3b431936b5c
+PATH: media-libs/libwebp/libwebp-1.3.1-1.gpkg.tar
+PROVIDES: x86_64: libsharpyuv.so.0 libwebp.so.7 libwebpdecoder.so.3 libwebpdemux.so.2 libwebpmux.so.3
+RDEPEND: media-libs/giflib:0/7= media-libs/libjpeg-turbo:0/0.2= media-libs/freeglut virtual/opengl media-libs/libpng:0/16= media-libs/tiff:0/6=
+REQUIRES: x86_64: libGL.so.1 libc.so.6 libgif.so.7 libglut.so.3 libjpeg.so.62 libm.so.6 libpng16.so.16 libtiff.so.6
+SHA1: 320725e258efb06c07d264cee67fad1458c49498
+SIZE: 829440
+SLOT: 0/7
+USE: abi_x86_64 amd64 cpu_flags_x86_sse2 cpu_flags_x86_sse4_1 elibc_glibc gif jpeg kernel_linux opengl png tiff
+MTIME: 1688235706
+REPO: gentoo
+
+BDEPEND: virtual/pkgconfig sys-devel/gnuconfig >=app-portage/elt-patches-20170815 >=sys-devel/automake-1.16.5:1.16 >=sys-devel/autoconf-2.71-r5 >=sys-devel/libtool-2.4.7
+BUILD_ID: 1
+BUILD_TIME: 1688235841
+CPV: media-libs/libzen-0.4.41
+DEFINED_PHASES: compile configure install prepare
+EAPI: 8
+IUSE: doc static-libs
+KEYWORDS: amd64 ~arm arm64 ~loong ~ppc ~ppc64 ~riscv x86
+LICENSE: ZLIB
+MD5: 4e407127b4c83ae67de5b2683b7215b9
+PATH: media-libs/libzen/libzen-0.4.41-1.gpkg.tar
+PROVIDES: x86_64: libzen.so.0
+REQUIRES: x86_64: libc.so.6 libgcc_s.so.1 libm.so.6 libstdc++.so.6
+SHA1: a7f601ab22419ef1cefb7b35136e2e32bf15e90a
+SIZE: 245760
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux
+MTIME: 1688235846
+REPO: gentoo
+
 BDEPEND: >=dev-util/meson-1.0.0 || ( >=dev-lang/python-3.12.0_beta1:3.12 >=dev-lang/python-3.11.3:3.11 >=dev-lang/python-3.10.11:3.10 ) sys-devel/bison sys-devel/flex virtual/pkgconfig || ( ( >=dev-lang/python-3.12.0_beta1:3.12 >=dev-python/mako-0.8.0[python_targets_python3_12(-)] ) ( >=dev-lang/python-3.11.3:3.11 >=dev-python/mako-0.8.0[python_targets_python3_11(-)] ) ( >=dev-lang/python-3.10.11:3.10 >=dev-python/mako-0.8.0[python_targets_python3_10(-)] ) ) dev-util/glslang || ( ( >=dev-lang/python-3.12.0_beta1:3.12 dev-python/ply[python_targets_python3_12(-)] ) ( >=dev-lang/python-3.11.3:3.11 dev-python/ply[python_targets_python3_11(-)] ) ( >=dev-lang/python-3.10.11:3.10 dev-python/ply[python_targets_python3_10(-)] ) ) dev-util/wayland-scanner >=dev-util/meson-0.62.2 >=dev-util/ninja-1.8.2 dev-util/meson-format-array
 BUILD_ID: 1
 BUILD_TIME: 1687606919
@@ -12369,6 +13807,51 @@ SHA1: 86e3cf352cc0f29b5e3900ae25532e2970f10a9a
 SIZE: 20848640
 USE: X abi_x86_64 amd64 cpu_flags_x86_sse2 elibc_glibc gles2 kernel_linux llvm proprietary-codecs vaapi video_cards_intel vulkan wayland zstd
 MTIME: 1687606922
+REPO: gentoo
+
+BDEPEND: virtual/pkgconfig >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5
+BUILD_ID: 1
+BUILD_TIME: 1688326407
+CPV: media-libs/mlt-7.16.0-r1
+DEFINED_PHASES: compile configure install prepare setup test
+DEPEND: >=media-libs/libebur128-1.2.2:0/1= sci-libs/fftw:3.0/3= media-video/ffmpeg:0/56.58.58= media-plugins/frei0r-plugins media-libs/libexif x11-libs/pango media-libs/libglvnd media-video/movit dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtsvg:5 dev-qt/qtwidgets:5 dev-qt/qtxml:5 media-libs/libexif x11-libs/libX11 media-libs/rubberband media-libs/libsdl2[X,opengl,video] media-libs/sdl2-image >=dev-libs/libxml2-2.5
+EAPI: 8
+IUSE: debug ffmpeg frei0r gtk jack libsamplerate opencv opengl python qt5 rtaudio rubberband sdl test vdpau vidstab xine xml python_single_target_python3_10 python_single_target_python3_11
+KEYWORDS: ~amd64 ~arm64 ~ppc64 ~riscv ~x86 ~amd64-linux ~x86-linux
+LICENSE: GPL-3
+MD5: ec6746908d9af5c1970efa123c0636b1
+PATH: media-libs/mlt/mlt-7.16.0-r1-1.gpkg.tar
+PROVIDES: x86_64: libmlt++-7.so.7 libmlt-7.so.7 libmltavformat.so libmltcore.so libmltdecklink.so libmltfrei0r.so libmltgdk.so libmltkdenlive.so libmltmovit.so libmltnormalize.so libmltoldfilm.so libmltplus.so libmltplusgpl.so libmltqt.so libmltrubberband.so libmltsdl2.so libmltvorbis.so libmltxml.so
+RDEPEND: >=media-libs/libebur128-1.2.2:0/1= sci-libs/fftw:3.0/3= media-video/ffmpeg:0/56.58.58= media-plugins/frei0r-plugins media-libs/libexif x11-libs/pango media-libs/libglvnd media-video/movit dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtsvg:5 dev-qt/qtwidgets:5 dev-qt/qtxml:5 media-libs/libexif x11-libs/libX11 media-libs/rubberband media-libs/libsdl2[X,opengl,video] media-libs/sdl2-image >=dev-libs/libxml2-2.5
+REQUIRES: x86_64: libGLX.so.0 libOpenGL.so.0 libQt5Core.so.5 libQt5Gui.so.5 libQt5Svg.so.5 libQt5Widgets.so.5 libQt5Xml.so.5 libSDL2-2.0.so.0 libX11.so.6 libavcodec.so.58 libavdevice.so.58 libavfilter.so.7 libavformat.so.58 libavutil.so.56 libc.so.6 libebur128.so.1 libepoxy.so.0 libexif.so.12 libfftw3.so.3 libfontconfig.so.1 libgcc_s.so.1 libgdk_pixbuf-2.0.so.0 libglib-2.0.so.0 libgobject-2.0.so.0 libm.so.6 libmovit.so.8 libpango-1.0.so.0 libpangoft2-1.0.so.0 librubberband.so.2 libstdc++.so.6 libswresample.so.3 libswscale.so.5 libvorbisfile.so.3 libxml2.so.2
+RESTRICT: test
+SHA1: 7c21cb4cdb75bb66f3a50bfedb18ce761cce4f15
+SIZE: 1413120
+SLOT: 0/7
+USE: abi_x86_64 amd64 elibc_glibc ffmpeg frei0r gtk kernel_linux opengl python_single_target_python3_11 qt5 rubberband sdl xml
+MTIME: 1688326411
+REPO: gentoo
+
+BDEPEND: virtual/pkgconfig >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5
+BUILD_ID: 1
+BUILD_TIME: 1688241907
+CPV: media-libs/opencv-4.7.0
+DEFINED_PHASES: compile configure install preinst prepare pretend setup test
+DEPEND: app-arch/bzip2[abi_x86_64(-)] dev-libs/protobuf:0/32=[abi_x86_64(-)] sys-libs/zlib[abi_x86_64(-)] media-libs/libjpeg-turbo:0/0.2=[abi_x86_64(-)] virtual/opengl[abi_x86_64(-)] virtual/glu[abi_x86_64(-)] media-libs/libpng:0/16=[abi_x86_64(-)] >=dev-lang/python-3.11.3:3.11 dev-python/numpy[python_targets_python3_11(-)] dev-qt/qtgui:5/5.15.10= dev-qt/qtwidgets:5/5.15= dev-qt/qttest:5/5.15= dev-qt/qtconcurrent:5/5.15= dev-qt/qtopengl:5/5.15= media-libs/tiff:0/6=[abi_x86_64(-)] media-libs/libva[abi_x86_64(-)] >=dev-cpp/eigen-3.3.8-r1:3
+EAPI: 8
+IUSE: contrib contribcvv contribdnn contribfreetype contribhdf contribovis contribsfm contribxfeatures2d cuda debug dnnsamples download +eigen examples +features2d ffmpeg gdal gflags glog gphoto2 gstreamer gtk3 ieee1394 jpeg jpeg2k lapack lto opencl openexr opengl openmp opencvapps png +python qt5 tesseract testprograms threads tiff vaapi v4l vtk webp xine cpu_flags_arm_neon cpu_flags_arm_vfpv3 cpu_flags_ppc_vsx cpu_flags_ppc_vsx3 cpu_flags_x86_avx cpu_flags_x86_avx2 cpu_flags_x86_avx512f cpu_flags_x86_f16c cpu_flags_x86_fma3 cpu_flags_x86_popcnt cpu_flags_x86_sse cpu_flags_x86_sse2 cpu_flags_x86_sse3 cpu_flags_x86_ssse3 cpu_flags_x86_sse4_1 cpu_flags_x86_sse4_2 java abi_x86_32 abi_x86_64 abi_x86_x32 abi_mips_n32 abi_mips_n64 abi_mips_o32 abi_s390_32 abi_s390_64 python_targets_python3_10 python_targets_python3_11
+KEYWORDS: amd64 ~arm ~arm64 ~loong ~ppc ~ppc64 ~riscv x86
+LICENSE: Apache-2.0
+MD5: 7dc1156735deb46562d9f6677868990b
+PATH: media-libs/opencv/opencv-4.7.0-1.gpkg.tar
+PROVIDES: x86_64: cv2.cpython-311-x86_64-linux-gnu.so libopencv_alphamat.so.407 libopencv_aruco.so.407 libopencv_barcode.so.407 libopencv_bgsegm.so.407 libopencv_bioinspired.so.407 libopencv_calib3d.so.407 libopencv_ccalib.so.407 libopencv_core.so.407 libopencv_datasets.so.407 libopencv_dnn.so.407 libopencv_dnn_objdetect.so.407 libopencv_dnn_superres.so.407 libopencv_dpm.so.407 libopencv_face.so.407 libopencv_features2d.so.407 libopencv_flann.so.407 libopencv_fuzzy.so.407 libopencv_hfs.so.407 libopencv_highgui.so.407 libopencv_img_hash.so.407 libopencv_imgcodecs.so.407 libopencv_imgproc.so.407 libopencv_intensity_transform.so.407 libopencv_line_descriptor.so.407 libopencv_mcc.so.407 libopencv_ml.so.407 libopencv_objdetect.so.407 libopencv_optflow.so.407 libopencv_phase_unwrapping.so.407 libopencv_photo.so.407 libopencv_plot.so.407 libopencv_quality.so.407 libopencv_rapid.so.407 libopencv_reg.so.407 libopencv_rgbd.so.407 libopencv_saliency.so.407 libopencv_shape.so.407 libopencv_stereo.so.407 libopencv_stitching.so.407 libopencv_structured_light.so.407 libopencv_superres.so.407 libopencv_surface_matching.so.407 libopencv_text.so.407 libopencv_tracking.so.407 libopencv_video.so.407 libopencv_videoio.so.407 libopencv_videostab.so.407 libopencv_wechat_qrcode.so.407 libopencv_ximgproc.so.407 libopencv_xobjdetect.so.407 libopencv_xphoto.so.407
+RDEPEND: app-arch/bzip2[abi_x86_64(-)] dev-libs/protobuf:0/32=[abi_x86_64(-)] sys-libs/zlib[abi_x86_64(-)] media-libs/libjpeg-turbo:0/0.2=[abi_x86_64(-)] virtual/opengl[abi_x86_64(-)] virtual/glu[abi_x86_64(-)] media-libs/libpng:0/16=[abi_x86_64(-)] >=dev-lang/python-3.11.3:3.11 dev-python/numpy[python_targets_python3_11(-)] dev-qt/qtgui:5/5.15.10= dev-qt/qtwidgets:5/5.15= dev-qt/qttest:5/5.15= dev-qt/qtconcurrent:5/5.15= dev-qt/qtopengl:5/5.15= media-libs/tiff:0/6=[abi_x86_64(-)] media-libs/libva[abi_x86_64(-)]
+REQUIRES: x86_64: ld-linux-x86-64.so.2 libGL.so.1 libQt5Core.so.5 libQt5Gui.so.5 libQt5OpenGL.so.5 libQt5Test.so.5 libQt5Widgets.so.5 libc.so.6 libgcc_s.so.1 libgomp.so.1 libjpeg.so.62 libm.so.6 libpng16.so.16 libprotobuf.so.32 libstdc++.so.6 libtiff.so.6 libz.so.1
+SHA1: 8a2f443f0ddd67b4e20d5c3135a7f5c4eebeb0a4
+SIZE: 24514560
+SLOT: 0/4.7.0
+USE: abi_x86_64 amd64 contrib contribdnn cpu_flags_x86_popcnt cpu_flags_x86_sse cpu_flags_x86_sse2 cpu_flags_x86_sse3 cpu_flags_x86_sse4_1 cpu_flags_x86_sse4_2 cpu_flags_x86_ssse3 eigen elibc_glibc features2d jpeg kernel_linux opengl openmp png python python_targets_python3_11 qt5 tiff vaapi
+MTIME: 1688241918
 REPO: gentoo
 
 BDEPEND: >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5
@@ -12481,6 +13964,52 @@ USE: abi_x86_64 amd64 elibc_glibc kernel_linux
 MTIME: 1688140634
 REPO: gentoo
 
+BDEPEND: virtual/pkgconfig >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 >=kde-frameworks/kdoctools-5.82.0:5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.82.0:5
+BUILD_ID: 1
+BUILD_TIME: 1688323196
+CPV: media-libs/pulseaudio-qt-1.3-r3
+DEFINED_PHASES: compile configure install nofetch postinst postrm preinst prepare setup test unpack
+DEPEND: >=dev-qt/qtdbus-5.15.2:5 >=dev-qt/qtgui-5.15.2:5 media-libs/libpulse dev-qt/qtcore:5
+EAPI: 8
+IDEPEND: dev-util/desktop-file-utils x11-misc/shared-mime-info
+IUSE: debug +handbook doc test
+KEYWORDS: amd64 arm64 ~ppc64 ~riscv x86
+LICENSE: LGPL-2.1
+MD5: 71a60ad515742751fff4ca4c17afccd8
+PATH: media-libs/pulseaudio-qt/pulseaudio-qt-1.3-r3-1.gpkg.tar
+PROVIDES: x86_64: libKF5PulseAudioQt.so.3
+RDEPEND: >=dev-qt/qtdbus-5.15.2:5 >=dev-qt/qtgui-5.15.2:5 media-libs/libpulse || ( kde-frameworks/breeze-icons:* kde-frameworks/oxygen-icons:* ) >=kde-frameworks/kf-env-4 dev-qt/qtcore:5
+REQUIRES: x86_64: libQt5Core.so.5 libQt5DBus.so.5 libQt5Gui.so.5 libc.so.6 libpulse-mainloop-glib.so.0 libpulse.so.0 libstdc++.so.6
+RESTRICT: test
+SHA1: 34f029fe0bcd5c6c3e47b6d3b4b67023176833ea
+SIZE: 194560
+SLOT: 0/3
+USE: abi_x86_64 amd64 elibc_glibc handbook kernel_linux
+MTIME: 1688323198
+REPO: gentoo
+
+BDEPEND: >=dev-util/meson-0.62.2 >=dev-util/ninja-1.8.2 dev-util/meson-format-array
+BUILD_ID: 1
+BUILD_TIME: 1688325182
+CPV: media-libs/rubberband-3.2.1
+DEFINED_PHASES: compile configure install prepare test
+DEPEND: media-libs/libsamplerate[abi_x86_64(-)] sci-libs/fftw:3.0[abi_x86_64(-)] media-libs/libsndfile[abi_x86_64(-)]
+EAPI: 8
+IUSE: ladspa lv2 jni static-libs +programs test vamp abi_x86_32 abi_x86_64 abi_x86_x32 abi_mips_n32 abi_mips_n64 abi_mips_o32 abi_s390_32 abi_s390_64
+KEYWORDS: ~alpha amd64 arm arm64 ~hppa ~ia64 ~loong ~mips ppc ppc64 ~riscv ~sparc ~x86
+LICENSE: GPL-2
+MD5: 55a40d527aab6f8c9e1456da4afe77ba
+PATH: media-libs/rubberband/rubberband-3.2.1-1.gpkg.tar
+PROVIDES: x86_64: librubberband.so.2
+RDEPEND: media-libs/libsamplerate[abi_x86_64(-)] sci-libs/fftw:3.0[abi_x86_64(-)] media-libs/libsndfile[abi_x86_64(-)] sys-devel/gcc:*
+REQUIRES: x86_64: libc.so.6 libfftw3.so.3 libgcc_s.so.1 libm.so.6 libsamplerate.so.0 libsndfile.so.1 libstdc++.so.6
+RESTRICT: test
+SHA1: 5532df1791c7ddd05fdc1791c69fb85257ff9609
+SIZE: 675840
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux programs
+MTIME: 1688325185
+REPO: gentoo
+
 BDEPEND: virtual/pkgconfig
 BUILD_ID: 1
 BUILD_TIME: 1687957307
@@ -12499,6 +14028,26 @@ SHA1: 67f5f5c8f87c76eaffcb052fd54eb105a0ce6127
 SIZE: 184320
 USE: abi_x86_64 amd64 elibc_glibc kernel_linux
 MTIME: 1687957309
+REPO: gentoo
+
+BUILD_ID: 1
+BUILD_TIME: 1688325227
+CPV: media-libs/sdl2-image-2.6.3
+DEFINED_PHASES: compile configure install test
+DEPEND: >=media-libs/libsdl2-2.0.9[abi_x86_64(-)] >=sys-libs/zlib-1.2.8-r1[abi_x86_64(-)] >=media-libs/libpng-1.6.10:0[abi_x86_64(-)] media-libs/libjpeg-turbo:0/0.2=[abi_x86_64(-)] >=media-libs/tiff-3.9.7-r1:0/6=[abi_x86_64(-)]
+EAPI: 8
+IUSE: gif jpeg png static-libs tiff webp abi_x86_32 abi_x86_64 abi_x86_x32 abi_mips_n32 abi_mips_n64 abi_mips_o32 abi_s390_32 abi_s390_64
+KEYWORDS: ~alpha ~amd64 ~arm ~arm64 ~hppa ~ia64 ~loong ~ppc ~ppc64 ~riscv ~sparc ~x86
+LICENSE: ZLIB
+MD5: e591cef2d653a5168da7829c0863b175
+PATH: media-libs/sdl2-image/sdl2-image-2.6.3-1.gpkg.tar
+PROVIDES: x86_64: libSDL2_image-2.0.so.0
+RDEPEND: >=media-libs/libsdl2-2.0.9[abi_x86_64(-)] >=sys-libs/zlib-1.2.8-r1[abi_x86_64(-)] >=media-libs/libpng-1.6.10:0[abi_x86_64(-)] media-libs/libjpeg-turbo:0/0.2=[abi_x86_64(-)] >=media-libs/tiff-3.9.7-r1:0/6=[abi_x86_64(-)]
+REQUIRES: x86_64: libSDL2-2.0.so.0 libc.so.6 libjpeg.so.62 libpng16.so.16 libtiff.so.6
+SHA1: f20a6bfef2d5bb174c194db73d9260d5244ff0cd
+SIZE: 133120
+USE: abi_x86_64 amd64 elibc_glibc gif jpeg kernel_linux png tiff
+MTIME: 1688325229
 REPO: gentoo
 
 BDEPEND: virtual/pkgconfig >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5
@@ -12667,6 +14216,48 @@ USE: abi_x86_64 amd64 elibc_glibc kernel_linux
 MTIME: 1687960332
 REPO: gentoo
 
+BDEPEND: >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5
+BUILD_ID: 1
+BUILD_TIME: 1688242028
+CPV: media-plugins/frei0r-plugins-1.8.0
+DEFINED_PHASES: compile configure install prepare test
+DEPEND: x11-libs/cairo[abi_x86_64(-)] >=media-libs/opencv-2.3.0:0/4.7.0=[contribdnn,features2d,abi_x86_64(-)] >=media-libs/gavl-1.2.0[abi_x86_64(-)]
+EAPI: 8
+IUSE: doc +facedetect +scale0tilt abi_x86_32 abi_x86_64 abi_x86_x32 abi_mips_n32 abi_mips_n64 abi_mips_o32 abi_s390_32 abi_s390_64 doc
+KEYWORDS: amd64 ~arm arm64 ~hppa ~loong ppc ~ppc64 ~riscv x86
+LICENSE: GPL-2
+MD5: 9826d49808bcd57ed7eb94697dd55e82
+PATH: media-plugins/frei0r-plugins/frei0r-plugins-1.8.0-1.gpkg.tar
+PROVIDES: x86_64: 3dflippo.so B.so G.so IIRblur.so R.so RGB.so addition.so addition_alpha.so aech0r.so alpha0ps.so alphaatop.so alphagrad.so alphain.so alphainjection.so alphaout.so alphaover.so alphaspot.so alphaxor.so balanc0r.so baltan.so bgsubtract0r.so blend.so bluescreen0r.so brightness.so burn.so bw0r.so c0rners.so cairoaffineblend.so cairoblend.so cairogradient.so cairoimagegrid.so cartoon.so cluster.so colgate.so color_only.so coloradj_RGB.so colordistance.so colorhalftone.so colorize.so colortap.so composition.so contrast0r.so curves.so d90stairsteppingfix.so darken.so defish0r.so delay0r.so delaygrab.so difference.so distort0r.so dither.so divide.so dodge.so edgeglow.so elastic_scale.so emboss.so equaliz0r.so facebl0r.so facedetect.so flippo.so gamma.so glitch0r.so glow.so grain_extract.so grain_merge.so hardlight.so hqdn3d.so hue.so hueshift0r.so invert0r.so ising0r.so keyspillm0pup.so lenscorrection.so letterb0xed.so levels.so lighten.so lightgraffiti.so lissajous0r.so luminance.so mask0mate.so medians.so multiply.so ndvi.so nervous.so nois0r.so normaliz0r.so nosync0r.so onecol0r.so overlay.so partik0l.so perspective.so pixeliz0r.so plasma.so posterize.so pr0be.so pr0file.so premultiply.so primaries.so rgbnoise.so rgbparade.so rgbsplit0r.so saturat0r.so saturation.so scale0tilt.so scanline0r.so screen.so select0r.so sharpness.so sigmoidaltransfer.so sobel.so softglow.so softlight.so sopsat.so spillsupress.so squareblur.so subtract.so tehRoxx0r.so test_pat_B.so test_pat_C.so test_pat_G.so test_pat_I.so test_pat_L.so test_pat_R.so three_point_balance.so threelay0r.so threshold0r.so timeout.so tint0r.so transparency.so twolay0r.so uvmap.so value.so vectorscope.so vertigo.so vignette.so xfade0r.so
+RDEPEND: x11-libs/cairo[abi_x86_64(-)] >=media-libs/opencv-2.3.0:0/4.7.0=[contribdnn,features2d,abi_x86_64(-)] >=media-libs/gavl-1.2.0[abi_x86_64(-)]
+REQUIRES: x86_64: libc.so.6 libcairo.so.2 libgavl.so.1 libgcc_s.so.1 libm.so.6 libopencv_core.so.407 libopencv_imgproc.so.407 libopencv_objdetect.so.407 libopencv_video.so.407 libstdc++.so.6
+SHA1: d40cd28652d285018cb8bc2ca1f0675732422459
+SIZE: 1024000
+USE: abi_x86_64 amd64 elibc_glibc facedetect kernel_linux scale0tilt
+MTIME: 1688242039
+REPO: gentoo
+
+BDEPEND: sys-devel/gnuconfig >=app-portage/elt-patches-20170815 >=sys-devel/automake-1.16.5:1.16 >=sys-devel/autoconf-2.71-r5 >=sys-devel/libtool-2.4.7
+BUILD_ID: 1
+BUILD_TIME: 1688235777
+CPV: media-sound/cdparanoia-3.10.2-r7
+DEFINED_PHASES: compile configure install postinst postrm prepare test
+DEPEND: app-eselect/eselect-cdparanoia
+EAPI: 7
+IUSE: static-libs abi_x86_32 abi_x86_64 abi_x86_x32 abi_mips_n32 abi_mips_n64 abi_mips_o32 abi_s390_32 abi_s390_64
+KEYWORDS: ~alpha amd64 arm arm64 ~hppa ~ia64 ~loong ~mips ppc ppc64 ~riscv ~s390 sparc x86 ~amd64-linux ~x86-linux
+LICENSE: GPL-2 LGPL-2.1
+MD5: c61c4ade8b19940ccce54c338e50ab8b
+PATH: media-sound/cdparanoia/cdparanoia-3.10.2-r7-1.gpkg.tar
+PROVIDES: x86_64: libcdda_interface.so.0 libcdda_paranoia.so.0
+RDEPEND: app-eselect/eselect-cdparanoia
+REQUIRES: x86_64: libc.so.6 libm.so.6
+SHA1: 834817c43d44ddee200b22350e510a3694947449
+SIZE: 143360
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux
+MTIME: 1688235782
+REPO: gentoo
+
 BDEPEND: sys-devel/gettext virtual/pkgconfig sys-devel/gnuconfig >=app-portage/elt-patches-20170815 >=sys-devel/automake-1.16.5:1.16 >=sys-devel/autoconf-2.71-r5 >=sys-devel/libtool-2.4.7
 BUILD_ID: 1
 BUILD_TIME: 1687976289
@@ -12833,6 +14424,70 @@ SIZE: 14069760
 SLOT: 0/56.58.58
 USE: X abi_x86_64 alsa amd64 bzip2 cpu_flags_x86_aes cpu_flags_x86_mmx cpu_flags_x86_mmxext cpu_flags_x86_sse cpu_flags_x86_sse2 cpu_flags_x86_sse3 cpu_flags_x86_sse4_1 cpu_flags_x86_sse4_2 cpu_flags_x86_ssse3 dav1d elibc_glibc encode fftools_aviocat fftools_cws2fws fftools_ffescape fftools_ffeval fftools_ffhash fftools_fourcc2pixfmt fftools_graph2dot fftools_ismindex fftools_pktdumper fftools_qt-faststart fftools_sidxindex fftools_trasher gnutls gpl iconv kernel_linux mp3 network opengl postproc pulseaudio sdl svg threads truetype vaapi vorbis vulkan x264 xvid zlib
 MTIME: 1688124828
+REPO: gentoo
+
+BDEPEND: >=sys-devel/make-3.81 virtual/pkgconfig || ( >=dev-lang/nasm-2.13 >=dev-lang/yasm-1.3 )
+BUILD_ID: 3
+BUILD_TIME: 1688323122
+CPV: media-video/ffmpeg-4.4.4-r2
+DEFINED_PHASES: compile configure install prepare setup test unpack
+DEPEND: >=media-libs/alsa-lib-1.0.27.2[abi_x86_64(-)] >=app-arch/bzip2-1.0.6-r4[abi_x86_64(-)] >=media-libs/dav1d-0.4.0:0/6=[abi_x86_64(-)] >=media-sound/lame-3.99.5-r1[abi_x86_64(-)] >=media-libs/x264-0.0.20130506:0/164=[abi_x86_64(-)] >=media-libs/xvid-1.3.2-r1[abi_x86_64(-)] >=virtual/libiconv-0-r1[abi_x86_64(-)] >=media-libs/libass-0.10.2:0/9=[abi_x86_64(-)] >=virtual/opengl-7.0-r1[abi_x86_64(-)] >=media-sound/pulseaudio-2.1-r1[abi_x86_64(-)] media-libs/libsdl2[sound,video,abi_x86_64(-)] gnome-base/librsvg:2/2=[abi_x86_64(-)] x11-libs/cairo[abi_x86_64(-)] >=media-libs/freetype-2.5.0.1:2[abi_x86_64(-)] >=media-libs/libva-1.2.1-r1:0/2=[abi_x86_64(-)] >=media-libs/libvorbis-1.3.3-r1[abi_x86_64(-)] >=media-libs/libogg-1.3.0[abi_x86_64(-)] >=media-libs/vulkan-loader-1.1.97:0/0=[abi_x86_64(-)] >=x11-libs/libX11-1.6.2[abi_x86_64(-)] >=x11-libs/libXext-1.3.2[abi_x86_64(-)] >=x11-libs/libXv-1.0.10[abi_x86_64(-)] >=x11-libs/libxcb-1.4:0/1.12=[abi_x86_64(-)] >=sys-libs/zlib-1.2.8-r1[abi_x86_64(-)] >=net-libs/gnutls-2.12.23-r6:0/30.30=[abi_x86_64(-)]
+EAPI: 8
+IUSE: alsa chromium doc +encode oss pic sndio static-libs test v4l +bzip2 cpudetection debug gcrypt +gnutls gmp +gpl hardcoded-tables +iconv libxml2 lzma +network opencl openssl +postproc samba sdl sdl vaapi vdpau vulkan X X X X +zlib cdio iec61883 ieee1394 libcaca openal opengl libv4l pulseaudio libdrm jack amr amr codec2 +dav1d fdk jpeg2k bluray gme gsm libaribb24 mmal modplug opus qsv libilbc librtmp ssh speex srt svg nvenc vorbis vpx zvbi appkit bs2b chromaprint cuda flite frei0r vmaf fribidi fontconfig ladspa libass libtesseract lv2 truetype vidstab rubberband zeromq zimg libsoxr +threads amf amrenc kvazaar libaom mp3 openh264 rav1e snappy svt-av1 theora twolame webp x264 x265 xvid cpu_flags_arm_thumb cpu_flags_arm_v6 cpu_flags_arm_thumb2 cpu_flags_arm_neon cpu_flags_arm_vfp cpu_flags_arm_vfpv3 cpu_flags_arm_v8 mipsdspr1 mipsdspr2 mipsfpu cpu_flags_ppc_altivec cpu_flags_ppc_vsx cpu_flags_ppc_vsx2 cpu_flags_x86_3dnow cpu_flags_x86_3dnowext cpu_flags_x86_aes cpu_flags_x86_avx cpu_flags_x86_avx2 cpu_flags_x86_fma3 cpu_flags_x86_fma4 cpu_flags_x86_mmx cpu_flags_x86_mmxext cpu_flags_x86_sse cpu_flags_x86_sse2 cpu_flags_x86_sse3 cpu_flags_x86_ssse3 cpu_flags_x86_sse4_1 cpu_flags_x86_sse4_2 cpu_flags_x86_xop +fftools_aviocat +fftools_cws2fws +fftools_ffescape +fftools_ffeval +fftools_ffhash +fftools_fourcc2pixfmt +fftools_graph2dot +fftools_ismindex +fftools_pktdumper +fftools_qt-faststart +fftools_sidxindex +fftools_trasher abi_x86_32 abi_x86_64 abi_x86_x32 abi_mips_n32 abi_mips_n64 abi_mips_o32 abi_s390_32 abi_s390_64 verify-sig
+KEYWORDS: ~alpha amd64 arm arm64 ~hppa ~ia64 ~loong ~mips ppc ppc64 ~riscv sparc x86 ~amd64-linux ~x86-linux ~x64-macos
+LICENSE: GPL-2
+MD5: b99f049f0b40105224607d38d2985eed
+PATH: media-video/ffmpeg/ffmpeg-4.4.4-r2-3.gpkg.tar
+PROVIDES: x86_64: libavcodec.so.58 libavdevice.so.58 libavfilter.so.7 libavformat.so.58 libavresample.so.4 libavutil.so.56 libpostproc.so.55 libswresample.so.3 libswscale.so.5
+RDEPEND: >=media-libs/alsa-lib-1.0.27.2[abi_x86_64(-)] >=app-arch/bzip2-1.0.6-r4[abi_x86_64(-)] >=media-libs/dav1d-0.4.0:0/6=[abi_x86_64(-)] >=media-sound/lame-3.99.5-r1[abi_x86_64(-)] >=media-libs/x264-0.0.20130506:0/164=[abi_x86_64(-)] >=media-libs/xvid-1.3.2-r1[abi_x86_64(-)] >=virtual/libiconv-0-r1[abi_x86_64(-)] >=media-libs/libass-0.10.2:0/9=[abi_x86_64(-)] >=virtual/opengl-7.0-r1[abi_x86_64(-)] >=media-sound/pulseaudio-2.1-r1[abi_x86_64(-)] media-libs/libsdl2[sound,video,abi_x86_64(-)] gnome-base/librsvg:2/2=[abi_x86_64(-)] x11-libs/cairo[abi_x86_64(-)] >=media-libs/freetype-2.5.0.1:2[abi_x86_64(-)] >=media-libs/libva-1.2.1-r1:0/2=[abi_x86_64(-)] >=media-libs/libvorbis-1.3.3-r1[abi_x86_64(-)] >=media-libs/libogg-1.3.0[abi_x86_64(-)] >=media-libs/vulkan-loader-1.1.97:0/0=[abi_x86_64(-)] >=x11-libs/libX11-1.6.2[abi_x86_64(-)] >=x11-libs/libXext-1.3.2[abi_x86_64(-)] >=x11-libs/libXv-1.0.10[abi_x86_64(-)] >=x11-libs/libxcb-1.4:0/1.12=[abi_x86_64(-)] >=sys-libs/zlib-1.2.8-r1[abi_x86_64(-)] >=net-libs/gnutls-2.12.23-r6:0/30.30=[abi_x86_64(-)]
+REQUIRES: x86_64: libGL.so.1 libSDL2-2.0.so.0 libX11.so.6 libXext.so.6 libXv.so.1 libasound.so.2 libass.so.9 libbz2.so.1 libc.so.6 libcairo.so.2 libdav1d.so.6 libfreetype.so.6 libglib-2.0.so.0 libgnutls.so.30 libgobject-2.0.so.0 libm.so.6 libmp3lame.so.0 libpulse.so.0 librsvg-2.so.2 libva-drm.so.2 libva-x11.so.2 libva.so.2 libvorbis.so.0 libvorbisenc.so.2 libvulkan.so.1 libx264.so.164 libxcb-shape.so.0 libxcb-shm.so.0 libxcb-xfixes.so.0 libxcb.so.1 libxvidcore.so.4 libz.so.1
+RESTRICT: test
+SHA1: 8d3015df6f4dade09d46a967a4f94a99629eaa03
+SIZE: 14069760
+SLOT: 0/56.58.58
+USE: X abi_x86_64 alsa amd64 bzip2 cpu_flags_x86_aes cpu_flags_x86_mmx cpu_flags_x86_mmxext cpu_flags_x86_sse cpu_flags_x86_sse2 cpu_flags_x86_sse3 cpu_flags_x86_sse4_1 cpu_flags_x86_sse4_2 cpu_flags_x86_ssse3 dav1d elibc_glibc encode fftools_aviocat fftools_cws2fws fftools_ffescape fftools_ffeval fftools_ffhash fftools_fourcc2pixfmt fftools_graph2dot fftools_ismindex fftools_pktdumper fftools_qt-faststart fftools_sidxindex fftools_trasher gnutls gpl iconv kernel_linux libass mp3 network opengl postproc pulseaudio sdl svg threads truetype vaapi vorbis vulkan x264 xvid zlib
+MTIME: 1688323127
+REPO: gentoo
+
+BDEPEND: virtual/pkgconfig sys-devel/gnuconfig >=app-portage/elt-patches-20170815 >=sys-devel/automake-1.16.5:1.16 >=sys-devel/autoconf-2.71-r5 >=sys-devel/libtool-2.4.7
+BUILD_ID: 1
+BUILD_TIME: 1688326496
+CPV: media-video/mediainfo-23.04
+DEFINED_PHASES: compile configure install postinst postrm prepare setup
+DEPEND: ~media-libs/libmediainfo-23.04[-curl,-mms] >=media-libs/libzen-0.4.41 sys-libs/zlib x11-libs/wxGTK:3.0-gtk3[X]
+EAPI: 8
+IUSE: curl mms wxwidgets
+KEYWORDS: amd64 ~arm arm64 ~ppc ~ppc64 ~riscv x86
+LICENSE: BSD-2
+MD5: cec7d4f75a5fc38b461ac3d5ba5eacde
+PATH: media-video/mediainfo/mediainfo-23.04-1.gpkg.tar
+RDEPEND: ~media-libs/libmediainfo-23.04[-curl,-mms] >=media-libs/libzen-0.4.41 sys-libs/zlib x11-libs/wxGTK:3.0-gtk3[X]
+REQUIRES: x86_64: libc.so.6 libgcc_s.so.1 libmediainfo.so.0 libstdc++.so.6 libwx_baseu-3.0-gtk3.so.0 libwx_gtk3u_core-3.0-gtk3.so.0 libwx_gtk3u_html-3.0-gtk3.so.0 libzen.so.0
+SHA1: 6a9d7e278404b94e71e274ceee0a5efb2912cd76
+SIZE: 368640
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux wxwidgets
+MTIME: 1688326498
+REPO: gentoo
+
+BDEPEND: virtual/pkgconfig
+BUILD_ID: 1
+BUILD_TIME: 1688325093
+CPV: media-video/movit-1.6.3-r1
+DEFINED_PHASES: compile install test
+DEPEND: media-libs/mesa[X(+)] >=dev-cpp/eigen-3.2.0:3 media-libs/libepoxy[egl,X] >=sci-libs/fftw-3:3.0/3= media-libs/libsdl2
+EAPI: 8
+KEYWORDS: amd64 arm64 ~ppc64 ~riscv x86
+LICENSE: GPL-2+
+MD5: c96877eb352111cdcbda80774586c791
+PATH: media-video/movit/movit-1.6.3-r1-1.gpkg.tar
+PROVIDES: x86_64: libmovit.so.8
+RDEPEND: media-libs/mesa[X(+)] >=dev-cpp/eigen-3.2.0:3 media-libs/libepoxy[egl,X] >=sci-libs/fftw-3:3.0/3= media-libs/libsdl2
+REQUIRES: x86_64: ld-linux-x86-64.so.2 libc.so.6 libepoxy.so.0 libfftw3.so.3 libgcc_s.so.1 libm.so.6 libstdc++.so.6
+RESTRICT: test
+SHA1: d4b821f122b3049b1bc0e7b66a6765ebf0b2a480
+SIZE: 419840
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux
+MTIME: 1688325095
 REPO: gentoo
 
 BDEPEND: >=dev-util/meson-0.59 virtual/pkgconfig || ( >=dev-lang/python-3.11.3:3.11 >=dev-lang/python-3.10.11:3.10 ) || ( ( >=dev-lang/python-3.11.3:3.11 dev-python/docutils[python_targets_python3_11(-)] ) ( >=dev-lang/python-3.10.11:3.10 dev-python/docutils[python_targets_python3_10(-)] ) ) dev-util/gdbus-codegen >=dev-util/meson-0.62.2 >=dev-util/ninja-1.8.2 dev-util/meson-format-array virtual/pkgconfig virtual/pkgconfig
@@ -13190,6 +14845,28 @@ USE: abi_x86_64 amd64 elibc_glibc kernel_linux
 MTIME: 1688232756
 REPO: gentoo
 
+BDEPEND: sys-devel/gettext >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 >=kde-frameworks/kdoctools-5.106.0:5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.106.0:5
+BUILD_ID: 1
+BUILD_TIME: 1688332165
+CPV: net-irc/konversation-23.04.2
+DEFINED_PHASES: compile configure install nofetch postinst postrm preinst prepare setup test unpack
+DEPEND: >=dev-qt/qtdbus-5.15.9:5 >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtmultimedia-5.15.9:5 >=dev-qt/qtnetwork-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=dev-qt/qtxml-5.15.9:5 >=kde-frameworks/karchive-5.106.0:5 >=kde-frameworks/kbookmarks-5.106.0:5 >=kde-frameworks/kcodecs-5.106.0:5 >=kde-frameworks/kcompletion-5.106.0:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kconfigwidgets-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kcrash-5.106.0:5 >=kde-frameworks/kdbusaddons-5.106.0:5 >=kde-frameworks/kglobalaccel-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kidletime-5.106.0:5 >=kde-frameworks/kio-5.106.0:5 >=kde-frameworks/kitemviews-5.106.0:5 >=kde-frameworks/knewstuff-5.106.0:5 >=kde-frameworks/knotifications-5.106.0:5 >=kde-frameworks/knotifyconfig-5.106.0:5 >=kde-frameworks/kparts-5.106.0:5 >=kde-frameworks/kservice-5.106.0:5 >=kde-frameworks/ktextwidgets-5.106.0:5 >=kde-frameworks/kwallet-5.106.0:5 >=kde-frameworks/kwidgetsaddons-5.106.0:5 >=kde-frameworks/kwindowsystem-5.106.0:5 >=kde-frameworks/kxmlgui-5.106.0:5 >=app-crypt/qca-2.3.0:2[qt5(+)] dev-qt/qtcore:5
+EAPI: 8
+IDEPEND: dev-util/desktop-file-utils x11-misc/shared-mime-info
+IUSE: +crypt debug +handbook
+KEYWORDS: ~amd64 ~arm64 ~ppc64 ~riscv ~x86
+LICENSE: GPL-2
+MD5: 74b140d108d81c0eadb5733c44a74934
+PATH: net-irc/konversation/konversation-23.04.2-1.gpkg.tar
+RDEPEND: >=dev-qt/qtdbus-5.15.9:5 >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtmultimedia-5.15.9:5 >=dev-qt/qtnetwork-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=dev-qt/qtxml-5.15.9:5 >=kde-frameworks/karchive-5.106.0:5 >=kde-frameworks/kbookmarks-5.106.0:5 >=kde-frameworks/kcodecs-5.106.0:5 >=kde-frameworks/kcompletion-5.106.0:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kconfigwidgets-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kcrash-5.106.0:5 >=kde-frameworks/kdbusaddons-5.106.0:5 >=kde-frameworks/kglobalaccel-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kidletime-5.106.0:5 >=kde-frameworks/kio-5.106.0:5 >=kde-frameworks/kitemviews-5.106.0:5 >=kde-frameworks/knewstuff-5.106.0:5 >=kde-frameworks/knotifications-5.106.0:5 >=kde-frameworks/knotifyconfig-5.106.0:5 >=kde-frameworks/kparts-5.106.0:5 >=kde-frameworks/kservice-5.106.0:5 >=kde-frameworks/ktextwidgets-5.106.0:5 >=kde-frameworks/kwallet-5.106.0:5 >=kde-frameworks/kwidgetsaddons-5.106.0:5 >=kde-frameworks/kwindowsystem-5.106.0:5 >=kde-frameworks/kxmlgui-5.106.0:5 >=app-crypt/qca-2.3.0:2[qt5(+)] >=dev-qt/qtsvg-5.15.9:5 >=app-crypt/qca-2.3.0:2[qt5(+),ssl] || ( kde-frameworks/breeze-icons:* kde-frameworks/oxygen-icons:* ) >=kde-frameworks/kf-env-4 dev-qt/qtcore:5
+REQUIRES: x86_64: libKF5Archive.so.5 libKF5Bookmarks.so.5 libKF5Codecs.so.5 libKF5Completion.so.5 libKF5ConfigCore.so.5 libKF5ConfigGui.so.5 libKF5ConfigWidgets.so.5 libKF5CoreAddons.so.5 libKF5Crash.so.5 libKF5DBusAddons.so.5 libKF5GlobalAccel.so.5 libKF5I18n.so.5 libKF5IdleTime.so.5 libKF5ItemViews.so.5 libKF5KIOCore.so.5 libKF5KIOFileWidgets.so.5 libKF5KIOGui.so.5 libKF5KIOWidgets.so.5 libKF5NewStuffWidgets.so.5 libKF5Notifications.so.5 libKF5NotifyConfig.so.5 libKF5Parts.so.5 libKF5Service.so.5 libKF5TextWidgets.so.5 libKF5Wallet.so.5 libKF5WidgetsAddons.so.5 libKF5WindowSystem.so.5 libKF5XmlGui.so.5 libQt5Core.so.5 libQt5DBus.so.5 libQt5Gui.so.5 libQt5Multimedia.so.5 libQt5Network.so.5 libQt5Widgets.so.5 libQt5Xml.so.5 libc.so.6 libm.so.6 libqca-qt5.so.2 libstdc++.so.6
+SHA1: fc6adc2088cf1b7895741e23c1280ed68f866381
+SIZE: 9502720
+SLOT: 5
+USE: abi_x86_64 amd64 crypt elibc_glibc handbook kernel_linux
+MTIME: 1688332171
+REPO: gentoo
+
 BUILD_ID: 1
 BUILD_TIME: 1687969235
 CPV: net-libs/accounts-qml-0.7-r2
@@ -13230,6 +14907,29 @@ SHA1: 736ef74d890bf8963cc14435eafce51f35eca3c7
 SIZE: 92160
 USE: abi_x86_64 amd64 elibc_glibc kernel_linux
 MTIME: 1687964813
+REPO: gentoo
+
+BDEPEND: >=sys-devel/gettext-0.19.8 virtual/pkgconfig app-arch/xz-utils >=dev-util/meson-0.62.2 >=dev-util/ninja-1.8.2 dev-util/meson-format-array
+BUILD_ID: 1
+BUILD_TIME: 1688234960
+CPV: net-libs/glib-networking-2.76.0
+DEFINED_PHASES: compile configure install postinst postrm preinst prepare test
+DEPEND: >=dev-libs/glib-2.73.3:2[abi_x86_64(-)] >=net-libs/libproxy-0.4.16[abi_x86_64(-)] >=net-libs/gnutls-3.7.4:0/30.30=[abi_x86_64(-)] app-misc/ca-certificates
+EAPI: 8
+IDEPEND: dev-util/desktop-file-utils x11-misc/shared-mime-info
+IUSE: +gnome +libproxy +ssl test abi_x86_32 abi_x86_64 abi_x86_x32 abi_mips_n32 abi_mips_n64 abi_mips_o32 abi_s390_32 abi_s390_64
+KEYWORDS: ~alpha amd64 arm arm64 ~hppa ~ia64 ~loong ~mips ppc ppc64 ~riscv ~s390 sparc x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x64-solaris
+LICENSE: LGPL-2.1+
+MD5: bc309984ad0dfc3d42f5173c30e92348
+PATH: net-libs/glib-networking/glib-networking-2.76.0-1.gpkg.tar
+PROVIDES: x86_64: libgiognutls.so libgiolibproxy.so
+RDEPEND: >=dev-libs/glib-2.73.3:2[abi_x86_64(-)] >=net-libs/libproxy-0.4.16[abi_x86_64(-)] >=net-libs/gnutls-3.7.4:0/30.30=[abi_x86_64(-)] app-misc/ca-certificates
+REQUIRES: x86_64: libc.so.6 libgio-2.0.so.0 libglib-2.0.so.0 libgnutls.so.30 libgobject-2.0.so.0 libproxy.so.1
+RESTRICT: test
+SHA1: 74d0eab29cc3c419ef65ef14b2c246a64878fb09
+SIZE: 296960
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux libproxy ssl
+MTIME: 1688234964
 REPO: gentoo
 
 BDEPEND: dev-util/gtk-doc-am >=virtual/pkgconfig-0-r1 sys-devel/gettext >=app-portage/elt-patches-20170815
@@ -13313,6 +15013,30 @@ SHA1: 1a8bb5c4d059ac3d8d5182975ec3b46c455a488a
 SIZE: 61440
 USE: abi_x86_64 amd64 elibc_glibc kernel_linux
 MTIME: 1688111871
+REPO: gentoo
+
+BDEPEND: sys-devel/gettext >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.106.0:5
+BUILD_ID: 1
+BUILD_TIME: 1688327611
+CPV: net-libs/libktorrent-23.04.2
+DEFINED_PHASES: compile configure install nofetch postinst postrm preinst prepare setup test unpack
+DEPEND: >=app-crypt/qca-2.3.0:2[qt5(+)] >=dev-libs/gmp-6.0.0a:0/10.4= dev-libs/libgcrypt:0/20= >=dev-qt/qtnetwork-5.15.9:5 >=dev-qt/qtxml-5.15.9:5 >=kde-frameworks/karchive-5.106.0:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kcrash-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kio-5.106.0:5 >=kde-frameworks/solid-5.106.0:5 >=dev-libs/boost-1.71 dev-qt/qtcore:5
+EAPI: 8
+IDEPEND: dev-util/desktop-file-utils x11-misc/shared-mime-info
+IUSE: debug test
+KEYWORDS: ~amd64 ~arm ~arm64 ~ppc64 ~riscv ~x86
+LICENSE: GPL-2+
+MD5: c4f899dfeabdb7010cb7f012892948ab
+PATH: net-libs/libktorrent/libktorrent-23.04.2-1.gpkg.tar
+PROVIDES: x86_64: libKF5Torrent.so.6
+RDEPEND: >=app-crypt/qca-2.3.0:2[qt5(+)] >=dev-libs/gmp-6.0.0a:0/10.4= dev-libs/libgcrypt:0/20= >=dev-qt/qtnetwork-5.15.9:5 >=dev-qt/qtxml-5.15.9:5 >=kde-frameworks/karchive-5.106.0:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kcrash-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kio-5.106.0:5 >=kde-frameworks/solid-5.106.0:5 !dev-libs/botan[gmp(-)] || ( kde-frameworks/breeze-icons:* kde-frameworks/oxygen-icons:* ) >=kde-frameworks/kf-env-4 dev-qt/qtcore:5
+REQUIRES: x86_64: libKF5Archive.so.5 libKF5ConfigCore.so.5 libKF5CoreAddons.so.5 libKF5I18n.so.5 libKF5KIOCore.so.5 libQt5Core.so.5 libQt5Network.so.5 libQt5Xml.so.5 libc.so.6 libgcc_s.so.1 libgcrypt.so.20 libgmp.so.10 libqca-qt5.so.2 libstdc++.so.6
+RESTRICT: test
+SHA1: a009cf6f948ce5efc3d6c4de99865ac32478db27
+SIZE: 1341440
+SLOT: 5
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux
+MTIME: 1688327614
 REPO: gentoo
 
 BDEPEND: || ( >=dev-lang/python-3.11.3:3.11 >=dev-lang/python-3.10.11:3.10 ) dev-util/glib-utils virtual/pkgconfig
@@ -13444,6 +15168,28 @@ USE: abi_x86_64 amd64 elibc_glibc introspection kde kernel_linux
 MTIME: 1687968939
 REPO: gentoo
 
+BDEPEND: || ( >=dev-lang/python-3.11.3:3.11 >=dev-lang/python-3.10.11:3.10 ) sys-devel/gettext virtual/pkgconfig >=dev-util/meson-0.62.2 >=dev-util/ninja-1.8.2 dev-util/meson-format-array
+BUILD_ID: 1
+BUILD_TIME: 1688234918
+CPV: net-libs/libpsl-0.21.2
+DEFINED_PHASES: compile configure install pretend setup test
+DEPEND: dev-libs/libunistring:0/5=[abi_x86_64(-)] net-dns/libidn2:0/2=[abi_x86_64(-)]
+EAPI: 8
+IUSE: icu +idn test abi_x86_32 abi_x86_64 abi_x86_x32 abi_mips_n32 abi_mips_n64 abi_mips_o32 abi_s390_32 abi_s390_64
+KEYWORDS: ~alpha amd64 arm arm64 hppa ~ia64 ~loong ~m68k ~mips ppc ppc64 ~riscv ~s390 sparc x86
+LICENSE: MIT
+MD5: c76fea43e02aaa5d4d48cf0a7cf73a66
+PATH: net-libs/libpsl/libpsl-0.21.2-1.gpkg.tar
+PROVIDES: x86_64: libpsl.so.5
+RDEPEND: dev-libs/libunistring:0/5=[abi_x86_64(-)] net-dns/libidn2:0/2=[abi_x86_64(-)]
+REQUIRES: x86_64: libc.so.6 libidn2.so.0 libunistring.so.5
+RESTRICT: test
+SHA1: f2a3290b57807c8d2d121d9604b0f5fe59e98132
+SIZE: 133120
+USE: abi_x86_64 amd64 elibc_glibc icu idn kernel_linux
+MTIME: 1688234922
+REPO: gentoo
+
 BDEPEND: virtual/pkgconfig
 BUILD_ID: 1
 BUILD_TIME: 1687964579
@@ -13486,6 +15232,53 @@ SIZE: 71680
 SLOT: 0/0
 USE: abi_x86_64 amd64 elibc_glibc kernel_linux
 MTIME: 1687964292
+REPO: gentoo
+
+BDEPEND: >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5
+BUILD_ID: 1
+BUILD_TIME: 1688325982
+CPV: net-libs/libquotient-0.7.2-r3
+DEFINED_PHASES: compile configure install prepare test
+DEPEND: dev-libs/olm dev-libs/openssl:0/3= dev-libs/qtkeychain:0/1=[qt5(+)] dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtmultimedia:5 dev-qt/qtnetwork:5[ssl] dev-qt/qtsql:5
+EAPI: 8
+IUSE: test
+KEYWORDS: ~amd64 ~arm64 ~ppc64 ~x86
+LICENSE: LGPL-2+
+MD5: b71da240029d893b4659b5178b7fdb72
+PATH: net-libs/libquotient/libquotient-0.7.2-r3-1.gpkg.tar
+PROVIDES: x86_64: libQuotient.so.0.7
+RDEPEND: dev-libs/olm dev-libs/openssl:0/3= dev-libs/qtkeychain:0/1=[qt5(+)] dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtmultimedia:5 dev-qt/qtnetwork:5[ssl] dev-qt/qtsql:5
+REQUIRES: x86_64: ld-linux-x86-64.so.2 libQt5Core.so.5 libQt5Gui.so.5 libQt5Multimedia.so.5 libQt5Network.so.5 libQt5Sql.so.5 libc.so.6 libcrypto.so.3 libm.so.6 libolm.so.3 libqt5keychain.so.1 libstdc++.so.6
+RESTRICT: test
+SHA1: d9f51ce33a472c88bbc6405b4e9a906051ce051b
+SIZE: 1198080
+SLOT: 0/0.7
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux
+MTIME: 1688325984
+REPO: gentoo
+
+BDEPEND: dev-libs/glib dev-util/glib-utils >=sys-devel/gettext-0.19.8 virtual/pkgconfig dev-lang/vala:0.56 app-arch/xz-utils >=dev-util/meson-0.62.2 >=dev-util/ninja-1.8.2 dev-util/meson-format-array
+BUILD_ID: 1
+BUILD_TIME: 1688235558
+CPV: net-libs/libsoup-3.4.2
+DEFINED_PHASES: compile configure install postinst postrm preinst prepare test
+DEPEND: >=dev-libs/glib-2.69.1:2[abi_x86_64(-)] net-libs/nghttp2:0/1.14=[abi_x86_64(-)] >=dev-db/sqlite-3.8.2:3[abi_x86_64(-)] >=app-arch/brotli-1.0.6-r1:0/1=[abi_x86_64(-)] >=net-libs/libpsl-0.20[abi_x86_64(-)] sys-libs/zlib >=dev-libs/gobject-introspection-1.54:0/0=
+EAPI: 8
+IDEPEND: dev-util/desktop-file-utils x11-misc/shared-mime-info
+IUSE: +brotli gssapi gtk-doc +introspection samba ssl sysprof test +vala abi_x86_32 abi_x86_64 abi_x86_x32 abi_mips_n32 abi_mips_n64 abi_mips_o32 abi_s390_32 abi_s390_64
+KEYWORDS: ~alpha amd64 arm arm64 ~hppa ~ia64 ~loong ~mips ppc ppc64 ~riscv ~s390 sparc x86
+LICENSE: LGPL-2.1+
+MD5: e2982babe1b07437cdb78ccbc088c370
+PATH: net-libs/libsoup/libsoup-3.4.2-1.gpkg.tar
+PROVIDES: x86_64: libsoup-3.0.so.0
+RDEPEND: >=dev-libs/glib-2.69.1:2[abi_x86_64(-)] net-libs/nghttp2:0/1.14=[abi_x86_64(-)] >=dev-db/sqlite-3.8.2:3[abi_x86_64(-)] >=app-arch/brotli-1.0.6-r1:0/1=[abi_x86_64(-)] >=net-libs/libpsl-0.20[abi_x86_64(-)] sys-libs/zlib >=dev-libs/gobject-introspection-1.54:0/0= >=net-libs/glib-networking-2.70_alpha[ssl,abi_x86_64(-)]
+REQUIRES: x86_64: libbrotlidec.so.1 libc.so.6 libgio-2.0.so.0 libglib-2.0.so.0 libgmodule-2.0.so.0 libgobject-2.0.so.0 libnghttp2.so.14 libpsl.so.5 libsqlite3.so.0 libz.so.1
+RESTRICT: test
+SHA1: 7eb64501d03aae55e70a44392a21e10e7a4a8ae3
+SIZE: 747520
+SLOT: 3.0
+USE: abi_x86_64 amd64 brotli elibc_glibc introspection kernel_linux ssl vala
+MTIME: 1688235562
 REPO: gentoo
 
 BDEPEND: >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5
@@ -13596,6 +15389,26 @@ SHA1: 2998034682f7df0ea58abab99209766a1c084709
 SIZE: 143360
 USE: abi_x86_64 amd64 elibc_glibc kernel_linux
 MTIME: 1687970533
+REPO: gentoo
+
+BUILD_ID: 1
+BUILD_TIME: 1688325649
+CPV: net-libs/signon-ui-0.15_p20171022-r1
+DEFINED_PHASES: configure install
+DEPEND: dev-libs/glib:2 dev-qt/qtcore:5 dev-qt/qtdbus:5 dev-qt/qtdeclarative:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5[ssl] dev-qt/qtwebengine:5 dev-qt/qtwidgets:5 net-libs/accounts-qt net-libs/libproxy net-libs/signond x11-libs/libnotify
+EAPI: 7
+IUSE: test
+KEYWORDS: amd64 arm64 ~ppc64 ~x86
+LICENSE: GPL-2 GPL-3
+MD5: 3614460801b353e6873cad48a43960ac
+PATH: net-libs/signon-ui/signon-ui-0.15_p20171022-r1-1.gpkg.tar
+RDEPEND: dev-libs/glib:2 dev-qt/qtcore:5 dev-qt/qtdbus:5 dev-qt/qtdeclarative:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5[ssl] dev-qt/qtwebengine:5 dev-qt/qtwidgets:5 net-libs/accounts-qt net-libs/libproxy net-libs/signond x11-libs/libnotify dev-qt/qtwebchannel:5
+REQUIRES: x86_64: libQt5Core.so.5 libQt5DBus.so.5 libQt5Gui.so.5 libQt5Network.so.5 libQt5Qml.so.5 libQt5Quick.so.5 libQt5WebEngine.so.5 libQt5Widgets.so.5 libaccounts-qt5.so.1 libc.so.6 libglib-2.0.so.0 libgobject-2.0.so.0 libnotify.so.4 libproxy.so.1 libsignon-qt5.so.1 libstdc++.so.6
+RESTRICT: test
+SHA1: 8cabf67bf35c92182fb2eb23dd9a91eefcde43ac
+SIZE: 163840
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux
+MTIME: 1688325651
 REPO: gentoo
 
 BUILD_ID: 1
@@ -13739,6 +15552,29 @@ USE: abi_x86_64 amd64 elibc_glibc kernel_linux
 MTIME: 1687337201
 REPO: gentoo
 
+BDEPEND: virtual/pkgconfig >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5
+BUILD_ID: 1
+BUILD_TIME: 1688326177
+CPV: net-misc/freerdp-2.10.0-r3
+DEFINED_PHASES: compile configure install prepare test
+DEPEND: dev-libs/openssl:0/3= sys-libs/zlib:0 media-libs/alsa-lib net-print/cups virtual/libudev:0/1= sys-apps/util-linux:0/0= dev-libs/dbus-glib:0/0= virtual/libusb:1/1= x11-libs/libXcursor x11-libs/libXext x11-libs/libXi x11-libs/libXrender x11-libs/libXv media-video/ffmpeg:0/56.58.58= media-libs/libjpeg-turbo:0/0.2= media-libs/libpulse dev-libs/wayland x11-libs/libxkbcommon x11-libs/libX11 x11-libs/libxkbfile
+EAPI: 8
+IUSE: alsa cpu_flags_arm_neon cups debug doc +ffmpeg gstreamer jpeg kerberos openh264 pulseaudio server smartcard systemd test usb valgrind wayland X xinerama xv
+KEYWORDS: ~alpha amd64 arm arm64 ~loong ppc ppc64 ~riscv x86
+LICENSE: Apache-2.0
+MD5: 2ba7523eef78ad0c829c77b18474e209
+PATH: net-misc/freerdp/freerdp-2.10.0-r3-1.gpkg.tar
+PROVIDES: x86_64: libfreerdp-client2.so.2 libfreerdp2.so.2 libuwac0.so.0 libwinpr-tools2.so.2 libwinpr2.so.2
+RDEPEND: dev-libs/openssl:0/3= sys-libs/zlib:0 media-libs/alsa-lib net-print/cups virtual/libudev:0/1= sys-apps/util-linux:0/0= dev-libs/dbus-glib:0/0= virtual/libusb:1/1= x11-libs/libXcursor x11-libs/libXext x11-libs/libXi x11-libs/libXrender x11-libs/libXv media-video/ffmpeg:0/56.58.58= media-libs/libjpeg-turbo:0/0.2= media-libs/libpulse dev-libs/wayland x11-libs/libxkbcommon x11-libs/libX11 x11-libs/libxkbfile
+REQUIRES: x86_64: ld-linux-x86-64.so.2 libX11.so.6 libXcursor.so.1 libXext.so.6 libXfixes.so.3 libXi.so.6 libXrandr.so.2 libXrender.so.1 libasound.so.2 libavcodec.so.58 libavutil.so.56 libc.so.6 libcrypto.so.3 libcups.so.2 libjpeg.so.62 libm.so.6 libpulse.so.0 libssl.so.3 libswresample.so.3 libswscale.so.5 libusb-1.0.so.0 libwayland-client.so.0 libwayland-cursor.so.0 libxkbcommon.so.0 libxkbfile.so.1
+RESTRICT: test
+SHA1: 17d2f086ffeda9b7788cb96f5df1ce33b4ae66b4
+SIZE: 2662400
+SLOT: 0/2
+USE: X abi_x86_64 alsa amd64 cups elibc_glibc ffmpeg jpeg kernel_linux pulseaudio usb wayland xv
+MTIME: 1688326180
+REPO: gentoo
+
 BDEPEND: app-text/docbook-xml-dtd:4.2 app-text/docbook-xml-dtd:4.5 app-text/docbook-xsl-ns-stylesheets app-text/docbook-xsl-stylesheets dev-libs/libxslt virtual/pkgconfig sys-devel/gettext >=dev-util/meson-0.62.2 >=dev-util/ninja-1.8.2 dev-util/meson-format-array virtual/pkgconfig
 BUILD_ID: 1
 BUILD_TIME: 1687576625
@@ -13759,6 +15595,29 @@ SHA1: 7110b4a76a65dd9e41c9710a715ce578847e321b
 SIZE: 174080
 USE: abi_x86_64 amd64 arping elibc_glibc filecaps kernel_linux nls
 MTIME: 1687576626
+REPO: gentoo
+
+BDEPEND: >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.106.0:5
+BUILD_ID: 1
+BUILD_TIME: 1688328268
+CPV: net-misc/kio-zeroconf-23.04.2
+DEFINED_PHASES: compile configure install nofetch postinst postrm preinst prepare setup test unpack
+DEPEND: >=dev-qt/qtdbus-5.15.9:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kdbusaddons-5.106.0:5 >=kde-frameworks/kdnssd-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kio-5.106.0:5 dev-qt/qtcore:5
+EAPI: 8
+IDEPEND: dev-util/desktop-file-utils x11-misc/shared-mime-info
+IUSE: debug
+KEYWORDS: ~amd64 ~arm64 ~ppc64 ~x86
+LICENSE: GPL-2+
+MD5: 16011f9181cb93c9394dacbba390710f
+PATH: net-misc/kio-zeroconf/kio-zeroconf-23.04.2-1.gpkg.tar
+PROVIDES: x86_64: dnssdwatcher.so zeroconf.so
+RDEPEND: >=dev-qt/qtdbus-5.15.9:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kdbusaddons-5.106.0:5 >=kde-frameworks/kdnssd-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kio-5.106.0:5 || ( kde-frameworks/breeze-icons:* kde-frameworks/oxygen-icons:* ) >=kde-frameworks/kf-env-4 dev-qt/qtcore:5
+REQUIRES: x86_64: libKF5CoreAddons.so.5 libKF5DBusAddons.so.5 libKF5DNSSD.so.5 libKF5I18n.so.5 libKF5KIOCore.so.5 libQt5Core.so.5 libQt5DBus.so.5 libc.so.6 libstdc++.so.6
+SHA1: c2c8d2e28ea9e48966a7b4efadb4ba2a11e5ddf2
+SIZE: 122880
+SLOT: 5
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux
+MTIME: 1688328271
 REPO: gentoo
 
 BDEPEND: dev-libs/libxslt app-arch/xz-utils
@@ -13951,6 +15810,26 @@ SHA1: fae815b2e265bcad2ee0eb081cf3e2e4dcb93cbf
 SIZE: 1464320
 USE: abi_x86_64 amd64 dbus elibc_glibc exif foomatic jpeg kernel_linux pdf png postscript tiff
 MTIME: 1687941261
+REPO: gentoo
+
+BDEPEND: >=dev-util/gdbus-codegen-2.36.0 virtual/pkgconfig sys-devel/gettext app-arch/xz-utils >=dev-util/meson-0.62.2 >=dev-util/ninja-1.8.2 dev-util/meson-format-array
+BUILD_ID: 1
+BUILD_TIME: 1688234879
+CPV: net-print/cups-pk-helper-0.2.7-r1
+DEFINED_PHASES: compile configure install test
+DEPEND: >=dev-libs/glib-2.36.0:2 >=sys-auth/polkit-0.97 net-print/cups
+EAPI: 8
+KEYWORDS: ~alpha amd64 ~arm arm64 ~ia64 ~loong ppc ppc64 ~riscv ~sparc x86
+LICENSE: GPL-2+
+MD5: c559b54cc978ab6d401412a66a1e2c41
+PATH: net-print/cups-pk-helper/cups-pk-helper-0.2.7-r1-1.gpkg.tar
+RDEPEND: >=dev-libs/glib-2.36.0:2 >=sys-auth/polkit-0.97 net-print/cups sys-apps/dbus
+REQUIRES: x86_64: libc.so.6 libcups.so.2 libgio-2.0.so.0 libglib-2.0.so.0 libgobject-2.0.so.0 libpolkit-gobject-1.so.0
+RESTRICT: test
+SHA1: c390fe3d182aaab60d03ceb370a4cfd2479bbcf7
+SIZE: 163840
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux
+MTIME: 1688234883
 REPO: gentoo
 
 BDEPEND: dev-python/docutils virtual/pkgconfig sys-devel/gnuconfig >=app-portage/elt-patches-20170815 >=sys-devel/automake-1.16.5:1.16 >=sys-devel/autoconf-2.71-r5 >=sys-devel/libtool-2.4.7 virtual/pkgconfig virtual/pkgconfig
@@ -14907,6 +16786,28 @@ USE: abi_x86_64 amd64 debug elibc_glibc kernel_linux nls readline
 MTIME: 1687974929
 REPO: gentoo
 
+BDEPEND: >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 >=kde-frameworks/kdoctools-5.106.0:5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.106.0:5
+BUILD_ID: 1
+BUILD_TIME: 1688328222
+CPV: sys-block/partitionmanager-23.04.2
+DEFINED_PHASES: compile configure install nofetch postinst postrm preinst prepare setup test unpack
+DEPEND: >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kconfigwidgets-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kcrash-5.106.0:5 >=kde-frameworks/kdbusaddons-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kio-5.106.0:5 >=kde-frameworks/kjobwidgets-5.106.0:5 >=kde-frameworks/kwidgetsaddons-5.106.0:5 >=kde-frameworks/kwindowsystem-5.106.0:5 >=kde-frameworks/kxmlgui-5.106.0:5 >=sys-auth/polkit-qt-0.113.0[qt5(+)] >=sys-libs/kpmcore-23.04.2:5/10= dev-qt/qtcore:5
+EAPI: 8
+IDEPEND: dev-util/desktop-file-utils x11-misc/shared-mime-info
+IUSE: debug +handbook
+KEYWORDS: ~amd64 ~arm ~arm64 ~loong ~ppc64 ~x86
+LICENSE: GPL-3
+MD5: bfe400d06bd3daa062695115b8001695
+PATH: sys-block/partitionmanager/partitionmanager-23.04.2-1.gpkg.tar
+RDEPEND: >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kconfigwidgets-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kcrash-5.106.0:5 >=kde-frameworks/kdbusaddons-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kio-5.106.0:5 >=kde-frameworks/kjobwidgets-5.106.0:5 >=kde-frameworks/kwidgetsaddons-5.106.0:5 >=kde-frameworks/kwindowsystem-5.106.0:5 >=kde-frameworks/kxmlgui-5.106.0:5 >=sys-auth/polkit-qt-0.113.0[qt5(+)] >=sys-libs/kpmcore-23.04.2:5/10= || ( kde-frameworks/breeze-icons:* kde-frameworks/oxygen-icons:* ) >=kde-frameworks/kf-env-4 dev-qt/qtcore:5
+REQUIRES: x86_64: libKF5ConfigCore.so.5 libKF5ConfigGui.so.5 libKF5ConfigWidgets.so.5 libKF5CoreAddons.so.5 libKF5Crash.so.5 libKF5DBusAddons.so.5 libKF5I18n.so.5 libKF5JobWidgets.so.5 libKF5KIOCore.so.5 libKF5KIOGui.so.5 libKF5WidgetsAddons.so.5 libKF5WindowSystem.so.5 libKF5XmlGui.so.5 libQt5Core.so.5 libQt5Gui.so.5 libQt5Widgets.so.5 libc.so.6 libkpmcore.so.12 libpolkit-qt5-core-1.so.1 libstdc++.so.6
+SHA1: 918bf2eaeef6a2b9e329b2dd3f36c41b980e12f8
+SIZE: 3225600
+SLOT: 5
+USE: abi_x86_64 amd64 elibc_glibc handbook kernel_linux
+MTIME: 1688328227
+REPO: gentoo
+
 BDEPEND: app-arch/gzip sys-apps/help2man
 BUILD_ID: 1
 BUILD_TIME: 1687346091
@@ -15654,6 +17555,29 @@ USE: abi_x86_64 amd64 elibc_glibc kernel_linux split-usr
 MTIME: 1687607485
 REPO: gentoo
 
+BDEPEND: virtual/pkgconfig >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.106.0:5
+BUILD_ID: 1
+BUILD_TIME: 1688235390
+CPV: sys-libs/kpmcore-23.04.2
+DEFINED_PHASES: compile configure install nofetch postinst postrm preinst prepare setup test unpack
+DEPEND: >=dev-qt/qtdbus-5.15.9:5 >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kwidgetsaddons-5.106.0:5 >=sys-apps/util-linux-2.33.2 >=sys-auth/polkit-qt-0.113.0[qt5(+)] dev-qt/qtcore:5
+EAPI: 8
+IUSE: debug
+KEYWORDS: ~amd64 ~arm ~arm64 ~loong ~ppc64 ~x86
+LICENSE: GPL-3
+MD5: ab1028241e0643595853db4ef667f0dc
+PATH: sys-libs/kpmcore/kpmcore-23.04.2-1.gpkg.tar
+PROVIDES: x86_64: libkpmcore.so.12 pmdummybackendplugin.so pmsfdiskbackendplugin.so
+RDEPEND: >=dev-qt/qtdbus-5.15.9:5 >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kwidgetsaddons-5.106.0:5 >=sys-apps/util-linux-2.33.2 >=sys-auth/polkit-qt-0.113.0[qt5(+)] >=kde-frameworks/kf-env-4 dev-qt/qtcore:5
+REQUIRES: x86_64: libKF5CoreAddons.so.5 libKF5I18n.so.5 libKF5WidgetsAddons.so.5 libQt5Core.so.5 libQt5DBus.so.5 libQt5Gui.so.5 libQt5Widgets.so.5 libblkid.so.1 libc.so.6 libgcc_s.so.1 libm.so.6 libpolkit-qt5-core-1.so.1 libstdc++.so.6
+RESTRICT: test
+SHA1: a395686a7063fa4b787d8646b602fcadee4cb45d
+SIZE: 1751040
+SLOT: 5/10
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux
+MTIME: 1688235394
+REPO: gentoo
+
 BDEPEND: dev-util/gtk-doc-am sys-devel/gnuconfig >=app-portage/elt-patches-20170815 >=sys-devel/automake-1.16.5:1.16 >=sys-devel/autoconf-2.71-r5 >=sys-devel/libtool-2.4.7
 BUILD_ID: 1
 BUILD_TIME: 1687977976
@@ -15929,6 +17853,26 @@ USE: abi_x86_64 amd64 elibc_glibc kernel_linux
 MTIME: 1688219519
 REPO: gentoo
 
+BDEPEND: acct-group/crontab sys-devel/gnuconfig >=app-portage/elt-patches-20170815 >=sys-devel/automake-1.16.5:1.16 >=sys-devel/autoconf-2.71-r5 >=sys-devel/libtool-2.4.7 virtual/pkgconfig
+BUILD_ID: 1
+BUILD_TIME: 1688237480
+CPV: sys-process/cronie-1.6.1-r3
+DEFINED_PHASES: configure install postinst prepare
+DEPEND: sys-libs/pam !sys-process/anacron !sys-process/systemd-cron
+EAPI: 7
+IUSE: +anacron +inotify pam selinux
+KEYWORDS: ~alpha amd64 arm arm64 hppa ~ia64 ~loong ~m68k ~mips ppc ppc64 ~riscv ~s390 sparc x86
+LICENSE: ISC BSD BSD-2 GPL-2
+MD5: 244992e9d79fd1386ba521c177d15475
+PATH: sys-process/cronie/cronie-1.6.1-r3-1.gpkg.tar
+RDEPEND: acct-group/crontab sys-libs/pam !sys-process/anacron !sys-process/systemd-cron sys-apps/debianutils >=sys-process/cronbase-0.3.2 !sys-process/bcron !sys-process/dcron !sys-process/fcron
+REQUIRES: x86_64: libc.so.6 libpam.so.0
+SHA1: ce6dd395994d1f31f878bbaaccbae460fb7a098b
+SIZE: 204800
+USE: abi_x86_64 amd64 anacron elibc_glibc inotify kernel_linux pam
+MTIME: 1688237486
+REPO: gentoo
+
 BDEPEND: virtual/pkgconfig virtual/pkgconfig
 BUILD_ID: 1
 BUILD_TIME: 1687621162
@@ -15971,6 +17915,21 @@ SHA1: fbec17552fb1046664bda67649d6aa43d4cdd910
 SIZE: 389120
 USE: X abi_x86_64 amd64 elibc_glibc kernel_linux nls
 MTIME: 1687608478
+REPO: gentoo
+
+BUILD_ID: 1
+BUILD_TIME: 1688238689
+CPV: virtual/cron-0-r3
+DEFINED_PHASES: -
+EAPI: 7
+KEYWORDS: ~alpha amd64 arm arm64 hppa ~ia64 ~m68k ~mips ppc ppc64 ~riscv ~s390 sparc x86
+MD5: ee03af9c79568b2347ee892e2410b76a
+PATH: virtual/cron/cron-0-r3-1.gpkg.tar
+RDEPEND: || ( sys-process/cronie sys-process/bcron sys-process/dcron sys-process/fcron sys-process/systemd-cron )
+SHA1: be304c2f53b61d4dd1bff03a3e08436f65a8175c
+SIZE: 20480
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux
+MTIME: 1688238695
 REPO: gentoo
 
 BUILD_ID: 1
@@ -17172,6 +19131,27 @@ REPO: gentoo
 
 BDEPEND: sys-devel/gnuconfig >=app-portage/elt-patches-20170815 >=sys-devel/automake-1.16.5:1.16 >=sys-devel/autoconf-2.71-r5 >=sys-devel/libtool-2.4.7 virtual/pkgconfig
 BUILD_ID: 1
+BUILD_TIME: 1688235741
+CPV: x11-libs/libXScrnSaver-1.2.4
+DEFINED_PHASES: compile configure install postinst postrm prepare test unpack
+DEPEND: >=x11-libs/libX11-1.6.2[abi_x86_64(-)] >=x11-libs/libXext-1.3.2[abi_x86_64(-)] x11-base/xorg-proto
+EAPI: 8
+IUSE: abi_x86_32 abi_x86_64 abi_x86_x32 abi_mips_n32 abi_mips_n64 abi_mips_o32 abi_s390_32 abi_s390_64 doc
+KEYWORDS: ~alpha amd64 arm arm64 ~hppa ~ia64 ~loong ~m68k ~mips ppc ppc64 ~riscv ~s390 sparc x86 ~amd64-linux ~x86-linux ~ppc-macos
+LICENSE: MIT
+MD5: 788b659ffeaf00a29c3689d537f9bbaa
+PATH: x11-libs/libXScrnSaver/libXScrnSaver-1.2.4-1.gpkg.tar
+PROVIDES: x86_64: libXss.so.1
+RDEPEND: >=x11-libs/libX11-1.6.2[abi_x86_64(-)] >=x11-libs/libXext-1.3.2[abi_x86_64(-)]
+REQUIRES: x86_64: libX11.so.6 libXext.so.6 libc.so.6
+SHA1: 495a6c5349a397017aa18df0c99d25810512e87e
+SIZE: 51200
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux
+MTIME: 1688235745
+REPO: gentoo
+
+BDEPEND: sys-devel/gnuconfig >=app-portage/elt-patches-20170815 >=sys-devel/automake-1.16.5:1.16 >=sys-devel/autoconf-2.71-r5 >=sys-devel/libtool-2.4.7 virtual/pkgconfig
+BUILD_ID: 1
 BUILD_TIME: 1687346529
 CPV: x11-libs/libXau-1.0.11
 DEFINED_PHASES: compile configure install postinst postrm prepare test unpack
@@ -17634,6 +19614,27 @@ USE: abi_x86_64 amd64 elibc_glibc kernel_linux video_cards_intel
 MTIME: 1687550658
 REPO: gentoo
 
+BDEPEND: sys-devel/gnuconfig >=app-portage/elt-patches-20170815 >=sys-devel/automake-1.16.5:1.16 >=sys-devel/autoconf-2.71-r5 >=sys-devel/libtool-2.4.7
+BUILD_ID: 1
+BUILD_TIME: 1688236303
+CPV: x11-libs/libfakekey-0.3-r1
+DEFINED_PHASES: configure install prepare
+DEPEND: x11-libs/libXtst
+EAPI: 7
+IUSE: debug doc
+KEYWORDS: amd64 ~arm arm64 ~hppa ~loong ppc ppc64 ~riscv x86
+LICENSE: GPL-2
+MD5: e664a38a9496dbdfdad42fa73212c4c4
+PATH: x11-libs/libfakekey/libfakekey-0.3-r1-1.gpkg.tar
+PROVIDES: x86_64: libfakekey.so.0
+RDEPEND: x11-libs/libXtst
+REQUIRES: x86_64: libX11.so.6 libXtst.so.6 libc.so.6
+SHA1: fcd4c7386dfb6da39172204a7028df11162331f4
+SIZE: 40960
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux
+MTIME: 1688236308
+REPO: gentoo
+
 BDEPEND: sys-devel/gnuconfig >=app-portage/elt-patches-20170815 >=sys-devel/automake-1.16.5:1.16 >=sys-devel/autoconf-2.71-r5 >=sys-devel/libtool-2.4.7 virtual/pkgconfig
 BUILD_ID: 1
 BUILD_TIME: 1687347911
@@ -17869,6 +19870,29 @@ SHA1: 9b70f61a85ea6adc079c2fb6404780bbf4715361
 SIZE: 481280
 USE: abi_x86_64 amd64 cpu_flags_x86_mmxext cpu_flags_x86_sse2 cpu_flags_x86_ssse3 elibc_glibc kernel_linux
 MTIME: 1687344985
+REPO: gentoo
+
+BDEPEND: >=app-eselect/eselect-wxwidgets-20131230 virtual/pkgconfig
+BUILD_ID: 1
+BUILD_TIME: 1688324887
+CPV: x11-libs/wxGTK-3.0.5.1-r1
+DEFINED_PHASES: compile configure install postinst postrm prepare test
+DEPEND: >=app-eselect/eselect-wxwidgets-20131230 dev-libs/expat[abi_x86_64(-)] media-libs/libsdl2[abi_x86_64(-)] >=dev-libs/glib-2.22:2[abi_x86_64(-)] media-libs/libjpeg-turbo:0/0.2=[abi_x86_64(-)] media-libs/libpng:0/16=[abi_x86_64(-)] sys-libs/zlib[abi_x86_64(-)] x11-libs/cairo[abi_x86_64(-)] x11-libs/gtk+:3[abi_x86_64(-)] x11-libs/gdk-pixbuf[abi_x86_64(-)] x11-libs/libSM[abi_x86_64(-)] x11-libs/libX11[abi_x86_64(-)] x11-libs/libXxf86vm[abi_x86_64(-)] x11-libs/pango[abi_x86_64(-)] x11-libs/libnotify[abi_x86_64(-)] virtual/opengl[abi_x86_64(-)] media-libs/tiff:0/6=[abi_x86_64(-)] virtual/glu[abi_x86_64(-)] x11-base/xorg-proto
+EAPI: 7
+IUSE: +X doc debug gstreamer libnotify opengl pch sdl test tiff webkit abi_x86_32 abi_x86_64 abi_x86_x32 abi_mips_n32 abi_mips_n64 abi_mips_o32 abi_s390_32 abi_s390_64
+KEYWORDS: ~alpha amd64 arm arm64 ~hppa ~ia64 ~loong ~mips ppc ppc64 ~riscv sparc x86 ~amd64-linux ~x86-linux
+LICENSE: wxWinLL-3 GPL-2
+MD5: b3489280db7564f591867551e7ece373
+PATH: x11-libs/wxGTK/wxGTK-3.0.5.1-r1-1.gpkg.tar
+PROVIDES: x86_64: libwx_baseu-3.0-gtk3.so.0 libwx_baseu_net-3.0-gtk3.so.0 libwx_baseu_xml-3.0-gtk3.so.0 libwx_gtk3u_adv-3.0-gtk3.so.0 libwx_gtk3u_aui-3.0-gtk3.so.0 libwx_gtk3u_core-3.0-gtk3.so.0 libwx_gtk3u_gl-3.0-gtk3.so.0 libwx_gtk3u_html-3.0-gtk3.so.0 libwx_gtk3u_propgrid-3.0-gtk3.so.0 libwx_gtk3u_qa-3.0-gtk3.so.0 libwx_gtk3u_ribbon-3.0-gtk3.so.0 libwx_gtk3u_richtext-3.0-gtk3.so.0 libwx_gtk3u_stc-3.0-gtk3.so.0 libwx_gtk3u_xrc-3.0-gtk3.so.0
+RDEPEND: >=app-eselect/eselect-wxwidgets-20131230 dev-libs/expat[abi_x86_64(-)] media-libs/libsdl2[abi_x86_64(-)] >=dev-libs/glib-2.22:2[abi_x86_64(-)] media-libs/libjpeg-turbo:0/0.2=[abi_x86_64(-)] media-libs/libpng:0/16=[abi_x86_64(-)] sys-libs/zlib[abi_x86_64(-)] x11-libs/cairo[abi_x86_64(-)] x11-libs/gtk+:3[abi_x86_64(-)] x11-libs/gdk-pixbuf[abi_x86_64(-)] x11-libs/libSM[abi_x86_64(-)] x11-libs/libX11[abi_x86_64(-)] x11-libs/libXxf86vm[abi_x86_64(-)] x11-libs/pango[abi_x86_64(-)] x11-libs/libnotify[abi_x86_64(-)] virtual/opengl[abi_x86_64(-)] media-libs/tiff:0/6=[abi_x86_64(-)]
+REQUIRES: x86_64: libGL.so.1 libSDL2-2.0.so.0 libSM.so.6 libX11.so.6 libXxf86vm.so.1 libc.so.6 libcairo.so.2 libexpat.so.1 libgcc_s.so.1 libgdk-3.so.0 libgdk_pixbuf-2.0.so.0 libglib-2.0.so.0 libgobject-2.0.so.0 libgtk-3.so.0 libjpeg.so.62 libm.so.6 libnotify.so.4 libpango-1.0.so.0 libpangocairo-1.0.so.0 libpng16.so.16 libstdc++.so.6 libtiff.so.6 libz.so.1
+RESTRICT: test
+SHA1: 531ced59beffbffbeb99525e0f25e81e34323e43
+SIZE: 14080000
+SLOT: 3.0-gtk3
+USE: X abi_x86_64 amd64 elibc_glibc kernel_linux libnotify opengl sdl tiff
+MTIME: 1688324892
 REPO: gentoo
 
 BDEPEND: sys-devel/gnuconfig >=app-portage/elt-patches-20170815 >=sys-devel/automake-1.16.5:1.16 >=sys-devel/autoconf-2.71-r5 >=sys-devel/libtool-2.4.7 virtual/pkgconfig
@@ -18117,6 +20141,24 @@ SHA1: 9c7c140c8d6213a4c7f63ae5d822df05f8ee114f
 SIZE: 276480
 USE: abi_x86_64 amd64 elibc_glibc kernel_linux
 MTIME: 1687510872
+REPO: gentoo
+
+BDEPEND: sys-devel/gnuconfig >=app-portage/elt-patches-20170815 >=sys-devel/automake-1.16.5:1.16 >=sys-devel/autoconf-2.71-r5 >=sys-devel/libtool-2.4.7 virtual/pkgconfig
+BUILD_ID: 1
+BUILD_TIME: 1688236412
+CPV: x11-misc/makedepend-1.0.8
+DEFINED_PHASES: compile configure install postinst postrm prepare unpack
+DEPEND: x11-base/xorg-proto
+EAPI: 8
+KEYWORDS: ~alpha amd64 arm arm64 hppa ~ia64 ~loong ~mips ppc ppc64 ~riscv ~s390 sparc x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-solaris
+LICENSE: MIT
+MD5: ddc226def058834f2576b9dc3ab9b779
+PATH: x11-misc/makedepend/makedepend-1.0.8-1.gpkg.tar
+REQUIRES: x86_64: libc.so.6
+SHA1: 38c356c294522170ef9c0109cd7a17f349887d11
+SIZE: 71680
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux
+MTIME: 1688236417
 REPO: gentoo
 
 BDEPEND: dev-python/docutils >=dev-qt/linguist-tools-5.15.2:5 kde-frameworks/extra-cmake-modules:5 virtual/pkgconfig >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 virtual/pkgconfig
