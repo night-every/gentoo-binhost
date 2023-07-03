@@ -23,7 +23,7 @@
 
 ---
 
-# x86_64-pc-linux-gnu
+# x86_64-pc-linux-gnu(desktop/plasma)
 
 Packages for amd64 architecture
 
