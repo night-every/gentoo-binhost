@@ -240,13 +240,16 @@ function create_release {
         :
     fi
 
+
+    local PKG_DESCRIPTION=$(echo ${PKG_DESCRIPTION} | jq -R . | jq -c .)
+
     local _creating_release=$(curl -L -silent --fail -o /dev/null -w "%{http_code}\n" \
       -X POST \
       -H "Accept: application/vnd.github+json" \
       -H "Authorization: Bearer ${TOKEN}"\
       -H "X-GitHub-Api-Version: 2022-11-28" \
       ${API_URL}/releases \
-      --data-raw "{    \"tag_name\": \"${RELEASE_TAGS}\",    \"target_commitish\": \"${BRANCH}\",    \"name\": \"${CATEGORY}\/${PN}\",    \"body\": \"$PKG_DESCRIPTION\"}")
+      --data-raw "{    \"tag_name\": \"${RELEASE_TAGS}\",    \"target_commitish\": \"${BRANCH}\",    \"name\": \"${CATEGORY}\/${PN}\",    \"body\": \"${PKG_DESCRIPTION}\"}")
 
     if [ ${_creating_release} -eq "201" ]
     then
