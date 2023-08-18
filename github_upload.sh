@@ -241,7 +241,7 @@ function create_release {
     fi
 
 
-    local PKG_DESCRIPTION=$(echo ${PKG_DESCRIPTION} | jq -R . | jq -c .)
+    local PKG_DESCRIPTION=$(echo ${PKG_DESCRIPTION} | sed -e 's/@/\\@/g' -e 's/!/\\!/g' -e 's/\$/\\\$/g')
 
     local _creating_release=$(curl -L -silent --fail -o /dev/null -w "%{http_code}\n" \
       -X POST \
