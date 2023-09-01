@@ -12,9 +12,9 @@ FEATURES: assume-digests binpkg-docompress binpkg-dostrip binpkg-logs binpkg-mul
 GENTOO_MIRRORS: http://distfiles.gentoo.org
 IUSE_IMPLICIT: abi_x86_64 prefix prefix-guest prefix-stack
 KERNEL: linux
-PACKAGES: 1665
+PACKAGES: 1673
 PROFILE: default/linux/amd64/17.1/desktop/plasma
-TIMESTAMP: 1692981554
+TIMESTAMP: 1693557119
 URI:  https://github.com/night-every/gentoo-binhost/releases/download/x86_64-pc-linux-gnu(desktop/plasma)
 USE: X a52 aac abi_x86_64 acl acpi activities ada_target_gnat_2021 alsa amd64 apache2_modules_actions apache2_modules_alias apache2_modules_auth_basic apache2_modules_authn_alias apache2_modules_authn_anon apache2_modules_authn_core apache2_modules_authn_dbm apache2_modules_authn_default apache2_modules_authn_file apache2_modules_authz_core apache2_modules_authz_dbm apache2_modules_authz_default apache2_modules_authz_groupfile apache2_modules_authz_host apache2_modules_authz_owner apache2_modules_authz_user apache2_modules_autoindex apache2_modules_cache apache2_modules_cgi apache2_modules_cgid apache2_modules_dav apache2_modules_dav_fs apache2_modules_dav_lock apache2_modules_deflate apache2_modules_dir apache2_modules_disk_cache apache2_modules_env apache2_modules_expires apache2_modules_ext_filter apache2_modules_file_cache apache2_modules_filter apache2_modules_headers apache2_modules_include apache2_modules_info apache2_modules_log_config apache2_modules_logio apache2_modules_mem_cache apache2_modules_mime apache2_modules_mime_magic apache2_modules_negotiation apache2_modules_rewrite apache2_modules_setenvif apache2_modules_socache_shmcb apache2_modules_speling apache2_modules_status apache2_modules_unique_id apache2_modules_unixd apache2_modules_userdir apache2_modules_usertrack apache2_modules_vhost_alias bindist blkid bluetooth branding bzip2 cairo calligra_features_karbon calligra_features_sheets calligra_features_words cdda cdr cjk cli client collectd_plugins_df collectd_plugins_interface collectd_plugins_irq collectd_plugins_load collectd_plugins_memory collectd_plugins_rrdtool collectd_plugins_swap collectd_plugins_syslog connection-sharing cpu_flags_x86_aes cpu_flags_x86_mmx cpu_flags_x86_mmxext cpu_flags_x86_pclmul cpu_flags_x86_popcnt cpu_flags_x86_rdrand cpu_flags_x86_sha cpu_flags_x86_sse cpu_flags_x86_sse2 cpu_flags_x86_sse3 cpu_flags_x86_sse4_1 cpu_flags_x86_sse4_2 cpu_flags_x86_ssse3 crypt cups dbus declarative dri dts dvd dvdr efi elibc_glibc elogind emoji encode exif flac fortran gallium gdbm gif git glamor gles gles2 gpm gpsd_protocols_aivdm gpsd_protocols_ashtech gpsd_protocols_earthmate gpsd_protocols_evermore gpsd_protocols_fv18 gpsd_protocols_garmin gpsd_protocols_garmintxt gpsd_protocols_gpsclock gpsd_protocols_greis gpsd_protocols_isync gpsd_protocols_itrax gpsd_protocols_mtk3301 gpsd_protocols_navcom gpsd_protocols_nmea gpsd_protocols_ntrip gpsd_protocols_oceanserver gpsd_protocols_oldstyle gpsd_protocols_oncore gpsd_protocols_rtcm104v2 gpsd_protocols_rtcm104v3 gpsd_protocols_sirf gpsd_protocols_skytraq gpsd_protocols_superstar2 gpsd_protocols_timing gpsd_protocols_tnt gpsd_protocols_tripmate gpsd_protocols_tsip gpsd_protocols_ublox gpsd_protocols_ubx grub_platforms_efi-64 gtk gui http2 hwdb iconv icu input_devices_libinput input_devices_synaptics ipv6 iwd jpeg kde kernel_linux kwallet l10n_en l10n_en-US l10n_zh l10n_zh-CN layers lcd_devices_bayrad lcd_devices_cfontz lcd_devices_cfontz633 lcd_devices_glk lcd_devices_hd44780 lcd_devices_lb216 lcd_devices_lcdm001 lcd_devices_mtxorb lcd_devices_ncurses lcd_devices_text lcms libnotify libreoffice_extensions_presenter-console libreoffice_extensions_presenter-minimizer libtirpc llvm_targets_X86 lua_single_target_lua5-1 lua_targets_lua5-1 mad minizip mng mp3 mp4 mpeg multilib ncurses network networkmanager nftables nls nptl office_implementation_libreoffice ogg opengl openmp pam pango pcre pdf php_targets_php8-1 pipewire plasma png policykit postgres_targets_postgres15 ppds ppp pulseaudio python_single_target_python3_11 python_targets_python3_11 qml qt5 readline ruby_targets_ruby31 screencast sdl seccomp semantic-desktop smack sound spell split-usr ssl startup-notification sudo svg test-rust tiff truetype udev udisks unicode upower usb vaapi video_cards_i965 video_cards_intel video_cards_iris vorbis vulkan wayland widgets wifi wireless wxwidgets x264 xattr xcb xft xml xtables_addons_account xtables_addons_chaos xtables_addons_condition xtables_addons_delude xtables_addons_dhcpmac xtables_addons_fuzzy xtables_addons_geoip xtables_addons_iface xtables_addons_ipmark xtables_addons_ipp2p xtables_addons_ipset xtables_addons_ipv4options xtables_addons_length2 xtables_addons_logmark xtables_addons_lscan xtables_addons_pknock xtables_addons_proto xtables_addons_psd xtables_addons_quota2 xtables_addons_rawnat xtables_addons_steal xtables_addons_sysrq xtables_addons_tarpit xtables_addons_tee xv xvid zlib
 USE_EXPAND: ABI_MIPS ABI_S390 ABI_X86 ADA_TARGET ALSA_CARDS AMDGPU_TARGETS APACHE2_MODULES APACHE2_MPMS CALLIGRA_FEATURES CAMERAS COLLECTD_PLUGINS CPU_FLAGS_ARM CPU_FLAGS_PPC CPU_FLAGS_X86 CURL_SSL ELIBC FFTOOLS GPSD_PROTOCOLS GRUB_PLATFORMS INPUT_DEVICES KERNEL L10N LCD_DEVICES LIBREOFFICE_EXTENSIONS LLVM_TARGETS LUA_SINGLE_TARGET LUA_TARGETS MONKEYD_PLUGINS NGINX_MODULES_HTTP NGINX_MODULES_MAIL NGINX_MODULES_STREAM OFFICE_IMPLEMENTATION OPENMPI_FABRICS OPENMPI_OFED_FEATURES OPENMPI_RM PHP_TARGETS POSTGRES_TARGETS PYTHON_SINGLE_TARGET PYTHON_TARGETS QEMU_SOFTMMU_TARGETS QEMU_USER_TARGETS ROS_MESSAGES RUBY_TARGETS SANE_BACKENDS UWSGI_PLUGINS VIDEO_CARDS VOICEMAIL_STORAGE XTABLES_ADDONS
@@ -4173,6 +4173,25 @@ USE: abi_x86_64 amd64 elibc_glibc kernel_linux
 MTIME: 1687336658
 REPO: gentoo
 
+BUILD_ID: 1
+BUILD_TIME: 1693557074
+CPV: dev-libs/ell-0.58
+DEFINED_PHASES: configure install prepare setup
+EAPI: 8
+IUSE: pie test
+KEYWORDS: ~alpha ~amd64 ~arm ~arm64 ~hppa ~ia64 ~loong ~mips ~ppc ~ppc64 ~riscv ~sparc ~x86
+LICENSE: LGPL-2.1+
+MD5: fc60a62e1aba654840b9b167b0f1faf7
+PATH: dev-libs/ell/ell-0.58-1.gpkg.tar
+PROVIDES: x86_64: libell.so.0
+REQUIRES: x86_64: libc.so.6
+RESTRICT: test
+SHA1: 3dc2d8d22b909ff017f606fcead51c3ad362493a
+SIZE: 419840
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux
+MTIME: 1693557078
+REPO: gentoo
+
 BDEPEND: >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5
 BUILD_ID: 1
 BUILD_TIME: 1692962742
@@ -6083,6 +6102,22 @@ SHA1: 43c28b28482fb61c68a26065b2f2e2777c726dfb
 SIZE: 20480
 USE: abi_x86_64 amd64 elibc_glibc kernel_linux
 MTIME: 1692782651
+REPO: gentoo
+
+BDEPEND: app-arch/xz-utils
+BUILD_ID: 1
+BUILD_TIME: 1693557102
+CPV: dev-libs/vala-common-0.56.13
+DEFINED_PHASES: compile configure install
+EAPI: 8
+KEYWORDS: ~alpha ~amd64 ~arm ~arm64 ~hppa ~ia64 ~loong ~mips ~ppc ~ppc64 ~riscv ~s390 ~sparc ~x86 ~amd64-linux ~x86-linux ~x64-macos ~x64-solaris
+LICENSE: LGPL-2.1+
+MD5: 76a0dfdb404c63298bf65890bdc68fb7
+PATH: dev-libs/vala-common/vala-common-0.56.13-1.gpkg.tar
+SHA1: e7360bb9c7194f6ebca2095b2c520afe49737a36
+SIZE: 20480
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux
+MTIME: 1693557108
 REPO: gentoo
 
 BDEPEND: app-arch/xz-utils
@@ -12813,6 +12848,24 @@ MTIME: 1692774446
 REPO: gentoo
 
 BUILD_ID: 1
+BUILD_TIME: 1692983425
+CPV: kde-apps/kde-apps-meta-23.08.0
+DEFINED_PHASES: -
+EAPI: 8
+IUSE: accessibility +admin +education +games +graphics +multimedia +network pim sdk +utils
+KEYWORDS: ~amd64 ~arm64 ~x86
+LICENSE: metapackage
+MD5: 38e999a2e42b90836ed044f1e1e57575
+PATH: kde-apps/kde-apps-meta/kde-apps-meta-23.08.0-1.gpkg.tar
+RDEPEND: >=kde-apps/kdecore-meta-23.08.0:5 >=kde-apps/kdeadmin-meta-23.08.0:5 >=kde-apps/kdegraphics-meta-23.08.0:5 >=kde-apps/kdemultimedia-meta-23.08.0:5 >=kde-apps/kdenetwork-meta-23.08.0:5 >=kde-apps/kdeutils-meta-23.08.0:5
+SHA1: ef0b35e3937e570bdb67716ef570be6712ae2557
+SIZE: 20480
+SLOT: 5
+USE: abi_x86_64 admin amd64 elibc_glibc graphics kernel_linux multimedia network utils
+MTIME: 1692983426
+REPO: gentoo
+
+BUILD_ID: 1
 BUILD_TIME: 1688331050
 CPV: kde-apps/kdeadmin-meta-23.04.2
 DEFINED_PHASES: -
@@ -12975,6 +13028,24 @@ MTIME: 1692774360
 REPO: gentoo
 
 BUILD_ID: 1
+BUILD_TIME: 1692983358
+CPV: kde-apps/kdecore-meta-23.08.0
+DEFINED_PHASES: -
+EAPI: 8
+IUSE: +handbook +share +thumbnail +webengine
+KEYWORDS: ~amd64 ~arm64 ~loong ~ppc64 ~x86
+LICENSE: metapackage
+MD5: 9efd0569f4980ecd79f88723e2054c43
+PATH: kde-apps/kdecore-meta/kdecore-meta-23.08.0-1.gpkg.tar
+RDEPEND: >=kde-apps/dolphin-23.08.0:5 >=kde-apps/kdialog-23.08.0:5 >=kde-apps/keditbookmarks-23.08.0:5 >=kde-apps/kfind-23.08.0:5 >=kde-apps/konsole-23.08.0:5 >=kde-apps/kwrite-23.08.0:5 >=kde-apps/khelpcenter-23.08.0:5 || ( >=www-client/falkon-23.08.0 >=kde-apps/konqueror-23.08.0:5 ) kde-frameworks/purpose:5 >=kde-apps/ffmpegthumbs-23.08.0:5 >=kde-apps/thumbnailers-23.08.0:5
+SHA1: ebeb5cb46468a16611c5b4b8d6c8a2ec1a8329ca
+SIZE: 20480
+SLOT: 5
+USE: abi_x86_64 amd64 elibc_glibc handbook kernel_linux share thumbnail webengine
+MTIME: 1692983360
+REPO: gentoo
+
+BUILD_ID: 1
 BUILD_TIME: 1688388592
 CPV: kde-apps/kdegraphics-meta-23.04.2
 DEFINED_PHASES: -
@@ -13134,6 +13205,24 @@ MTIME: 1692772714
 REPO: gentoo
 
 BUILD_ID: 1
+BUILD_TIME: 1692983380
+CPV: kde-apps/kdemultimedia-meta-23.08.0
+DEFINED_PHASES: -
+EAPI: 8
+IUSE: +cdrom +ffmpeg gstreamer
+KEYWORDS: ~amd64 ~arm64 ~ppc64 ~riscv ~x86
+LICENSE: metapackage
+MD5: 8a2c4c8d17caa0754dd154d290b1447f
+PATH: kde-apps/kdemultimedia-meta/kdemultimedia-meta-23.08.0-1.gpkg.tar
+RDEPEND: >=kde-apps/dragon-23.08.0:5 >=kde-apps/juk-23.08.0:5 >=kde-apps/kdenlive-23.08.0:5 >=kde-apps/kmix-23.08.0:5 >=kde-apps/kwave-23.08.0:5 >=media-sound/elisa-23.08.0:5 >=media-sound/kasts-23.08.0 >=media-sound/krecorder-23.08.0 >=kde-apps/audiocd-kio-23.08.0:5 >=kde-apps/k3b-23.08.0:5 >=kde-apps/libkcddb-23.08.0:5 >=kde-apps/libkcompactdisc-23.08.0:5 >=kde-apps/ffmpegthumbs-23.08.0:5
+SHA1: 387cf86c1772988c9ab3cf89871baf79095c23b0
+SIZE: 20480
+SLOT: 5
+USE: abi_x86_64 amd64 cdrom elibc_glibc ffmpeg kernel_linux
+MTIME: 1692983382
+REPO: gentoo
+
+BUILD_ID: 1
 BUILD_TIME: 1688390889
 CPV: kde-apps/kdenetwork-meta-23.04.2
 DEFINED_PHASES: -
@@ -13167,6 +13256,24 @@ SIZE: 20480
 SLOT: 5
 USE: abi_x86_64 amd64 bittorrent elibc_glibc kernel_linux webengine
 MTIME: 1692774390
+REPO: gentoo
+
+BUILD_ID: 1
+BUILD_TIME: 1692983401
+CPV: kde-apps/kdenetwork-meta-23.08.0
+DEFINED_PHASES: -
+EAPI: 8
+IUSE: +bittorrent dropbox samba +webengine
+KEYWORDS: ~amd64 ~arm64 ~ppc64 ~x86
+LICENSE: metapackage
+MD5: d998e66f92caefc841722cc724038976
+PATH: kde-apps/kdenetwork-meta/kdenetwork-meta-23.08.0-1.gpkg.tar
+RDEPEND: >=kde-apps/kget-23.08.0:5 >=kde-apps/krdc-23.08.0:5 >=kde-apps/krfb-23.08.0:5 >=kde-misc/kdeconnect-23.08.0:5 >=net-im/neochat-23.08.0 >=net-im/tokodon-23.08.0 >=net-irc/konversation-23.08.0:5 >=net-misc/kio-zeroconf-23.08.0:5 >=net-news/alligator-23.08.0 >=net-libs/libktorrent-23.08.0:5 >=net-p2p/ktorrent-23.08.0:5 >=kde-misc/kio-gdrive-23.08.0:5
+SHA1: 442562c5734e0d0fa3e288b234d8a76b7c71eb34
+SIZE: 20480
+SLOT: 5
+USE: abi_x86_64 amd64 bittorrent elibc_glibc kernel_linux webengine
+MTIME: 1692983403
 REPO: gentoo
 
 BDEPEND: sys-devel/gettext >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 >=kde-frameworks/kdoctools-5.106.0:5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.106.0:5
@@ -13215,6 +13322,30 @@ SIZE: 26368000
 SLOT: 5
 USE: abi_x86_64 amd64 elibc_glibc handbook kernel_linux semantic-desktop
 MTIME: 1692752191
+REPO: gentoo
+
+BDEPEND: sys-devel/gettext >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 >=kde-frameworks/kdoctools-5.106.0:5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.106.0:5
+BUILD_ID: 1
+BUILD_TIME: 1692982596
+CPV: kde-apps/kdenlive-23.08.0
+DEFINED_PHASES: compile configure install nofetch postinst postrm preinst prepare setup test unpack
+DEPEND: >=dev-qt/qtconcurrent-5.15.9:5 >=dev-qt/qtdbus-5.15.9:5 >=dev-qt/qtdeclarative-5.15.9:5[widgets] >=dev-qt/qtgui-5.15.9:5[-gles2-only] >=dev-qt/qtmultimedia-5.15.9:5 >=dev-qt/qtnetwork-5.15.9:5 >=dev-qt/qtnetworkauth-5.15.9:5 >=dev-qt/qtquickcontrols2-5.15.9:5 >=dev-qt/qtsvg-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=dev-qt/qtxml-5.15.9:5 >=kde-frameworks/karchive-5.106.0:5 >=kde-frameworks/kbookmarks-5.106.0:5 >=kde-frameworks/kcodecs-5.106.0:5 >=kde-frameworks/kcompletion-5.106.0:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kconfigwidgets-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kcrash-5.106.0:5 >=kde-frameworks/kdbusaddons-5.106.0:5 >=kde-frameworks/kdeclarative-5.106.0:5 >=kde-frameworks/kfilemetadata-5.106.0:5 >=kde-frameworks/kguiaddons-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kiconthemes-5.106.0:5 >=kde-frameworks/kio-5.106.0:5 >=kde-frameworks/kitemviews-5.106.0:5 >=kde-frameworks/kjobwidgets-5.106.0:5 >=kde-frameworks/knewstuff-5.106.0:5 >=kde-frameworks/knotifications-5.106.0:5 >=kde-frameworks/knotifyconfig-5.106.0:5 >=kde-frameworks/kservice-5.106.0:5 >=kde-frameworks/ktextwidgets-5.106.0:5 >=kde-frameworks/kwidgetsaddons-5.106.0:5 >=kde-frameworks/kxmlgui-5.106.0:5 >=kde-frameworks/purpose-5.106.0:5 >=kde-frameworks/solid-5.106.0:5 >=media-libs/mlt-7.14.0[ffmpeg,frei0r,qt5,sdl,xml] dev-qt/qtcore:5
+EAPI: 8
+IDEPEND: dev-util/desktop-file-utils x11-misc/shared-mime-info
+IUSE: gles2-only semantic-desktop v4l debug designer +handbook doc test
+KEYWORDS: ~amd64 ~arm64 ~ppc64 ~riscv ~x86
+LICENSE: GPL-3
+MD5: 0528b3eb78c35cd973c2695869bb4e84
+PATH: kde-apps/kdenlive/kdenlive-23.08.0-1.gpkg.tar
+PROVIDES: x86_64: mltpreview.so
+RDEPEND: >=dev-qt/qtconcurrent-5.15.9:5 >=dev-qt/qtdbus-5.15.9:5 >=dev-qt/qtdeclarative-5.15.9:5[widgets] >=dev-qt/qtgui-5.15.9:5[-gles2-only] >=dev-qt/qtmultimedia-5.15.9:5 >=dev-qt/qtnetwork-5.15.9:5 >=dev-qt/qtnetworkauth-5.15.9:5 >=dev-qt/qtquickcontrols2-5.15.9:5 >=dev-qt/qtsvg-5.15.9:5 >=dev-qt/qtwidgets-5.15.9:5 >=dev-qt/qtxml-5.15.9:5 >=kde-frameworks/karchive-5.106.0:5 >=kde-frameworks/kbookmarks-5.106.0:5 >=kde-frameworks/kcodecs-5.106.0:5 >=kde-frameworks/kcompletion-5.106.0:5 >=kde-frameworks/kconfig-5.106.0:5 >=kde-frameworks/kconfigwidgets-5.106.0:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kcrash-5.106.0:5 >=kde-frameworks/kdbusaddons-5.106.0:5 >=kde-frameworks/kdeclarative-5.106.0:5 >=kde-frameworks/kfilemetadata-5.106.0:5 >=kde-frameworks/kguiaddons-5.106.0:5 >=kde-frameworks/ki18n-5.106.0:5 >=kde-frameworks/kiconthemes-5.106.0:5 >=kde-frameworks/kio-5.106.0:5 >=kde-frameworks/kitemviews-5.106.0:5 >=kde-frameworks/kjobwidgets-5.106.0:5 >=kde-frameworks/knewstuff-5.106.0:5 >=kde-frameworks/knotifications-5.106.0:5 >=kde-frameworks/knotifyconfig-5.106.0:5 >=kde-frameworks/kservice-5.106.0:5 >=kde-frameworks/ktextwidgets-5.106.0:5 >=kde-frameworks/kwidgetsaddons-5.106.0:5 >=kde-frameworks/kxmlgui-5.106.0:5 >=kde-frameworks/purpose-5.106.0:5 >=kde-frameworks/solid-5.106.0:5 >=media-libs/mlt-7.14.0[ffmpeg,frei0r,qt5,sdl,xml] >=dev-qt/qtquickcontrols-5.15.9:5 media-video/ffmpeg[encode,libass,sdl,X] media-video/mediainfo || ( kde-frameworks/breeze-icons:* kde-frameworks/oxygen-icons:* ) >=kde-frameworks/kf-env-4 dev-qt/qtcore:5
+REQUIRES: x86_64: ld-linux-x86-64.so.2 libKF5Archive.so.5 libKF5Bookmarks.so.5 libKF5Codecs.so.5 libKF5Completion.so.5 libKF5ConfigCore.so.5 libKF5ConfigGui.so.5 libKF5ConfigWidgets.so.5 libKF5CoreAddons.so.5 libKF5Crash.so.5 libKF5DBusAddons.so.5 libKF5FileMetaData.so.3 libKF5GuiAddons.so.5 libKF5I18n.so.5 libKF5IconThemes.so.5 libKF5ItemViews.so.5 libKF5JobWidgets.so.5 libKF5KIOCore.so.5 libKF5KIOFileWidgets.so.5 libKF5KIOGui.so.5 libKF5KIOWidgets.so.5 libKF5NewStuffWidgets.so.5 libKF5Notifications.so.5 libKF5NotifyConfig.so.5 libKF5Purpose.so.5 libKF5PurposeWidgets.so.5 libKF5Solid.so.5 libKF5TextWidgets.so.5 libKF5WidgetsAddons.so.5 libKF5XmlGui.so.5 libQt5Core.so.5 libQt5DBus.so.5 libQt5Gui.so.5 libQt5Multimedia.so.5 libQt5Network.so.5 libQt5NetworkAuth.so.5 libQt5Qml.so.5 libQt5Quick.so.5 libQt5QuickControls2.so.5 libQt5QuickWidgets.so.5 libQt5Svg.so.5 libQt5Widgets.so.5 libQt5Xml.so.5 libc.so.6 libm.so.6 libmlt++-7.so.7 libmlt-7.so.7 libstdc++.so.6
+RESTRICT: test test
+SHA1: f4bff929f5a14f8eb1d4936eed4b2a36580fbca4
+SIZE: 26736640
+SLOT: 5
+USE: abi_x86_64 amd64 elibc_glibc handbook kernel_linux semantic-desktop
+MTIME: 1692982602
 REPO: gentoo
 
 BUILD_ID: 1
@@ -32744,6 +32875,29 @@ SHA1: 8d9e64db7305c2a6b6121f3c2c46e130dda6d0f5
 SIZE: 5918720
 USE: X abi_x86_64 amd64 dbus elibc_glibc kde kernel_linux python_single_target_python3_11
 MTIME: 1692774323
+REPO: gentoo
+
+BDEPEND: >=dev-qt/linguist-tools-5.15.9:5 >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.106.0:5
+BUILD_ID: 1
+BUILD_TIME: 1692983330
+CPV: www-client/falkon-23.08.0
+DEFINED_PHASES: compile configure install nofetch postinst postrm preinst prepare setup test unpack
+DEPEND: dev-libs/openssl:0/3= >=dev-qt/qtdeclarative-5.15.9:5[widgets] >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtnetwork-5.15.9:5[ssl] >=dev-qt/qtprintsupport-5.15.9:5 >=dev-qt/qtsql-5.15.9:5[sqlite] >=dev-qt/qtwebchannel-5.15.9:5 >=dev-qt/qtwebengine-5.15.9:5/5.15=[widgets] >=dev-qt/qtwidgets-5.15.9:5 >=kde-frameworks/karchive-5.106.0:5 virtual/libintl >=dev-qt/qtdbus-5.15.9:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kcrash-5.106.0:5 >=kde-frameworks/kio-5.106.0:5 >=kde-frameworks/kjobwidgets-5.106.0:5 >=kde-frameworks/kwallet-5.106.0:5 >=kde-frameworks/purpose-5.106.0:5 >=dev-qt/qtx11extras-5.15.9:5 x11-libs/libxcb:0/1.12= x11-libs/xcb-util >=dev-qt/qtconcurrent-5.15.9:5 >=kde-frameworks/ki18n-5.106.0:5 dev-qt/qtcore:5
+EAPI: 8
+IDEPEND: dev-util/desktop-file-utils x11-misc/shared-mime-info
+IUSE: dbus kde python +X debug test python_single_target_python3_10 python_single_target_python3_11
+KEYWORDS: ~amd64 ~arm64 ~ppc64 ~x86
+LICENSE: GPL-3
+MD5: dda89f111d68ff90a5db249115537c04
+PATH: www-client/falkon/falkon-23.08.0-1.gpkg.tar
+PROVIDES: x86_64: AutoScroll.so FlashCookieManager.so GreaseMonkey.so KDEFrameworksIntegration.so MouseGestures.so PIM.so StatusBarIcons.so TabManager.so VerticalTabs.so libFalkonPrivate.so.3
+RDEPEND: dev-libs/openssl:0/3= >=dev-qt/qtdeclarative-5.15.9:5[widgets] >=dev-qt/qtgui-5.15.9:5 >=dev-qt/qtnetwork-5.15.9:5[ssl] >=dev-qt/qtprintsupport-5.15.9:5 >=dev-qt/qtsql-5.15.9:5[sqlite] >=dev-qt/qtwebchannel-5.15.9:5 >=dev-qt/qtwebengine-5.15.9:5/5.15=[widgets] >=dev-qt/qtwidgets-5.15.9:5 >=kde-frameworks/karchive-5.106.0:5 virtual/libintl >=dev-qt/qtdbus-5.15.9:5 >=kde-frameworks/kcoreaddons-5.106.0:5 >=kde-frameworks/kcrash-5.106.0:5 >=kde-frameworks/kio-5.106.0:5 >=kde-frameworks/kjobwidgets-5.106.0:5 >=kde-frameworks/kwallet-5.106.0:5 >=kde-frameworks/purpose-5.106.0:5 >=dev-qt/qtx11extras-5.15.9:5 x11-libs/libxcb:0/1.12= x11-libs/xcb-util >=dev-qt/qtsvg-5.15.9:5 || ( kde-frameworks/breeze-icons:* kde-frameworks/oxygen-icons:* ) >=kde-frameworks/kf-env-4 dev-qt/qtcore:5
+REQUIRES: x86_64: libKF5Archive.so.5 libKF5CoreAddons.so.5 libKF5Crash.so.5 libKF5JobWidgets.so.5 libKF5KIOCore.so.5 libKF5KIOWidgets.so.5 libKF5Purpose.so.5 libKF5PurposeWidgets.so.5 libKF5Wallet.so.5 libQt5Core.so.5 libQt5DBus.so.5 libQt5Gui.so.5 libQt5Network.so.5 libQt5PrintSupport.so.5 libQt5Qml.so.5 libQt5QuickWidgets.so.5 libQt5Sql.so.5 libQt5WebChannel.so.5 libQt5WebEngineCore.so.5 libQt5WebEngineWidgets.so.5 libQt5Widgets.so.5 libQt5X11Extras.so.5 libc.so.6 libcrypto.so.3 libgcc_s.so.1 libstdc++.so.6 libxcb.so.1
+RESTRICT: test test
+SHA1: aff184de744f5a0a50d554c866f6688bf8ce3378
+SIZE: 5980160
+USE: X abi_x86_64 amd64 dbus elibc_glibc kde kernel_linux python_single_target_python3_11
+MTIME: 1692983334
 REPO: gentoo
 
 BDEPEND: sys-devel/gettext virtual/pkgconfig sys-devel/gnuconfig >=app-portage/elt-patches-20170815 >=sys-devel/automake-1.16.5:1.16 >=sys-devel/autoconf-2.71-r5 >=sys-devel/libtool-2.4.7
